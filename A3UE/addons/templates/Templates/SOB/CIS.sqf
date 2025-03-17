@@ -170,13 +170,13 @@ _loadoutData set ["NVGs", ["NVGoggles_INDEP"]];						//this line determines NVGs
 _loadoutData set ["binoculars", ["Binocular"]];		//this line determines the binoculars
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
-_loadoutData set ["traitorUniforms", ["U_BG_Guerrilla_6_1"]];		//this line determines traitor uniforms for traitor mission
-_loadoutData set ["traitorVests", ["V_TacVest_oli", "V_TacVest_camo", "V_BandollierB_oli"]];			//this line determines traitor vesets for traitor mission
-_loadoutData set ["traitorHats", ["H_Cap_grn","H_Cap_oli"]];			//this line determines traitor headgear for traitor missions
+_loadoutData set ["traitorUniforms", ["mti_armoury_arc_uniform_Ramsey"]];		//this line determines traitor uniforms for traitor mission
+_loadoutData set ["traitorVests", ["mti_armoury_arc_vest_Ramsey"]];			//this line determines traitor vesets for traitor mission
+_loadoutData set ["traitorHats", ["mti_armoury_arc_helmet_Ramsey","H_Cap_oli"]];			//this line determines traitor headgear for traitor missions
 
-_loadoutData set ["officerUniforms", ["U_I_OfficerUniform"]];		//this line determines officer uniforms for assassination mission
-_loadoutData set ["officerVests", ["V_Rangemaster_belt"]];			//this line determines officer vesets for assassination mission
-_loadoutData set ["officerHats", ["H_MilCap_dgtl", "H_Beret_grn"]];	//this line determines officer headgear for assassination missions
+_loadoutData set ["officerUniforms", ["3AS_U_CIS_TS", "3AS_U_CIS_TS_Green", "3AS_U_CIS_TS_Red", "3AS_U_CIS_TS_TV24"]];		//this line determines officer uniforms for assassination mission
+_loadoutData set ["officerVests", []];			//this line determines officer vesets for assassination mission
+_loadoutData set ["officerHats", []];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slUniforms", []];

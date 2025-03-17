@@ -234,7 +234,7 @@ _loadoutData set ["items_unarmed_extras", []];
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _sfLoadoutData set ["uniforms", ["tgf_undersuit_uniform_forgemaster_seal"]];
-_sfLoadoutData set ["vests", ["3tgf_armour_light_armour_skirata"]];
+_sfLoadoutData set ["vests", ["tgf_armour_light_armour_skirata"]];
 _sfLoadoutData set ["Hvests", ["tgf_armour_light_armour_skirata"]];
 _sfLoadoutData set ["backpacks", ["mti_armoury_arc_backpack_base", "mti_factions_bns_Medic_BP", "mti_armoury_commando_backpack_Night", "mti_armoury_fieldsupport_backpack_fsb_trooper"]];
 _sfLoadoutData set ["helmets", ["tgf_helmets_traditional_skirata"]];
