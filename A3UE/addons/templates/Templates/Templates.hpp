@@ -116,6 +116,18 @@ class Templates
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
+
+    class OR : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Occ"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "ls_statics_props\flags\data\flag_repNavy.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Old Republic"; // Name shown in the select menu.
+        file = "OR"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
 };
 
 

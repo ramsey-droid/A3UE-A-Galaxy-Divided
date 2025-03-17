@@ -10,12 +10,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //   Side Information   //
 //////////////////////////
 
-["name", "Deathwatch"] call _fnc_saveToTemplate; 						//this line determines the faction name -- Example: ["name", "NATO"] - ENTER ONLY ONE OPTION
-["spawnMarkerName", format [localize "STR_supportcorridor", "Deathwatch"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
+["name", "Old Republic"] call _fnc_saveToTemplate; 						//this line determines the faction name -- Example: ["name", "NATO"] - ENTER ONLY ONE OPTION
+["spawnMarkerName", format [localize "STR_supportcorridor", "Old Republic"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
-["flag", "a3u_flag_stalker_bandits"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
-["flagTexture", "ls_statics_props\flags\data\flag_mandalorian.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "a3u_flag_stalker_bandits"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flag", "JLTS_flag_Navy"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
+["flagTexture", "ls_statics_props\flags\data\flag_repNavy.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "JLTS_flag_Navy"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //
@@ -25,33 +25,33 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 ["equipmentBox", "Box_AAF_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
-["vehiclesBasic", ["mti_factions_deathwatch_Speeder", "mti_factions_deathwatch_Barc_Sidecar"]] call _fnc_saveToTemplate; 			//this line determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightUnarmed", ["mti_factions_sith_imperials_Oppossume"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightArmed",["mti_factions_deathwatch_DW_Ifrit", "mti_factions_deathwatch_DW_Ifrit_GMG", "mti_factions_cis_ast", "mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed",["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
-["vehiclesTrucks", ["OPTRE_m1015_mule_cover_cma", "OPTRE_m1015_mule_cma"]] call _fnc_saveToTemplate; 			//this line determines the trucks -- Example: ["vehiclesTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
-["vehiclesCargoTrucks", ["OPTRE_m1015_mule_fuel_cma", "OPTRE_m1015_mule_repair_cma"]] call _fnc_saveToTemplate; 		//this line determines cargo trucks -- Example: ["vehiclesCargoTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
-["vehiclesAmmoTrucks", ["OPTRE_m1015_mule_ammo_cma"]] call _fnc_saveToTemplate; 		//this line determines ammo trucks -- Example: ["vehiclesAmmoTrucks", ["B_Truck_01_ammo_F"]] -- Array, can contain multiple assets
-["vehiclesRepairTrucks", ["OPTRE_m1015_mule_repair_cma"]] call _fnc_saveToTemplate; 		//this line determines repair trucks -- Example: ["vehiclesRepairTrucks", ["B_Truck_01_Repair_F"]] -- Array, can contain multiple assets
-["vehiclesFuelTrucks", ["OPTRE_m1015_mule_fuel_cma"]] call _fnc_saveToTemplate;		//this line determines fuel trucks -- Array, can contain multiple assets
-["vehiclesMedical", ["OPTRE_m1015_mule_medical_cma"]] call _fnc_saveToTemplate;			//this line determines medical vehicles -- Array, can contain multiple assets
-["vehiclesAPCs", ["mti_factions_deathwatch_DW_Ifrit_Sniper", "mti_factions_deathwatch_DW_Ifrit","mti_factions_sith_imperials_Oppossume", "mti_factions_deathwatch_DW_AAT"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
-["vehiclesTanks", ["mti_factions_deathwatch_DW_AAT", "mti_factions_deathwatch_DW_AAT_S", "mti_factions_deathwatch_DW_Firebrand", "mti_factions_deathwatch_Mythosaur", "mti_factions_deathwatch_DW_Tank"]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
-["vehiclesAA", ["mti_factions_deathwatch_DW_AA_Tank"]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
-["vehiclesLightAPCs", ["mti_factions_sith_imperials_Oppossume"]] call _fnc_saveToTemplate;			//this line determines light APCs
-["vehiclesIFVs", ["mti_factions_sith_imperials_Oppossume", "mti_factions_sith_imperials_Oppossume","mti_factions_sith_imperials_Oppossume", "mti_factions_cis_Hailfire_HE", "mti_factions_cis_Hailfire_AT"]] call _fnc_saveToTemplate;				//this line determines IFVs
+["vehiclesBasic", ["mti_factions_old_republic_ITT_base", "mti_factions_old_republic_Barc_Sidecar"]] call _fnc_saveToTemplate; 			//this line determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
+["vehiclesLightUnarmed", ["mti_factions_old_republic_WallabeyArmedHMG"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
+["vehiclesLightArmed",["mti_factions_old_republic_ITT_base", "mti_factions_old_republic_ITT_Logi", "SFA_Karagga_F", "mti_factions_old_republic_WallabeyArmedHMG"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed",["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
+["vehiclesTrucks", ["mti_factions_old_republic_ITT_Logi", "mti_factions_old_republic_ITT_base"]] call _fnc_saveToTemplate; 			//this line determines the trucks -- Example: ["vehiclesTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
+["vehiclesCargoTrucks", ["mti_factions_old_republic_ITT_Logi", "mti_factions_old_republic_ITT_Logi"]] call _fnc_saveToTemplate; 		//this line determines cargo trucks -- Example: ["vehiclesCargoTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
+["vehiclesAmmoTrucks", ["mti_factions_old_republic_ITT_Logi"]] call _fnc_saveToTemplate; 		//this line determines ammo trucks -- Example: ["vehiclesAmmoTrucks", ["B_Truck_01_ammo_F"]] -- Array, can contain multiple assets
+["vehiclesRepairTrucks", ["mti_factions_old_republic_ITT_Logi"]] call _fnc_saveToTemplate; 		//this line determines repair trucks -- Example: ["vehiclesRepairTrucks", ["B_Truck_01_Repair_F"]] -- Array, can contain multiple assets
+["vehiclesFuelTrucks", ["mti_factions_old_republic_ITT_Logi"]] call _fnc_saveToTemplate;		//this line determines fuel trucks -- Array, can contain multiple assets
+["vehiclesMedical", ["mti_factions_old_republic_ITT_Medical"]] call _fnc_saveToTemplate;			//this line determines medical vehicles -- Array, can contain multiple assets
+["vehiclesAPCs", ["mti_factions_old_republic_ITT_base", "mti_factions_old_republic_Firebrand","mti_factions_old_republic_WallabeyArmedHMG", "SFA_Firebrand_F"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
+["vehiclesTanks", ["mti_factions_mando_Saber", "SFA_Avalanche_F", "SFA_Firebrand_F"]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
+["vehiclesAA", ["mti_factions_sith_imperials_Firebrand_rocket"]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
+["vehiclesLightAPCs", ["mti_factions_old_republic_WallabeyArmedHMG"]] call _fnc_saveToTemplate;			//this line determines light APCs
+["vehiclesIFVs", ["mti_factions_old_republic_WallabeyArmedHMG", "mti_factions_old_republic_WallabeyArmedHMG","mti_factions_old_republic_WallabeyArmedHMG", "3AS_PX10_IMP_R3", "3AS_PX10_IMP_F"]] call _fnc_saveToTemplate;				//this line determines IFVs
 
 ["vehiclesTransportBoats", ["optre_catfish_unarmed_f"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["optre_catfish_aa_f", "optre_catfish_atgm_f", "optre_catfish_gauss_f", "optre_catfish_mg_f"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
-["vehiclesAmphibious", ["mti_factions_cis_Combat_speeder", "mti_factions_cis_ast"]] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets
+["vehiclesAmphibious", []] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets
 
-["vehiclesPlanesCAS", ["mti_factions_deathwatch_DW_Sandspeeder_CAS", "mti_factions_deathwatch_DW_VTOL"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesAA", ["mti_factions_deathwatch_DW_Sandspeeder_AA", "mti_factions_deathwatch_DW_Sandspeeder"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesTransport", ["mti_factions_deathwatch_DW_VTOL", "mti_factions_deathwatch_DW_Gozanti"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesCAS", ["3AS_Z95_Blue", "3AS_Z95_Republic"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesAA", ["3AS_Z95_Blue"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesTransport", ["mti_factions_old_republic_LAAT"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
 
-["vehiclesHelisLight", ["mti_factions_cis_MAF_Trans"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
-["vehiclesHelisTransport", ["mti_factions_cis_MAF_Trans"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
-["vehiclesHelisLightAttack", ["mti_factions_deathwatch_MAF"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
-["vehiclesHelisAttack", ["mti_factions_deathwatch_MAF"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLight", ["MTI_LAATle_Gunship"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisTransport", ["mti_factions_old_republic_LAAT"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLightAttack", ["mti_factions_old_republic_LAAT"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
+["vehiclesHelisAttack", ["mti_factions_old_republic_LAAT"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
 
 ["vehiclesArtillery", ["mti_factions_cis_Hailfire_Rocket", "mti_factions_cis_bawhag"]] call _fnc_saveToTemplate;		//this line determines SPAs
 ["magazines", createHashMapFromArray [
@@ -59,22 +59,22 @@ private _hasContact = "enoch" in A3A_enabledDLC;
     ["mti_factions_cis_bawhag",["32Rnd_155mm_Mo_shells"]]
 ]] call _fnc_saveToTemplate;			//this line determines ammo to be used with specified SPA, hashMap makes sure that SPA gets proper ammo
 
-["uavsAttack", ["O_T_UAV_04_CAS_F"]] call _fnc_saveToTemplate; 				//this line determines attack UAVs -- Example: ["uavsAttack", ["B_UAV_02_CAS_F"]] -- Array, can contain multiple assets
-["uavsPortable", ["JLTS_UAV_prowler_cis"]] call _fnc_saveToTemplate; 				//this line determines portable UAVs -- Example: ["uavsPortable", ["B_UAV_01_F"]] -- Array, can contain multiple assets
+["uavsAttack", ["mti_factions_old_republic_Osprey"]] call _fnc_saveToTemplate; 				//this line determines attack UAVs -- Example: ["uavsAttack", ["B_UAV_02_CAS_F"]] -- Array, can contain multiple assets
+["uavsPortable", ["3as_INDEP_ScavDroid"]] call _fnc_saveToTemplate; 				//this line determines portable UAVs -- Example: ["uavsPortable", ["B_UAV_01_F"]] -- Array, can contain multiple assets
 
 //Config special vehicles - militia vehicles are mostly used in the early game, police cars are being used by troops around cities -- Example:
-["vehiclesMilitiaLightArmed", ["mti_factions_deathwatch_DW_Ifrit", "mti_factions_deathwatch_DW_Ifrit_GMG", "mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; //this line determines lightly armed militia vehicles -- Example: ["vehiclesMilitiaLightArmed", ["B_G_Offroad_01_armed_F"]] -- Array, can contain multiple assets
-["vehiclesMilitiaTrucks", ["OPTRE_m1015_mule_cover_cma"]] call _fnc_saveToTemplate; 	//this line determines militia trucks (unarmed) -- Example: ["vehiclesMilitiaTrucks", ["B_G_Van_01_transport_F"]] -- Array, can contain multiple assets
-["vehiclesMilitiaCars", ["mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaLightArmed", ["mti_factions_old_republic_Barc_Sidecar", "mti_factions_old_republic_ITT_base", "mti_factions_old_republic_ITT_Logi"]] call _fnc_saveToTemplate; //this line determines lightly armed militia vehicles -- Example: ["vehiclesMilitiaLightArmed", ["B_G_Offroad_01_armed_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaTrucks", ["mti_factions_old_republic_ITT_base"]] call _fnc_saveToTemplate; 	//this line determines militia trucks (unarmed) -- Example: ["vehiclesMilitiaTrucks", ["B_G_Van_01_transport_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaCars", ["mti_factions_old_republic_WallabeyArmedHMG"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
 
 private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//this line adds dlc APC to an array if dlc is loaded
 ["vehiclesMilitiaAPCs", _militiaAPCs] call _fnc_saveToTemplate;						//this line determines militia APCs
 
-["vehiclesPolice", ["mti_factions_deathwatch_DW_Ifrit"]] call _fnc_saveToTemplate; 			//this line determines police cars -- Example: ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] -- Array, can contain multiple assets
+["vehiclesPolice", ["mti_factions_old_republic_ITT_base"]] call _fnc_saveToTemplate; 			//this line determines police cars -- Example: ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] -- Array, can contain multiple assets
 
 ["staticMGs", ["mti_factions_cis_Eweb_Armoured", "mti_factions_cis_EWeb_Unarmoured", "mti_factions_cis_DF9_HE", "mti_factions_cis_J10s"]] call _fnc_saveToTemplate; 					//this line determines static MGs -- Example: ["staticMG", ["B_HMG_01_high_F"]] -- Array, can contain multiple assets
-["staticAT", ["mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "mti_factions_cis_J1_Cannon", "mti_factions_cis_J1_Leggs"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
-["staticAA", ["mti_factions_cis_Naval_Gun", "mti_factions_cis_Scythe", "mti_factions_cis_Lance", "mti_factions_deathwatch_FlakCannon"]] call _fnc_saveToTemplate; 					//this line determines static AAs -- Example: ["staticAA", ["B_static_AA_F"]] -- Array, can contain multiple assets
+["staticAT", ["mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "SFA_R8_Base"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
+["staticAA", ["mti_factions_cis_Scythe", "mti_factions_cis_Lance"]] call _fnc_saveToTemplate; 					//this line determines static AAs -- Example: ["staticAA", ["B_static_AA_F"]] -- Array, can contain multiple assets
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate; 				//this line determines static mortars -- Example: ["staticMortars", ["B_Mortar_01_F"]] -- Array, can contain multiple assets
 ["staticHowitzers", []] call _fnc_saveToTemplate;							//this line determines static howitzers. Basically it's just a stronger mortar, use same syntax as above.
 
@@ -102,20 +102,20 @@ private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//
 /////////////////////
 
 ["faces", [
-    "MTI_female_bun_01",
-    "WhiteHead_06",
-    "RussianHead_1",
-    "AfricanHead_03",
-    "AsianHead_A3_04",
-    "Mavros",
-    "MTI_female_bun_03",
-    "LivonianHead_1",
-    "RussianHead_2",
-    "Sturrock",
-    "AsianHead_A3_03",
-    "RussianHead_5",
     "LivonianHead_9",
-    "GreekHead_A3_11"
+    "lsd_gar_cloneG_head",
+    "WhiteHead_23",
+    "GreekHead_A3_12",
+    "GreekHead_A3_11",
+    "GreekHead_A3_14",
+    "LivonianHead_9",
+    "RussianHead_5",
+    "RussianHead_3",
+    "TanoanHead_A3_06",
+    "TanoanHead_A3_04",
+    "WhiteHead_22_a",
+    "WhiteHead_26",
+    "WhiteHead_28"
 ]] call _fnc_saveToTemplate;
 ["voices", ["Male01GRE","Male02GRE","Male03GRE","Male04GRE","Male05GRE","Male06GRE"]] call _fnc_saveToTemplate;
 
@@ -140,14 +140,14 @@ _loadoutData set ["lightATLaunchers", [
 ["MTI_RPS6_D_Loaded", "", "acc_pointer_IR", "", [], [], ""],
 ["MTI_RPS6", "", "acc_pointer_IR", "", ["MTI_RPS6_mag_AT", "MTI_RPS6_mag_HE"], [], ""]
 ]];
-_loadoutData set ["ATLaunchers", ["MTI_RPS6_HP"]];
+_loadoutData set ["ATLaunchers", ["mti_factions_old_republic_S7"]];
 _loadoutData set ["missileATLaunchers", [
 ["launch_I_Titan_short_F", "", "acc_pointer_IR", "", ["Titan_AT"], [], ""]
 ]];
 _loadoutData set ["AALaunchers", [
 ["SWLW_E60R_AA", "", "acc_pointer_IR", "", ["SWLW_e60r_aa_mag"], [], ""]
 ]];
-_loadoutData set ["sidearms", ["SFA_Arkanian_p"]];
+_loadoutData set ["sidearms", ["mti_factions_old_republic_BoltBlaster_AutoPistol"]];
 
 _loadoutData set ["ATMines", ["ATMine_Range_Mag"]]; 					//this line determines the AT mines which can be carried by units -- Example: ["ATMine_Range_Mag"] -- Array, can contain multiple assets
 _loadoutData set ["APMines", ["APERSMine_Range_Mag"]]; 					//this line determines the APERS mines which can be carried by units -- Example: ["APERSMine_Range_Mag"] -- Array, can contain multiple assets
@@ -174,9 +174,9 @@ _loadoutData set ["traitorUniforms", ["mti_armoury_arc_uniform_Ramsey"]];		//thi
 _loadoutData set ["traitorVests", ["mti_armoury_arc_vest_Ramsey"]];			//this line determines traitor vesets for traitor mission
 _loadoutData set ["traitorHats", ["mti_armoury_arc_helmet_Ramsey"]];			//this line determines traitor headgear for traitor missions
 
-_loadoutData set ["officerUniforms", ["tgf_undersuit_uniform_boba"]];		//this line determines officer uniforms for assassination mission
-_loadoutData set ["officerVests", ["tgf_armour_war_chief_armour"]];			//this line determines officer vesets for assassination mission
-_loadoutData set ["officerHats", ["tgf_helmets_war_chief"]];	//this line determines officer headgear for assassination missions
+_loadoutData set ["officerUniforms", ["mti_factions_old_republic_uniform_officer_uniform"]];		//this line determines officer uniforms for assassination mission
+_loadoutData set ["officerVests", ["SFA_officer_sash_Armor"]];			//this line determines officer vesets for assassination mission
+_loadoutData set ["officerHats", ["SFA_KOTR_Officer_Helmet"]];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slUniforms", []];
@@ -184,14 +184,14 @@ _loadoutData set ["vests", []];						//don't fill this line - this is only to se
 _loadoutData set ["Hvests", []];
 _loadoutData set ["sniVests", []];
 _loadoutData set ["backpacks", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["longRangeRadios", ["tgf_backpacks_mereel_z6"]];
-_loadoutData set ["atBackpacks", ["tgf_backpacks_mereel_z6"]];
+_loadoutData set ["longRangeRadios", ["mti_factions_old_republic_backpack_base_lr"]];
+_loadoutData set ["atBackpacks", ["mti_factions_old_republic_backpack_at"]];
 _loadoutData set ["helmets", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["slHat", ["mti_factions_deathwatch_helmet_super_base_glow"]];
-_loadoutData set ["sniHats", ["mti_factions_deathwatch_helmet_super_base"]];
+_loadoutData set ["slHat", ["SFA_Rep_Underworld_Helmet"]];
+_loadoutData set ["sniHats", ["SFA_Scout_Trooper_Helmet_B"]];
 
-_loadoutData set ["glasses", ["tgf_facewear_arbiter_belt", "tgf_facewear_forgemaster_belt", "tgf_facewear_avenger_belt"]];	//cosmetics
-_loadoutData set ["goggles", ["tgf_facewear_heavy_belt", "tgf_facewear_light_belt", "tgf_facewear_medium_belt", "tgf_facewear_pilot_belt"]];		//cosmetics
+_loadoutData set ["glasses", []];	//cosmetics
+_loadoutData set ["goggles", []];		//cosmetics
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies]; //this line defines the basic medical loadout for vanilla
@@ -233,26 +233,26 @@ _loadoutData set ["items_unarmed_extras", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["tgf_undersuit_uniform_forgemaster_seal"]];
-_sfLoadoutData set ["vests", ["tgf_armour_light_armour_skirata"]];
-_sfLoadoutData set ["Hvests", ["tgf_armour_light_armour_skirata"]];
+_sfLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_Apollo_Rat"]];
+_sfLoadoutData set ["vests", ["mti_factions_old_republic_vest_Heavy_Strap"]];
+_sfLoadoutData set ["Hvests", ["mti_factions_ION_vest_ion_heavy"]];
 _sfLoadoutData set ["backpacks", ["mti_armoury_arc_backpack_base", "mti_factions_bns_Medic_BP", "mti_armoury_commando_backpack_Night", "mti_armoury_fieldsupport_backpack_fsb_trooper"]];
-_sfLoadoutData set ["helmets", ["tgf_helmets_traditional_skirata"]];
+_sfLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_Apollo_Rat_gunner"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _sfLoadoutData set ["slRifles", [
 ["MTI_DC19SC", "muzzle_snds_M", "acc_pointer_IR", "optic_MRCO", [], [], ""],
 ["MTI_DC19SC", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""],
 ["MTI_DC19LE", "muzzle_snds_M", "acc_pointer_IR", "optic_MRCO", [], [], ""],
-["mti_factions_mando_Westar35c", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""]
 ]];
 _sfLoadoutData set ["rifles", [
-["mti_factions_mando_E15", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_Westar35c", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["MTI_WestarM5", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _sfLoadoutData set ["carbines", [
-["3AS_E5_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["3AS_E5_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _sfLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
@@ -266,19 +266,19 @@ if (_hasWs) then {
 };
 
 _sfLoadoutData set ["SMGs", [
-["mti_factions_mando_Westar35s", "muzzle_snds_acp", "", "optic_Holosight", [], [], ""],
-["mti_factions_mando_Westar35s", "muzzle_snds_acp", "", "optic_Aco_smg", [], [], ""],
-["mti_factions_mando_Westar35c", "muzzle_snds_570", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_Westar35c", "muzzle_snds_570", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
-["mti_factions_mando_E15", "muzzle_snds_L", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_E15", "muzzle_snds_L", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "muzzle_snds_acp", "", "optic_Holosight", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "muzzle_snds_acp", "", "optic_Aco_smg", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_570", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "muzzle_snds_570", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
+["MTI_WestarM5", "muzzle_snds_L", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["MTI_WestarM5", "muzzle_snds_L", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
 ]];
 
 private _mgs = [
-    ["WM_T21", "muzzle_snds_H", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-    ["WM_T21", "muzzle_snds_H", "acc_pointer_IR", "optic_MRCO", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-    ["WM_T21", "muzzle_snds_H", "acc_pointer_IR", "optic_Holosight_blk_F", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-    ["WM_T21", "muzzle_snds_H", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
+    ["mti_factions_old_republic_E403", "muzzle_snds_H", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_E403", "muzzle_snds_H", "acc_pointer_IR", "optic_MRCO", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_E403", "muzzle_snds_H", "acc_pointer_IR", "optic_Holosight_blk_F", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_E403", "muzzle_snds_H", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
 ];
 
 if (_hasWs) then {
@@ -292,12 +292,12 @@ if (_hasWs) then {
 _sfLoadoutData set ["machineGuns", _mgs];
 
 _sfLoadoutData set ["marksmanRifles", [
-    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "muzzle_snds_B", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "muzzle_snds_B", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "muzzle_snds_B", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ]];
 _sfLoadoutData set ["sniperRifles", [
-["MTI_Verpine", "", "", "optic_SOS", [], [], ""],
+["mti_factions_old_republic_M99A2S3_RailGun", "", "", "optic_SOS", [], [], ""],
 ["MTI_NT242p", "", "", "optic_LRPS", [], [], ""]
 ]];
 _sfLoadoutData set ["sidearms", [
@@ -309,35 +309,35 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_eliteLoadoutData set ["uniforms", ["tgf_undersuit_uniform_mereel"]];
-_eliteLoadoutData set ["slUniforms", ["tgf_undersuit_uniform_mereel"]];
-_eliteLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
-_eliteLoadoutData set ["Hvests", ["tgf_armour_light_armour_mereel"]];
-_eliteLoadoutData set ["backpacks", ["tgf_backpacks_mereel_z6", "tgf_backpacks_mereel_z6"]];
-_eliteLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_super_base_glow"]];
+_eliteLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_Apollo_Rat"]];
+_eliteLoadoutData set ["slUniforms", ["mti_factions_old_republic_uniform_Apollo_Rat"]];
+_eliteLoadoutData set ["vests", []];
+_eliteLoadoutData set ["Hvests", ["mti_factions_old_republic_vest_CMD_Strap_Apollo"]];
+_eliteLoadoutData set ["backpacks", ["mti_factions_old_republic_backpack_base_lr", "mti_factions_old_republic_backpack_base_lr"]];
+_eliteLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_Apollo_Rat_gunner"]];
 _eliteLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _eliteLoadoutData set ["slRifles", [
 ["MTI_DC19SC", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
 ["MTI_DC19LE", "", "acc_pointer_IR", "optic_Hamr", [], [], ""],
 ["MTI_BTX", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
-["mti_factions_mando_Westar35s", "", "acc_pointer_IR", "optic_Hamr", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_pointer_IR", "optic_Hamr", [], [], ""]
 ]];
 _eliteLoadoutData set ["rifles", [
-["mti_factions_mando_Westar35s", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_Westar35c", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["mti_factions_mando_E15", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["MTI_WestarM5", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
 ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _eliteLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
 _eliteLoadoutData set ["SMGs", [
-["mti_factions_mando_Westar35s", "", "", "optic_Holosight", [], [], ""],
-["mti_factions_mando_Westar35c", "", "", "optic_Aco_smg", [], [], ""],
-["mti_factions_mando_E15", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "", "optic_Holosight", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "", "", "optic_Aco_smg", [], [], ""],
+["MTI_WestarM5", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
 ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
 ["MTI_Factions_SpaceDMR1", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
 ["MTI_DLT19X", "", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
@@ -348,23 +348,23 @@ if (_hasWs) then {
         ["LMG_S77_lxWS", "", "acc_pointer_IR", "optic_Hamr", ["100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_Tracer_lxWS"], [], ""],
         ["LMG_S77_lxWS", "", "acc_pointer_IR", "optic_Hamr", ["100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_Tracer_lxWS"], [], ""],
         ["LMG_S77_lxWS", "", "acc_pointer_IR", "optic_NVS", ["100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_lxWS", "100Rnd_762x51_S77_Red_Tracer_lxWS"], [], ""],
-        ["WM_T21", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-        ["WM_T21", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-        ["WM_T21", "", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
     ]];
 } else {
     _eliteLoadoutData set ["machineGuns", [
-        ["WM_T21", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-        ["WM_T21", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-        ["WM_T21", "", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+        ["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
     ]];
 };
 
 private _marksmanRifles = [
-    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_tws", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_pointer_IR", "optic_tws", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ];
 
 if (_hasMarksman) then {
@@ -381,7 +381,7 @@ _eliteLoadoutData set ["sniperRifles", [
 ["LFP_amban", "", "", "optic_LRPS", [], [], ""]
 ]];
 _eliteLoadoutData set ["sidearms", [
-["hgun_ACPC2_F", "", "acc_flashlight_pistol", "", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_AutoPistol", "", "acc_flashlight_pistol", "", [], [], ""]
 ]];
 
 /////////////////////////////////
@@ -389,42 +389,42 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["tgf_undersuit_uniform_forgemaster_seal", "tgf_undersuit_uniform_grey_seal"]];
-_militaryLoadoutData set ["slUniforms", ["tgf_undersuit_uniform_mereel"]];
-_militaryLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
-_militaryLoadoutData set ["Hvests", ["mti_factions_deathwatch_vest_light_armour"]];
-_militaryLoadoutData set ["backpacks", ["mti_factions_deathwatch_backpack_jetpack", "tgf_backpacks_heavy_jetpack_LR", "tgf_backpacks_mereel_z6", "mti_factions_deathwatch_backpack_jetpack"]];
-_militaryLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_super_base"]];
+_militaryLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_Ares_PVT", "mti_factions_old_republic_uniform_Ares_PFC", "mti_factions_old_republic_uniform_Ares_CPL"]];
+_militaryLoadoutData set ["slUniforms", ["SFA_Havoc_Armor_NCO"]];
+_militaryLoadoutData set ["vests", ["mti_factions_old_republic_vest_Ammo_Strap"]];
+_militaryLoadoutData set ["Hvests", ["mti_factions_old_republic_vest_NCO_Strap_Ares"]];
+_militaryLoadoutData set ["backpacks", ["mti_factions_old_republic_backpack_at", "mti_factions_old_republic_backpack_Havoc_base", "mti_factions_old_republic_backpack_Medic", "mti_factions_old_republic_backpack_base_lr"]];
+_militaryLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_Ares_PVT_havoc", "mti_factions_old_republic_helmet_Ares_PFC_havoc", "mti_factions_old_republic_helmet_Ares_CPL_havoc", "mti_factions_old_republic_helmet_Ares_SPC_havoc"]];
 _militaryLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _militaryLoadoutData set ["slRifles", [
-["WM_T21", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
+["mti_factions_old_republic_E403", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
 ["WM_DLT19_Wood", "", "acc_pointer_IR", "optic_Hamr", [], [], ""],
 ["3AS_Arkanian_F", "", "acc_pointer_IR", "3AS_Optic_Arkanian_2_F", [], [], ""],
 ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "OPTRE_M393_EOTECH", [], [], ""]
 ]];
 _militaryLoadoutData set ["rifles", [
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_E15", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["MTI_WestarM5", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_Westar35c", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Carbine", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
 _militaryLoadoutData set ["SMGs", [
 ["MTI_ZH73", "", "", "optic_Holosight", [], [], ""],
-["mti_factions_mando_Westar35s", "", "", "optic_Aco_smg", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "", "optic_Aco_smg", [], [], ""],
 ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Aco_smg", [], [], ""],
-["mti_factions_mando_E15", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["mti_factions_mando_E15", "", "acc_flashlight", "optic_Aco_smg", [], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "optic_Aco_smg", [], [], ""],
+["MTI_WestarM5", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["MTI_WestarM5", "", "acc_flashlight", "optic_Aco_smg", [], [], ""]
 ]];
 
 private _mgs = [
-    ["mti_factions_mando_E15", "", "", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["MTI_WestarM5", "", "", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
     ["LFP_LW8", "", "acc_flashlight", "optic_MRCO", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
     ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Holosight_blk_F", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
     ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
@@ -439,9 +439,9 @@ if (_hasWs) then {
 _militaryLoadoutData set ["machineGuns", _mgs];
 
 private _marksmanRifles = [
-    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Sniper", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ];
 if (_hasMarksman) then {
     _marksmanRifles append [
@@ -453,7 +453,7 @@ if (_hasMarksman) then {
 _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _militaryLoadoutData set ["sniperRifles", [
-["mti_factions_mando_Verpine", "", "", "optic_SOS", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Sniper", "", "", "optic_SOS", [], [], ""],
 ["LFP_AK", "", "", "optic_LRPS", [], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
@@ -465,9 +465,9 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_policeLoadoutData set ["uniforms", ["tgf_undersuit_uniform_vau"]];
-_policeLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
-private _helmets = ["mti_factions_deathwatch_helmet_base"];
+_policeLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_Recon_Base"]];
+_policeLoadoutData set ["vests", ["mti_factions_old_republic_vest_mag_strap"]];
+private _helmets = ["mti_factions_old_republic_helmet_Recon_Base"];
 if (_hasLawsOfWar) then {
     _helmets pushBack "H_PASGT_basic_blue_F";
 };
@@ -488,34 +488,34 @@ _policeLoadoutData set ["sidearms", ["MTI_RSKF44"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black", "tgf_undersuit_uniform_grey"]];
-_militiaLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
-_militiaLoadoutData set ["Hvests", ["tgf_armour_light_armour_mereel"]];
+_militiaLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_Mars_PVT", "mti_factions_old_republic_uniform_Mars_PFC", "mti_factions_old_republic_uniform_Mars_CPL", "mti_factions_old_republic_uniform_Mars_SPC"]];
+_militiaLoadoutData set ["vests", ["mti_factions_old_republic_vest_Ammo_Strap", "SFA_Gunner_Plating"]];
+_militiaLoadoutData set ["Hvests", ["mti_factions_old_republic_vest_Heavy_Strap"]];
 _militiaLoadoutData set ["backpacks", ["ls_mandalorian_demo_backpack", "ls_mandalorian_light_backpack", "ls_mandalorian_standard_backpack"]];
-_militiaLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_base", "mti_factions_deathwatch_helmet_dw_serg"]];
+_militiaLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_Mars_PVT_havoc", "mti_factions_old_republic_helmet_Mars_CPL_havoc"]];
 
 if (_hasLawsOfWar) then {
     _militiaLoadoutData set ["helmets", ["H_HelmetIA", "H_PASGT_basic_olive_F", "H_Booniehat_dgtl", "H_Cap_blk_Raven"]];
 } else {
-    _militiaLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_base", "mti_factions_deathwatch_helmet_dw_serg"]];
+    _militiaLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_Mars_PVT_havoc", "mti_factions_old_republic_helmet_Mars_CPL_havoc"]];
 };
 
 _militiaLoadoutData set ["slRifles", [
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["rifles", [
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
-["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""],
+["mti_factions_old_republic_BoltBlaster_Rifle", "", "acc_flashlight", "", ["mti_factions_old_republic_Rifle_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
-_militiaLoadoutData set ["SMGs", ["MTI_ACPR", "MTI_Cinnagaran", "mti_factions_mando_Westar35c", "mti_factions_mando_Westar35s"]];
+_militiaLoadoutData set ["SMGs", ["MTI_ACPR", "MTI_Cinnagaran", "mti_factions_old_republic_BoltBlaster_Carbine", "mti_factions_old_republic_BoltBlaster_Rifle"]];
 _militiaLoadoutData set ["machineGuns", [
 ["MTI_DC15L", "", "acc_flashlight", "MTI_HRCO_grn", ["MTI_DC15L_mag"], [], "3AS_Bipod_DC15L_f"]
 ]];
@@ -532,15 +532,15 @@ _militiaLoadoutData set ["sidearms", ["SFA_Arkanian_p"]];
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black_female"]];
-_crewLoadoutData set ["vests", ["mti_factions_deathwatch_vest_nite_armour"]];
-_crewLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_night_owl"]];
+_crewLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_engineer_base"]];
+_crewLoadoutData set ["vests", ["mti_factions_old_republic_vest_mag_strap"]];
+_crewLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_engineer_Base"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black_female"]];
-_pilotLoadoutData set ["vests", ["mti_factions_deathwatch_vest_nite_armour"]];
-_pilotLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_night_owl"]];
+_pilotLoadoutData set ["uniforms", ["mti_factions_old_republic_uniform_engineer_base"]];
+_pilotLoadoutData set ["vests", ["mti_factions_old_republic_vest_mag_strap"]];
+_pilotLoadoutData set ["helmets", ["mti_factions_old_republic_helmet_engineer_Base"]];
 
 
 
