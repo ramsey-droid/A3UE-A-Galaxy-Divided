@@ -102,19 +102,19 @@ private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//
 /////////////////////
 
 ["faces", [
-    "Head_SFA_Mirakulan_06",
-    "ls_chiss_male1_ice",
-    "ls_mirialan_male1_yellow",
-    "ls_mirialan_male2_sand",
-    "ls_mirialan_male3_yellow",
-    "MTI_female_bun_04",
-    "WhiteHead_22_sa",
-    "ls_mirialan_male2_green",
-    "ls_mirialan_male1_yellow",
-    "ls_zabrak_male2t3_base",
-    "ls_zelosian_male3",
-    "ls_zeltron_male1_red",
-    "Head_SFA_Cathar_02",
+    "MTI_female_bun_01",
+    "WhiteHead_06",
+    "RussianHead_1",
+    "AfricanHead_03",
+    "AsianHead_A3_04",
+    "Mavros",
+    "MTI_female_bun_03",
+    "LivonianHead_1",
+    "RussianHead_2",
+    "Sturrock",
+    "AsianHead_A3_03",
+    "RussianHead_5",
+    "LivonianHead_9",
     "GreekHead_A3_11"
 ]] call _fnc_saveToTemplate;
 ["voices", ["Male01GRE","Male02GRE","Male03GRE","Male04GRE","Male05GRE","Male06GRE"]] call _fnc_saveToTemplate;
@@ -170,13 +170,13 @@ _loadoutData set ["NVGs", ["NVGoggles_INDEP"]];						//this line determines NVGs
 _loadoutData set ["binoculars", ["Binocular"]];		//this line determines the binoculars
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
-_loadoutData set ["traitorUniforms", ["U_BG_Guerrilla_6_1"]];		//this line determines traitor uniforms for traitor mission
-_loadoutData set ["traitorVests", ["V_TacVest_oli", "V_TacVest_camo", "V_BandollierB_oli"]];			//this line determines traitor vesets for traitor mission
-_loadoutData set ["traitorHats", ["H_Cap_grn","H_Cap_oli"]];			//this line determines traitor headgear for traitor missions
+_loadoutData set ["traitorUniforms", ["mti_armoury_arc_uniform_Ramsey"]];		//this line determines traitor uniforms for traitor mission
+_loadoutData set ["traitorVests", ["mti_armoury_arc_vest_Ramsey"]];			//this line determines traitor vesets for traitor mission
+_loadoutData set ["traitorHats", ["mti_armoury_arc_helmet_Ramsey"]];			//this line determines traitor headgear for traitor missions
 
-_loadoutData set ["officerUniforms", ["U_I_OfficerUniform"]];		//this line determines officer uniforms for assassination mission
-_loadoutData set ["officerVests", ["V_Rangemaster_belt"]];			//this line determines officer vesets for assassination mission
-_loadoutData set ["officerHats", ["H_MilCap_dgtl", "H_Beret_grn"]];	//this line determines officer headgear for assassination missions
+_loadoutData set ["officerUniforms", ["tgf_undersuit_uniform_boba"]];		//this line determines officer uniforms for assassination mission
+_loadoutData set ["officerVests", ["tgf_armour_war_chief_armour"]];			//this line determines officer vesets for assassination mission
+_loadoutData set ["officerHats", ["tgf_helmets_war_chief"]];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slUniforms", []];
