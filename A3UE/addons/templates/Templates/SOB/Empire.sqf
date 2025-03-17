@@ -11,11 +11,11 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //////////////////////////
 
 ["name", "Galactic Empire"] call _fnc_saveToTemplate; 						//this line determines the faction name -- Example: ["name", "NATO"] - ENTER ONLY ONE OPTION
-["spawnMarkerName", format [localize "STR_supportcorridor", "Sith Empire"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
+["spawnMarkerName", format [localize "STR_supportcorridor", "Imperial"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
-["flag", "JLTS_flag_Navy"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
-["flagTexture", "ls_statics_props\flags\data\flag_repNavy.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "JLTS_flag_Navy"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flag", "JLTS_loc_generator"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
+["flagTexture", "ls_statics_props\flags\data\flag_imp.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "JLTS_loc_generator"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //
@@ -48,7 +48,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesPlanesAA", ["WM_TieAdvanced", "WM_Tiefighter", "WM_TieInterceptor", "3AS_VWing_Imperial"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
 ["vehiclesPlanesTransport", ["3AS_Gozanti_F", "3AS_Imperial_Transport_01"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
 
-["vehiclesHelisLight", ["mti_factions_sith_imperials_DragonFly"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLight", ["WM_Tiefighter"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisTransport", ["WM_Lambda"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisLightAttack", ["3AS_Patrol_LAAT_Imperial"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
 ["vehiclesHelisAttack", ["3AS_LAAT_Mk1_Imperial"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
@@ -457,7 +457,7 @@ _militaryLoadoutData set ["sniperRifles", [
 ["mti_factions_Imperial_DLT19D", "", "", "optic_LRPS", [], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
-["SFA_D200", "", "JLTS_DC17SA_flashlight", "", [], [], ""]
+["WM_SE14C", "", "JLTS_DC17SA_flashlight", "", [], [], ""]
 ]];
 
 ///////////////////////////////
@@ -524,7 +524,7 @@ private _marksmanRifles = [["MTI_Valken38X", "", "acc_flashlight", "MTI_HDMS_blu
 private _sniperRifles = [["mti_factions_old_republic_CD35", "", "", "", [], [], ""]];
 _militiaLoadoutData set ["marksmanRifles", _marksmanRifles];
 _militiaLoadoutData set ["sniperRifles", _sniperRifles];
-_militiaLoadoutData set ["sidearms", ["SFA_D200"]];
+_militiaLoadoutData set ["sidearms", ["WM_SE14C"]];
 
 //////////////////////////
 //    Misc Loadouts     //
@@ -532,15 +532,15 @@ _militiaLoadoutData set ["sidearms", ["SFA_D200"]];
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["SFA_Sith_Armor_Snow_light"]];
-_crewLoadoutData set ["vests", ["mti_factions_old_republic_vest_mag_strap"]];
-_crewLoadoutData set ["helmets", ["SFA_Sith_Helmet_light_snow"]];
+_crewLoadoutData set ["uniforms", ["WM_OfficerUniform"]];
+_crewLoadoutData set ["vests", ["WM_Basic_armor"]];
+_crewLoadoutData set ["helmets", ["WM_OfficerHelmet"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["SFA_Sith_Armor_Snow_light"]];
-_pilotLoadoutData set ["vests", ["mti_factions_old_republic_vest_mag_strap"]];
-_pilotLoadoutData set ["helmets", ["SFA_Sith_Helmet_light_snow"]];
+_pilotLoadoutData set ["uniforms", ["WM_PilotArmor"]];
+_pilotLoadoutData set ["vests", ["WM_Basic_armor"]];
+_pilotLoadoutData set ["helmets", ["WM_PilotHelmet"]];
 
 
 
