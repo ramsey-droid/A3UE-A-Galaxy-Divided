@@ -147,7 +147,7 @@ _loadoutData set ["missileATLaunchers", [
 _loadoutData set ["AALaunchers", [
 ["SWLW_E60R_AA", "", "acc_pointer_IR", "", ["SWLW_e60r_aa_mag"], [], ""]
 ]];
-_loadoutData set ["sidearms", ["JLTS_RG4D"]];
+_loadoutData set ["sidearms", ["SFA_Arkanian_p"]];
 
 _loadoutData set ["ATMines", ["ATMine_Range_Mag"]]; 					//this line determines the AT mines which can be carried by units -- Example: ["ATMine_Range_Mag"] -- Array, can contain multiple assets
 _loadoutData set ["APMines", ["APERSMine_Range_Mag"]]; 					//this line determines the APERS mines which can be carried by units -- Example: ["APERSMine_Range_Mag"] -- Array, can contain multiple assets
@@ -184,8 +184,8 @@ _loadoutData set ["vests", []];						//don't fill this line - this is only to se
 _loadoutData set ["Hvests", []];
 _loadoutData set ["sniVests", []];
 _loadoutData set ["backpacks", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["longRangeRadios", ["JLTS_B1_antenna"]];
-_loadoutData set ["atBackpacks", ["mti_armoury_trooper_backpack_RTO_Clear"]];
+_loadoutData set ["longRangeRadios", ["tgf_backpacks_mereel_z6"]];
+_loadoutData set ["atBackpacks", ["tgf_backpacks_mereel_z6"]];
 _loadoutData set ["helmets", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slHat", []];
 _loadoutData set ["sniHats", []];
@@ -244,11 +244,11 @@ _sfLoadoutData set ["slRifles", [
 ["MTI_DC19SC", "muzzle_snds_M", "acc_pointer_IR", "optic_MRCO", [], [], ""],
 ["MTI_DC19SC", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""],
 ["MTI_DC19LE", "muzzle_snds_M", "acc_pointer_IR", "optic_MRCO", [], [], ""],
-["JLTS_E5C", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""]
+["mti_factions_mando_Westar35c", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", [], [], ""]
 ]];
 _sfLoadoutData set ["rifles", [
-["JLTS_E5C_stock", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_mando_E15", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_Westar35c", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _sfLoadoutData set ["carbines", [
 ["3AS_E5_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
@@ -266,12 +266,12 @@ if (_hasWs) then {
 };
 
 _sfLoadoutData set ["SMGs", [
-["JLTS_E5", "muzzle_snds_acp", "", "optic_Holosight", [], [], ""],
-["JLTS_E5", "muzzle_snds_acp", "", "optic_Aco_smg", [], [], ""],
-["JLTS_E5C", "muzzle_snds_570", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C", "muzzle_snds_570", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
-["JLTS_E5C_stock", "muzzle_snds_L", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C_stock", "muzzle_snds_L", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
+["mti_factions_mando_Westar35s", "muzzle_snds_acp", "", "optic_Holosight", [], [], ""],
+["mti_factions_mando_Westar35s", "muzzle_snds_acp", "", "optic_Aco_smg", [], [], ""],
+["mti_factions_mando_Westar35c", "muzzle_snds_570", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_Westar35c", "muzzle_snds_570", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
+["mti_factions_mando_E15", "muzzle_snds_L", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_E15", "muzzle_snds_L", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
 ]];
 
 private _mgs = [
@@ -292,9 +292,9 @@ if (_hasWs) then {
 _sfLoadoutData set ["machineGuns", _mgs];
 
 _sfLoadoutData set ["marksmanRifles", [
-    ["JLTS_E5S", "muzzle_snds_B", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "muzzle_snds_B", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "muzzle_snds_B", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "muzzle_snds_B", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ]];
 _sfLoadoutData set ["sniperRifles", [
 ["MTI_Verpine", "", "", "optic_SOS", [], [], ""],
@@ -309,36 +309,36 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_eliteLoadoutData set ["uniforms", ["lsd_cis_bxDroid_uniform", "lsd_cis_bxDiplomatDroid_uniform", "lsd_cis_bxSecurityDroid_uniform"]];
-_eliteLoadoutData set ["slUniforms", ["lsd_cis_bxCaptainDroid_uniform"]];
-_eliteLoadoutData set ["vests", ["ls_cis_bxCommando_vest", "ls_cis_bxCommando_vest", "ls_cis_bxCommando_vest"]];
-_eliteLoadoutData set ["Hvests", ["mti_armoury_commando_vest_base"]];
-_eliteLoadoutData set ["backpacks", ["mti_armoury_trooper_backpack_RTO_Clear", "mti_armoury_trooper_backpack_RTO_Clear"]];
-_eliteLoadoutData set ["helmets", []];
+_eliteLoadoutData set ["uniforms", ["tgf_undersuit_uniform_mereel"]];
+_eliteLoadoutData set ["slUniforms", ["tgf_undersuit_uniform_mereel"]];
+_eliteLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
+_eliteLoadoutData set ["Hvests", ["tgf_armour_light_armour_mereel"]];
+_eliteLoadoutData set ["backpacks", ["tgf_backpacks_mereel_z6", "tgf_backpacks_mereel_z6"]];
+_eliteLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_super_base_glow"]];
 _eliteLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _eliteLoadoutData set ["slRifles", [
 ["MTI_DC19SC", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
 ["MTI_DC19LE", "", "acc_pointer_IR", "optic_Hamr", [], [], ""],
 ["MTI_BTX", "", "acc_pointer_IR", "optic_MRCO", [], [], ""],
-["JLTS_E5", "", "acc_pointer_IR", "optic_Hamr", [], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_pointer_IR", "optic_Hamr", [], [], ""]
 ]];
 _eliteLoadoutData set ["rifles", [
-["JLTS_E5", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_Westar35c", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["JLTS_E5C_stock", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_SBB3", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_mando_E15", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _eliteLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
 _eliteLoadoutData set ["SMGs", [
-["JLTS_E5", "", "", "optic_Holosight", [], [], ""],
-["JLTS_E5C", "", "", "optic_Aco_smg", [], [], ""],
-["JLTS_E5C_stock", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_SBB3", "", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
+["mti_factions_mando_Westar35s", "", "", "optic_Holosight", [], [], ""],
+["mti_factions_mando_Westar35c", "", "", "optic_Aco_smg", [], [], ""],
+["mti_factions_mando_E15", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "optic_Aco_smg", [], [], ""],
 ["MTI_Factions_SpaceDMR1", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], ""],
 ["MTI_DLT19X", "", "acc_pointer_IR", "optic_Aco_smg", [], [], ""]
 ]];
@@ -361,10 +361,10 @@ if (_hasWs) then {
 };
 
 private _marksmanRifles = [
-    ["JLTS_E5S", "", "acc_pointer_IR", "optic_tws", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_tws", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ];
 
 if (_hasMarksman) then {
@@ -389,12 +389,12 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["JLTS_DroidB1", "JLTS_DroidB1_Marine", "JLTS_DroidB1_Security"]];
-_militaryLoadoutData set ["slUniforms", ["JLTS_DroidB1_Commander"]];
-_militaryLoadoutData set ["vests", []];
-_militaryLoadoutData set ["Hvests", []];
-_militaryLoadoutData set ["backpacks", ["JLTS_B1_backpack", "JLTS_B1_jetpack", "JLTS_B1_antenna", "JLTS_B1_backpack"]];
-_militaryLoadoutData set ["helmets", []];
+_militaryLoadoutData set ["uniforms", ["tgf_undersuit_uniform_forgemaster_seal", "tgf_undersuit_uniform_grey_seal"]];
+_militaryLoadoutData set ["slUniforms", ["tgf_undersuit_uniform_mereel"]];
+_militaryLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
+_militaryLoadoutData set ["Hvests", ["mti_factions_deathwatch_vest_light_armour"]];
+_militaryLoadoutData set ["backpacks", ["mti_factions_deathwatch_backpack_jetpack", "tgf_backpacks_heavy_jetpack_LR", "tgf_backpacks_mereel_z6", "mti_factions_deathwatch_backpack_jetpack"]];
+_militaryLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_super_base"]];
 _militaryLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _militaryLoadoutData set ["slRifles", [
@@ -404,30 +404,30 @@ _militaryLoadoutData set ["slRifles", [
 ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_pointer_IR", "OPTRE_M393_EOTECH", [], [], ""]
 ]];
 _militaryLoadoutData set ["rifles", [
-["JLTS_E5", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C_stock", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_E15", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["JLTS_E5", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_Westar35c", "", "acc_flashlight", "optic_Holosight_lush_F", [], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
 _militaryLoadoutData set ["SMGs", [
 ["MTI_ZH73", "", "", "optic_Holosight", [], [], ""],
-["JLTS_E5", "", "", "optic_Aco_smg", [], [], ""],
-["JLTS_SBB3", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5", "", "acc_flashlight", "optic_Aco_smg", [], [], ""],
-["JLTS_E5C_stock", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
-["JLTS_E5C_stock", "", "acc_flashlight", "optic_Aco_smg", [], [], ""]
+["mti_factions_mando_Westar35s", "", "", "optic_Aco_smg", [], [], ""],
+["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "optic_Aco_smg", [], [], ""],
+["mti_factions_mando_E15", "", "acc_flashlight", "optic_Holosight_blk_F", [], [], ""],
+["mti_factions_mando_E15", "", "acc_flashlight", "optic_Aco_smg", [], [], ""]
 ]];
 
 private _mgs = [
-    ["JLTS_E5C_stock", "", "", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_E15", "", "", "optic_NVS", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
     ["LFP_LW8", "", "acc_flashlight", "optic_MRCO", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-    ["JLTS_SBB3", "", "acc_flashlight", "optic_Holosight_blk_F", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
-    ["JLTS_SBB3", "", "acc_flashlight", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
+    ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Holosight_blk_F", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"],
+    ["mti_factions_old_republic_BoltBlaster_Shotgun", "", "acc_flashlight", "optic_Hamr", ["200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Red", "200Rnd_65x39_cased_Box_Tracer_Red"], [], "bipod_01_F_blk"]
 ];
 if (_hasWs) then {
     _mgs append [
@@ -439,9 +439,9 @@ if (_hasWs) then {
 _militaryLoadoutData set ["machineGuns", _mgs];
 
 private _marksmanRifles = [
-    ["JLTS_E5S", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["JLTS_E5S", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
+    ["mti_factions_mando_Verpine", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"]
 ];
 if (_hasMarksman) then {
     _marksmanRifles append [
@@ -453,11 +453,11 @@ if (_hasMarksman) then {
 _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _militaryLoadoutData set ["sniperRifles", [
-["JLTS_E5S", "", "", "optic_SOS", [], [], ""],
+["mti_factions_mando_Verpine", "", "", "optic_SOS", [], [], ""],
 ["LFP_AK", "", "", "optic_LRPS", [], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
-["JLTS_RG4D", "", "JLTS_DC17SA_flashlight", "", [], [], ""]
+["SFA_Arkanian_p", "", "JLTS_DC17SA_flashlight", "", [], [], ""]
 ]];
 
 ///////////////////////////////
@@ -465,9 +465,9 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_policeLoadoutData set ["uniforms", ["SFA_TS_Uniform", "SFA_Imp_Officer"]];
-_policeLoadoutData set ["vests", ["mti_armoury_jumptrooper_vest_Cadet"]];
-private _helmets = ["SFA_TS_Helmet"];
+_policeLoadoutData set ["uniforms", ["tgf_undersuit_uniform_vau"]];
+_policeLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
+private _helmets = ["mti_factions_deathwatch_helmet_base"];
 if (_hasLawsOfWar) then {
     _helmets pushBack "H_PASGT_basic_blue_F";
 };
@@ -488,34 +488,34 @@ _policeLoadoutData set ["sidearms", ["MTI_RSKF44"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["lsd_orsf_trooper_uniform", "3AS_U_CIS_Light_Armor"]];
-_militiaLoadoutData set ["vests", ["V_BandollierB_blk", "V_Chestrig_blk"]];
-_militiaLoadoutData set ["Hvests", ["V_TacVest_oli"]];
+_militiaLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black", "tgf_undersuit_uniform_grey"]];
+_militiaLoadoutData set ["vests", ["mti_factions_deathwatch_vest_light_armour"]];
+_militiaLoadoutData set ["Hvests", ["tgf_armour_light_armour_mereel"]];
 _militiaLoadoutData set ["backpacks", ["ls_mandalorian_demo_backpack", "ls_mandalorian_light_backpack", "ls_mandalorian_standard_backpack"]];
-_militiaLoadoutData set ["helmets", ["3AS_CIS_Light_helmet"]];
+_militiaLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_base", "mti_factions_deathwatch_helmet_dw_serg"]];
 
 if (_hasLawsOfWar) then {
     _militiaLoadoutData set ["helmets", ["H_HelmetIA", "H_PASGT_basic_olive_F", "H_Booniehat_dgtl", "H_Cap_blk_Raven"]];
 } else {
-    _militiaLoadoutData set ["helmets", ["3AS_CIS_Light_helmet"]];
+    _militiaLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_base", "mti_factions_deathwatch_helmet_dw_serg"]];
 };
 
 _militiaLoadoutData set ["slRifles", [
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""],
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["rifles", [
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""],
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""],
-["JLTS_E5", "", "acc_flashlight", "", ["JLTS_E5_mag"], [], ""]
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""],
+["mti_factions_mando_Westar35s", "", "acc_flashlight", "", ["mti_factions_mando_Rifle_Yellow_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
 ["3AS_DC15C_GL", "", "acc_flashlight", "3AS_optic_reflex_DC15C", ["3AS_40Rnd_EM40_Mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
-_militiaLoadoutData set ["SMGs", ["MTI_ACPR", "MTI_Cinnagaran", "JLTS_E5C", "JLTS_E5"]];
+_militiaLoadoutData set ["SMGs", ["MTI_ACPR", "MTI_Cinnagaran", "mti_factions_mando_Westar35c", "mti_factions_mando_Westar35s"]];
 _militiaLoadoutData set ["machineGuns", [
 ["MTI_DC15L", "", "acc_flashlight", "MTI_HRCO_grn", ["MTI_DC15L_mag"], [], "3AS_Bipod_DC15L_f"]
 ]];
@@ -524,7 +524,7 @@ private _marksmanRifles = [["MTI_Valken38X", "", "acc_flashlight", "MTI_HDMS_blu
 private _sniperRifles = [["mti_factions_old_republic_CD35", "", "", "", [], [], ""]];
 _militiaLoadoutData set ["marksmanRifles", _marksmanRifles];
 _militiaLoadoutData set ["sniperRifles", _sniperRifles];
-_militiaLoadoutData set ["sidearms", ["JLTS_RG4D"]];
+_militiaLoadoutData set ["sidearms", ["SFA_Arkanian_p"]];
 
 //////////////////////////
 //    Misc Loadouts     //
@@ -532,15 +532,15 @@ _militiaLoadoutData set ["sidearms", ["JLTS_RG4D"]];
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["JLTS_DroidB1_Crew"]];
-_crewLoadoutData set ["vests", []];
-_crewLoadoutData set ["helmets", []];
+_crewLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black_female"]];
+_crewLoadoutData set ["vests", ["mti_factions_deathwatch_vest_nite_armour"]];
+_crewLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_night_owl"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["JLTS_DroidB1_Pilot"]];
-_pilotLoadoutData set ["vests", []];
-_pilotLoadoutData set ["helmets", []];
+_pilotLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black_female"]];
+_pilotLoadoutData set ["vests", ["mti_factions_deathwatch_vest_nite_armour"]];
+_pilotLoadoutData set ["helmets", ["mti_factions_deathwatch_helmet_night_owl"]];
 
 
 
