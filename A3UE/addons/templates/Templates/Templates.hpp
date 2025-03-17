@@ -86,7 +86,7 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = QPATHTOFOLDER(Templates\Vanilla\flag_aaf_torn_co.paa); // Path to an icon to be displayed in the select menu.
-        name = "Confederacy of Independant Systems"; // Name shown in the select menu.
+        name = "[SOB] CIS"; // Name shown in the select menu.
         file = "CIS"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
@@ -98,7 +98,7 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = QPATHTOFOLDER(Templates\Vanilla\flag_aaf_torn_co.paa); // Path to an icon to be displayed in the select menu.
-        name = "Mandalorians"; // Name shown in the select menu.
+        name = "[SOB] Maul Deathwatch"; // Name shown in the select menu.
         file = "DW"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)

@@ -72,8 +72,8 @@ private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//
 
 ["vehiclesPolice", ["OPTRE_M12_FAV_APC_PD"]] call _fnc_saveToTemplate; 			//this line determines police cars -- Example: ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] -- Array, can contain multiple assets
 
-["staticMGs", ["mti_factions_cis_Eweb_Armoured", "mti_factions_cis_EWeb_Unarmoured", "mti_factions_cis_Deka_Static", "mti_factions_cis_Deka_Shield", "mti_factions_cis_Deka_Static_Sniper", "mti_factions_cis_DF9_HE", "mti_factions_cis_J10s"]] call _fnc_saveToTemplate; 					//this line determines static MGs -- Example: ["staticMG", ["B_HMG_01_high_F"]] -- Array, can contain multiple assets
-["staticAT", ["mti_factions_cis_Advanced_DSD", "mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "mti_factions_cis_OG9Turret", "mti_factions_cis_J1_Cannon", "mti_factions_cis_J1_Leggs", "mti_factions_cis_Deka_Static_Rockets"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
+["staticMGs", ["mti_factions_cis_Eweb_Armoured", "mti_factions_cis_EWeb_Unarmoured", "mti_factions_cis_DF9_HE", "mti_factions_cis_J10s"]] call _fnc_saveToTemplate; 					//this line determines static MGs -- Example: ["staticMG", ["B_HMG_01_high_F"]] -- Array, can contain multiple assets
+["staticAT", ["mti_factions_cis_Advanced_DSD", "mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "mti_factions_cis_OG9Turret", "mti_factions_cis_J1_Cannon", "mti_factions_cis_J1_Leggs"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
 ["staticAA", ["mti_factions_cis_Naval_Gun", "mti_factions_cis_Scythe", "mti_factions_cis_Lance", "mti_factions_cis_FlakCannon"]] call _fnc_saveToTemplate; 					//this line determines static AAs -- Example: ["staticAA", ["B_static_AA_F"]] -- Array, can contain multiple assets
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate; 				//this line determines static mortars -- Example: ["staticMortars", ["B_Mortar_01_F"]] -- Array, can contain multiple assets
 ["staticHowitzers", []] call _fnc_saveToTemplate;							//this line determines static howitzers. Basically it's just a stronger mortar, use same syntax as above.
@@ -205,9 +205,9 @@ private _eeItems = ["ToolKit", "MineDetector"];
 private _mmItems = [];
 
 if (A3A_hasACE) then {
-    _slItems append ["ACE_microDAGR", "ACE_DAGR"];
-    _eeItems append ["ACE_Clacker", "ACE_DefusalKit"];
-    _mmItems append ["ACE_RangeCard", "ACE_ATragMX", "ACE_Kestrel4500"];
+    _slItems append ["ACE_microDAGR", "ACE_DAGR", "MTI_PBA", "MTI_Medisensor", "MTI_medical_stretcher_folded", "MTI_catTab_tablet"];
+    _eeItems append ["MTI_Detector", "ACE_DefusalKit", "JLTS_riot_shield_item", "ACE_Clacker", "MTI_BactaPatch"];
+    _mmItems append ["ACE_RangeCard", "ACE_ATragMX", "ACE_Kestrel4500", "mti_tech_techpad", "mti_drones_mse6_packed", "JLTS_MSE6_toolkit", "JLTS_MSE6_manual", "MTI_catTab_phone"];
 };
 
 _loadoutData set ["items_squadLeader_extras", _slItems];
