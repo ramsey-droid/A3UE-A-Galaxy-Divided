@@ -13,9 +13,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Deathwatch"] call _fnc_saveToTemplate; 						//this line determines the faction name -- Example: ["name", "NATO"] - ENTER ONLY ONE OPTION
 ["spawnMarkerName", format [localize "STR_supportcorridor", "Deathwatch"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
-["flag", "JLTS_flag_CIS"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
-["flagTexture", "ls_statics_props\flags\data\flag_cis.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "JLTS_flag_CIS"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flag", "a3u_flag_stalker_bandits"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
+["flagTexture", "ls_statics_props\flags\data\flag_mandalorian.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "a3u_flag_stalker_bandits"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //
@@ -25,33 +25,33 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 ["equipmentBox", "Box_AAF_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
-["vehiclesBasic", ["3AS_Fliknot_F", "3AS_Fliknot_Brown"]] call _fnc_saveToTemplate; 			//this line determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightUnarmed", ["mti_factions_cis_SAC_Trade"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
-["vehiclesLightArmed",["mti_factions_cis_PAC_Trade", "mti_factions_cis_Combat_speeder", "mti_factions_cis_ast"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed",["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
-["vehiclesTrucks", ["OPTRE_m1015_mule_cover_ins", "OPTRE_m1015_mule_ins"]] call _fnc_saveToTemplate; 			//this line determines the trucks -- Example: ["vehiclesTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
-["vehiclesCargoTrucks", ["OPTRE_m1015_mule_cover_ins", "OPTRE_m1015_mule_ins"]] call _fnc_saveToTemplate; 		//this line determines cargo trucks -- Example: ["vehiclesCargoTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
-["vehiclesAmmoTrucks", ["OPTRE_m1015_mule_ammo_ins"]] call _fnc_saveToTemplate; 		//this line determines ammo trucks -- Example: ["vehiclesAmmoTrucks", ["B_Truck_01_ammo_F"]] -- Array, can contain multiple assets
-["vehiclesRepairTrucks", ["3AS_SAC_Repair_Brown"]] call _fnc_saveToTemplate; 		//this line determines repair trucks -- Example: ["vehiclesRepairTrucks", ["B_Truck_01_Repair_F"]] -- Array, can contain multiple assets
-["vehiclesFuelTrucks", ["OPTRE_m1015_mule_fuel_ins"]] call _fnc_saveToTemplate;		//this line determines fuel trucks -- Array, can contain multiple assets
-["vehiclesMedical", ["OPTRE_m1015_mule_medical_ins"]] call _fnc_saveToTemplate;			//this line determines medical vehicles -- Array, can contain multiple assets
-["vehiclesAPCs", ["3AS_PAC_Brown", "3AS_PAC_Tan","3AS_PAC_F", "mti_factions_cis_MTT"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
-["vehiclesTanks", ["mti_factions_cis_AAT_CIS", "mti_factions_cis_AAT_Arid", "mti_factions_cis_AAT_Desert", "mti_factions_cis_AAT_Green", "mti_factions_cis_AAT_tan", "mti_factions_cis_AAT_Woodland", "mti_factions_cis_GAT", "mti_factions_cis_AAT_Red", "mti_factions_cis_AAT_Super", "3AS_Heavy_AAT_Defoliator_F", "3AS_Heavy_AAT_Flamer_Red", "3AS_Heavy_AAT_Shield_Green", "mti_factions_cis_Raptor_Base", "mti_factions_cis_Raptor_AT" ]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
-["vehiclesAA", ["mti_factions_cis_GAT_AA", "mti_factions_cis_Raptor_AA", "mti_factions_cis_Hailfire_SAM"]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
-["vehiclesLightAPCs", ["mti_factions_cis_GAT_Light"]] call _fnc_saveToTemplate;			//this line determines light APCs
-["vehiclesIFVs", ["mti_factions_cis_GAT_Light", "mti_factions_cis_GAT_Light_Olive","mti_factions_cis_n99", "mti_factions_cis_Hailfire_HE", "mti_factions_cis_Hailfire_AT"]] call _fnc_saveToTemplate;				//this line determines IFVs
+["vehiclesBasic", ["mti_factions_deathwatch_Speeder", "mti_factions_deathwatch_Barc_Sidecar"]] call _fnc_saveToTemplate; 			//this line determines basic vehicles, the lightest kind available. -- Example: ["vehiclesBasic", ["B_Quadbike_01_F"]] -- Array, can contain multiple assets
+["vehiclesLightUnarmed", ["mti_factions_sith_imperials_Oppossume"]] call _fnc_saveToTemplate; 		//this line determines light and unarmed vehicles. -- Example: ["vehiclesLightUnarmed", ["B_MRAP_01_F"]] -- Array, can contain multiple assets
+["vehiclesLightArmed",["mti_factions_deathwatch_DW_Ifrit", "mti_factions_deathwatch_DW_Ifrit_GMG", "mti_factions_cis_ast", "mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; 		//this line determines light and armed vehicles -- Example: ["vehiclesLightArmed",["B_MRAP_01_hmg_F", "B_MRAP_01_gmg_F"]] -- Array, can contain multiple assets
+["vehiclesTrucks", ["OPTRE_m1015_mule_cover_cma", "OPTRE_m1015_mule_cma"]] call _fnc_saveToTemplate; 			//this line determines the trucks -- Example: ["vehiclesTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
+["vehiclesCargoTrucks", ["OPTRE_m1015_mule_fuel_cma", "OPTRE_m1015_mule_repair_cma"]] call _fnc_saveToTemplate; 		//this line determines cargo trucks -- Example: ["vehiclesCargoTrucks", ["B_Truck_01_transport_F", "B_Truck_01_covered_F"]] -- Array, can contain multiple assets
+["vehiclesAmmoTrucks", ["OPTRE_m1015_mule_ammo_cma"]] call _fnc_saveToTemplate; 		//this line determines ammo trucks -- Example: ["vehiclesAmmoTrucks", ["B_Truck_01_ammo_F"]] -- Array, can contain multiple assets
+["vehiclesRepairTrucks", ["OPTRE_m1015_mule_repair_cma"]] call _fnc_saveToTemplate; 		//this line determines repair trucks -- Example: ["vehiclesRepairTrucks", ["B_Truck_01_Repair_F"]] -- Array, can contain multiple assets
+["vehiclesFuelTrucks", ["OPTRE_m1015_mule_fuel_cma"]] call _fnc_saveToTemplate;		//this line determines fuel trucks -- Array, can contain multiple assets
+["vehiclesMedical", ["OPTRE_m1015_mule_medical_cma"]] call _fnc_saveToTemplate;			//this line determines medical vehicles -- Array, can contain multiple assets
+["vehiclesAPCs", ["mti_factions_deathwatch_DW_Ifrit_Sniper", "mti_factions_deathwatch_DW_Ifrit","mti_factions_sith_imperials_Oppossume", "mti_factions_deathwatch_DW_AAT"]] call _fnc_saveToTemplate; 				//this line determines APCs -- Example: ["vehiclesAPCs", ["B_APC_Tracked_01_rcws_F", "B_APC_Tracked_01_CRV_F"]] -- Array, can contain multiple assets
+["vehiclesTanks", ["mti_factions_deathwatch_DW_AAT", "mti_factions_deathwatch_DW_AAT_S", "mti_factions_deathwatch_DW_Firebrand", "mti_factions_deathwatch_Mythosaur", "mti_factions_deathwatch_DW_Tank"]] call _fnc_saveToTemplate; 			//this line determines tanks -- Example: ["vehiclesTanks", ["B_MBT_01_cannon_F", "B_MBT_01_TUSK_F"]] -- Array, can contain multiple assets
+["vehiclesAA", ["mti_factions_deathwatch_DW_AA_Tank"]] call _fnc_saveToTemplate; 				//this line determines AA vehicles -- Example: ["vehiclesAA", ["B_APC_Tracked_01_AA_F"]] -- Array, can contain multiple assets
+["vehiclesLightAPCs", ["mti_factions_sith_imperials_Oppossume"]] call _fnc_saveToTemplate;			//this line determines light APCs
+["vehiclesIFVs", ["mti_factions_sith_imperials_Oppossume", "mti_factions_sith_imperials_Oppossume","mti_factions_sith_imperials_Oppossume", "mti_factions_cis_Hailfire_HE", "mti_factions_cis_Hailfire_AT"]] call _fnc_saveToTemplate;				//this line determines IFVs
 
 ["vehiclesTransportBoats", ["optre_catfish_unarmed_f"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["optre_catfish_aa_f", "optre_catfish_atgm_f", "optre_catfish_gauss_f", "optre_catfish_mg_f"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
-["vehiclesAmphibious", ["mti_factions_cis_PAC_Trade", "mti_factions_cis_SAC_Trade", "mti_factions_cis_Combat_speeder", "mti_factions_cis_ast"]] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets
+["vehiclesAmphibious", ["mti_factions_cis_Combat_speeder", "mti_factions_cis_ast"]] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets
 
-["vehiclesPlanesCAS", ["mti_factions_cis_Vulture_CAS", "mti_factions_cis_Vulture_Base"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesAA", ["mti_factions_cis_Vulture_AA", "mti_factions_cis_Vulture_Base", "mti_factions_cis_Vulture_S"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesTransport", ["lsd_largeVTOL_cisDropship"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesCAS", ["mti_factions_deathwatch_DW_Sandspeeder_CAS", "mti_factions_deathwatch_DW_VTOL"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesAA", ["mti_factions_deathwatch_DW_Sandspeeder_AA", "mti_factions_deathwatch_DW_Sandspeeder"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesTransport", ["lmti_factions_deathwatch_DW_VTOL", "mti_factions_deathwatch_DW_Gozanti"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
 
-["vehiclesHelisLight", []] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
-["vehiclesHelisTransport", ["mti_factions_cis_hmp_transport", "mti_factions_cis_MAF_Trans"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
-["vehiclesHelisLightAttack", ["mti_factions_cis_MAF_Gun"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
-["vehiclesHelisAttack", ["mti_factions_cis_hmp_a2a", "mti_factions_cis_hmp_gunship", "mti_factions_cis_hmp_gunship_black"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLight", ["mti_factions_cis_MAF_Trans"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisTransport", ["mti_factions_cis_MAF_Trans"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLightAttack", ["mti_factions_deathwatch_MAF"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
+["vehiclesHelisAttack", ["mti_factions_deathwatch_MAF"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
 
 ["vehiclesArtillery", ["mti_factions_cis_Hailfire_Rocket", "mti_factions_cis_bawhag"]] call _fnc_saveToTemplate;		//this line determines SPAs
 ["magazines", createHashMapFromArray [
@@ -63,18 +63,18 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["uavsPortable", ["JLTS_UAV_prowler_cis"]] call _fnc_saveToTemplate; 				//this line determines portable UAVs -- Example: ["uavsPortable", ["B_UAV_01_F"]] -- Array, can contain multiple assets
 
 //Config special vehicles - militia vehicles are mostly used in the early game, police cars are being used by troops around cities -- Example:
-["vehiclesMilitiaLightArmed", ["mti_factions_cis_ast", "mti_factions_cis_Combat_speeder", "mti_factions_cis_AAT_CIS"]] call _fnc_saveToTemplate; //this line determines lightly armed militia vehicles -- Example: ["vehiclesMilitiaLightArmed", ["B_G_Offroad_01_armed_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaLightArmed", ["mti_factions_deathwatch_DW_Ifrit", "mti_factions_deathwatch_DW_Ifrit_GMG", "mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; //this line determines lightly armed militia vehicles -- Example: ["vehiclesMilitiaLightArmed", ["B_G_Offroad_01_armed_F"]] -- Array, can contain multiple assets
 ["vehiclesMilitiaTrucks", ["OPTRE_m1015_mule_cover_cma"]] call _fnc_saveToTemplate; 	//this line determines militia trucks (unarmed) -- Example: ["vehiclesMilitiaTrucks", ["B_G_Van_01_transport_F"]] -- Array, can contain multiple assets
-["vehiclesMilitiaCars", ["mti_factions_cis_SAC_Trade"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaCars", ["mti_factions_deathwatch_DW_Ifrit_Sniper"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
 
 private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//this line adds dlc APC to an array if dlc is loaded
 ["vehiclesMilitiaAPCs", _militiaAPCs] call _fnc_saveToTemplate;						//this line determines militia APCs
 
-["vehiclesPolice", ["OPTRE_M12_FAV_APC_PD"]] call _fnc_saveToTemplate; 			//this line determines police cars -- Example: ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] -- Array, can contain multiple assets
+["vehiclesPolice", ["mti_factions_deathwatch_DW_Ifrit"]] call _fnc_saveToTemplate; 			//this line determines police cars -- Example: ["vehiclesPolice", ["B_GEN_Offroad_01_gen_F"]] -- Array, can contain multiple assets
 
 ["staticMGs", ["mti_factions_cis_Eweb_Armoured", "mti_factions_cis_EWeb_Unarmoured", "mti_factions_cis_DF9_HE", "mti_factions_cis_J10s"]] call _fnc_saveToTemplate; 					//this line determines static MGs -- Example: ["staticMG", ["B_HMG_01_high_F"]] -- Array, can contain multiple assets
-["staticAT", ["mti_factions_cis_Advanced_DSD", "mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "mti_factions_cis_OG9Turret", "mti_factions_cis_J1_Cannon", "mti_factions_cis_J1_Leggs"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
-["staticAA", ["mti_factions_cis_Naval_Gun", "mti_factions_cis_Scythe", "mti_factions_cis_Lance", "mti_factions_cis_FlakCannon"]] call _fnc_saveToTemplate; 					//this line determines static AAs -- Example: ["staticAA", ["B_static_AA_F"]] -- Array, can contain multiple assets
+["staticAT", ["mti_factions_cis_DF9_AT", "mti_factions_cis_ParticleCannon", "mti_factions_cis_J1_Cannon", "mti_factions_cis_J1_Leggs"]] call _fnc_saveToTemplate; 					//this line determinesstatic ATs -- Example: ["staticAT", ["B_static_AT_F"]] -- Array, can contain multiple assets
+["staticAA", ["mti_factions_cis_Naval_Gun", "mti_factions_cis_Scythe", "mti_factions_cis_Lance", "mti_factions_deathwatch_FlakCannon"]] call _fnc_saveToTemplate; 					//this line determines static AAs -- Example: ["staticAA", ["B_static_AA_F"]] -- Array, can contain multiple assets
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate; 				//this line determines static mortars -- Example: ["staticMortars", ["B_Mortar_01_F"]] -- Array, can contain multiple assets
 ["staticHowitzers", []] call _fnc_saveToTemplate;							//this line determines static howitzers. Basically it's just a stronger mortar, use same syntax as above.
 
@@ -187,11 +187,11 @@ _loadoutData set ["backpacks", []];					//don't fill this line - this is only to
 _loadoutData set ["longRangeRadios", ["tgf_backpacks_mereel_z6"]];
 _loadoutData set ["atBackpacks", ["tgf_backpacks_mereel_z6"]];
 _loadoutData set ["helmets", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["slHat", []];
-_loadoutData set ["sniHats", []];
+_loadoutData set ["slHat", ["mti_factions_deathwatch_helmet_super_base_glow"]];
+_loadoutData set ["sniHats", ["mti_factions_deathwatch_helmet_super_base"]];
 
-_loadoutData set ["glasses", []];	//cosmetics
-_loadoutData set ["goggles", []];		//cosmetics
+_loadoutData set ["glasses", ["tgf_facewear_arbiter_belt", "tgf_facewear_forgemaster_belt", "tgf_facewear_avenger_belt"]];	//cosmetics
+_loadoutData set ["goggles", ["tgf_facewear_heavy_belt", "tgf_facewear_light_belt", "tgf_facewear_medium_belt", "tgf_facewear_pilot_belt"]];		//cosmetics
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies]; //this line defines the basic medical loadout for vanilla
@@ -233,11 +233,11 @@ _loadoutData set ["items_unarmed_extras", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["3AS_U_CIS_Heavy_Armor", "3AS_U_CIS_Heavy_Armor"]];
-_sfLoadoutData set ["vests", ["3AS_CIS_Officer_Vest", "3AS_CIS_Grenadier_Vest", "GoG_HolsterSwordVest"]];
-_sfLoadoutData set ["Hvests", ["GoG_HolsterSwordVest"]];
+_sfLoadoutData set ["uniforms", ["tgf_undersuit_uniform_forgemaster_seal"]];
+_sfLoadoutData set ["vests", ["3tgf_armour_light_armour_skirata"]];
+_sfLoadoutData set ["Hvests", ["tgf_armour_light_armour_skirata"]];
 _sfLoadoutData set ["backpacks", ["mti_armoury_arc_backpack_base", "mti_factions_bns_Medic_BP", "mti_armoury_commando_backpack_Night", "mti_armoury_fieldsupport_backpack_fsb_trooper"]];
-_sfLoadoutData set ["helmets", ["H_HelmetSpecO_blk", "3AS_CIS_Light_helmet", "3AS_CIS_Medic_helmet", "H_Watchcap_blk"]];
+_sfLoadoutData set ["helmets", ["tgf_helmets_traditional_skirata"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _sfLoadoutData set ["slRifles", [
