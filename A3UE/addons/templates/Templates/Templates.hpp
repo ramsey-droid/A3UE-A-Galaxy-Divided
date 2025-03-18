@@ -74,11 +74,11 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Beginner"; // Name shown in the select menu.
+        name = "[SOB] Easy"; // Name shown in the select menu.
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "Perfect for new players - Provides Starter weapons for Specialised units and gives access to specialised armour, as well as radio and RTO - This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Perfect for players new to antistasi - Provides Starter weapons for Specialised units and gives access to specialised armour, NVGs, radio and RTO - This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class CIS : Vanilla_Base
@@ -206,7 +206,7 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Basic (P2)"; // Name shown in the select menu.
+        name = "[SOB] Normal CT "; // Name shown in the select menu.
         file = "SOBP2"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
@@ -218,11 +218,11 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Hardcore"; // Name shown in the select menu.
+        name = "[SOB] Nightmare!"; // Name shown in the select menu.
         file = "SOBH"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "You start with nothing but a baseball bat and a dream..."; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "You start with nothing and cant purchase vehicles - You'll have to gather everything - It's nothing but you, a baseball bat and a dream..."; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class Rebel : Vanilla_Base
@@ -258,7 +258,7 @@ class Templates
         file = "CLONE"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "Twenty years ago, even ten, I would have said the destruction of the Chiss Ascendancy would be a straightforward exercise. No longer. A new generation of military leaders has arisen, warriors who cannot be trusted to walk recklessly down the well-worn paths of manipulation set before them"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "This Rebellion is a festering wound of betrayal, where rogue Special Operations clones twisted their deadly skills into acts of insurrection, poisoning order with their misguided crusade for so-called freedom"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
 
     class Cloneinsurr2 : Vanilla_Base
@@ -270,8 +270,32 @@ class Templates
         file = "CLONE2"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "Twenty years ago, even ten, I would have said the destruction of the Chiss Ascendancy would be a straightforward exercise. No longer. A new generation of military leaders has arisen, warriors who cannot be trusted to walk recklessly down the well-worn paths of manipulation set before them"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "This Rebellion is a festering wound of betrayal, where rogue Special Operations clones twisted their deadly skills into acts of insurrection, poisoning order with their misguided crusade for so-called freedom"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
+
+    class SOBE : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Normal"; // Name shown in the select menu.
+        file = "SOBBASIC"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "Start with specialized armour and SR, but no backpack, rifles or LR - An ideal Antistasi experience"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class SOBHARD : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Heroic"; // Name shown in the select menu.
+        file = "SOBHARD"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "Start with specialized uniform and SR, but no Helmet, vest, backpack, rifles or LR - An ideal Antistasi experience"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
 };
 
 

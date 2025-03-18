@@ -15,28 +15,28 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["flagTexture", "\z\mti\addons\common\data\SOB_Flag_Grey.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
-["vehiclesBasic", ["3AS_ISP_Transport", "MTI_Barc"]] call _fnc_saveToTemplate;
+["vehiclesBasic", []] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["MTI_ISP_Base", "MTI_MUTT_C", "MTI_Barc_Sidecar", "MTI_PX10_R3", "MTI_PX10"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["MTI_MUTT_L", "MTI_MUTT_I"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["MTI_TX130", "MTI_TX130_Recon", "MTI_TX130_Super", "MTI_ATAP", "MTI_ATTE", "MTI_ATTE_Super", "MTI_UTAT", "MTI_Juggernaut"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["MTI_RX200"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", []] call _fnc_saveToTemplate;
+["vehiclesTruck", []] call _fnc_saveToTemplate;
+["vehiclesAT", []] call _fnc_saveToTemplate;
+["vehiclesAA", []] call _fnc_saveToTemplate;
 
-["vehiclesBoat", ["optre_catfish_aa_f", "optre_catfish_atgm_f", "optre_catfish_gauss_f", "optre_catfish_mg_f"]] call _fnc_saveToTemplate;
+["vehiclesBoat", []] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["MTI_LAATi_Base", "MTI_LAATle_Gunship", "MTI_LAATi_Mk2", "MTI_nuclass", "MTI_RhoCLass", "MTI_LAATle_Stealth", "MTI_LAATs", "MTI_arc_170", "MTI_BTLB", "MTI_Delta7_Base", "MTI_Vwing", "MTI_Z95"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["MTI_Barc_Stretcher"]] call _fnc_saveToTemplate;
+["vehiclesPlane", []] call _fnc_saveToTemplate;
+["vehiclesMedical", []] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
-["vehiclesCivTruck", ["C_Truck_02_covered_F"]] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["a3a_C_Heli_Transport_02_F", "a3a_C_Heli_Light_02_blue_F", "C_Heli_Light_01_civil_F"]] call _fnc_saveToTemplate;
-["vehiclesCivBoat", ["C_Rubberboat", "C_Boat_Civil_01_F"]] call _fnc_saveToTemplate;
-["vehiclesCivPlane", ["C_Plane_Civil_01_F", "3AS_Aegis_Carrier_Civ_Blue"]] call _fnc_saveToTemplate;
-["vehiclesCivSupply", ["a3a_Van_02_black_vehicle_F"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", []] call _fnc_saveToTemplate;
+["vehiclesCivTruck", []] call _fnc_saveToTemplate;
+["vehiclesCivHeli", []] call _fnc_saveToTemplate;
+["vehiclesCivBoat", []] call _fnc_saveToTemplate;
+["vehiclesCivPlane", []] call _fnc_saveToTemplate;
+["vehiclesCivSupply", []] call _fnc_saveToTemplate;
 
-["staticMGs", ["MTI_UST_Turret", "MTI_HeavyRepeater", "MTI_BlasterTurret"]] call _fnc_saveToTemplate;
-["staticAT", ["OPTRE_Static_ATGM"]] call _fnc_saveToTemplate;
-["staticAA", ["3AS_Keeradak_F", "3AS_Venator_Cannon_Small"]] call _fnc_saveToTemplate;
+["staticMGs", []] call _fnc_saveToTemplate;
+["staticAT", []] call _fnc_saveToTemplate;
+["staticAA", []] call _fnc_saveToTemplate;
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", ["MTI_Red_HE_Mag"]] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", ["3AS_8Rnd_82mm_Mo_Smoke_white"]] call _fnc_saveToTemplate;
@@ -79,8 +79,7 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 _initialRebelEquipment append [];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["mti_armoury_trooper_uniform_CR"
-];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["SEA_Uniform_Schlabbie"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 

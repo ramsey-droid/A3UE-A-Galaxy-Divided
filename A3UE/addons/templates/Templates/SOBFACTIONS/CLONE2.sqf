@@ -484,16 +484,16 @@ _policeLoadoutData set ["sidearms", ["MTI_RSKF44"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["SEA_Uniform_Schlabbie", "mti_armoury_trooper_uniform_Pyro", "mti_armoury_trooper_uniform_War", "mti_armoury_trooper_uniform_Noble"]];
+_militiaLoadoutData set ["uniforms", ["SEA_Uniform_Schlabbie", "mti_armoury_trooper_uniform_Pyro", "mti_armoury_trooper_uniform_War", "mti_armoury_trooper_uniform_Captain"]];
 _militiaLoadoutData set ["vests", ["mti_armoury_trooper_vest_CLC", "mti_armoury_fieldsupport_vest_base_FS", "mti_armoury_trooper_vest_CS"]];
 _militiaLoadoutData set ["Hvests", ["SEA_Vest_Schlabbie"]];
 _militiaLoadoutData set ["backpacks", ["WM_Stormtrooper_Backpack", "WM_Stormtrooper_Backpack", "ls_mandalorian_standard_backpack"]];
-_militiaLoadoutData set ["helmets", ["SEA_Helmet_Schlabbie", "mti_armoury_trooper_helmet_Pyro", "mti_armoury_trooper_helmet_War", "mti_armoury_trooper_helmet_Noble"]];
+_militiaLoadoutData set ["helmets", ["SEA_Helmet_Schlabbie", "mti_armoury_trooper_helmet_Pyro", "mti_armoury_trooper_helmet_War", "mti_armoury_trooper_helmet_Captain"]];
 
 if (_hasLawsOfWar) then {
     _militiaLoadoutData set ["helmets", ["H_HelmetIA", "H_PASGT_basic_olive_F", "H_Booniehat_dgtl", "H_Cap_blk_Raven"]];
 } else {
-    _militiaLoadoutData set ["helmets", ["SEA_Helmet_Schlabbie", "mti_armoury_trooper_helmet_Pyro", "mti_armoury_trooper_helmet_War", "mti_armoury_trooper_helmet_Noble"]];
+    _militiaLoadoutData set ["helmets", ["SEA_Helmet_Schlabbie", "mti_armoury_trooper_helmet_Pyro", "mti_armoury_trooper_helmet_War", "mti_armoury_trooper_helmet_Captain"]];
 };
 
 _militiaLoadoutData set ["slRifles", [
