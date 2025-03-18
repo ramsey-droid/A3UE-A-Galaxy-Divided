@@ -73,12 +73,12 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = QPATHTOFOLDER(Templates\Vanilla\flag_aaf_torn_co.paa); // Path to an icon to be displayed in the select menu.
-        name = "Special Operations Brigade"; // Name shown in the select menu.
+        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Basic"; // Name shown in the select menu.
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "This is a new template, called the A3 AAF (NEW)!"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Perfect for new players - Provides some base weapons for the SOB - And all custom armours of the playerbase"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class CIS : Vanilla_Base
@@ -90,7 +90,7 @@ class Templates
         file = "CIS"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "The Confederacy of Independant Systems spans wide, with a complex military built up of numerous Battledroid and Alien lifeforms"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class DW : Vanilla_Base
@@ -102,7 +102,7 @@ class Templates
         file = "DW"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Maul's Deathwatch Loyalists provide a brutal but challenging foe"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class Mando : Vanilla_Base
@@ -114,7 +114,7 @@ class Templates
         file = "Mando"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "A Mandalorian Clan, featuring many distinct armours"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class OR : Vanilla_Base
@@ -126,7 +126,7 @@ class Templates
         file = "OR"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "The Military of the Old Republic Predates ours - but do not underestimate them, they're just as deadly"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class Sith : Vanilla_Base
@@ -138,7 +138,7 @@ class Templates
         file = "SITH"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Merciless followers of the way of the Sith"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class Imp : Vanilla_Base
@@ -150,7 +150,7 @@ class Templates
         file = "Empire"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Execute Order 66"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
 
     class Ion : Vanilla_Base
@@ -162,7 +162,7 @@ class Templates
         file = "ION"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Corpo-Scum looking to gain a foothold on Altis"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
 
     class Trando : Vanilla_Base
@@ -174,7 +174,19 @@ class Templates
         file = "TNDO"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        description = "The Battle droid army"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Mischevious Bastards looking to cause you trouble along your way"; // If this isn't included, no description will show (unless inherited from the base class.)
+    }
+
+    class Jaro : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Inv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\A3\Data_F_Exp\Flags\flag_SYND_CO.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Jaro'tsad"; // Name shown in the select menu.
+        file = "JARO"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "A highly armoured mercenary group, with a thirst for blood"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
 };
 

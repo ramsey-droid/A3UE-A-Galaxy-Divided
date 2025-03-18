@@ -12,17 +12,17 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Special Operations Brigade"] call _fnc_saveToTemplate;
 
 ["flag", ""] call _fnc_saveToTemplate;
-["flagTexture", ""] call _fnc_saveToTemplate;
-["flagMarkerType", ""] call _fnc_saveToTemplate;
+["flagTexture", "\z\mti\addons\common\data\SOB_Flag_Grey.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["3AS_ISP_Transport", "MTI_Barc"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["MTI_ISP_Base", "MTI_MUTT_C", "MTI_Barc_Sidecar", "MTI_PX10_R3", "MTI_PX10"]] call _fnc_saveToTemplate;
 ["vehiclesTruck", ["MTI_MUTT_L", "MTI_MUTT_I"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["MTI_TX130", "MTI_TX130_Recon", "MTI_TX130_Super", "MTI_ATAP", "MTI_ATTE", "MTI_ATTE_Super", "MTI_UTAT", "MTI_Juggernaut"  ]] call _fnc_saveToTemplate;
+["vehiclesAT", ["MTI_TX130", "MTI_TX130_Recon", "MTI_TX130_Super", "MTI_ATAP", "MTI_ATTE", "MTI_ATTE_Super", "MTI_UTAT", "MTI_Juggernaut"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["MTI_RX200"]] call _fnc_saveToTemplate;
 
-["vehiclesBoat", []] call _fnc_saveToTemplate;
+["vehiclesBoat", ["optre_catfish_aa_f", "optre_catfish_atgm_f", "optre_catfish_gauss_f", "optre_catfish_mg_f"]] call _fnc_saveToTemplate;
 
 ["vehiclesPlane", ["MTI_LAATi_Base", "MTI_LAATle_Gunship", "MTI_LAATi_Mk2", "MTI_nuclass", "MTI_RhoCLass", "MTI_LAATle_Stealth", "MTI_LAATs", "MTI_arc_170", "MTI_BTLB", "MTI_Delta7_Base", "MTI_Vwing", "MTI_Z95"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["MTI_Barc_Stretcher"]] call _fnc_saveToTemplate;
@@ -35,10 +35,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesCivSupply", ["a3a_Van_02_black_vehicle_F"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["MTI_UST_Turret", "MTI_HeavyRepeater", "MTI_BlasterTurret"]] call _fnc_saveToTemplate;
-["staticAT", ["mti_mortar_turret"]] call _fnc_saveToTemplate;
+["staticAT", []] call _fnc_saveToTemplate;
 ["staticAA", []] call _fnc_saveToTemplate;
-["staticMortars", []] call _fnc_saveToTemplate;
-["staticMortarMagHE", ""] call _fnc_saveToTemplate;
+["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
+["staticMortarMagHE", "MTI_Red_HE_Mag"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
 
 ["minesAT", []] call _fnc_saveToTemplate;
@@ -51,7 +51,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
-["lootCrate", "mti_supplies_Servicing"] call _fnc_saveToTemplate;
+["lootCrate", ""] call _fnc_saveToTemplate;
 ["rallyPoint", ""] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
