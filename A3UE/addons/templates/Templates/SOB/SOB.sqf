@@ -122,7 +122,7 @@ private _initialRebelEquipment = ["MTI_WestarM5",
 "mti_armoury_commando_backpack_Bevin", 
 "mti_armoury_commando_backpack_tech_Mokka", 
 "mti_armoury_commando_backpack_rto_celt",
-"mti_armoury_commando_backpack_Klepto", //
+"mti_armoury_commando_backpack_Klepto", 
 "mti_armoury_commando_backpack_Leer",
 "mti_armoury_commando_backpack_Shoto",
 "mti_armoury_commando_backpack_Dragoon",
