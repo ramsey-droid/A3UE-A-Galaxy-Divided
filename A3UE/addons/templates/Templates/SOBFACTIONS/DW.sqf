@@ -170,9 +170,9 @@ _loadoutData set ["NVGs", ["NVGoggles_INDEP"]];						//this line determines NVGs
 _loadoutData set ["binoculars", ["Binocular"]];		//this line determines the binoculars
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
-_loadoutData set ["traitorUniforms", ["mti_armoury_arc_uniform_Ramsey"]];		//this line determines traitor uniforms for traitor mission
-_loadoutData set ["traitorVests", ["mti_armoury_arc_vest_Ramsey"]];			//this line determines traitor vesets for traitor mission
-_loadoutData set ["traitorHats", ["mti_armoury_arc_helmet_Ramsey"]];			//this line determines traitor headgear for traitor missions
+_loadoutData set ["traitorUniforms", ["mti_armoury_trooper_uniform_mc_Rat"]];		//this line determines traitor uniforms for traitor mission
+_loadoutData set ["traitorVests", ["mti_armoury_trooper_vest_mc"]];			//this line determines traitor vesets for traitor mission
+_loadoutData set ["traitorHats", ["mti_armoury_trooper_helmet_mc_Rat"]];			//this line determines traitor headgear for traitor missions
 
 _loadoutData set ["officerUniforms", ["tgf_undersuit_uniform_boba"]];		//this line determines officer uniforms for assassination mission
 _loadoutData set ["officerVests", ["tgf_armour_war_chief_armour"]];			//this line determines officer vesets for assassination mission

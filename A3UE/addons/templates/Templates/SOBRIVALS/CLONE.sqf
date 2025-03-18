@@ -14,8 +14,17 @@ private _hasMarksman = "mark" in A3A_enabledDLC;
 //////////////////////////////////////
 //       	Identities    			//
 //////////////////////////////////////
-["faces", ["Head_SFA_Trandoshan_01"]] call _fnc_saveToTemplate; 
-["voices", ["EliteVO_01"]] call _fnc_saveToTemplate;
+["faces", ["lsd_gar_cloneA_head",
+    "lsd_gar_cloneE_head",
+    "lsd_gar_cloneF_head",
+    "lsd_developer_cloneDutch_head",
+    "lsd_gar_cloneD_head",
+    "lsd_gar_cloneC_head",
+    "mti_armoury_face_Mokka",
+    "mti_armoury_face_Celt",
+    "mti_armoury_face_Ark",
+    "mti_armoury_face_Blurr"]] call _fnc_saveToTemplate; 
+["voices", ["JLTS_voice_clone"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //
