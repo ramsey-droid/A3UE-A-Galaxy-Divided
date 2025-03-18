@@ -38,8 +38,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["staticAT", []] call _fnc_saveToTemplate;
 ["staticAA", []] call _fnc_saveToTemplate;
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
-["staticMortarMagHE", "MTI_Red_HE_Mag"] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
+["staticMortarMagHE", ["MTI_Red_HE_Mag"]] call _fnc_saveToTemplate;
+["staticMortarMagSmoke", [""]] call _fnc_saveToTemplate;
 
 ["minesAT", []] call _fnc_saveToTemplate;
 ["minesAPERS", []] call _fnc_saveToTemplate;
@@ -62,8 +62,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //vehicle skins
 ["variants", [
     ["vehClass", ["paint", 1]]
-]] call _fnc_saveToTemplate;w
-
+]] call _fnc_saveToTemplate;
 
 //Enter #include "Modset_Reb_Vehicle_Attributes.sqf" here
 
@@ -146,21 +145,18 @@ private _rebUniforms = ["mti_armoury_trooper_uniform_CR",
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
-if (_hasContact) then {_dlcUniforms append [];
-};
-
-if (_hasApex) then {_dlcUniforms append [];
-};
+if (_hasContact) then {_dlcUniforms append []};
+if (_hasApex) then {_dlcUniforms append []};
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", ["mti_armoury_trooper_helmet_CR", "mti_armoury_trooper_helmet_CT"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", ["mti_armoury_trooper_helmet_CR", "mti_armoury_trooper_helmet_CT"]] call _fnc_saveToTemplate;          //Headgear used by Rebel AI until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
 /////////////////////
 
-//Faces and Voices given to Rebell AI
+//Faces and Voices given to Rebel AI
 ["faces", ["lsd_gar_cloneA_head"]] call _fnc_saveToTemplate;
 ["voices", ["JLTS_voice_clone"]] call _fnc_saveToTemplate;
 
@@ -184,7 +180,7 @@ _loadoutData set ["items_miscEssentials", [] call A3A_fnc_itemset_miscEssentials
 
 ////////////////////////
 //  Rebel Unit Types  //
-///////////////////////.
+////////////////////////
 
 private _squadLeaderTemplate = {
     ["uniforms"] call _fnc_setUniform;
