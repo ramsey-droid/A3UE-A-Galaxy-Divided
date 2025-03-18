@@ -212,8 +212,8 @@ if (A3A_hasACE) then {
 
 _loadoutData set ["items_squadLeader_extras", _slItems];
 _loadoutData set ["items_rifleman_extras", []];
-_loadoutData set ["items_medic_extras", []];
-_loadoutData set ["items_grenadier_extras", []];
+_loadoutData set ["items_medic_extras", ["MTI_BactaPatch", "MTI_BactaSpray", "ACE_bloodIV", "MTI_PBA", "ACE_surgicalKit", "ACE_personalAidKit"]];
+_loadoutData set ["items_grenadier_extras", ["WBK_HeadLampItem_Double"]];
 _loadoutData set ["items_explosivesExpert_extras", _eeItems];
 _loadoutData set ["items_engineer_extras", _eeItems];
 _loadoutData set ["items_lat_extras", []];
@@ -222,7 +222,7 @@ _loadoutData set ["items_aa_extras", []];
 _loadoutData set ["items_machineGunner_extras", []];
 _loadoutData set ["items_marksman_extras", _mmItems];
 _loadoutData set ["items_sniper_extras", _mmItems];
-_loadoutData set ["items_police_extras", []];
+_loadoutData set ["items_police_extras", ["MTI_CableTie_Medium"]];
 _loadoutData set ["items_crew_extras", []];
 _loadoutData set ["items_unarmed_extras", []];
 

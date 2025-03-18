@@ -17,7 +17,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["vehiclesBasic", ["3AS_ISP_Transport", "MTI_Barc"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["MTI_ISP_Base", "MTI_MUTT_C", "MTI_Barc_Sidecar", "MTI_PX10_R3", "MTI_PX10"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["a3a_C_Heli_Transport_02_F", "a3a_C_Heli_Light_02_blue_F", "C_Heli_Light_01_civil_F"]] call _fnc_saveToTemplate;
 ["vehiclesTruck", ["MTI_MUTT_L", "MTI_MUTT_I"]] call _fnc_saveToTemplate;
 ["vehiclesAT", ["MTI_TX130", "MTI_TX130_Recon", "MTI_TX130_Super", "MTI_ATAP", "MTI_ATTE", "MTI_ATTE_Super", "MTI_UTAT", "MTI_Juggernaut"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["MTI_RX200"]] call _fnc_saveToTemplate;
@@ -162,7 +162,7 @@ private _initialRebelEquipment = ["MTI_WestarM5",
 "mti_armoury_commando_backpack_Mig",
 "mti_armoury_commando_backpack_Graaz",
 "mti_armoury_commando_backpack_Dad",
-"mti_armoury_commando_backpack_General"
+"mti_armoury_commando_backpack_General",
 "mti_armoury_arc_vest_cadet",
 "mti_armoury_arc_vest_trooper",
 "mti_armoury_arc_vest_demo",
@@ -312,14 +312,12 @@ private _rebUniforms = ["mti_armoury_trooper_uniform_CR",
 "mti_armoury_commando_uniform_Val", 
 "mti_armoury_commando_uniform_Baboon", 
 "mti_armoury_commando_uniform_Dxon", 
-"mti_armoury_commando_uniform_Klepto", 
 "mti_armoury_commando_uniform_Leer", 
 "mti_armoury_commando_uniform_Shoto", 
 "mti_armoury_commando_uniform_Sparrow", 
 "mti_armoury_commando_uniform_Karrazim", 
 "mti_armoury_commando_uniform_Bezzy", 
 "mti_armoury_commando_uniform_Rented", 
-"mti_armoury_commando_uniform_Val", 
 "mti_armoury_commando_uniform_Noble", 
 "mti_armoury_commando_uniform_Vill", 
 "mti_armoury_commando_uniform_Rat", 
@@ -602,7 +600,6 @@ if (_hasApex) then {_dlcUniforms append []};
 "mti_armoury_commando_helmet_Bevin", 
 "mti_armoury_commando_helmet_Mokka", 
 "mti_armoury_commando_helmet_Celt",
-"mti_armoury_commando_helmet_Klepto", //
 "mti_armoury_commando_helmet_Leer",
 "mti_armoury_commando_helmet_Shoto",
 "mti_armoury_commando_helmet_Dragoon",
