@@ -102,22 +102,9 @@ private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//
 /////////////////////
 
 ["faces", [
-    "lsd_gar_cloneA_head",
-    "lsd_gar_cloneE_head",
-    "WhiteHead_03",
-    "Barklem",
-    "RussianHead_4",
-    "LivonianHead_5",
-    "PersianHead_A3_02",
-    "MTI_female_bun_03",
-    "WhiteHead_19",
-    "RussianHead_2",
-    "WhiteHead_31",
-    "WhiteHead_20",
-    "LivonianHead_9",
-    "DSA_VampFace_01"
+    "Head_SFA_Cathar_03"
 ]] call _fnc_saveToTemplate;
-["voices", ["Male01GRE","Male02GRE","Male03GRE","Male04GRE","Male05GRE","Male06GRE"]] call _fnc_saveToTemplate;
+["voices", ["Male01FRE"]] call _fnc_saveToTemplate;
 
 ["insignia", ["OPTRE_Insignia_emblems_thehand", "", ""]] call _fnc_saveToTemplate;
 ["milInsignia", ["OPTRE_Insignia_emblems_thehand", "", ""]] call _fnc_saveToTemplate;

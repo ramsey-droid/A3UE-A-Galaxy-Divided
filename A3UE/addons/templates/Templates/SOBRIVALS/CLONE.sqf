@@ -8,28 +8,14 @@ private _hasMarksman = "mark" in A3A_enabledDLC;
 //   Rivals Information   //
 ///////////////////////////
 
-["name", "Rebels" ] call _fnc_saveToTemplate;
-["nameLeader", "Ramsoli"] call _fnc_saveToTemplate;
+["name", "Clone Insurrectionists" ] call _fnc_saveToTemplate;
+["nameLeader", "CC-8915/35 Kix"] call _fnc_saveToTemplate;
 
 //////////////////////////////////////
 //       	Identities    			//
 //////////////////////////////////////
-["faces", [
-	"lsd_gar_cloneA_head",
-    "lsd_gar_cloneE_head",
-    "WhiteHead_03",
-    "Barklem",
-    "RussianHead_4",
-    "LivonianHead_5",
-    "PersianHead_A3_02",
-    "MTI_female_bun_03",
-    "WhiteHead_19",
-    "RussianHead_2",
-    "WhiteHead_31",
-    "WhiteHead_20",
-    "LivonianHead_9",
-    "DSA_VampFace_01"]] call _fnc_saveToTemplate; 
-["voices", ["Male04ENGB"]] call _fnc_saveToTemplate;
+["faces", ["Head_SFA_Trandoshan_01"]] call _fnc_saveToTemplate; 
+["voices", ["EliteVO_01"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //
@@ -37,27 +23,27 @@ private _hasMarksman = "mark" in A3A_enabledDLC;
 ["ammobox", "Box_FIA_Support_F"] call _fnc_saveToTemplate;
 ["surrenderCrate", "Box_Syndicate_Wps_F"] call _fnc_saveToTemplate;
 
-private _lightArmedVehicles = ["mti_factions_rebels_Jeep", "O_G_Offroad_01_AT_F", "mti_factions_rebels_V25"];
-private _lightUnarmedVehicles = ["I_C_Offroad_02_unarmed_F"];
+private _lightArmedVehicles = ["mti_factions_rebels_Jeep", "MTI_MUTT_I"];
+private _lightUnarmedVehicles = ["MTI_ISP_Base"];
 
 if (_hasAddonX) then {
 	_lightArmedVehicles append ["I_C_Offroad_02_AT_F", "I_C_Offroad_02_LMG_F"];
-	_lightUnarmedVehicles pushBack "I_C_Offroad_02_unarmed_F";
+	_lightUnarmedVehicles pushBack "MTI_ISP_Base";
 } else {
-	_lightArmedVehicles append ["O_G_Offroad_01_AT_F", "mti_factions_rebels_Jeep", "mti_factions_rebels_V25"];
-	_lightUnarmedVehicles pushBack "I_C_Offroad_02_unarmed_F";
+	_lightArmedVehicles append ["MTI_MUTT_I", "mti_factions_rebels_Jeep"];
+	_lightUnarmedVehicles pushBack "MTI_ISP_Base";
 };
 
 ["vehiclesRivalsLightArmed", _lightArmedVehicles] call _fnc_saveToTemplate;
 ["vehiclesRivalsTrucks", _trucks] call _fnc_saveToTemplate;
 ["vehiclesRivalsCars", _lightUnarmedVehicles] call _fnc_saveToTemplate;
-["vehiclesRivalsAPCs", ["SFA_Karagga_F", "mti_factions_rebels_AAC_Speeder", "mti_factions_rebels_MTI_AAC_Rocket"]] call _fnc_saveToTemplate;
-["vehiclesRivalsTanks", ["mti_factions_rebels_RebelAAT", "mti_factions_rebels_ATTE"]] call _fnc_saveToTemplate;
-["vehiclesRivalsHelis", ["mti_factions_rebels_ForestSpeeder", "mti_factions_rebels_DesertSpeeder", "mti_factions_rebels_AegisShuttle", "mti_factions_rebels_AegisShuttle_Cargo"]] call _fnc_saveToTemplate;			
-["vehiclesRivalsUavs", ["O_T_UAV_04_CAS_F"]] call _fnc_saveToTemplate;			
+["vehiclesRivalsAPCs", ["MTI_PX10", "MTI_PX10_R3"]] call _fnc_saveToTemplate;
+["vehiclesRivalsTanks", ["MTI_Juggernaut", "MTI_TX130", "3AS_ATTE_Ryloth"]] call _fnc_saveToTemplate;
+["vehiclesRivalsHelis", ["MTI_LAATs", "MTI_LAATle_Stealth", "3AS_Delta7_Orange", "3AS_LAATC_Wampa"]] call _fnc_saveToTemplate;			
+["vehiclesRivalsUavs", ["NCA_Sentinel_Drone"]] call _fnc_saveToTemplate;			
 
-["staticLowWeapons", ["mti_factions_rebels_Eweb", "mti_factions_rebels_FDTower"]] call _fnc_saveToTemplate;
-["staticAT", ["mti_factions_rebels_DF9_Anti_Armor"]] call _fnc_saveToTemplate;
+["staticLowWeapons", ["mti_factions_cis_Eweb_Stationary"]] call _fnc_saveToTemplate;
+["staticAT", ["mti_factions_ION_ATCannon"]] call _fnc_saveToTemplate;
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
 
 ["mortarMagazineHE", "MTI_Red_HE_Mag"] call _fnc_saveToTemplate;
@@ -77,32 +63,32 @@ if (_hasAddonX) then {
 */
 private _loadoutData = call _fnc_createLoadoutData;
 private _rifles = [
-	["MTI_DH17", "", "", "", ["MTI_Red_Mag_Carbine"], [], ""],
-	["MTI_A280", "", "", "", ["MTI_Red_Mag_Base"], [], ""]
+	["MTI_DC15A_Wood", "", "", "", ["MTI_DC15A_mag"], [], ""],
+	["MTI_DC15C", "", "", "", ["MTI_DC15C_mag"], [], ""]
 ];
 private _tunedRifles = [
-	["WM_DLT19_Wood", "", "acc_flashlight", "optic_MRCO", ["WM_DLT19_mag"], [], ""],
-	["WM_DLT19X", "", "acc_flashlight", "optic_MRCO", ["WM_DLT19X_Magazine"], [], ""],
-	["MTI_A280", "", "acc_flashlight", "optic_ACO_grn", ["MTI_Red_Mag_Base"], [], ""],
-	["MTI_DH17", "", "acc_flashlight", "optic_ACO_grn", ["MTI_Red_Mag_Carbine"], [], ""]
+	["MTI_DC15A_Wood", "", "acc_flashlight", "optic_MRCO", ["MTI_DC15A_mag"], [], ""],
+	["MTI_DC15C", "", "acc_flashlight", "optic_MRCO", ["MTI_DC15C_mag"], [], ""],
+	["MTI_DC15A_Wood", "", "acc_flashlight", "optic_ACO_grn", ["MTI_DC15A_mag"], [], ""],
+	["MTI_DC15C", "", "acc_flashlight", "optic_ACO_grn", ["MTI_DC15C_mag"], [], ""]
 ];
 private _enforcerRifles = [
-	["MTI_A280", "", "", "", ["MTI_Red_Mag_Base"], [], ""],
-	["MTI_DH17", "", "", "", ["MTI_Red_Mag_Carbine"], [], ""]
+	["MTI_DC15A_Wood", "", "", "", ["MTI_DC15A_mag"], [], ""],
+	["MTI_DC15C", "", "", "", ["MTI_DC15C_mag"], [], ""]
 ];
 private _carbines = [
-	["MTI_DH17", "", "", "", ["MTI_Red_Mag_Carbine"], [], ""],
-	["MTI_DH17", "", "", "", ["MTI_Red_Mag_Carbine"], [], ""]
+	["MTI_DC15C", "", "", "", ["MTI_DC15C_mag"], [], ""],
+	["MTI_DC15C", "", "", "", ["MTI_DC15C_mag"], [], ""]
 ];
 private _gls = [
-	["3AS_E11_GL", "", "", "", ["3AS_40Rnd_EM40_Mag_Imp"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "1Rnd_Smoke_Grenade_shell"], ""],
-	["3AS_E11_GL", "", "", "", ["3AS_40Rnd_EM40_Mag_Imp"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "1Rnd_Smoke_Grenade_shell"], ""]
+	["MTI_DC15A_Wood_GL", "", "", "", ["MTI_DC15A_mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "1Rnd_Smoke_Grenade_shell"], ""],
+	["MTI_DC15C_GL", "", "", "", ["MTI_DC15C_mag"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "UGL_FlareWhite_F", "1Rnd_Smoke_Grenade_shell"], ""]
 ];
 private _mgs = [
-	["MTI_T21", "", "", "", ["MTI_Red_Mag_MG", "MTI_Red_Mag_MG", "MTI_Red_Mag_MG"], [], ""]
+	["MTI_DC15A_Wood", "", "", "", ["MTI_DC15A_mag", "MTI_DC15A_mag", "MTI_DC15A_mag"], [], ""]
 ];
 private _marksmanRifles = [
-	["MTI_DLT19D", "", "", "SWLW_sniper_scope", ["MTI_Red_Mag_Sniper"], [], ""]
+	["MTI_Verpine", "", "", "MTI_Verpine_scope", ["MTI_Verpine_mag"], [], ""]
 ];
 
 private _rpgs = [
@@ -112,7 +98,7 @@ private _rpgs = [
 	["MTI_RPS6_HP", "", "", "", ["MTI_RPS6_HP_mag_AA", "MTI_RPS6_HP_mag_AT"], [], ""]
 ];
 
-private _pistols = ["SFA_DH45_p"];
+private _pistols = ["MTI_DC17s"];
 
 if (_hasContact) then {
 	_carbines pushBack ["arifle_AK12U_F", "", "", "", ["30Rnd_762x39_Mag_Green_F", "30Rnd_762x39_Mag_Green_F", "30Rnd_762x39_Mag_Tracer_Green_F"], [], ""];
@@ -195,14 +181,14 @@ _loadoutData set ["antiInfantryGrenades", ["MTI_ThermalDetonator", "MTI_SonicDet
 _loadoutData set ["smokeGrenades", ["SmokeShell"]];
 _loadoutData set ["signalsmokeGrenades", ["SmokeShellYellow", "SmokeShellRed", "SmokeShellPurple", "SmokeShellOrange", "SmokeShellGreen", "SmokeShellBlue"]];
 
-_loadoutData set ["facewear", ["G_Lowprofile", "OPTRE_Glasses_Cigarette", "ls_misc_poncho_facewear", "ls_jn_goggles_facewear"]];
-_loadoutData set ["fullmask", ["G_Balaclava_blk", "G_Balaclava_Halloween_01", "G_Balaclava_Scarecrow_01"]];
+_loadoutData set ["facewear", []];
+_loadoutData set ["fullmask", []];
 
 _loadoutData set ["headgear", [
-    "H_Cap_brn_SPECOPS",
-    "H_Bandanna_gry",
-    "H_Bandanna_cbr",
-    "H_Cap_oli",
+    "ls_gar_cadet_helmet",
+    "SEA_Helmet_Schlabbie",
+    "H_Hebontes_Beret07_AAF",
+    "H_ShemagOpen_tan",
     "H_Cap_headphones",
 	"H_Bandanna_camo"
 ]];
@@ -212,21 +198,21 @@ _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
 _loadoutData set ["radios", ["JLTS_clone_comlink"]];
 _loadoutData set ["gpses", ["ItemGPS"]];
-_loadoutData set ["NVGs", ["JLTS_NVG_droid_chip_1"]];
+_loadoutData set ["NVGs", ["NVGoggles_INDEP"]];
 _loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["Rangefinder", ["Rangefinder"]];
 
 
 _loadoutData set ["uniforms", [
-	"WM_ParaMilitary_Tee",
-	"WM_ParaMilitary_TeeJacket",
-	"WM_ParaMilitary_Shirt_Rolled",
-	"WM_ParaMilitary_Shirt",
-	"WM_ParaMilitary_Short"
+	"lsd_gar_bodyGloveLegArmor_uniform",
+	"SEA_Uniform_Schlabbie",
+	"mti_armoury_trooper_uniform_elite",
+	"mti_armoury_arc_uniform_SL",
+	"mti_armoury_trooper_uniform_Captain"
 ]];
-_loadoutData set ["heavyUniforms", ["WM_ParaMilitary_WD"]];
+_loadoutData set ["heavyUniforms", ["SEA_Uniform_Schlabbie"]];
 
-private _helmets = ["WM_ParaMilitary_Helmet"];
+private _helmets = ["mti_armoury_trooper_helmet_elite", "SEA_Helmet_Schlabbie", "JLTS_CloneHelmetAB_Purge"];
 
 if (_hasWs) then {
 	_helmets append ["lxWS_H_bmask_camo02", "lxWS_H_PASGT_facewear_olive_F"];
@@ -237,15 +223,15 @@ if (_hasLawsOfWar) then {
 };
 
 if (_helmets isEqualTo []) then {
-	_helmets = ["WM_ParaMilitary_Helmet"];
+	_helmets = ["mti_armoury_trooper_helmet_elite"];
 };
 
-_loadoutData set ["offuniforms", ["SFA_Officer_Uniform"]];
-_loadoutData set ["vests", ["V_TacChestrig_cbr_F", "V_SmershVest_01_F", "V_Chestrig_khk"]];
-_loadoutData set ["heavyVests", ["V_PlateCarrierIAGL_oli"]];
-_loadoutData set ["backpacks", ["Endor_Rebel_bag", "Black_WM_Rebel_bag"]];
+_loadoutData set ["offuniforms", ["mti_armoury_trooper_uniform_Kix"]];
+_loadoutData set ["vests", ["SEA_Vest_Schlabbie", "JLTS_CloneVestOfficer_CG_Thire", "mti_armoury_trooper_vest_CSP"]];
+_loadoutData set ["heavyVests", ["mti_armoury_arc_vest_medic"]];
+_loadoutData set ["backpacks", ["mti_armoury_trooper_backpack_RTO", "mti_armoury_commando_backpack_Night"]];
 _loadoutData set ["helmets", _helmets];
-_loadoutData set ["crewHelmets", ["H_HelmetCrew_I"]];
+_loadoutData set ["crewHelmets", ["mti_armoury_trooper_helmet_Captain"]];
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies]; //this line defines the basic medical loadout for vanilla
@@ -285,12 +271,12 @@ _loadoutData set ["items_unarmed_extras", []];
 //////////////////////////
 
 private _crewLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_crewLoadoutData set ["vests", ["V_BandollierB_oli"]];
-_crewLoadoutData set ["helmets", ["H_HelmetCrew_I"]];
+_crewLoadoutData set ["vests", ["mti_armoury_jumptrooper_vest_NCO"]];
+_crewLoadoutData set ["helmets", ["mti_armoury_trooper_helmet_Captain"]];
 
 private _pilotLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["vests", ["V_BandollierB_oli"]];
-_pilotLoadoutData set ["helmets", ["mti_factions_rebels_helmet_Rebel_Pilot"]];
+_pilotLoadoutData set ["vests", ["mti_armoury_jumptrooper_vest_NCO"]];
+_pilotLoadoutData set ["helmets", ["mti_armoury_pilot_helmet_P1_CX_P"]];
 
 
 // ##################### DO NOT TOUCH ANYTHING BELOW THIS LINE #####################

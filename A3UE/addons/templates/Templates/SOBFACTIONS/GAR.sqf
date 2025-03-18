@@ -103,20 +103,16 @@ private _militiaAPCs = if (_hasTanks) then {["I_LT_01_cannon_F"]} else {[]};		//
 ["faces", [
     "lsd_gar_cloneA_head",
     "lsd_gar_cloneE_head",
-    "WhiteHead_03",
-    "Barklem",
-    "RussianHead_4",
-    "LivonianHead_5",
-    "PersianHead_A3_02",
-    "MTI_female_bun_03",
-    "WhiteHead_19",
-    "RussianHead_2",
-    "WhiteHead_31",
-    "WhiteHead_20",
-    "LivonianHead_9",
-    "DSA_VampFace_01"
+    "lsd_gar_cloneF_head",
+    "lsd_developer_cloneDutch_head",
+    "lsd_gar_cloneD_head",
+    "lsd_gar_cloneC_head",
+    "mti_armoury_face_Scorch",
+    "mti_armoury_face_Celt",
+    "mti_armoury_face_Ark",
+    "mti_armoury_face_Blurr"
 ]] call _fnc_saveToTemplate;
-["voices", ["Male01GRE","Male02GRE","Male03GRE","Male04GRE","Male05GRE","Male06GRE"]] call _fnc_saveToTemplate;
+["voices", ["JLTS_voice_clone"]] call _fnc_saveToTemplate;
 
 ["insignia", ["", "", ""]] call _fnc_saveToTemplate;
 ["milInsignia", ["", "", ""]] call _fnc_saveToTemplate;
@@ -531,15 +527,15 @@ _militiaLoadoutData set ["sidearms", ["WM_SE14C"]];
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["WM_OfficerUniform"]];
-_crewLoadoutData set ["vests", ["WM_Basic_armor"]];
-_crewLoadoutData set ["helmets", ["WM_OfficerHelmet"]];
+_crewLoadoutData set ["uniforms", ["mti_armoury_fieldsupport_uniform_Trooper"]];
+_crewLoadoutData set ["vests", ["mti_armoury_fieldsupport_vest_Grey_FS"]];
+_crewLoadoutData set ["helmets", ["mti_armoury_fieldsupport_helmet_Trooper", "mti_armoury_fieldsupport_helmet_Tanker"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["WM_PilotArmor"]];
-_pilotLoadoutData set ["vests", ["WM_Basic_armor"]];
-_pilotLoadoutData set ["helmets", ["WM_PilotHelmet"]];
+_pilotLoadoutData set ["uniforms", ["mti_armoury_pilot_uniform_CX"]];
+_pilotLoadoutData set ["vests", ["mti_armoury_fieldsupport_vest_Grey_FS"]];
+_pilotLoadoutData set ["helmets", ["mti_armoury_pilot_helmet_P1_CX"]];
 
 
 

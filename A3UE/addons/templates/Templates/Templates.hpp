@@ -236,6 +236,30 @@ class Templates
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         description = "Rebels looking to overthrow the leading powers themselves!"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
+
+    class Chiss : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOBRIVALS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Riv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\A3\Data_F\Flags\flag_fd_blue_CO.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Chiss Ascendancy"; // Name shown in the select menu.
+        file = "CHISS"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "Twenty years ago, even ten, I would have said the destruction of the Chiss Ascendancy would be a straightforward exercise. No longer. A new generation of military leaders has arisen, warriors who cannot be trusted to walk recklessly down the well-worn paths of manipulation set before them"; // If this isn't included, no description will show (unless inherited from the base class.)
+    }
+
+    class Cloneinsurr : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOBRIVALS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Riv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\ls_flags\tex\arc.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Clone Insurrectionists"; // Name shown in the select menu.
+        file = "CLONE"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "Twenty years ago, even ten, I would have said the destruction of the Chiss Ascendancy would be a straightforward exercise. No longer. A new generation of military leaders has arisen, warriors who cannot be trusted to walk recklessly down the well-worn paths of manipulation set before them"; // If this isn't included, no description will show (unless inherited from the base class.)
+    }
 };
 
 
