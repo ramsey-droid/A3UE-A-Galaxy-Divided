@@ -73,8 +73,8 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Easy"; // Name shown in the select menu.
+        flagTexture = QPATHTOFOLDER(Templates\Flags\EasyFlag.paa); // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Beginner"; // Name shown in the select menu.
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
@@ -205,8 +205,8 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Normal CT "; // Name shown in the select menu.
+        flagTexture = QPATHTOFOLDER(Templates\Flags\NightmareFlag.paa); // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Nightmare "; // Name shown in the select menu.
         file = "SOBP2"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
@@ -217,8 +217,8 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Nightmare!"; // Name shown in the select menu.
+        flagTexture = QPATHTOFOLDER(Templates\Flags\UltraNightmareFlag.paa); // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Ultra Nightmare!"; // Name shown in the select menu.
         file = "SOBH"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
@@ -277,7 +277,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        flagTexture = QPATHTOFOLDER(Templates\Flags\MediumFlag.paa); // Path to an icon to be displayed in the select menu.
         name = "[SOB] Normal"; // Name shown in the select menu.
         file = "SOBBASIC"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
@@ -289,7 +289,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        flagTexture = QPATHTOFOLDER(Templates\Flags\VeteranFlag.paa); // Path to an icon to be displayed in the select menu.
         name = "[SOB] Heroic"; // Name shown in the select menu.
         file = "SOBHARD"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
