@@ -78,12 +78,12 @@ class Templates
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "Perfect for new players - Provides some base weapons for the SOB, NVG, Radio and RTO - And all custom armours of the playerbase. Good for introducing people to the basics of Antistasi, but not the best Antistasi experience per say. This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Perfect for new players - Provides Starter weapons for Specialised units and gives access to specialised armour, as well as radio and RTO - This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class CIS : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_cis.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] CIS"; // Name shown in the select menu.
@@ -95,7 +95,7 @@ class Templates
 
     class DW : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_mandalorian.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Maul Deathwatch"; // Name shown in the select menu.
@@ -107,7 +107,7 @@ class Templates
 
     class Mando : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_mandalorian.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Mandalorians"; // Name shown in the select menu.
@@ -119,7 +119,7 @@ class Templates
 
     class OR : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_repNavy.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Old Republic"; // Name shown in the select menu.
@@ -131,7 +131,7 @@ class Templates
 
     class Sith : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_repNavy.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Sith Empire"; // Name shown in the select menu.
@@ -143,7 +143,7 @@ class Templates
 
     class Imp : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_imp.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Galactic Empire"; // Name shown in the select menu.
@@ -155,7 +155,7 @@ class Templates
 
     class Ion : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_imp.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Intergalactic Omnitech Nexus"; // Name shown in the select menu.
@@ -179,7 +179,7 @@ class Templates
 
     class Jaro : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "\A3\Data_F_Exp\Flags\flag_SYND_CO.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Jaro'tsad"; // Name shown in the select menu.
@@ -191,7 +191,7 @@ class Templates
 
     class GAR : Vanilla_Base
     {
-        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "ls_statics_props\flags\data\flag_republic.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Galactic Republic"; // Name shown in the select menu.
@@ -224,6 +224,18 @@ class Templates
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
         description = "You start with nothing but a baseball bat and a dream..."; // If this isn't included, no description will show (unless inherited from the base class.)
     };
+
+    class Rebel : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOBRIVALS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Riv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "ls_statics_props\flags\data\flag_rebel.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Rebels"; // Name shown in the select menu.
+        file = "REBEL"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "Rebels looking to overthrow the leading powers themselves!"; // If this isn't included, no description will show (unless inherited from the base class.)
+    }
 };
 
 
