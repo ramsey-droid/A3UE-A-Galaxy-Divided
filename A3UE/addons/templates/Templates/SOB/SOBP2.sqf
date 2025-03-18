@@ -70,12 +70,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //  Rebel Starting Gear  //
 ///////////////////////////
 
-private _initialRebelEquipment = ["MTI_WestarM5", "MTI_HRCO_blu", "acc_flashlight", "MTI_DC15A", "MTI_DC17M", "MTI_DC17M_mag", "MTI_DC15S", "MTI_DC15S_mag", "mti_armoury_trooper_vest_base", "MTI_DP23", "MTI_DP23_mag", "MTI_HMRCO_blu", "MTI_DC15A_mag", "MTI_RPS6_D_Loaded", "ACE_personalAidKit", "MTI_HRCO_blu"];
+private _initialRebelEquipment = ["mti_armoury_trooper_vest_base", "ACE_personalAidKit", "MTI_DC17s", "MTI_HMRD_blu", "mti_armoury_trooper_vest_cp", "mti_armoury_trooper_vest_CLC", "mti_armoury_trooper_vest_PlatoonCommand", "mti_armoury_trooper_vest_Kyle", "mti_armoury_trooper_vest_Lich", "mti_armoury_trooper_vest_Maroon", "mti_armoury_trooper_vest_Loken"];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","JLTS_clone_comlink"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["JLTS_clone_comlink","mti_armoury_trooper_backpack_RTO"]};
+if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["JLTS_clone_comlink"]};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","JLTS_clone_comlink"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["JLTS_clone_comlink","mti_armoury_trooper_backpack_RTO"]};
+if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["JLTS_clone_comlink"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
@@ -140,43 +140,7 @@ private _rebUniforms = ["mti_armoury_trooper_uniform_CR",
 "mti_armoury_trooper_uniform_Lich",
 "mti_armoury_trooper_uniform_Blurr",
 "mti_armoury_trooper_uniform_Hex",
-"mti_armoury_trooper_uniform_Mist",
-"mti_armoury_commando_uniform_Draco",
-"mti_armoury_commando_uniform_Nightwolf", 
-"mti_armoury_commando_uniform_Daycare", 
-"mti_armoury_commando_uniform_Val", 
-"mti_armoury_commando_uniform_Baboon", 
-"mti_armoury_commando_uniform_Dxon", 
-"mti_armoury_commando_uniform_Klepto", 
-"mti_armoury_commando_uniform_Leer", 
-"mti_armoury_commando_uniform_Shoto", 
-"mti_armoury_commando_uniform_Sparrow", 
-"mti_armoury_commando_uniform_Karrazim", 
-"mti_armoury_commando_uniform_Bezzy", 
-"mti_armoury_commando_uniform_Rented", 
-"mti_armoury_commando_uniform_Val", 
-"mti_armoury_commando_uniform_Noble", 
-"mti_armoury_commando_uniform_Vill", 
-"mti_armoury_commando_uniform_Rat", 
-"mti_armoury_commando_uniform_Noir", 
-"mti_armoury_commando_uniform_Lich", 
-"mti_armoury_commando_uniform_Smig", 
-"mti_armoury_commando_uniform_Duck", 
-"mti_armoury_commando_uniform_Hacks", 
-"mti_armoury_commando_uniform_Set", 
-"mti_armoury_commando_uniform_Falcon", 
-"mti_armoury_commando_uniform_Lucks", 
-"mti_armoury_commando_uniform_Glide", 
-"mti_armoury_commando_uniform_Flashy", 
-"mti_armoury_commando_uniform_Valor", 
-"mti_armoury_commando_uniform_Hex", 
-"mti_armoury_commando_uniform_Akeno", 
-"mti_armoury_commando_uniform_Zyys", 
-"mti_armoury_commando_uniform_Ark", 
-"mti_armoury_commando_uniform_Stuka", 
-"mti_armoury_commando_uniform_Bevin", 
-"mti_armoury_commando_uniform_Mokka", 
-"mti_armoury_commando_uniform_Celt"
+"mti_armoury_trooper_uniform_Mist"
 ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
@@ -266,43 +230,7 @@ if (_hasApex) then {_dlcUniforms append []};
 "mti_armoury_trooper_helmet_Prussia", 
 "mti_armoury_trooper_helmet_Tec", 
 "mti_armoury_trooper_helmet_Jeff", 
-"mti_armoury_trooper_helmet_Mads",
-"mti_armoury_commando_helmet_Draco",
-"mti_armoury_commando_helmet_Nightwolf", 
-"mti_armoury_commando_helmet_Daycare", 
-"mti_armoury_commando_helmet_Val", 
-"mti_armoury_commando_helmet_Baboon", 
-"mti_armoury_commando_helmet_Dxon", 
-"mti_armoury_commando_helmet_Klepto", 
-"mti_armoury_commando_helmet_Leer", 
-"mti_armoury_commando_helmet_Shoto", 
-"mti_armoury_commando_helmet_Sparrow", 
-"mti_armoury_commando_helmet_Karrazim", 
-"mti_armoury_commando_helmet_Bezzy", 
-"mti_armoury_commando_helmet_Rented", 
-"mti_armoury_commando_helmet_Val", 
-"mti_armoury_commando_helmet_Noble", 
-"mti_armoury_commando_helmet_Vill", 
-"mti_armoury_commando_helmet_Rat", 
-"mti_armoury_commando_helmet_Noir", 
-"mti_armoury_commando_helmet_Lich", 
-"mti_armoury_commando_helmet_Smig", 
-"mti_armoury_commando_helmet_Duck", 
-"mti_armoury_commando_helmet_Hacks", 
-"mti_armoury_commando_helmet_Set", 
-"mti_armoury_commando_helmet_Falcon", 
-"mti_armoury_commando_helmet_Lucks", 
-"mti_armoury_commando_helmet_Glide", 
-"mti_armoury_commando_helmet_Flashy", 
-"mti_armoury_commando_helmet_Valor", 
-"mti_armoury_commando_helmet_Hex", 
-"mti_armoury_commando_helmet_Akeno", 
-"mti_armoury_commando_helmet_Zyys", 
-"mti_armoury_commando_helmet_Ark", 
-"mti_armoury_commando_helmet_Stuka", 
-"mti_armoury_commando_helmet_Bevin", 
-"mti_armoury_commando_helmet_Mokka", 
-"mti_armoury_commando_helmet_Celt"
+"mti_armoury_trooper_helmet_Mads"
 ]] call _fnc_saveToTemplate;          //Headgear used by Rebel AI until you have Armored Headgear.
 
 /////////////////////

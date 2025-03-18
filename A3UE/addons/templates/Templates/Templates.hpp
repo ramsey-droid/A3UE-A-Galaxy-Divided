@@ -74,11 +74,11 @@ class Templates
         basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Reb"; // Inv, Occ, Reb, Riv, Civ
         flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
-        name = "[SOB] Basic"; // Name shown in the select menu.
+        name = "[SOB] Beginner"; // Name shown in the select menu.
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "Perfect for new players - Provides some base weapons for the SOB - And all custom armours of the playerbase"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "Perfect for new players - Provides some base weapons for the SOB, NVG, Radio and RTO - And all custom armours of the playerbase. Good for introducing people to the basics of Antistasi, but not the best Antistasi experience per say. This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
     class CIS : Vanilla_Base
@@ -188,6 +188,42 @@ class Templates
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         description = "A highly armoured mercenary group, with a thirst for blood"; // If this isn't included, no description will show (unless inherited from the base class.)
     }
+
+    class GAR : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Inv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "ls_statics_props\flags\data\flag_republic.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Galactic Republic"; // Name shown in the select menu.
+        file = "GAR"; // The template file name - .sqf, that gets appended automatically.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        description = "How did we get here..."; // If this isn't included, no description will show (unless inherited from the base class.)
+    }
+
+    class SOBP2 : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Basic (P2)"; // Name shown in the select menu.
+        file = "SOBP2"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "Phase 2 Trooper only from the Start. Access to SR, No backpack, start with only a pistol and a personal aid kit - You have access to your custom P2 Armours"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class SOBH : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "\z\mti\addons\common\data\SOB_Flag_Grey.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Hardcore"; // Name shown in the select menu.
+        file = "SOBH"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "You start with nothing but a baseball bat and a dream..."; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
 };
 
 
