@@ -126,7 +126,6 @@
 			ITEM(ItemGPS, 0, NN_STOCK);
 			ITEM(JLTS_clone_comlink, 0, NN_STOCK);
 			ITEM(JLTS_CloneBinocular_black, 50, NN_STOCK);
-			ITEM(JLTS_CloneBinocular_black, 50, NN_STOCK);
 
 			ITEM(NVGoggles, 180, NN_STOCK);
 			ITEM(mti_armoury_trooper_nvg_Chip, 750, NN_STOCK);
