@@ -552,4 +552,3449 @@
 		{
 			displayName = __EVAL(formatText ["%1 %2", localize "STR_A3AU_Vanilla", localize "STR_A3AU_misc"]);
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
+
+			class mti_armoury_arc_uniform_Arcanist {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Rat {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Shields {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Ones {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Saber {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Falcon {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Ghost {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Chimera {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Kev {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Leer {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Hex {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Malice {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Beviin {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Xarl {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Xetor {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Spooks {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Loken {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Bezzy {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Beems {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Miller {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Leer {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Besh {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Loki {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Maroon {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Potato {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Sig {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Storyz {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Rented {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Oneshot {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Spyro {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Ramsey {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Dxon {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Odin {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Dust {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Mist {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Sin {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Spider {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Killa {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Short {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Jitters {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Nightwolf {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Xiao {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Sparrow {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Blurr {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Dad {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Dimi {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_J3ff {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_uniform_Tec {
+				price = 300;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Draco {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Nightwolf {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Daycare {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Val {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Baboon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Dxon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Leer {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Shoto {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Sparrow {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Karrazim {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Bezzy {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Rented {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Noble {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Vill {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Rat {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Noir {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Lich {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Smig {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Duck {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Set {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Falcon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Lucks {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Glide {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Flashy {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Valor {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Hex {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Akeno {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Zyys {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Ark {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Stuka {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Beviin {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Mokka {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Celt {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Klepto {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_base {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Cadet {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_eod {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_sniper {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_tech {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_sl {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_exotic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_medic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_heavy {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Arctic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Desert {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Jungle {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_uniform_Night {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Cadet {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Medic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_EOD {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Trooper {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Siege {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Tec {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Monarch {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_J3ff {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Prussia {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Sparrow {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Mads {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Storyz {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Nova {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Max {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Iris {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Haunt {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Schmootz {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_uniform_Kinetic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_assassin {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Jakub {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Spiring {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Stec {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Dagger {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Cruiser {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Anubis {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Yoshi {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Templar {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Asriel {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Spider {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Lost {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Premade {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_shadow {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Ghost {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Saber {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_uniform_Hail {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_mags {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Tyr {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Haunt {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Maple {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Bere {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Fenrir {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Stuka {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Ark {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Pariah {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Akeno {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Trooper {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_uniform_Medic {
+				price = 250;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CR {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CT {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CT_EOD {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CT_Medic {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_SCT {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_SCT_EOD {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_SCT_Medic {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_VCT {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_VCT_EOD {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_VCT_Medic {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CSP {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CSP_EOD {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CSP_Medic {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CLC {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CLC_EOD {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CLC_Medic {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CS {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CSM {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_CL {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Mokka {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_mc_Rat {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Scorch {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Pyro {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Shiro {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Ark {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_STUKA {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Akeno {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Zyys {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Arcanist {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_War {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Leer {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Kix {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Gonk {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Glide {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Pariah {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Saber {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Lucks {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Spyro {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Storyz {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Maroon {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Dust {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Otter {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Anchor {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Dox {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Spectre {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Sparrow {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Beviin {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Anubis {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Loken {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Karrazim {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Fenrir {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Xarl {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Yoshi {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Kyle {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Loki {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Slothem {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Sin {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Noir {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Lich {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Blurr {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Hex {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_uniform_Mist {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX_C {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX_X {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX_P {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX_S {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_CX_O {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Murdoc {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Ark {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Spyro {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Hancock {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Beems {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Bezzy {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Marine {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Yoshi {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_uniform_Zyys {
+				price = 200;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_CR {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_CT {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_CT_EOD {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_CT_Medic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_SCT {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Mokka {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_mc_Rat {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Pariah {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Templar {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Duck {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Ghost {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Glide {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Saber {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Lucks {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Xetor {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Scorch {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_bsj {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Dad {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Arcanist {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Leer {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Shoto {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Gonk {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Mist {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Noir {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Falcon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Ark {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_STUKA {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Akeno {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Zyys {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Pyro {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Shiro {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_War {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Kix {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Sin {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Vill {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Spring {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Kyle {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Beems {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Xarl {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Yoshi {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Noble {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Bezzy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Hex {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Blurr {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Anchor {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_mags {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Rented {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Miller {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Dust {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Schmootz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Lich {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Slothem {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Sicko {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Storyz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Loki {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Fenrir {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Dox {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Maroon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Sig {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Cruiser {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Monarch {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Karrazim {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Spyro {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Spider {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Dxon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Loken {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Anubis {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Siege {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Sparrow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Spectre {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Short {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Asriel {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Cuddler {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Jitters {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Otter {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Prussia {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Tec {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Jeff {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_helmet_Mads {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX_C {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX_X {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX_P {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX_S {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_CX_O {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Murdoc {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Ark {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Spyro {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Hancock {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Beems {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Bezzy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Marine {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Yoshi {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_helmet_Zyys {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Draco {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Nightwolf {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Daycare {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Val {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Baboon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Dxon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Klepto {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Leer {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Shoto {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Sparrow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Karrazim {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Bezzy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Rented {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Val {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Noble {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Vill {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Rat {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Noir {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Lich {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Smig {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Duck {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Hacks {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Set {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Falcon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Lucks {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Glide {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Flashy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Valor {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Hex {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Akeno {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Zyys {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Ark {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Stuka {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Mokka {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Celt {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Leer {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Shoto {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Dragoon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Miller {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Dust {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Murdoc {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Beems {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Kyle {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Besh {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Tippers {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Stec {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Mist {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Kalma {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Sig {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Storyz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Potato {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Slothem {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Spider {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Izuu {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Loken {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Bow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Schmootz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Anchor {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Dox {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Puck {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Short {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Sid {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Wolfen {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Cuddler {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Sicko {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Yoshi {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Abu {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Mads {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Catch {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Scrump {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Donnie {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Mig {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Graaz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Dad {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_General {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Arcanist {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Rat {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Shields {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Ones {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Saber {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Falcon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Ghost {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Chimera {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Kev {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Leer {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Hex {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Malice {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Beviin {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Xarl {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Xetor {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Spooks {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Loken {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Bezzy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Beems {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Miller {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Leer {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Besh {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Loki {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Maroon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Potato {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Sig {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Storyz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Rented {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Oneshot {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Spyro {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Ramsey {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Dxon {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Odin {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Dust {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Mist {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Sin {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Spider {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Killa {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Short {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Jitters {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Nightwolf {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Xiao {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Sparrow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Blurr {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Dad {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Dimi {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_J3ff {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Tec {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_helmet_Prussia {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_base {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Cadet {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_eod {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_sniper {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_tech {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_sl {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_exotic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_medic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_heavy {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Arctic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Desert {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Jungle {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_helmet_Night {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Cadet {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Medic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_EOD {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Trooper {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Siege {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Tec {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Monarch {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_J3ff {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Prussia {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Sparrow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Mads {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Storyz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Nova {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Max {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Iris {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Haunt {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Schmootz {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_helmet_Kinetic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_assassin {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Jakub {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Spiring {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Stec {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Dagger {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Cruiser {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Anubis {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Yoshi {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Templar {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Asriel {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Spider {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Lost {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Premade {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_shadow {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Ghost {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Saber {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_helmet_Hail {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_mags {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Tyr {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Haunt {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Maple {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Bere {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Fenrir {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Stuka {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Ark {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Pariah {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Akeno {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Trooper {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_helmet_Medic {
+				price = 350;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_backpack_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_backpack_base_noBracer {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_backpack_assassin_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_backpack_assassin_RTO_pack {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_backpack_Jumppack_Rat {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_backpack_sp_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_backpack_sp_xray {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_backpack_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_backpack_RTO {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_backpack_RTO_Clear {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_backpack_JT12 {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_backpack_fsb {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_backpack_fsb_trooper {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_backpack_fsb_medic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Cadet {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Medic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_EOD {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_TL {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_SL {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Bezzy {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Arcanist {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Sparrow {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Mads {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Storyz {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Nova {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Max {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Iris {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Haunt {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Schmootz {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_backpack_Kinetic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_base {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Cadet {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_eod {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_sniper {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_tech {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_sl {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_exotic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_medic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_heavy {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Arctic {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Desert {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Jungle {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Night {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Draco {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Nightwolf {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Daycare {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Val {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Baboon {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Dxon {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Klepto {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Shoto {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Sparrow {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Karrazim {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Bezzy {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Rented {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Val {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Noble {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Vill {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Rat {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Noir {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Lich {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Smig {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Duck {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Hacks {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Set {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Falcon {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Lucks {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Glide {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Flashy {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Valor {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Hex {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Akeno {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Zyys {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Ark {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Stuka {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Beviin {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_tech_Mokka {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_rto_celt {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Klepto {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Leer {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Shoto {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Dragoon {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Miller {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Dust {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Murdoc {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Beems {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Kyle {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Besh {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Tippers {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Stec {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Mist {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Kalma {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Sig {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Storyz {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Potato {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Slothem {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Spider {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Izuu {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Loken {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Bow {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Schmootz {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Anchor {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Dox {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Puck {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Short {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Sid {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Wolfen {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Cuddler {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Sicko {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Yoshi {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Abu {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Mads {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Catch {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Scrump {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Donnie {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Mig {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Graaz {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_Dad {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_backpack_General {
+				price = 900;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_cadet {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_trooper {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_demo {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_medic {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_tl {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_sl {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Spooks {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Saber {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Falcon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Ones {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Ghost {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Hex {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Kev {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Chimera {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Loken {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Leer {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Loki {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Dxon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Maroon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Spyro {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Ramsey {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Dust {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Sin {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_Nightwolf {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_alpha_Bezzy {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_alpha_Spider {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_alpha_Sig {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_alpha_Rented {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_arc_vest_alpha_Celt {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Arcanist {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_CompanyCommand {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Kix {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Noir {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Pariah {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_War {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_cp {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Leer {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Maroon {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Saber {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Storyz {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_vest_Gonk {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_CLC {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Mokka {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_mc {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_pilot_vest_Zyys {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_PlatoonCommand {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Kyle {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Lich {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Loken {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Slothem {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Zyys {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Loki {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_trooper_vest_Spider {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_vest_Pariah {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_fieldsupport_vest_Ark {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_vest_base {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_vest_Cadet {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_vest_Medic {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_vest_EOD {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_jumptrooper_vest_NCO {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_base {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_Cadet {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_eod {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_sniper {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_tech_black {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_commando_vest_sl {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_base {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_csp {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_clc {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_cp {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_cs {
+				price = 600;
+				stock = MISC_STOCK;
+			};
+
+			class mti_armoury_covertops_vest_shadow_command {
+				price = 600;
+				stock = MISC_STOCK;
+			};
 		};
