@@ -10,7 +10,7 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {QDOUBLES(PREFIX,core)};
         author = AUTHOR;
-        authors[] = { AUTHORS };
+        authors[] = { "Ramsey" };
         authorUrl = "";
         VERSION_CONFIG;
     };

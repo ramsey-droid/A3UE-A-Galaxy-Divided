@@ -1,5 +1,8 @@
-name = "A3 Antistasi Ultimate Extender example";
-author = "A3-Antistasi dev team, A3-Antistasi Ultimate dev team";
-tooltip = "Antistasi Ultimate Extender example";
-actionName = "GitHub";
-action = "https://github.com/Westalgie/A3UExtender"
+name="Ramsey's SOB Antistasi";
+author="Ramsey";
+picture="z\mti\addons\common\data\moktech_industries_logo.paa";
+overview="SOB is a starsim unit centered around Republic Commandos, ARCs, Assassins and Shadow Troopers; and most systems provided by this mod cater to that playstyle, specifically.";
+actionName="Discord";
+action="https://discord.gg/Pu2gdBd7Te";
+hidePicture=0;
+hideName=0;
