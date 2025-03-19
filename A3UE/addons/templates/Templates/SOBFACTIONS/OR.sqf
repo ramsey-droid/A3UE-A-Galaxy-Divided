@@ -15,7 +15,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["flag", ""] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
 ["flagTexture", "ls_statics_props\flags\data\flag_repNavy.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "JLTS_flag_Navy"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "OR"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //

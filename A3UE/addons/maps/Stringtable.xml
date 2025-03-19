@@ -8,10 +8,10 @@
     </Container>
     <Container name="mission_info">
       <Key ID="STR_A3UE_maps_Altis_mapname_short">
-        <Original>Antistasi Altis Extender Overwritten map</Original>
+        <Original>Ramsey Dev Antistasi Altis</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Altis_mapname">
-        <Original>Antistasi - Liberation of Altis Extender Overwritten map</Original>
+        <Original>Ramsey's Antistasi - Dev</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Altis_description">
         <Original>Fuck some shit up on a overwritten map</Original>
@@ -21,16 +21,16 @@
       </Key>
 
       <Key ID="STR_A3UE_maps_Other_Altis_mapname_short">
-        <Original>Antistasi Altis Extender New map</Original>
+        <Original>[SOB] Altis Antistasi</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_mapname">
-        <Original>Antistasi - Liberation of Altis Extender New map</Original>
+        <Original>[SOB] Altis Antistasi</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_description">
-        <Original>Fuck some shit up on a new map</Original>
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_loadText">
-        <Original>Because nothing is more important than fun. on a new map</Original>
+        <Original>Lock and Load in - For the Republic</Original>
       </Key>
     </Container>
   </Package>
