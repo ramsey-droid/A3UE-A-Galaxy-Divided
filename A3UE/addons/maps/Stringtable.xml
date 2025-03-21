@@ -27,9 +27,61 @@
         <Original>[SOB] Altis Antistasi</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB</Original>
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_loadText">
+        <Original>Lock and Load in - For the Republic</Original>
+      </Key>
+
+      <Key ID="STR_A3UE_maps_Madrigal_mapname_short">
+        <Original>[SOB] Madrigal Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Madrigal_mapname">
+        <Original>[SOB] Madrigal Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Madrigal_description">
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Madrigal_loadText">
+        <Original>Lock and Load in - For the Republic</Original>
+      </Key>
+
+      <Key ID="STR_A3UE_maps_Abramia_mapname_short">
+        <Original>[SOB] Isla Abramia Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Abramia_mapname">
+        <Original>[SOB] Isla Abramia Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Abramia_description">
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Abramia_loadText">
+        <Original>Lock and Load in - For the Republic</Original>
+      </Key>
+
+      <Key ID="STR_A3UE_maps_sara_mapname_short">
+        <Original>[SOB] Sahrani Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_sara_mapname">
+        <Original>[SOB] Sahrani Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_sara_description">
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_sara_loadText">
+        <Original>Lock and Load in - For the Republic</Original>
+      </Key>
+
+      <Key ID="STR_A3UE_maps_Virolahti_mapname_short">
+        <Original>[SOB] Virolahti Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Virolahti_mapname">
+        <Original>[SOB] Virolahti Antistasi</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Virolahti_description">
+        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
+      </Key>
+      <Key ID="STR_A3UE_maps_Virolahti_loadText">
         <Original>Lock and Load in - For the Republic</Original>
       </Key>
     </Container>
