@@ -130,7 +130,7 @@ class Templates
         name = "[SOB] Ultra Nightmare!"; // Name shown in the select menu.
         file = "SOBH"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "You start with nothing and cant purchase vehicles - You'll have to gather everything - It's nothing but you, a baseball bat and a dream..."; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
@@ -142,7 +142,7 @@ class Templates
         name = "[SOB] Nightmare"; // Name shown in the select menu.
         file = "SOBP2"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "Phase 2 Trooper only from the Start. Access to SR, No backpack, start with only a pistol and a personal aid kit - You have access to your custom P2 Armours"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
@@ -202,7 +202,7 @@ class Templates
         name = "[SOB] Heroic"; // Name shown in the select menu.
         file = "SOBHARD"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "Start with specialized uniform and SR, but no Helmet, vest, backpack, rifles or LR - For veterans of Antistasi"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
@@ -214,7 +214,7 @@ class Templates
         name = "[SOB] Normal"; // Name shown in the select menu.
         file = "SOBBASIC"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "Start with specialized armour and SR, but no backpack, rifles or LR - An ideal Antistasi experience"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 
@@ -226,7 +226,7 @@ class Templates
         name = "[SOB] Beginner"; // Name shown in the select menu.
         file = "SOB"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
-        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "Perfect for players new to antistasi - Provides Starter weapons for Specialised units and gives access to specialised armour, NVGs, radio and RTO - This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 };
