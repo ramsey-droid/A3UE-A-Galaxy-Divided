@@ -11,7 +11,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["name", "Special Operations Brigade"] call _fnc_saveToTemplate;
 
-["flag", ""] call _fnc_saveToTemplate;
+["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\z\mti\addons\common\data\SOB_Flag_Grey.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
@@ -51,7 +51,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
-["lootCrate", ""] call _fnc_saveToTemplate;
+["lootCrate", "mti_supplies_Servicing"] call _fnc_saveToTemplate;
 ["rallyPoint", ""] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
