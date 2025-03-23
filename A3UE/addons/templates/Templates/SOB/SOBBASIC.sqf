@@ -11,7 +11,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["name", "Special Operations Brigade"] call _fnc_saveToTemplate;
 
-["flag", ""] call _fnc_saveToTemplate;
+["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\z\mti\addons\common\data\SOB_Flag_Grey.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
@@ -36,7 +36,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["staticMGs", ["MTI_UST_Turret", "MTI_HeavyRepeater", "MTI_BlasterTurret"]] call _fnc_saveToTemplate;
 ["staticAT", ["OPTRE_Static_ATGM"]] call _fnc_saveToTemplate;
-["staticAA", ["3AS_Keeradak_F", "3AS_Venator_Cannon_Small"]] call _fnc_saveToTemplate;
+["staticAA", ["OPTRE_Static_AA"]] call _fnc_saveToTemplate;
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", ["MTI_Red_HE_Mag"]] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", ["3AS_8Rnd_82mm_Mo_Smoke_white"]] call _fnc_saveToTemplate;
@@ -51,8 +51,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
-["lootCrate", ""] call _fnc_saveToTemplate;
-["rallyPoint", ""] call _fnc_saveToTemplate;
+["lootCrate", "mti_supplies_Servicing"] call _fnc_saveToTemplate;
+["rallyPoint", "MTI_Flag"] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
 ["animations", [

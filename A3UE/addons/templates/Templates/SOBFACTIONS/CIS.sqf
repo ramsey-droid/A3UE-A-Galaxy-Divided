@@ -13,7 +13,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "CIS"] call _fnc_saveToTemplate; 						//this line determines the faction name -- Example: ["name", "NATO"] - ENTER ONLY ONE OPTION
 ["spawnMarkerName", format [localize "STR_supportcorridor", "CIS"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
-["flag", ""] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
+["flag", "Flag_NATO_F"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
 ["flagTexture", "ls_statics_props\flags\data\flag_cis.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
 ["flagMarkerType", "JLTS_flag_CIS"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
@@ -164,9 +164,9 @@ _loadoutData set ["signalsmokeGrenades", ["SmokeShellYellow", "SmokeShellRed", "
 _loadoutData set ["maps", ["ItemMap"]];				//this line determines map
 _loadoutData set ["watches", ["ItemWatch"]];		//this line determines watch
 _loadoutData set ["compasses", ["ItemCompass"]];	//this line determines compass
-_loadoutData set ["radios", ["ItemRadio"]];			//this line determines radio
+_loadoutData set ["radios", ["JLTS_droid_comlink"]];			//this line determines radio
 _loadoutData set ["gpses", ["ItemGPS"]];			//this line determines GPS
-_loadoutData set ["NVGs", ["NVGoggles_INDEP"]];						//this line determines NVGs -- Array, can contain multiple assets
+_loadoutData set ["NVGs", ["mti_armoury_trooper_nvg_Chip"]];						//this line determines NVGs -- Array, can contain multiple assets
 _loadoutData set ["binoculars", ["Binocular"]];		//this line determines the binoculars
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
