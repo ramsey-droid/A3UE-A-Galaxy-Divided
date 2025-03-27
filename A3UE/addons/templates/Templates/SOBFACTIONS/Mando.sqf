@@ -48,8 +48,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesPlanesAA", ["mti_factions_mando_Vwing"]] call _fnc_saveToTemplate; 			//this line determines air superiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
 ["vehiclesPlanesTransport", ["mti_factions_mando_LAAT"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
 
-["vehiclesHelisLight", ["MTI_LAATLE_LAG", "MTI_LAATle_Gunship"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
-["vehiclesHelisTransport", ["3AS_LAAT_Mk1_Imperial"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisLight", ["OPTRE_UNSC_MH_144S_Falcon", "MTI_LAATle_Gunship"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisTransport", ["3AS_LAAT_Mk1_Imperial", "OPTRE_UNSC_falcon_armed_S", "OPTRE_UNSC_MH_144_Falcon"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisLightAttack", ["3AS_LAAT_Mk2_Imperial"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
 ["vehiclesHelisAttack", ["3AS_LAAT_Mk2_Imperial"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
 
@@ -179,7 +179,7 @@ _loadoutData set ["officerVests", ["tgf_armour_forgemaster_armour"]];			//this l
 _loadoutData set ["officerHats", ["tgf_helmets_forgemaster"]];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["slUniforms", []];
+_loadoutData set ["slUniforms", ["tgf_undersuit_uniform_black"]];
 _loadoutData set ["vests", []];						//don't fill this line - this is only to set the variable
 _loadoutData set ["Hvests", []];
 _loadoutData set ["sniVests", []];
@@ -187,7 +187,7 @@ _loadoutData set ["backpacks", []];					//don't fill this line - this is only to
 _loadoutData set ["longRangeRadios", ["tgf_backpacks_Z6"]];
 _loadoutData set ["atBackpacks", ["tgf_backpacks_Z6"]];
 _loadoutData set ["helmets", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["slHat", ["tgf_helmets_avenger_helmet"]];
+_loadoutData set ["slHat", ["tgf_helmets_avenger_helmet", "tgf_helmets_gar_saxon"]];
 _loadoutData set ["sniHats", ["tgf_helmets_heritage"]];
 
 _loadoutData set ["glasses", ["tgf_facewear_arbiter_belt", "tgf_facewear_forgemaster_belt", "tgf_facewear_avenger_belt"]];	//cosmetics
@@ -389,7 +389,7 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black", "tgf_undersuit_uniform_dark_blue", "tgf_undersuit_uniform_dark_blue_seal"]];
+_militaryLoadoutData set ["uniforms", ["tgf_undersuit_uniform_black", "tgf_undersuit_uniform_dark_blue", "tgf_undersuit_uniform_dark_blue_seal", "tgf_undersuit_uniform_male_neo"]];
 _militaryLoadoutData set ["slUniforms", ["tgf_undersuit_uniform_boba"]];
 _militaryLoadoutData set ["vests", ["tgf_armour_battle_armour"]];
 _militaryLoadoutData set ["Hvests", ["tgf_armour_heavy_armour"]];
@@ -555,7 +555,7 @@ private _squadLeaderTemplate = {
     [selectRandomWeighted ["helmets", 2, "slHat", 1]] call _fnc_setHelmet;
     [selectRandomWeighted [[], 2, "glasses", 0.75, "goggles", 0.5]] call _fnc_setFacewear;
     [["Hvests", "vests"] call _fnc_fallback] call _fnc_setVest;
-    [["slUniforms", "uniforms"] call _fnc_fallback] call _fnc_setUniform;
+    [["slUniforms"] call _fnc_fallback] call _fnc_setUniform;
 
     [["slRifles", "rifles"] call _fnc_fallback] call _fnc_setPrimary;
     ["primary", 6] call _fnc_addMagazines;

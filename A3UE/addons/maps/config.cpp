@@ -39,22 +39,32 @@ class CfgMissions
         class SOB_Madrigal_Antistasi
         {
             briefingName = $STR_A3UE_maps_Madrigal_mapname;
-            directory = QCPATHTO(Antistasi_OPTRE_Madrigal.OPTRE_Madrigal);
+            directory = QCPATHTO(SOB_Madrigal_Antistasi.OPTRE_Madrigal);
         };
         class SOB_Abramia_Antistasi
         {
             briefingName = $STR_A3UE_maps_Abramia_mapname;
-            directory = QCPATHTO(Antistasi_abramia.abramia);
+            directory = QCPATHTO(SOB_abramia_Antistasi.abramia);
         };
         class SOB_Vt7_Antistasi
         {
             briefingName = $STR_A3UE_maps_Virolahti_mapname;
-            directory = QCPATHTO(Antistasi_vt7.vt7);
+            directory = QCPATHTO(SOB_Virolahti_Antistasi.vt7);
         };
         class SOB_sara_Antistasi
         {
             briefingName = $STR_A3UE_maps_sara_mapname;
-            directory = QCPATHTO(Antistasi_sara.sara);
+            directory = QCPATHTO(SOB_sahrani_Antistasi.sara);
+        };
+        class SOB_lythium_Antistasi
+        {
+            briefingName = $STR_A3UE_maps_Lythium_mapname;
+            directory = QCPATHTO(SOB_Lythium_Antistasi.Lythium);
+        };
+        class SOB_kapulio_Antistasi
+        {
+            briefingName = $STR_A3UE_maps_Kapaulio_mapname;
+            directory = QCPATHTO(SOB_Kapaulio_Antistasi.Kapaulio);
         };
     };
 };

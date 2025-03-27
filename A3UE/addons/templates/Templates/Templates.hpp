@@ -78,7 +78,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Inv"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = "ls_statics_props\flags\data\flag_imp.paa"; // Path to an icon to be displayed in the select menu.
+        flagTexture = "\A3\Data_F\Flags\flag_ion_CO.paa"; // Path to an icon to be displayed in the select menu.
         name = "[SOB] Intergalactic Omnitech Nexus"; // Name shown in the select menu.
         file = "ION"; // The template file name - .sqf, that gets appended automatically.
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
@@ -228,6 +228,43 @@ class Templates
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
         description = "Perfect for players new to antistasi - Provides Starter weapons for Specialised units and gives access to specialised armour, NVGs, radio and RTO - This is easy mode"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class Dev : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOB); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Templates\Flags\UltraNightmareFlag.paa); // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Rise of the Clone Rebellion"; // Name shown in the select menu.
+        file = "DEV"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        description = "Test"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class CIV : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOBRIVALS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Civ"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Templates\Flags\EasyFlag.paa); // Path to an icon to be displayed in the select menu.
+        name = "[SOB] Civvies"; // Name shown in the select menu.
+        file = "CIV"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        description = "Test"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+
+    class CISD : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\SOBFACTIONS); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Inv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = "ls_statics_props\flags\data\flag_cis.paa"; // Path to an icon to be displayed in the select menu.
+        name = "[SOB] CIS [Desert]"; // Name shown in the select menu.
+        file = "CISD"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate", "arctic", "tropical"}; // climate that the template can be selected on.
+        description = "Test"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
 };
 
