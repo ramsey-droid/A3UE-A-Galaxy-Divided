@@ -16,27 +16,27 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["3AS_ISP_Transport", "MTI_Barc"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", []] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["a3a_C_Heli_Transport_02_F", "a3a_C_Heli_Light_02_blue_F", "C_Heli_Light_01_civil_F"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["MTI_MUTT_L", "MTI_MUTT_I"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["MTI_TX130", "MTI_TX130_Recon", "MTI_TX130_Super", "MTI_ATAP", "MTI_ATTE", "MTI_ATTE_Super", "MTI_UTAT", "MTI_Juggernaut"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["MTI_MUTT_L", "MTI_MUTT_I"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["a3a_C_Heli_Transport_02_F", "a3a_C_Heli_Light_02_blue_F", "C_Heli_Light_01_civil_F", "OPTRE_UNSC_MH_144_Falcon"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["B_Truck_01_covered_F"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["MTI_PX10_Armored", "I_G_Offroad_01_AT_F", "MTI_TX130_Recon"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["MTI_RX200"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["optre_catfish_aa_f", "optre_catfish_atgm_f", "optre_catfish_gauss_f", "optre_catfish_mg_f"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["MTI_LAATi_Base", "MTI_LAATle_Gunship", "MTI_LAATi_Mk2", "MTI_nuclass", "MTI_RhoCLass", "MTI_LAATle_Stealth", "MTI_LAATs", "MTI_arc_170", "MTI_BTLB", "MTI_Delta7_Base", "MTI_Vwing", "MTI_Z95"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["MTI_Delta7_Base", "MTI_Vwing", "MTI_Z95"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["MTI_Barc_Stretcher"]] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["C_Offroad_01_F", "OPTRE_M12_CIV2"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["C_Truck_02_covered_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivHeli", ["a3a_C_Heli_Transport_02_F", "a3a_C_Heli_Light_02_blue_F", "C_Heli_Light_01_civil_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["C_Rubberboat", "C_Boat_Civil_01_F"]] call _fnc_saveToTemplate;
-["vehiclesCivPlane", ["C_Plane_Civil_01_F", "3AS_Aegis_Carrier_Civ_Blue"]] call _fnc_saveToTemplate;
-["vehiclesCivSupply", ["a3a_Van_02_black_vehicle_F"]] call _fnc_saveToTemplate;
+["vehiclesCivPlane", ["C_Plane_Civil_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivSupply", ["C_Van_01_box_F"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["MTI_UST_Turret", "MTI_HeavyRepeater", "MTI_BlasterTurret"]] call _fnc_saveToTemplate;
 ["staticAT", ["OPTRE_Static_ATGM"]] call _fnc_saveToTemplate;
-["staticAA", ["3AS_Keeradak_F", "3AS_Venator_Cannon_Small"]] call _fnc_saveToTemplate;
+["staticAA", ["3AS_Keeradak_F", "OPTRE_Static_AA"]] call _fnc_saveToTemplate;
 ["staticMortars", ["mti_factions_cis_mortar"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", ["MTI_Red_HE_Mag"]] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", ["3AS_8Rnd_82mm_Mo_Smoke_white"]] call _fnc_saveToTemplate;
@@ -52,7 +52,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //////////////////////////////////////
 
 ["lootCrate", "mti_supplies_Servicing"] call _fnc_saveToTemplate;
-["rallyPoint", ""] call _fnc_saveToTemplate;
+["rallyPoint", "SFA_GonkFatherMeme"] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
 ["animations", [

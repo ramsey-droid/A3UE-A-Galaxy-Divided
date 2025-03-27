@@ -1,2 +1,3 @@
 #define COMPONENT core
-#include "Includes\script_mod.hpp"
+#include "\x\A3UE\addons\core\Includes\script_mod.hpp"
+

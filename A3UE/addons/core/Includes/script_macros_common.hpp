@@ -1025,3 +1025,5 @@ Author:
 ------------------------------------------- */
 #define IS_ADMIN_LOGGED_SYS(x) x##shutdown
 #define IS_ADMIN_LOGGED serverCommandAvailable 'IS_ADMIN_LOGGED_SYS(#)'
+
+#define COMPILE_SCRIPT(var1) compileScript ['PATHTO_SYS(PREFIX,COMPONENT_F,var1)']
