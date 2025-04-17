@@ -61,10 +61,15 @@ class CfgMissions
             briefingName = $STR_A3UE_maps_Lythium_mapname;
             directory = QCPATHTO(SOB_Lythium_Antistasi.Lythium);
         };
-        class SOB_kapulio_Antistasi
+        class SOB_Kapaulio_Antistasi
         {
             briefingName = $STR_A3UE_maps_Kapaulio_mapname;
             directory = QCPATHTO(SOB_Kapaulio_Antistasi.Kapaulio);
+        };
+        class SOB_Mehland_Antistasi
+        {
+            briefingName = $STR_A3UE_maps_Other_Altis_mapname;
+            directory = QCPATHTO(Antistasi_Other_mehland.mehland);
         };
     };
 };

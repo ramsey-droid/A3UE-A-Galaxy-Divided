@@ -21,16 +21,16 @@
       </Key>
 
       <Key ID="STR_A3UE_maps_Other_Altis_mapname_short">
-        <Original>[SOB] Altis Antistasi</Original>
+        <Original>[SOB] Easter Antistasi</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_mapname">
-        <Original>[SOB] Altis Antistasi</Original>
+        <Original>[SOB] Easter Antistasi </Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_description">
         <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
+        <Original>Lock and Load in </Original>
       </Key>
 
       <Key ID="STR_A3UE_maps_Madrigal_mapname_short">
@@ -99,7 +99,7 @@
       </Key>
 
       <Key ID="STR_A3UE_maps_Kapaulio_mapname_short">
-        <Original>[SOB] Kapulio Antistasi</Original>
+        <Original>[SOB] Kapaulio Antistasi</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Kapaulio_mapname">
         <Original>[SOB] Rise of the Empire Antistasi</Original>
