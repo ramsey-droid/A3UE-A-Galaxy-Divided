@@ -46,11 +46,6 @@ class CfgMissions
             briefingName = $STR_A3UE_maps_Abramia_mapname;
             directory = QCPATHTO(SOB_abramia_Antistasi.abramia);
         };
-        class SOB_Vt7_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Virolahti_mapname;
-            directory = QCPATHTO(SOB_Virolahti_Antistasi.vt7);
-        };
         class SOB_sara_Antistasi
         {
             briefingName = $STR_A3UE_maps_sara_mapname;
@@ -60,11 +55,6 @@ class CfgMissions
         {
             briefingName = $STR_A3UE_maps_Lythium_mapname;
             directory = QCPATHTO(SOB_Lythium_Antistasi.Lythium);
-        };
-        class SOB_Kapaulio_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Kapaulio_mapname;
-            directory = QCPATHTO(SOB_Kapaulio_Antistasi.Kapaulio);
         };
         class SOB_Mehland_Antistasi
         {
