@@ -36,30 +36,5 @@ class CfgMissions
             briefingName = $STR_A3UE_maps_Other_Altis_mapname;
             directory = QCPATHTO(Antistasi_Other_Altis.Altis);
         };
-        class SOB_Madrigal_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Madrigal_mapname;
-            directory = QCPATHTO(SOB_Madrigal_Antistasi.OPTRE_Madrigal);
-        };
-        class SOB_Abramia_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Abramia_mapname;
-            directory = QCPATHTO(SOB_abramia_Antistasi.abramia);
-        };
-        class SOB_sara_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_sara_mapname;
-            directory = QCPATHTO(SOB_sahrani_Antistasi.sara);
-        };
-        class SOB_lythium_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Lythium_mapname;
-            directory = QCPATHTO(SOB_Lythium_Antistasi.Lythium);
-        };
-        class SOB_Mehland_Antistasi
-        {
-            briefingName = $STR_A3UE_maps_Other_Altis_mapname;
-            directory = QCPATHTO(Antistasi_Other_mehland.mehland);
-        };
     };
 };

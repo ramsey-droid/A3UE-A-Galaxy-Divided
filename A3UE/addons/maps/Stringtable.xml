@@ -8,10 +8,10 @@
     </Container>
     <Container name="mission_info">
       <Key ID="STR_A3UE_maps_Altis_mapname_short">
-        <Original>Ramsey Dev Antistasi Altis</Original>
+        <Original>Antistasi Altis Extender Overwritten map</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Altis_mapname">
-        <Original>Ramsey's Antistasi - Dev</Original>
+        <Original>Antistasi - Liberation of Altis Extender Overwritten map</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Altis_description">
         <Original>Fuck some shit up on a overwritten map</Original>
@@ -21,94 +21,16 @@
       </Key>
 
       <Key ID="STR_A3UE_maps_Other_Altis_mapname_short">
-        <Original>[SOB] Easter Antistasi</Original>
+        <Original>Antistasi Altis Extender New map</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_mapname">
-        <Original>[SOB] Easter Antistasi </Original>
+        <Original>Antistasi - Liberation of Altis Extender New map</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
+        <Original>Fuck some shit up on a new map</Original>
       </Key>
       <Key ID="STR_A3UE_maps_Other_Altis_loadText">
-        <Original>Lock and Load in </Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_Madrigal_mapname_short">
-        <Original>[SOB] Madrigal Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Madrigal_mapname">
-        <Original>[SOB] Madrigal Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Madrigal_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Madrigal_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_Abramia_mapname_short">
-        <Original>[SOB] Isla Abramia Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Abramia_mapname">
-        <Original>[SOB] Isla Abramia Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Abramia_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Abramia_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_sara_mapname_short">
-        <Original>[SOB] Sahrani Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_sara_mapname">
-        <Original>[SOB] Sahrani Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_sara_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_sara_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_Virolahti_mapname_short">
-        <Original>[SOB] Virolahti Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Virolahti_mapname">
-        <Original>[SOB] Virolahti Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Virolahti_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Virolahti_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_Lythium_mapname_short">
-        <Original>[SOB] Lythium Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Lythium_mapname">
-        <Original>[SOB] Lythium Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Lythium_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Lythium_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
-      </Key>
-
-      <Key ID="STR_A3UE_maps_Kapaulio_mapname_short">
-        <Original>[SOB] Kapaulio Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Kapaulio_mapname">
-        <Original>[SOB] Rise of the Empire Antistasi</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Kapaulio_description">
-        <Original>Welcome to Antistasi Ultimate, and the Ramsey Extension, including all your favourite SOB Factions and assets</Original>
-      </Key>
-      <Key ID="STR_A3UE_maps_Kapaulio_loadText">
-        <Original>Lock and Load in - For the Republic</Original>
+        <Original>Because nothing is more important than fun. on a new map</Original>
       </Key>
     </Container>
   </Package>

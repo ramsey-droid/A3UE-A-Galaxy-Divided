@@ -207,13 +207,13 @@ dlcs[]=
 randomSeed=8109385;
 class ScenarioData
 {
-	author="ARC-1308 Ramsey";
+	author="Antistasi Ultimate Dev Team";
 };
 class Mission
 {
 	class Intel
 	{
-		briefingName="[SOB] Antistasi";
+		briefingName="Antistasi Ultimate - Altis";
 		resistanceWest=0;
 		startWind=0.1;
 		forecastWind=0.1;
