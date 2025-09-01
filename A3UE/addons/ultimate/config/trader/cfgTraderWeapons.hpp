@@ -1,6 +1,17 @@
         class weapons_base;
-
-        class my_extension_weapons_vanilla : weapons_base
+        class AGD_IDA_stock : weapons_base
         {
-            prefix = "my_extension_stock_vanilla"
+            prefix = "AGD_IDA_stock";
+        };
+        class AGD_WM_stock : weapons_base
+        {
+            prefix = "AGD_WM_stock";
+        };
+        class AGD_3AS_stock : weapons_base
+        {
+            prefix = "AGD_3AS_stock";
+        };
+        class AGD_Misc_Stock : weapons_base
+        {
+            prefix = "AGD_Misc_Stock";
         };

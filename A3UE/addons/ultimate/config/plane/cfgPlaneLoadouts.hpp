@@ -15,6 +15,21 @@ class planeLoadouts
             bombRacks[] = {"Bomb_04_Plane_CAS_01_F", "BombCluster_03_F"};
             diveParams[] = {1200, 600, 180, 55, 15, {0,0}};
         };
+        class WM_TieBomber
+        {
+            mainGun = "LS1_Cannon";
+            rocketLauncher[] = {"TS5_ProtonLauncher"};
+            bombRacks[] = {"VL61ProtonBomb"};
+            diveParams[] = {1000, 300, 100, 55, 15, {0,0}};
+        };
+        class WM_TieBomber_Cluster
+        {
+            loadout[] = {"PylonMissile_1Rnd_BombCluster_01_F", "PylonRack_2Rnd_BombCluster_01_F"};
+            mainGun = "LS1_Cannon";
+            rocketLauncher[] = {"TS5_ProtonLauncher"};
+            bombRacks[] = {"BombCluster_01_F"};
+            diveParams[] = {1000, 300, 100, 55, 15, {0,0}};
+        };
     };
 
     class CAS
@@ -26,8 +41,22 @@ class planeLoadouts
             rocketLauncher[] = {"Rocket_04_HE_Plane_CAS_01_F"};
             missileLauncher[] = {"Missile_AGM_02_Plane_CAS_01_F", "missiles_SCALPEL"};
         };
+        class WM_TieBomber
+        {
+            mainGun = "LS1_Cannon";
+            rocketLauncher[] = {"TS5_ProtonLauncher"};
+            bombRacks[] = {"VL61ProtonBomb"};
+            diveParams[] = {1000, 300, 100, 55, 15, {0,0}};
+        };
+        class WM_TieBomber_Cluster
+        {
+            loadout[] = {"PylonMissile_1Rnd_BombCluster_01_F", "PylonRack_2Rnd_BombCluster_01_F"};
+            mainGun = "LS1_Cannon";
+            rocketLauncher[] = {"TS5_ProtonLauncher"};
+            bombRacks[] = {"BombCluster_01_F"};
+            diveParams[] = {1000, 300, 100, 55, 15, {0,0}};
+        };
     };
-   
     class AA
     {
         class AMF_RAFALE_C_01_F
@@ -44,6 +73,16 @@ class planeLoadouts
         class AMF_RAFALE_INDIA_01_C : AMF_RAFALE_C_01_F {};
         class AMF_RAFALE_INDO_01_C : AMF_RAFALE_C_01_F {};
         class AMF_RAFALE_QATARIAN_01_C : AMF_RAFALE_C_01_F {};
-        // Variants inherit from the main one
+        class WM_TieInterceptor
+        {
+            mainGun = "LS93_Cannon";
+			rocketLauncher[] = {"TS5A_ProtonLauncher"};
+        };
+		class WM_TieAdvanced : WM_TieInterceptor {};
+        class WM_Tiefighter
+        {
+            mainGun = "LS1_Cannon";
+			rocketLauncher[] = {"TS5A_ProtonLauncher"};
+        };
     };
 };

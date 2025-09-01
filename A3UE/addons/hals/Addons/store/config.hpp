@@ -25,28 +25,67 @@ class cfgHALsStore
 {
 	class categories 
 	{
-		#include "config\vanilla.hpp"
+		#include "config\IDA_Weapons.hpp"
+		#include "config\WM_Weapons.hpp"
+		#include "config\3AS_Weapons.hpp"
+		#include "config\Extra_Weapons.hpp"
 	};
 
 	class stores 
 	{
-		class my_extension_stock_vanilla
+		class AGD_IDA_stock
 		{
-			displayName = $STR_ARMS_DEALER_STORE;
+			displayName = "Indecisive Armoury";
 			categories[] = {
-				"handgunsVanilla",
-				"riflesVanilla", 
-				"sniperRiflesVanilla", 
-				"mgVanilla",
-				"smgVanilla",
-				"launchersVanilla",
-				"launcherMagazinesVanilla",
-				"navigationVanilla",
-				"pointersVanilla",
-				"muzzlesVanilla",
-				"opticsVanilla",
-				"magazinesVanilla",  
-				"miscVanilla"
+				"handgunsIDA",
+				"riflesIDA", 
+				"sniperRiflesIDA", 
+				"mgIDA",
+				"opticsIDA",
+				"magazinesIDA"
+			};
+		};
+		class AGD_WM_stock
+		{
+			displayName = "Warmantle Weaponry";
+			categories[] = {
+				"handgunswmemp",
+				"rifleswmemp",
+				"launcherswmemp",
+				"magazineswmemp",
+				"opticswmemp"
+			};
+		};
+		class AGD_3AS_Stock
+		{
+			displayName = "3AS Weaponry";
+			categories[] = {
+				"handguns3AS",
+				"rifles3AS",
+				"sniperRifles3AS",
+				"mg3AS",
+				"smg3AS",
+				"special3AS",
+				"launchers3AS",
+				"specialMagazines3AS",
+				"launcherMagazines3AS",
+				"navigation3AS",
+				"pointers3AS",
+				"muzzles3AS",
+				"magazines3AS",
+				"optics3AS",
+				"misc3AS"
+			};
+		};
+		class AGD_Misc_Stock
+		{
+			displayName = "Warmantle Weaponry";
+			categories[] = {
+				"WeaponsLS",
+				"MagazinesLS",
+				"BackpacksLS",
+				"HelmetsLS",
+				"VestsLS"
 			};
 		};
 	};

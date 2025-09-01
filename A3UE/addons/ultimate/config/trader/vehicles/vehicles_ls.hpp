@@ -10,7 +10,10 @@
     ITEM(CLASSNAME, PRICE, VEHICLE_TYPE, VEHICLE_CONDITION_X);
 */
 
-class my_extension_vehicles_vanilla : vehicles_base
+class vehicles_ls : vehicles_base
 {
-    ITEM(B_Quadbike_01_F, 0, ARMEDCAR, VEHICLE_CONDITION_ARMEDCAR);
+    ITEM(ls_vehicle_starsaber, 44500, "PLANE", VEHICLE_CONDITION_PLANE);
+    ITEM(ls_vehicle_laatle, 41500, "HELI", VEHICLE_CONDITION_HELI);
+    ITEM(ls_vehicle_z95, 47000, "PLANE", VEHICLE_CONDITION_PLANE);
+    ITEM(ls_vehicle_z98, 46500, "PLANE", VEHICLE_CONDITION_PLANE);
 };
