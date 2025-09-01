@@ -39,14 +39,46 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\Empire); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
         side = "Occ"; // Inv, Occ, Reb, Riv, Civ
-        flagTexture = QPATHTOFOLDER(Templates\Vanilla\flag_aaf_torn_co.paa); // Path to an icon to be displayed in the select menu.
-        name = "A3 AAF (NEW)"; // Name shown in the select menu.
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Galactic Empire"; // Name shown in the select menu.
         file = "Empire_Base"; // The template file name - .sqf, that gets appended automatically.
         maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
         climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
-        description = "This is a new template, called the A3 AAF (NEW)!"; // If this isn't included, no description will show (unless inherited from the base class.)
+        description = "This is a new template, called the Galactic Empire!"; // If this isn't included, no description will show (unless inherited from the base class.)
     };
-
+    class Empire_Tropical : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Empire); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Occ"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Galactic Empire (Tropical)"; // Name shown in the select menu.
+        file = "Empire_Tropical"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"tropical"}; // climate that the template can be selected on.
+        description = "This is a new template, called the Galactic Empire (Tropical)!"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+    class Remnant_Inv : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Remnant); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Inv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Imperial Remnants"; // Name shown in the select menu.
+        file = "Remnant_AI"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+    class New_Republic : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\NewRepub); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Occ"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "New Republic"; // Name shown in the select menu.
+        file = "NewRepublic"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "With the death of Emperor Palpatine at the Battle of Endor, the Alliance to Restore the Republic founded the New Republic, fulfilling its mandate to restore the Galactic Republic and a return of freedom"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
     /*
         Here we are creating a completely new class that inherits from Vanilla_AAF_New.
 
@@ -54,7 +86,55 @@ class Templates
 
         You will see that the only values changed are name and description. These are the only differences. This faction will have the exact same equipment, flag, etc as Vanilla_AAF_New.
     */
+
+    class Rebels_Reb : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rebels); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Alliance to Restore the Republic"; // Name shown in the select menu.
+        file = "Rebels"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "I have friends everywhere"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+    class Imp_Reb : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Remnant); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Reb"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_remnants_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Imperial Remnants"; // Name shown in the select menu.
+        file = "Remnant"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate. Stand as one of the last holdouts in the name of the Emperor"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class Rebels_Inv_AI : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rebels); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Inv"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Alliance to Restore the Republic"; // Name shown in the select menu.
+        file = "Rebels_AI"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "The Alliance to Restore the Republic"; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
+
+    class Project_Blackwing : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Misc); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+        side = "Civ"; // Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); // Path to an icon to be displayed in the select menu.
+        name = "Project Blackwing"; // Name shown in the select menu.
+        file = "Blackwing"; // The template file name - .sqf, that gets appended automatically.
+        maps[] = {}; // If this template should be prioritized on any maps (case sensitive to worldName)
+        climate[] = {"arid", "temperate"}; // climate that the template can be selected on.
+        description = "There's very little intel as of yet, but we believe that a group of Imperial scientists have been doing covert bio-weapons research..."; // If this isn't included, no description will show (unless inherited from the base class.)
+    };
 };
+
 
 /*
     Climates: {"arid", "arctic", "temperate", "tropical"}
