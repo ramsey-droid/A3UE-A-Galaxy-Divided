@@ -11,7 +11,7 @@ class Templates
         file = "Empire_Base"; 
         maps[] = {}; 
         climate[] = {"arid", "temperate"}; 
-        description = "This is a new template, called the Galactic Empire!"; 
+        description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
     class Empire_Tropical : Vanilla_Base
     {
@@ -22,7 +22,7 @@ class Templates
         file = "Empire_Tropical"; 
         maps[] = {}; 
         climate[] = {"tropical"}; 
-        description = "This is a new template, called the Galactic Empire (Tropical)!"; 
+        description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
 
     class New_Republic : Vanilla_Base
@@ -48,7 +48,7 @@ class Templates
         file = "Rebels_AI"; 
         maps[] = {}; 
         climate[] = {"arid", "temperate"}; 
-        description = "The Alliance to Restore the Republic"; 
+        description = "The Alliance to Restore the Republic, commonly referred to as the Rebel Alliance, was a coalition of various groups and individuals who opposed the Galactic Empire and sought to restore the Galactic Republic."; 
     };
 
     class Remnant_Inv : Vanilla_Base
@@ -90,7 +90,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_remnants_co.paa); 
+        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
         name = "Clan Saxon"; 
         file = "MandoEvil"; 
         maps[] = {}; 
@@ -101,7 +101,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
         name = "Mandalorian Survivors"; 
         file = "Mando"; 
         maps[] = {}; 
@@ -125,7 +125,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\Misc); 
         side = "Civ"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_zombie_co.paa); 
         name = "Project Blackwing"; 
         file = "Blackwing"; 
         maps[] = {}; 

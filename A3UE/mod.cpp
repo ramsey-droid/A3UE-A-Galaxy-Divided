@@ -1,5 +1,10 @@
-name = "A3 Antistasi Ultimate Extender example";
-author = "A3-Antistasi dev team, A3-Antistasi Ultimate dev team";
-tooltip = "Antistasi Ultimate Extender example";
-actionName = "GitHub";
-action = "https://github.com/Westalgie/A3UExtender"
+name = "[A3UE] A Galaxy Divided";
+author = "Ramsey";
+overview="Skirmish across the Galaxy throughout different eras!";
+overviewPicture = "modlogo_ca.paa";
+picture = "modlogo_ca.paa";
+logo = "modlogo_ca.paa";
+logoOver = "modlogo_ca.paa";
+logoSmall = "modlogo_ca.paa";
+actionName = "Discord";
+action	= "https://discord.gg/pWSAhdRmkD";	

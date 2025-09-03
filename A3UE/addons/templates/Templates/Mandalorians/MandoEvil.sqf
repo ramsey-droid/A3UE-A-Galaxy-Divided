@@ -13,7 +13,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
 ["flagTexture", "\ls\core\addons\data\flags\flag_imperial_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Remnants"] call _fnc_saveToTemplate;
+["flagMarkerType", "Mandalorian"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["ls_vehicle_105kLancer_civ"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["3AS_ISP_Transport"]] call _fnc_saveToTemplate;

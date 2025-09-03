@@ -13,7 +13,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["flag", "ls_flag_mandalorian_damaged"] call _fnc_saveToTemplate;
 ["flagTexture", "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", ""] call _fnc_saveToTemplate;
+["flagMarkerType", "Mandalorian"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;

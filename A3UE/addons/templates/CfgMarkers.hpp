@@ -26,4 +26,10 @@ class CfgMarkers
 		icon = QPATHTOFOLDER(Pictures\Markers\marker_remnants_co.paa);
 		texture = QPATHTOFOLDER(Pictures\Markers\marker_remnants_co.paa);
 	};
+	class Mandalorian: flag_NATO 
+	{
+		name = "Mandalorian";
+		icon = QPATHTOFOLDER(Pictures\Markers\marker_mando_co.paa);
+		texture = QPATHTOFOLDER(Pictures\Markers\marker_mando_co.paa);
+	};
 };

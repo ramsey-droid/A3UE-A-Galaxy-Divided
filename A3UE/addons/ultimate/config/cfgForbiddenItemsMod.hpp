@@ -8,11 +8,11 @@ class AGD_limited_base : forbidden_limited_base
     addons[] = {"3AS","JLTS_core","ls_loadorder","IDA_Republic"};
 };
 
+ // Will not appear in crates, but can be unlimited in the arsenal
+
+ // Will not appear in crates, and can't be unlimited in the arsenal
+
 // Can be weapon, magazine, vest, etc. Basically anything that can either go in the arsenal or a crate
-
-class Equipment_Classname : AGD_unlimited_base {}; // Will not appear in crates, but can be unlimited in the arsenal
-
-class Equipment_Classname_2 : AGD_limited_base {}; // Will not appear in crates, and can't be unlimited in the arsenal
 
     class ls_droidHelmet_b1_geonosis : AGD_limited_base {appearInCrates = 1;};
     class ls_droidHelmet_b1 : ls_droidHelmet_b1_geonosis {};
