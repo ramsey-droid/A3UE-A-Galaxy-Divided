@@ -133,6 +133,7 @@ class CfgWeapons {
 
 	#include "blackwing\uniforms.hpp"
 	#include "remnants\uniforms.hpp"
-
+	#include "civ\uniforms.hpp"
+	#include "clones\uniforms.hpp"
 	#include "vehicles\static_launchers\weapons.hpp"
 };

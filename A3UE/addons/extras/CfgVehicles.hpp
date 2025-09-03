@@ -361,4 +361,9 @@ class CfgVehicles {
 	#include "vehicles\NewRep.hpp"
 
 	#include "vehicles\static_launchers\launchers.hpp"
+
+	#include "civ\units.hpp"
+	#include "civ\units_worker.hpp"
+
+	#include "clones\units.hpp"
 };

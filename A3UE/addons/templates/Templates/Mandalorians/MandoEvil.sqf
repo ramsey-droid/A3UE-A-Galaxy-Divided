@@ -9,7 +9,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Imperial Remnant"] call _fnc_saveToTemplate;
+["name", "Clan Saxon"] call _fnc_saveToTemplate;
 
 ["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
 ["flagTexture", "\ls\core\addons\data\flags\flag_imperial_damaged_ca.paa"] call _fnc_saveToTemplate;
@@ -47,8 +47,6 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["breachingExplosivesAPC", ["ls_explosive_breachCharge_magazine"]] call _fnc_saveToTemplate;
 ["breachingExplosivesTank", ["ls_explosive_demoCharge_magazine"]] call _fnc_saveToTemplate;
 
-["vehicleLightSource", "land_3AS_light_s_imp"] call _fnc_saveToTemplate;
-
 //////////////////////////////////////
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
@@ -74,12 +72,14 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "AGD_A130",
-    "AGD_A130_Mag",
-    "3AS_RK3",
-    "3AS_18Rnd_EM20_RK3_Mag",
-    "ls_imperialBackpack_satchel",
-    "ls_imperialBackpack_shoulderPouch",
+	"AGD_A130",
+	"AGD_A130_Mag",
+	"3AS_RK3",
+	"3AS_18Rnd_EM20_RK3_Mag",
+	"ls_imperialBackpack_satchel",
+	"ls_imperialBackpack_shoulderPouch",
+	"ls_mandalorianVest_saxonGrunt",
+	"ls_mandalorianVest_saxonSergeant",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
@@ -93,16 +93,12 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["ls_imperialUniform_army_mudtrooper",
-"ls_imperialUniform_army_r_mudtrooper",
-"AGD_Remnant_Stormtrooper",
-"AGD_Remnant_Stormtrooper2"
-   ];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["ls_mandalorianUniform"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
-private _officerUniform = ["WM_OfficerUniform"];
-private _officerHat = ["WM_OfficerCap"];
+private _officerUniform = ["ls_mandalorianUniform"];
+private _officerHat = ["ls_mandalorianHelmet_saxonSergeant"];
 
 if (_hasContact) then {_dlcUniforms append [];
 };
@@ -114,16 +110,9 @@ if (_hasApex) then {_dlcUniforms append [];
 ["officerUniform", _officerUniform] call _fnc_saveToTemplate;
 ["officerHat", _officerHat] call _fnc_saveToTemplate;
 
-["headgear", ["ls_imperialHelmet_kepi_mudtrooper",
-"ls_imperialHelmet_kepi_g_mudtrooper",
-"AGD_RemnantVest_Light",
-"AGD_RemnantHelmet_1",
-"AGD_RemnantHelmet_2",
-"AGD_RemnantHelmet_3",
-"AGD_RemnantHelmet_4",
-"AGD_RemnantHelmet_Scout_1",
-"AGD_RemnantHelmet_Scout_2",
-"AGD_Imp_DriverHelmet"
+["headgear", [
+	"ls_mandalorianHelmet_saxonGrunt",
+	"ls_mandalorianHelmet_saxonSergeant"
 ]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
@@ -162,7 +151,7 @@ _loadoutData set ["uniforms", _rebUniforms];
 _loadoutData set ["officerUniform", _officerUniform];
 _loadoutData set ["officerHat", _officerHat];
 
-_loadoutData set ["facewear", ["AGD_Poncho_F","AGD_Pauldron_F","AGD_AmmoPack_F","AGD_AmmoPack_Poncho_F"]];
+_loadoutData set ["facewear", ["ls_mandalorian_rangefinder_hud"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];

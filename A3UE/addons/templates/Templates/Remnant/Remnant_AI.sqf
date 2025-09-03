@@ -42,6 +42,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesLightAPCs", []] call _fnc_saveToTemplate;			//this line determines light APCs
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
 
+["vehiclesDropPod", ["3AS_EscapePod"]] call _fnc_saveToTemplate; 
 
 ["vehiclesTransportBoats", ["I_Boat_Transport_01_F"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["I_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
@@ -176,7 +177,7 @@ _loadoutData set ["binoculars", ["Binocular"]];		//this line determines the bino
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
 _loadoutData set ["stormUniforms", ["AGD_Remnant_Stormtrooper","AGD_Remnant_Stormtrooper2"]];
-_loadoutData set ["stormVests", ["WM_Stormtrooper_Vest"]];
+_loadoutData set ["stormVests", ["WM_Basic_armor"]];
 _loadoutData set ["stormHats", ["AGD_RemnantHelmet_1", "AGD_RemnantHelmet_3", "AGD_RemnantHelmet_4"]];
 
 _loadoutData set ["traitorUniforms", ["WM_ParaMilitary_Shirt_Rolled"]];		//this line determines traitor uniforms for traitor mission

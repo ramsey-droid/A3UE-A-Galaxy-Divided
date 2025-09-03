@@ -68,7 +68,7 @@ class Templates
     {
         basepath = QPATHTOFOLDER(Templates\Rebels); 
         side = "Reb"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
         name = "Alliance to Restore the Republic"; 
         file = "Rebels"; 
         maps[] = {}; 
@@ -86,7 +86,39 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate. Stand as one of the last holdouts in the name of the Emperor"; 
     };
-
+    class Imp_Mando_Reb : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Mandalorians); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_remnants_co.paa); 
+        name = "Clan Saxon"; 
+        file = "MandoEvil"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "The Mandalorians of Clan Saxon seek to restore Mandalore to its former glory, even if it means working with the Empire"; 
+    };
+    class Mando_Reb : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Mandalorians); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Mandalorian Survivors"; 
+        file = "Mando"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "The Mandalorians are a proud warrior culture, seeking to maintain their way of life in an ever changing galaxy"; 
+    };
+    class Clone_Reb : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Clones); 
+        side = "Reb"; 
+        flagTexture = "\ls\core\addons\data\flags\flag_republic_damaged_ca.paa"; 
+        name = "Clone Underground"; 
+        file = "Underground"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "Led by Clone Commander Rex, the Clone Underground fights for the freedom of the galaxy against the oppressive regime of the Empire"; 
+    };
 
 // -------------------- WBK Zombies Dependancy -------------------------------
     class Project_Blackwing : Vanilla_Base
@@ -101,9 +133,44 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "There's very little intel as of yet, but we believe that a group of Imperial scientists have been doing covert bio-weapons research..."; 
     };
+
+// -------------------- Civilians ---------------------------------
+    class Civ_Post : Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Civ); 
+        side = "Civ"; 
+        flagTexture = "\A3\ui_f_orange\data\cfgmarkers\civildefense.paa"; 
+        name = "Civilians"; 
+        file = "Civ"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "Following the fall of the Empire, many civilians have been left to fend for themselves in the chaos."; 
+    };
+
+// ------------------- Rivals ---------------------------------
+    class Mando_Rivals: Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rivals); 
+        side = "Riv"; 
+        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
+        name = "Mandalorian Survivors"; 
+        file = "Mandalorian"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "Following the Great Purge of Mandalore, the survivors banded together to protect their way of life"; 
+    };
+    class CIS_Rivals: Vanilla_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rivals); 
+        side = "Riv"; 
+        flagTexture = "\ls\core\addons\data\flags\flag_cis_damaged_ca.paa"; 
+        name = "Neo-Separatist Coalition"; 
+        file = "Droids"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "After the Death of Count Dooku, the Neo-Separatist Coalition emerged to continue the fight, now against the Galactic Empire"; 
+    };
 };
-
-
 /*
     Climates: {"arid", "arctic", "temperate", "tropical"}
 */

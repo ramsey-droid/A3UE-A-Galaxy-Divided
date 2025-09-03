@@ -9,22 +9,22 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Imperial Remnant"] call _fnc_saveToTemplate;
+["name", "Clone Underground"] call _fnc_saveToTemplate;
 
 ["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
-["flagTexture", "\ls\core\addons\data\flags\flag_imperial_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Remnants"] call _fnc_saveToTemplate;
+["flagTexture", "\ls\core\addons\data\flags\flag_republic_damaged_ca.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
-["vehiclesBasic", ["ls_vehicle_105kLancer_civ"]] call _fnc_saveToTemplate;
+["vehiclesBasic", ["3AS_BarcSideCar_212","3AS_Barc_212"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["3AS_ISP_Transport"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["WM_74Z_Imperial_Brown"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["AGD_ITT_Unarmed"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["3AS_ITT","WM_ATST","3AS_PX10_IMP_F"]] call _fnc_saveToTemplate;
-["vehiclesAA", []] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["3AS_ISP"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["3AS_RTT_Wheeled"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["3AS_PX10_REP_F"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["AGD_AAC_AA"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["3AS_Gozanti_F"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["3AS_Gozanti_Republic"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["3AS_ITT_Medical"]] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
@@ -47,7 +47,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["breachingExplosivesAPC", ["ls_explosive_breachCharge_magazine"]] call _fnc_saveToTemplate;
 ["breachingExplosivesTank", ["ls_explosive_demoCharge_magazine"]] call _fnc_saveToTemplate;
 
-["vehicleLightSource", "land_3AS_light_s_imp"] call _fnc_saveToTemplate;
+["vehicleLightSource", "land_3AS_gar_tall"] call _fnc_saveToTemplate;
+
 
 //////////////////////////////////////
 //       Antistasi Plus Stuff       //
@@ -74,35 +75,37 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "AGD_A130",
-    "AGD_A130_Mag",
-    "3AS_RK3",
-    "3AS_18Rnd_EM20_RK3_Mag",
-    "ls_imperialBackpack_satchel",
-    "ls_imperialBackpack_shoulderPouch",
+    "3AS_DP23_F",
+    "3AS_10Rnd_EC30_Pellets",
+    "3AS_DC17S_F",
+    "3AS_16Rnd_EC20_Mag",
+    "ls_gar_beltBag_leg",
+	"JLTS_CloneVestHolster",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
 	["ls_explosive_demoCharge_magazine", 7]
 ];
 
-if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","ls_orsfBackpack_trooper_radio"]};
-if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","ls_orsfBackpack_trooper_radio"]};
+if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","JLTS_clone_comlink"]};
+if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","JLTS_Clone_LR_attachment"]};
+if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","JLTS_clone_comlink"]};
+if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["JLTS_clone_comlink","JLTS_Clone_LR_attachment"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["ls_imperialUniform_army_mudtrooper",
-"ls_imperialUniform_army_r_mudtrooper",
-"AGD_Remnant_Stormtrooper",
-"AGD_Remnant_Stormtrooper2"
+private _rebUniforms = ["AGD_CU_Clonetrooper1",
+"AGD_CU_Clonetrooper_104",
+"AGD_CU_Clonetrooper_327",
+"AGD_CU_Clonetrooper_41",
+"AGD_CU_Clonetrooper_501"
    ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
-private _officerUniform = ["WM_OfficerUniform"];
-private _officerHat = ["WM_OfficerCap"];
+private _officerUniform = ["JLTS_CloneArmor_501_Rex"];
+private _officerHat = ["JLTS_CloneHelmetP2_501_Rex"];
+private _officerVest = ["JLTS_CloneVestCommander_501_Rex"];
 
 if (_hasContact) then {_dlcUniforms append [];
 };
@@ -110,20 +113,16 @@ if (_hasContact) then {_dlcUniforms append [];
 if (_hasApex) then {_dlcUniforms append [];
 };
 
-["uniforms", _rebUniforms + _dlcUniforms + _officerUniform] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
+["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 ["officerUniform", _officerUniform] call _fnc_saveToTemplate;
 ["officerHat", _officerHat] call _fnc_saveToTemplate;
+["officerVest", _officerVest] call _fnc_saveToTemplate;
 
-["headgear", ["ls_imperialHelmet_kepi_mudtrooper",
-"ls_imperialHelmet_kepi_g_mudtrooper",
-"AGD_RemnantVest_Light",
-"AGD_RemnantHelmet_1",
-"AGD_RemnantHelmet_2",
-"AGD_RemnantHelmet_3",
-"AGD_RemnantHelmet_4",
-"AGD_RemnantHelmet_Scout_1",
-"AGD_RemnantHelmet_Scout_2",
-"AGD_Imp_DriverHelmet"
+["headgear", ["AGD_CU_CloneHelmet1",
+"AGD_CU_CloneHelmet_104",
+"AGD_CU_CloneHelmet_327",
+"AGD_CU_CloneHelmet_41",
+"AGD_CU_CloneHelmet_501"
 ]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
@@ -132,22 +131,22 @@ if (_hasApex) then {_dlcUniforms append [];
 
 //Faces and Voices given to Rebell AI
 ["faces", [
-    "WhiteHead_07",
-    "WhiteHead_15",
-    "GreekHead_A3_04",
-    "AfricanHead_02",
-    "WhiteHead_29",
-    "LivonianHead_4",
-    "RussianHead_5",
-    "LivonianHead_9",
-    "GreekHead_A3_11",
-    "RussianHead_1",
-    "WhiteHead_26",
-    "AsianHead_A3_06",
-    "TanoanHead_A3_04",
-    "WhiteHead_30"
+    "ls_cloneA",
+    "ls_cloneB",
+    "ls_cloneC",
+    "ls_cloneD",
+    "ls_cloneE",
+    "ls_cloneF",
+    "ls_cloneG",
+    "ls_cloneH",
+    "ls_cloneDeveloper_n3rf",
+    "ls_cloneDeveloper_dutch",
+    "ls_cloneDeveloper_gambit",
+    "ls_cloneDeveloper_khaos",
+    "ls_cloneDeveloper_marco",
+    "ls_cloneDeveloper_whiplash"
 ]] call _fnc_saveToTemplate;
-["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05ENGB"]] call _fnc_saveToTemplate;
+["voices", ["JLTS_voice_clone"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Loadouts       //
@@ -161,8 +160,9 @@ _loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["uniforms", _rebUniforms];
 _loadoutData set ["officerUniform", _officerUniform];
 _loadoutData set ["officerHat", _officerHat];
+_loadoutData set ["officerVest", _officerVest];
 
-_loadoutData set ["facewear", ["AGD_Poncho_F","AGD_Pauldron_F","AGD_AmmoPack_F","AGD_AmmoPack_Poncho_F"]];
+_loadoutData set ["facewear", []];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];
@@ -176,6 +176,7 @@ _loadoutData set ["items_miscEssentials", [] call A3A_fnc_itemset_miscEssentials
 private _petrosTemplate = {
     ["officerHat"] call _fnc_setHeadgear;
     ["officerUniform"] call _fnc_setUniform;
+	["officerVest"] call _fnc_setVest;
 
     ["maps"] call _fnc_addMap;
     ["watches"] call _fnc_addWatch;

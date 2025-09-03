@@ -42,6 +42,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesLightAPCs", []] call _fnc_saveToTemplate;			//this line determines light APCs
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;				//this line determines IFVs
 
+["vehiclesDropPod", ["3AS_EscapePod"]] call _fnc_saveToTemplate; 
 
 ["vehiclesTransportBoats", ["I_Boat_Transport_01_F"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["I_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
@@ -54,7 +55,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesHelisLight", ["ls_vehicle_laatle_transportGunship"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisTransport", ["WM_Lambda"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisLightAttack", ["ls_vehicle_laatle"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
-["vehiclesHelisAttack", ["3AS_LAAT_Mk1_Imperial"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisAttack", ["3AS_LAAT_Mk2_Imperial"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
+
+["vehiclesAirPatrol", ["ls_vehicle_laatle_transportGunship"]] call _fnc_saveToTemplate;
+["vehiclesPlanesLargeCAS", ["3AS_Gozanti_F"]] call _fnc_saveToTemplate;
+["vehiclesPlanesLargeAA", ["3AS_Gozanti_F"]] call _fnc_saveToTemplate;
+["vehiclesPlanesGunship", ["3AS_LAAT_Mk1_Imperial"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", ["3AS_AV7"]] call _fnc_saveToTemplate;		//this line determines SPAs
 ["magazines", createHashMapFromArray [
@@ -88,6 +94,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //Minefield definition
 ["minefieldAT", ["ATMine"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["APERSMine"]] call _fnc_saveToTemplate;
+
+["sandbagRound", "3AS_Barricade_2_C_Prop"] call _fnc_saveToTemplate;
 
 ["animations", [
     ["I_APC_Wheeled_03_cannon_F", ["showCamonetHull", 0.25, "showSLATHull", 0.3]],
