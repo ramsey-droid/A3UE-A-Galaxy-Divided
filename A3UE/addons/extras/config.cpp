@@ -56,6 +56,8 @@ class CfgFactionClasses
 #include "CfgWeapons.hpp"
 #include "CfgGlasses.hpp"
 #include "CfgMagazines.hpp"
+#include "CfgHeads.hpp"
+#include "CfgFaces.hpp"
 
 class Extended_InitPost_EventHandlers {
     class AGD_Blackwing_Storm {
