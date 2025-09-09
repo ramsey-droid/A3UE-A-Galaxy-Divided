@@ -1,8 +1,14 @@
 class Templates 
 {
-    class Vanilla_Base;
+    class AGD_Base
+    {
+        requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
+        basepath = QPATHTOFOLDER(Templates);
+        logo = "\LS_statics_props\flags\data\flag_republic.paa";
+        priority = 100;
+    };
 // -------------------- Occupiers ---------------------------------
-    class Empire_Basic : Vanilla_Base
+    class Empire_Basic : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Empire); 
         side = "Occ"; 
@@ -13,7 +19,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
-    class Empire_Tropical : Vanilla_Base
+    class Empire_Tropical : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Empire); 
         side = "Occ"; 
@@ -25,7 +31,7 @@ class Templates
         description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
 
-    class New_Republic : Vanilla_Base
+    class New_Republic : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\NewRepub); 
         side = "Occ"; 
@@ -39,7 +45,7 @@ class Templates
 
 // -------------------- Invaders ---------------------------------
 
-    class Rebels_Inv_AI : Vanilla_Base
+    class Rebels_Inv_AI : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Rebels); 
         side = "Inv"; 
@@ -51,7 +57,7 @@ class Templates
         description = "The Alliance to Restore the Republic, commonly referred to as the Rebel Alliance, was a coalition of various groups and individuals who opposed the Galactic Empire and sought to restore the Galactic Republic."; 
     };
 
-    class Remnant_Inv : Vanilla_Base
+    class Remnant_Inv : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Remnant); 
         side = "Inv"; 
@@ -64,7 +70,7 @@ class Templates
     };
 // ---------------------------- Rebels ---------------------------------
 
-    class Rebels_Reb : Vanilla_Base
+    class Rebels_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Rebels); 
         side = "Reb"; 
@@ -75,7 +81,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "I have friends everywhere"; 
     };
-    class Imp_Reb : Vanilla_Base
+    class Imp_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Remnant); 
         side = "Reb"; 
@@ -86,7 +92,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate. Stand as one of the last holdouts in the name of the Emperor"; 
     };
-    class Imp_Mando_Reb : Vanilla_Base
+    class Imp_Mando_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
@@ -97,7 +103,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "The Mandalorians of Clan Saxon seek to restore Mandalore to its former glory, even if it means working with the Empire"; 
     };
-    class Mando_Reb : Vanilla_Base
+    class Mando_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
@@ -108,7 +114,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "The Mandalorians are a proud warrior culture, seeking to maintain their way of life in an ever changing galaxy"; 
     };
-    class Clone_Reb : Vanilla_Base
+    class Clone_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Clones); 
         side = "Reb"; 
@@ -121,7 +127,7 @@ class Templates
     };
 
 // -------------------- WBK Zombies Dependancy -------------------------------
-    class Project_Blackwing : Vanilla_Base
+    class Project_Blackwing : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Misc); 
         side = "Civ"; 
@@ -135,7 +141,7 @@ class Templates
     };
 
 // -------------------- Civilians ---------------------------------
-    class Civ_Post : Vanilla_Base
+    class Civ_Post : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Civ); 
         side = "Civ"; 
@@ -148,7 +154,7 @@ class Templates
     };
 
 // ------------------- Rivals ---------------------------------
-    class Mando_Rivals: Vanilla_Base
+    class Mando_Rivals: AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Rivals); 
         side = "Riv"; 
@@ -159,7 +165,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "Following the Great Purge of Mandalore, the survivors banded together to protect their way of life"; 
     };
-    class CIS_Rivals: Vanilla_Base
+    class CIS_Rivals: AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Rivals); 
         side = "Riv"; 
