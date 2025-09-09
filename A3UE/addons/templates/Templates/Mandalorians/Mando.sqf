@@ -80,6 +80,8 @@ private _initialRebelEquipment = [
 	"ls_mandalorianVest_vizslaGrunt",
 	"ls_mandalorianVest_deathwatchGrunt",
 	"ls_mandalorianVest_standard",
+    "IDA_Westar35",
+    "IDA_Blaster_Cell_Power2_20Rnd_yellow",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
