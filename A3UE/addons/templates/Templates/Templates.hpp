@@ -4,7 +4,7 @@ class Templates
     {
         requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
         basepath = QPATHTOFOLDER(Templates);
-        logo = "\LS_statics_props\flags\data\flag_republic.paa";
+        logo = "\x\A3UE\addons\templates\Pictures\Markers\marker_galactic_empire_co.paa";
         priority = 100;
     };
 // -------------------- Occupiers ---------------------------------

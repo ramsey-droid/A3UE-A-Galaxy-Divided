@@ -37,9 +37,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["staticMGs", ["ls_vehicle_mrbc","3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;
 ["staticAA", ["AGD_Shellcracker_AA"]] call _fnc_saveToTemplate;
-["staticMortars", ["3AS_Republic_Mortar"]] call _fnc_saveToTemplate;
-["staticMortarMagHE", "3AS_8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", "3AS_8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
+["staticMortars", ["ls_vehicle_mortar_mercenary"]] call _fnc_saveToTemplate;
+["staticMortarMagHE", "ls_5Rnd_82mm_mortar_HE"] call _fnc_saveToTemplate;
+["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
 
 ["minesAT", ["HX_AT_Mine_Mag"]] call _fnc_saveToTemplate;
 ["minesAPERS", ["APERSMine_Range_Mag"]] call _fnc_saveToTemplate;
