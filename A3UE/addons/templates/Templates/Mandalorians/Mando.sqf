@@ -107,7 +107,7 @@ if (_hasApex) then {_dlcUniforms append [];
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", ["ls_mandalorianHelmet_traditional", "ls_mandalorianHelmet_dinDjarin","ls_mandalorianHelmet_eldarGrunt","ls_mandalorianHelmet_vizslaGrunt","ls_mandalorianHelmet_ordoGrunt"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", ["ls_mandalorianHelmet_traditional", "ls_mandalorianHelmet_dinDjarin","ls_mandalorianHelmet_eldarGrunt","ls_mandalorianHelmet_vizslaGrunt","ls_mandalorianHelmet_ordoGrunt","ls_mandalorianHelmet_deathwatchGrunt"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
