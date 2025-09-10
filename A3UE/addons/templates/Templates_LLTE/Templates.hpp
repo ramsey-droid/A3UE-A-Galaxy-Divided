@@ -14,7 +14,19 @@
         file = "Empire_Base"; 
         maps[] = {}; 
         climate[] = {"arid", "temperate"}; 
-        description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
+        description = "Expands on the Galactic Empire faction, adding more vehicles, uniforms and weapons to their arsenal"; 
+    };
+
+    class NewRepublic_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\NewRepub); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_republic_co.paa); 
+        name = "New Republic [LLTE]"; 
+        file = "NewRepublic"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "Expands on the New Republic faction, adding more vehicles, uniforms and weapons to their arsenal"; 
     };
 
 // -------------------- Invaders ---------------------------------
