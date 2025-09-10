@@ -32,4 +32,16 @@ class CfgMarkers
 		icon = QPATHTOFOLDER(Pictures\Markers\marker_mando_co.paa);
 		texture = QPATHTOFOLDER(Pictures\Markers\marker_mando_co.paa);
 	};
+	class Sith_Empire: flag_NATO 
+	{
+		name = "Sith Empire";
+		icon = QPATHTOFOLDER(Pictures\Markers\marker_sith_co.paa);
+		texture = QPATHTOFOLDER(Pictures\Markers\marker_sith_co.paa);
+	};
+	class Old_Republic: flag_NATO 
+	{
+		name = "Old Republic";
+		icon = QPATHTOFOLDER(Pictures\Markers\marker_or_co.paa);
+		texture = QPATHTOFOLDER(Pictures\Markers\marker_or_co.paa);
+	};
 };
