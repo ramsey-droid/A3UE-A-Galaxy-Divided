@@ -107,7 +107,16 @@ private _civUniforms = [
     "JMSLLTE_c_genshirt_beige_F_CombatUniform",
     "JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform",
     "JMSLLTE_PirShirtS2_white_F_CombatUniform",
-    "JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform"
+    "JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform",
+    "JMSLLTE_PirShirtS2_blue_F_CombatUniform",
+    "JMSLLTE_PirShirtS2_white_F_CombatUniform",
+    "JMSLLTE_ScumCommando_green_F_CombatUniform",
+    "ls_uniform_pathfinder",
+    "ls_uniform_pathfinder_brown",
+    "ls_uniform_pathfinder_navy_alt",
+    "ls_uniform_pathfinder_navy",
+    "JMSLLTE_ScumTermo_blue_F_CombatUniform",
+    "JMSLLTE_ScumTermo_or_F_CombatUniform"
 ];
 
 private _pressUniforms = [
@@ -134,7 +143,7 @@ private _loadoutData = call _fnc_createLoadoutData;
 _loadoutData set ["uniforms", _civUniforms];
 _loadoutData set ["pressUniforms", _pressUniforms];
 _loadoutData set ["workerUniforms", _workerUniforms];
-_loadoutData set ["pressVests", ["V_Press_F"]];
+_loadoutData set ["pressVests", ["JMSLLTE_PirHeavy_bright_armor"]];
 _loadoutData set ["helmets", _civHats];
 _loadoutData set ["pressHelmets", _civHats];
 
