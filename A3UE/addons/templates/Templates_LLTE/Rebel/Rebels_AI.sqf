@@ -48,14 +48,14 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesGunBoats", ["I_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
 ["vehiclesAmphibious", ["JMSLLTE_B_veh_x34mk2_reb_F"]] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets
 
-["vehiclesPlanesCAS", ["ls_vehicle_z95","3AS_Snowspeeder_Blue","3AS_BTLB_Bomber_Shadow"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesAA", ["3AS_Snowspeeder_Blue","ls_vehicle_z98","ls_vehicle_z95"]] call _fnc_saveToTemplate; 			//this line determines air supperiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
-["vehiclesPlanesTransport", ["3AS_Civilian_Transport_02"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesCAS", ["JMSLLTE_YwingA4_veh_F","JMSLLTE_YwingS3_veh_F"]] call _fnc_saveToTemplate; 		//this line determines CAS planes -- Example: ["vehiclesPlanesCAS", ["B_Plane_CAS_01_dynamicLoadout_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesAA", ["JMSLLTE_Awing_veh_F","JMSLLTE_Xwing_veh_F","JMSLLTE_XwingCA2_veh_F"]] call _fnc_saveToTemplate; 			//this line determines air supperiority planes -- Example: ["vehiclesPlanesAA", ["B_Plane_Fighter_01_F"]] -- Array, can contain multiple assets
+["vehiclesPlanesTransport", ["JMSLLTE_Uwing_veh_F"]] call _fnc_saveToTemplate; 	//this line determines transport planes -- Example: ["vehiclesPlanesTransport", ["B_T_VTOL_01_infantry_F"]] -- Array, can contain multiple assets
 
 ["vehiclesHelisLight", ["ls_vehicle_laatle_transportGunship"]] call _fnc_saveToTemplate; 		//this line determines light helis -- Example: ["vehiclesHelisLight", ["B_Heli_Light_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisTransport", ["JMSLLTE_UwingHeli_Reb_F"]] call _fnc_saveToTemplate; 	//this line determines transport helis -- Example: ["vehiclesHelisTransport", ["B_Heli_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesHelisLightAttack", ["JMSLLTE_Uwing_veh_F"]] call _fnc_saveToTemplate;		// this line determines light attack helicopters
-["vehiclesHelisAttack", ["JMSLLTE_veh_IDT_inf_empireR"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
+["vehiclesHelisAttack", ["JMSLLTE_Uwing_veh_F"]] call _fnc_saveToTemplate; 		//this line determines attack helis -- Example: ["vehiclesHelisAttack", ["B_Heli_Attack_01_F"]] -- Array, can contain multiple assets
 
 ["vehiclesArtillery", ["WM_AAC_Speeder_Artillery"]] call _fnc_saveToTemplate;		//this line determines SPAs
 ["magazines", createHashMapFromArray [
@@ -170,19 +170,19 @@ _loadoutData set ["signalsmokeGrenades", ["IDA_grenade_Smoke_Purple_mag", "IDA_g
 _loadoutData set ["maps", ["ItemMap"]];				//this line determines map
 _loadoutData set ["watches", ["ItemWatch"]];		//this line determines watch
 _loadoutData set ["compasses", ["ItemCompass"]];	//this line determines compass
-_loadoutData set ["radios", ["ItemRadio"]];			//this line determines radio
+_loadoutData set ["radios", ["ls_radios_dcs"]];			//this line determines radio
 _loadoutData set ["gpses", ["ItemGPS"]];			//this line determines GPS
 _loadoutData set ["NVGs", ["ls_nvg_goggles"]];						//this line determines NVGs -- Array, can contain multiple assets
-_loadoutData set ["binoculars", ["Binocular"]];		//this line determines the binoculars
-_loadoutData set ["rangefinders", ["Rangefinder"]];
+_loadoutData set ["binoculars", ["IDA_Electrobinoculars_Rep"]];		//this line determines the binoculars
+_loadoutData set ["rangefinders", ["JMSLLTE_W_TD23_tan_F"]];
 
 _loadoutData set ["traitorUniforms", ["WM_ParaMilitary_Shirt_Rolled"]];		//this line determines traitor uniforms for traitor mission
 _loadoutData set ["traitorVests", ["ls_imperialVest_army_damaged"]];			//this line determines traitor vesets for traitor mission
 _loadoutData set ["traitorHats", ["ls_helmet_jockey_alt"]];			//this line determines traitor headgear for traitor missions
 
-_loadoutData set ["officerUniforms", ["ls_uniform_spacer_alt"]];		//this line determines officer uniforms for assassination mission
-_loadoutData set ["officerVests", ["ls_vest_flakJacket_open"]];			//this line determines officer vesets for assassination mission
-_loadoutData set ["officerHats", ["ls_helmet_cqcm"]];	//this line determines officer headgear for assassination missions
+_loadoutData set ["officerUniforms", ["JMSLLTE_ScumOfficer_orange_F_CombatUniform"]];		//this line determines officer uniforms for assassination mission
+_loadoutData set ["officerVests", ["JMSLLTE_RA_Officerrank_gr_lt_armor","JMSLLTE_RA_Officerrank_gr_gen_armor","JMSLLTE_RA_Officerrank_gr_cpt_armor","JMSLLTE_RA_Officerrank_gr_col_armor","JMSLLTE_RA_Officerrank_gr_maj_armor"]];			//this line determines officer vesets for assassination mission
+_loadoutData set ["officerHats", ["JMSLLTE_OfcapP_helmet"]];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slUniforms", []];
@@ -190,14 +190,14 @@ _loadoutData set ["vests", []];						//don't fill this line - this is only to se
 _loadoutData set ["Hvests", []];
 _loadoutData set ["sniVests", ["ls_vest_holster_maroon"]];
 _loadoutData set ["backpacks", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["longRangeRadios", ["Black_WM_Rebel_Radio"]];
-_loadoutData set ["atBackpacks", ["ls_cloneBackpack_rocket"]];
+_loadoutData set ["longRangeRadios", ["JMSLLTE_back_rebradio_v1_black"]];
+_loadoutData set ["atBackpacks", ["JMSLLTE_back_rebpackH_v1_black"]];
 _loadoutData set ["helmets", []];					//don't fill this line - this is only to set the variable
-_loadoutData set ["slHat", ["ls_helmet_serviceComlink", "ls_helmet_serviceComlink_brown"]];
-_loadoutData set ["sniHats", ["WM_ParaMilitary_Helmet"]];
+_loadoutData set ["slHat", ["ls_helmet_serviceComlink", "ls_helmet_serviceComlink_brown","JMSLLTE_PathM1_b_gr_helmet"]];
+_loadoutData set ["sniHats", ["JMSLLTE_Path_1_brown_cap"]];
 
-_loadoutData set ["glasses", ["ls_glasses_coif"]];	//cosmetics
-_loadoutData set ["goggles", ["ls_jabiimGlasses_goggles"]];		//cosmetics
+_loadoutData set ["glasses", ["ls_glasses_coif","G_JMSLLTE_OfheadPh","G_JMSLLTE_Facecover_dark"]];	//cosmetics
+_loadoutData set ["goggles", ["ls_jabiimGlasses_goggles","G_JMSLLTE_MechGlass"]];		//cosmetics
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies]; //this line defines the basic medical loadout for vanilla
@@ -241,9 +241,9 @@ _loadoutData set ["items_unarmed_extras", []];
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _sfLoadoutData set ["uniforms", ["ls_rebelUniform_honorGuard"]];
 _sfLoadoutData set ["vests", ["ls_vest_holster_maroon"]];
-_sfLoadoutData set ["Hvests", ["WM_ArmyVest"]];
-_sfLoadoutData set ["backpacks", ["ls_backpack_shoulderPouch"]];
-_sfLoadoutData set ["helmets", ["ls_helmet_service", "ls_helmet_serviceComlink"]];
+_sfLoadoutData set ["Hvests", ["JMSLLTE_Gunner_vest_armor"]];
+_sfLoadoutData set ["backpacks", ["JMSLLTE_back_dengv1_old"]];
+_sfLoadoutData set ["helmets", ["JMSLLTE_NavyV_white_helmet", "JMSLLTE_NavyV_greenO_helmet"]];
 _sfLoadoutData set ["binoculars", ["IDA_Electrobinoculars_Rep"]];
 
 _sfLoadoutData set ["slRifles", [
@@ -301,13 +301,13 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_eliteLoadoutData set ["uniforms", ["ls_uniform_pathfinder_navy","ls_uniform_pathfinder_navy_r","ls_uniform_pathfinder_r","ls_uniform_pathfinder", "ls_uniform_pathfinder_brown", "ls_uniform_pathfinder_brown_r","ls_uniform_pathfinder_navy_alt", "ls_uniform_pathfinder_navy_alt_r"]];
-_eliteLoadoutData set ["slUniforms", ["WM_StormArmor"]];
-_eliteLoadoutData set ["vests", ["ls_vest_flakJacket", "ls_vest_flakJacket_open", "ls_vest_flakJacket_pouchesAlt_brown", "ls_vest_flakJacket_pouches_brown", "ls_vest_flakJacket_pouches"]];
-_eliteLoadoutData set ["Hvests", ["WM_Pauldron"]];
-_eliteLoadoutData set ["backpacks", ["3AS_B_Imperial_Stormtrooper_Backpack_F", "3AS_B_Imperial_Stormtrooper_Backpack_RTO_F", "3AS_B_Imperial_Stormtrooper_Backpack_Sand_F", "3AS_B_Imperial_Stormtrooper_Backpack_Medic_F"]];
-_eliteLoadoutData set ["helmets", ["ls_helmet_reinforcedService","ls_helmet_reinforcedServiceCoif","ls_helmet_service_brown"]];
-_eliteLoadoutData set ["binoculars", ["ls_clone_electrobinocularsCommander"]];
+_eliteLoadoutData set ["uniforms", ["JMSLLTE_ScumCommando_green_F_CombatUniform","JMSLLTE_ScumCommandoS_desertS_F_CombatUniform","JMSLLTE_ScumCommando_woodD_F_CombatUniform"]];
+_eliteLoadoutData set ["slUniforms", ["JMSLLTE_ScumAlCommando_cloud_F_CombatUniform"]];
+_eliteLoadoutData set ["vests", ["JMSLLTE_CommandoBelt_armor","ls_vest_flakJacket_open","JMSLLTE_CommandosStripL_armor","JMSLLTE_CommandosVestL_armor","JMSLLTE_CommandosVest2_armor"]];
+_eliteLoadoutData set ["Hvests", ["JMSLLTE_CommandosStrip_armor","JMSLLTE_CommandosVest_armor"]];
+_eliteLoadoutData set ["backpacks", ["JMSLLTE_back_rebpackH_v1_black", "JMSLLTE_back_rebpack_v1_black"]];
+_eliteLoadoutData set ["helmets", ["ls_helmet_reinforcedService","ls_helmet_reinforcedServiceCoif","ls_helmet_cqcm_visor","JMSLLTE_Commando_born_helmet","JMSLLTE_CommandoH_desert_helmet","JMSLLTE_Commando_termo_helmet","ls_helmet_service"]];
+_eliteLoadoutData set ["binoculars", ["JMSLLTE_W_TD23_black_F"]];
 
 _eliteLoadoutData set ["slRifles", [
 ["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
@@ -319,7 +319,14 @@ _eliteLoadoutData set ["slRifles", [
 _eliteLoadoutData set ["rifles", [
 ["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
 ["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
-["IDA_FA11", "", "acc_flashlight", "optic_MRCO", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], [], ""]
+["IDA_FA11", "", "acc_flashlight", "optic_MRCO", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280c", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280C_20rnd_Mag"], [], ""],
+["JMSLLTE_a280cr", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280CR_20rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
 ["3AS_DC15C_F", "", "acc_flashlight", "3AS_optic_DC15C_F", ["3AS_40Rnd_EM40_Mag"], [], ""],
@@ -346,17 +353,12 @@ private _marksmanRifles = [
     ["WM_DLT19X", "", "", "", [], [], "WM_DLT_Bipod"],
     ["IDA_DC15X_Evil", "", "", "", [], [], "bipod_01_F_blk"]
 ];
-
-if (_hasMarksman) then {
-    _marksmanRifles append [
-        ["WM_DLT19X", "", "", "", [], [], "WM_DLT_Bipod"]
-    ];
-};
 _eliteLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _eliteLoadoutData set ["sniperRifles", [
 ["ls_weapon_firepuncher", "", "", "", [], [], ""],
-["IDA_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"]
+["IDA_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"],
+["JMSLLTE_E17DRifle", "", "", "", [], [], ""]
 ]];
 _eliteLoadoutData set ["sidearms", [
 ["IDA_E11P", "", "", "", [], [], ""],
@@ -369,12 +371,12 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["ls_uniform_pathfinder_navy","ls_uniform_pathfinder_navy_r","ls_uniform_pathfinder_r","ls_uniform_pathfinder", "ls_uniform_pathfinder_brown", "ls_uniform_pathfinder_brown_r","ls_uniform_pathfinder_navy_alt", "ls_uniform_pathfinder_navy_alt_r"]];
+_militaryLoadoutData set ["uniforms", ["JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform","ls_uniform_pathfinder_navy","ls_uniform_pathfinder_navy_r","ls_uniform_pathfinder_r","ls_uniform_pathfinder", "ls_uniform_pathfinder_brown", "ls_uniform_pathfinder_brown_r","ls_uniform_pathfinder_navy_alt", "ls_uniform_pathfinder_navy_alt_r"]];
 _militaryLoadoutData set ["slUniforms", ["ls_uniform_spacer_brown","ls_uniform_spacer_brown_alt"]];
-_militaryLoadoutData set ["vests", ["ls_vest_spacer", "ls_vest_spacer_holster"]];
-_militaryLoadoutData set ["Hvests", ["ls_vest_flakJacket_pouches_brown"]];
-_militaryLoadoutData set ["backpacks", ["IDA_Imperial_Backpack_Straps", "ls_cloneBackpack_beltbag"]];
-_militaryLoadoutData set ["helmets", ["ls_helmet_m1","ls_helmet_m1_light","ls_helmet_reinforcedService","ls_helmet_service","ls_helmet_service_brown"]];
+_militaryLoadoutData set ["vests", ["ls_vest_holster_maroon","ls_vest_holster_brown","JMSLLTE_PathfinderVest_armor","JMSLLTE_TermoFullVest_armor","JMSLLTE_PathfinderBags_armor","JMSLLTE_PathfinderBelt_armor"]];
+_militaryLoadoutData set ["Hvests", ["ls_vest_flakJacket_pouches_brown","ls_vest_flakJacket_open"]];
+_militaryLoadoutData set ["backpacks", ["JMSLLTE_back_rebpackH_v1_black", "JMSLLTE_back_rebpack_v1_black"]];
+_militaryLoadoutData set ["helmets", ["JMSLLTE_PathM1_b_gr_helmet","JMSLLTE_PathM1_h1_gr_helmet","JMSLLTE_PathM1_h2_gr_helmet","JMSLLTE_PathM1_s1_gr_helmet","JMSLLTE_PathM1_s2_gr_helmet","JMSLLTE_Commando_cloud_helmet","JMSLLTE_PathM1_op_gr_helmet"]];
 _militaryLoadoutData set ["binoculars", ["ls_clone_electrobinocularsCommander_night"]];
 
 _militaryLoadoutData set ["slRifles", [
@@ -385,12 +387,20 @@ _militaryLoadoutData set ["slRifles", [
 ]];
 _militaryLoadoutData set ["rifles", [
 ["IDA_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
-["IDA_E5", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
-["IDA_E22", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""]
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["JMSLLTE_a280c", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280C_20rnd_Mag"], [], ""],
+["JMSLLTE_a280cr", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280CR_20rnd_Mag"], [], ""],
+["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
 ["IDA_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
+["JMSLLTE_a180stock", "", "", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["JMSLLTE_a300c", "", "", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_A300C_30rnd_Mag"], [], ""],
+["JMSLLTE_a475", "", "", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A475_25rnd_Mag"], [], ""],
 ["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
@@ -416,18 +426,19 @@ private _mgs = [
 _militaryLoadoutData set ["machineGuns", _mgs];
 
 private _marksmanRifles = [
-    ["3AS_Valken38X_F", "", "acc_flashlight", "3AS_optic_VK38X_F", ["3AS_10Rnd_EM80_Mag"], [], "3AS_bipod_VK38X_F"],
-    ["3AS_DC15A_F", "3AS_muzzle_DC15LE_F", "acc_flashlight", "3AS_optic_DC15LE_F", [], [], "bipod_01_F_blk"]
+    ["JMSLLTE_a310", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_a300_bl_Scope", [], [], ""],
+    ["JMSLLTE_dlt20a", "", "", "JMSLLTE_a280c_bl_Scope", [], [], ""]
 ];
 
 _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _militaryLoadoutData set ["sniperRifles", [
 ["IDA_DC15X_Evil", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], "bipod_01_F_blk"],
-["IDA_774CX", "", "", "", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""]
+["IDA_774CX", "", "", "", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""],
+["JMSLLTE_E17DRifle", "", "", "", [], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
-["3AS_RK3", "", "", "", [], [], ""]
+["JMSLLTE_dl44pistol", "", "", "", [], [], ""]
 ]];
 
 ///////////////////////////////
@@ -444,11 +455,11 @@ if (_hasLawsOfWar) then {
 _policeLoadoutData set ["helmets", _helmets];
 
 _policeLoadoutData set ["SMGs", [
-["WM_DH17", "", "acc_flashlight", "", [], [], ""],
-["3AS_RK3", "", "acc_flashlight", "", [], [], ""],
-["JLTS_RG4D", "", "acc_flashlight", "", [], [], ""]
+["JMSLLTE_dh17", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", [], [], ""],
+["JMSLLTE_dt12pistol", "", "acc_flashlight", "", [], [], ""],
+["JMSLLTE_ee4", "", "acc_flashlight", "", [], [], ""]
 ]];
-_policeLoadoutData set ["sidearms", ["3AS_A180_F"]];
+_policeLoadoutData set ["sidearms", ["JMSLLTE_a180pistol"]];
 
 ////////////////////////////////
 //    Militia Loadout Data    //
@@ -459,32 +470,31 @@ _militiaLoadoutData set ["uniforms", ["JMSLLTE_ScumTroopHeavy_wood_F_CombatUnifo
 _militiaLoadoutData set ["vests", ["ls_vest_holster_maroon", "JMSLLTE_HeavyBand2_brown_armor","JMSLLTE_ComStrapBag_armor","JMSLLTE_ComStrap_armor","JMSLLTE_HeavyBandBag_brown_armor","JMSLLTE_TermoRifleVest_armor"]];
 _militiaLoadoutData set ["Hvests", ["JMSLLTE_CommandosStrip_armor"]];
 _militiaLoadoutData set ["backpacks", ["JMSLLTE_back_rebpack_v1_black","JMSLLTE_back_rebsmall_v1"]];
-_militiaLoadoutData set ["helmets", ["ls_helmet_jockey", "ls_helmet_jockey_alt", "ls_helmet_jockey_navy", "ls_helmet_jockey_navy_alt"]];
-
-if (_hasLawsOfWar) then {
-    _militiaLoadoutData set ["helmets", ["ls_helmet_jockey", "ls_helmet_jockey_alt", "ls_helmet_jockey_navy", "ls_helmet_jockey_navy_alt"]];
-} else {
-    _militiaLoadoutData set ["helmets", ["ls_helmet_jockey", "ls_helmet_jockey_alt", "ls_helmet_jockey_navy", "ls_helmet_jockey_navy_alt"]];
-};
+_militiaLoadoutData set ["helmets", ["JMSLLTE_OfheadPh_helmet","JMSLLTE_PathL_black_cap","ls_helmet_jockey", "ls_helmet_jockey_alt", "ls_helmet_jockey_navy", "ls_helmet_jockey_navy_alt"]];
 
 _militiaLoadoutData set ["slRifles", [
-["IDA_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
+["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
 ["IDA_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
 ["IDA_E10_UGL", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], ["IDA_HE_LauncherGrenade", "IDA_Smoke_LauncherGrenade", "IDA_SmokeRed_LauncherGrenade"], ""],
 ["IDA_E11_UGL", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], ["IDA_HE_LauncherGrenade", "IDA_Smoke_LauncherGrenade", "IDA_SmokeRed_LauncherGrenade"], ""]
 ]];
 _militiaLoadoutData set ["rifles", [
 ["IDA_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["JMSLLTE_ee4", "", "acc_flashlight", "", ["JMSLLTE_EE3_30rnd_Mag"], [], ""],
-["JMSLLTE_ee4", "", "acc_flashlight", "JMSLLTE_ee4m_bl_Scope", ["JMSLLTE_EE3_30rnd_Mag"], [], ""],
+["JMSLLTE_dh17rifle", "", "acc_flashlight", "", ["JMSLLTE_DH17_60Rnd_Mag"], [], ""],
+["JMSLLTE_dh17rifle", "", "acc_flashlight", "JMSLLTE_dh17r_holo_Scope", ["JMSLLTE_DH17_60Rnd_Mag"], [], ""],
 ["JMSLLTE_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
 ["IDA_A260", "", "acc_flashlight", "optic_MRCO", [], [], ""],
 ["IDA_FA11", "", "acc_flashlight", "", [], [], ""],
-["IDA_DC23", "", "acc_flashlight", "", [], [], ""]
+["IDA_DC23", "", "acc_flashlight", "", [], [], ""],
+["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
 ["JMSLLTE_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["3AS_DC15C_F", "", "acc_flashlight", "3AS_optic_DC15C_F", ["3AS_40Rnd_EM40_Mag"], [], ""],
+["JMSLLTE_a180stock", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["JMSLLTE_dh17", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_DH17_30Rnd_Mag"], [], ""],
 ["IDA_E5", "", "acc_flashlight", "3AS_optic_DC15C_F", ["3AS_40Rnd_EM40_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
@@ -497,12 +507,12 @@ _militiaLoadoutData set ["machineGuns", [
 ["IDA_M41", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power2_100Rnd_Green"], [], ""]
 ]];
 
-private _marksmanRifles = [["IDA_E22", "", "acc_flashlight", "", [], [], ""]];
-private _sniperRifles = [["IDA_DLT19D", "", "", "", [], [], ""]];
+private _marksmanRifles = [["JMSLLTE_a280", "", "acc_flashlight", "JMSLLTE_a280c_bl_Scope", [], [], ""]];
+private _sniperRifles = [["JMSLLTE_dlt20a", "", "", "JMSLLTE_rt97c_bl_Scope", [], [], ""]];
 
 _militiaLoadoutData set ["marksmanRifles", _marksmanRifles];
 _militiaLoadoutData set ["sniperRifles", _sniperRifles];
-_militiaLoadoutData set ["sidearms", ["IDA_A260P", "IDA_EC17"]];
+_militiaLoadoutData set ["sidearms", ["JMSLLTE_dl44pistol", "JMSLLTE_dt12pistol"]];
 
 //////////////////////////
 //    Misc Loadouts     //
@@ -512,13 +522,13 @@ _militiaLoadoutData set ["sidearms", ["IDA_A260P", "IDA_EC17"]];
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
 _crewLoadoutData set ["uniforms", ["ls_uniform_spacer"]];
 _crewLoadoutData set ["vests", ["ls_vest_spacer"]];
-_crewLoadoutData set ["helmets", ["ls_helmet_technician"]];
+_crewLoadoutData set ["helmets", ["ls_helmet_serviceComlink_brown"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["ls_uniform_spacer_brown_alt"]];
-_pilotLoadoutData set ["vests", ["ls_vest_spacer"]];
-_pilotLoadoutData set ["helmets", ["WM_Rebel_PilotHelmet"]];
+_pilotLoadoutData set ["uniforms", ["JMSLLTE_ScumPilotJack_beige_F_CombatUniform"]];
+_pilotLoadoutData set ["vests", ["JMSLLTE_PilotBreather_xwing"]];
+_pilotLoadoutData set ["helmets", ["JMSLLTE_Xwing_whiteReb_helmet"]];
 
 
 

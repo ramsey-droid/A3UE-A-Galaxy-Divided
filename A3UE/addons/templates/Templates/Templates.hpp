@@ -2,7 +2,7 @@
     {
         requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
         basepath = QPATHTOFOLDER(Templates);
-        logo = "\x\A3UE\addons\templates\Pictures\Markers\marker_galactic_empire_co.paa";
+        logo = "\x\A3UE\modlogo_ca.paa";
         priority = 100;
     };
 // -------------------- Occupiers ---------------------------------
