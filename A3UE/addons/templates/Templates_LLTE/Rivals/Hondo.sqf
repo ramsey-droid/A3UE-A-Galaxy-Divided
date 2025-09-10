@@ -116,7 +116,7 @@ _loadoutData set ["facewear", [
 ]];
 _loadoutData set ["fullmask", [	"G_JMSLLTE_WeqFacemaskBlack",
 "G_JMSLLTE_WeqFacemaskRed",
-"G_JMSLLTE_WeqFacemaskSquare",
+"G_JMSLLTE_WeqFacemaskSquare"
 ]];
 
 _loadoutData set ["headgear", [

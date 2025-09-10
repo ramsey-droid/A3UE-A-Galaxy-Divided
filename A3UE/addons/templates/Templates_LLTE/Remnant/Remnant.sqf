@@ -18,8 +18,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesBasic", ["JMSLLTE_B_veh_74z_imp_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["JMSLLTE_B_veh_LIUSt_imp_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["JMSLLTE_B_veh_LIUSeweb_imp_F","JMSLLTE_B_veh_LIUSfwmb_imp_F"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["JMSLLTE_B_veh_ITT_imp_F"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["3AS_PX10_IMP_F","JMSLLTE_vehgr_ATST_F"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["JMSLLTE_B_veh_LIUSt_imp_F"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["JMSLLTE_B_veh_ITT_imp_F","3AS_PX10_IMP_F","JMSLLTE_vehgr_ATST_F"]] call _fnc_saveToTemplate;
 ["vehiclesAA", []] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;

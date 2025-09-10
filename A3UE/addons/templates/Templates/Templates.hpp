@@ -2,7 +2,7 @@
     {
         requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
         basepath = QPATHTOFOLDER(Templates);
-        logo = "\x\A3UE\modlogo_ca.paa";
+        logo = QPATHTOF(Templates\modlogo_ca.paa);
         priority = 100;
     };
 // -------------------- Occupiers ---------------------------------
@@ -123,7 +123,18 @@
         climate[] = {"arid", "temperate"}; 
         description = "Led by Clone Commander Rex, the Clone Underground fights for the freedom of the galaxy against the oppressive regime of the Empire"; 
     };
-
+    class Jedi_Reb : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Jedi); 
+        side = "Reb"; 
+        flagTexture = "\ls\core\addons\data\flags\flag_republic_damaged_ca.paa"; 
+        name = "Jedi Survivors"; 
+        file = "Survivors"; 
+        maps[] = {}; 
+        requiredAddons[] = {"WBK_Lightsabers"};
+        climate[] = {"arid", "temperate"}; 
+        description = "Though nearly exterminated during Order 66, a small number of Jedi survived and seek to avoid the Empire's Grasp, supported by Clone Defectors. Win condition of getting credits to 'escape the planet' is recommended for this faction - Requires Lightsabers and Force"; 
+    };
 // -------------------- WBK Zombies Dependancy -------------------------------
     class Project_Blackwing : AGD_Base
     {
