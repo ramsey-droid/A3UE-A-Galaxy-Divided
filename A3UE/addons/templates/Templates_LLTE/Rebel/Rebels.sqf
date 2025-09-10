@@ -13,28 +13,28 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
 ["flagTexture", "\ls\core\addons\data\flags\flag_rebelAlliance_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Rebel_Alliance"] call _fnc_saveToTemplate;
+["flagMarkerType", ""] call _fnc_saveToTemplate;
 
-["vehiclesBasic", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["AGD_Rebel_Speeder_armed"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["AGD_ITT_Rebel_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesBasic", ["JMSLLTE_O_veh_AA2_reb_F"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["JMSLLTE_B_veh_v35c_reb_F"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["JMSLLTE_B_veh_x34mk2_reb_F","JMSLLTE_O_veh_AA2mk2_reb_F","JMSLLTE_O_veh_AA5mk2_reb_F"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["JMSLLTE_O_veh_AA5_reb_F"]] call _fnc_saveToTemplate;
 ["vehiclesAT", ["WM_AAC_Speeder_Rocket", "WM_V25_Speeder", "WM_AAC_Speeder", "3AS_PX10_REB_F","AGD_Rebel_ITT"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["AGD_AAC_AA"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["3AS_Gozanti_Civ_Green"]] call _fnc_saveToTemplate;
-["vehiclesMedical", []] call _fnc_saveToTemplate;
+["vehiclesPlane", ["JMSLLTE_Uwing_veh_F"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["JMSLLTE_O_veh_AA5sup_reb_F"]] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
-["vehiclesCivTruck", ["C_Van_01_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["JMSLLTE_C_veh_g17_F"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", ["JMSLLTE_C_veh_AA5_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivHeli", ["3AS_Aegis_Carrier_Civ_Blue"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["C_Boat_Civil_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivPlane", []] call _fnc_saveToTemplate;
-["vehiclesCivSupply", ["C_Truck_02_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivSupply", ["JMSLLTE_C_veh_AA5sup_F"]] call _fnc_saveToTemplate;
 
-["staticMGs", ["ls_vehicle_mrbc","3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
+["staticMGs", ["JMSLLTE_O_vehgr_m45turret_reb_F","3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;
 ["staticAA", ["AGD_Shellcracker_AA"]] call _fnc_saveToTemplate;
 ["staticMortars", ["ls_vehicle_mortar_mercenary"]] call _fnc_saveToTemplate;
@@ -74,12 +74,13 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "WM_DH17",
-    "WM_DH17_Mag",
-    "3AS_RK3",
-    "3AS_18Rnd_EM20_RK3_Mag",
+    "JMSLLTE_dh17",
+    "JMSLLTE_DH17_30Rnd_Mag",
+    "JMSLLTE_dl18pistol",
+    "JMSLLTE_DL18_20rnd_Mag",
     "ls_vest_holster_maroon",
-    "ls_imperialBackpack_satchel",
+    "JMSLLTE_HeavyBand_brown_armor",
+    "JMSLLTE_back_rebsmall_v1",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
@@ -87,20 +88,18 @@ private _initialRebelEquipment = [
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","Black_WM_Rebel_Radio"]};
+if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","JMSLLTE_back_rebradio_v1_black"]};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","Black_WM_Rebel_Radio"]};
+if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","JMSLLTE_back_rebradio_v1_black"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["ls_uniform_pathfinder",
-"ls_uniform_pathfinder_brown",
-"ls_uniform_pathfinder_brown_r",
-"ls_uniform_pathfinder_navy_alt",
-"ls_uniform_pathfinder_navy_alt_r",
-"ls_uniform_pathfinder_navy",
-"ls_uniform_pathfinder_navy_r",
-"ls_uniform_pathfinder_r"
+private _rebUniforms = ["JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform",
+"JMSLLTE_ScumTroopCom_black_F_CombatUniform",
+"JMSLLTE_ScumTroopCom_black2_F_CombatUniform",
+"JMSLLTE_ScumTroopCom_brown_F_CombatUniform",
+"ls_uniform_spacer",
+"ls_uniform_spacer_brown"
    ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
@@ -121,23 +120,56 @@ if (_hasApex) then {_dlcUniforms append [];
 
 //Faces and Voices given to Rebell AI
 ["faces", [
-    "WhiteHead_27",
-    "Barklem",
-    "ls_chiss_male2_blue",
-    "ls_chiss_male1_purple",
+    "TanoanHead_A3_02",
+    "WhiteHead_02",
+    "WhiteHead_18",
+    "AsianHead_A3_05",
+    "ls_chiss_male1_blue",
+    "GreekHead_A3_01",
+    "ls_chiss_male3_purple",
+    "GreekHead_A3_04",
+    "WhiteHead_07",
+    "TanoanHead_A3_04",
+    "WhiteHead_26",
+    "LivonianHead_7",
+    "TanoanHead_A3_05",
+    "TanoanHead_A3_07",
     "ls_mirialan_male1_green",
+    "ls_mirialan_male1_sand",
+    "ls_mirialan_male1_yellow",
+    "ls_mirialan_male2_green",
     "ls_mirialan_male2_sand",
+    "ls_mirialan_male2_yellow",
+    "ls_mirialan_male3_green",
+    "ls_mirialan_male3_sand",
     "ls_mirialan_male3_yellow",
-    "ls_zabrak_male1t0_base",
-    "ls_zabrak_male1t1_pale",
+    "ls_zabrak_male2t1_base",
+    "ls_zabrak_male2t2_pale",
+    "ls_zelosian_male1",
+    "ls_zelosian_male2",
+    "ls_zeltron_male3_red",
+    "ls_zeltron_male2_pink",
     "ls_zeltron_male1_red",
-    "ls_zeltron_male3_pink",
-    "ls_cloneC",
-    "GreekHead_A3_12",
-    "AfricanHead_01",
-    "WhiteHead_03",
-    "WhiteHead_05",
-    "GreekHead_A3_10_a"
+    "Head_AbedDark",
+    "Head_AbedGrey",
+    "Head_AbedPink",
+    "Head_AbedYellow",
+    "Head_AqualishBrown",
+    "Head_AqualishGreen",
+    "Head_AqualishLight",
+    "Head_DurosBlue",
+    "Head_DurosBlue2",
+    "Head_DurosGreen",
+    "Head_DurosGrey",
+    "Head_QuarrenBrown",
+    "Head_QuarrenPink",
+    "Head_QuarrenRed",
+    "Head_QuarrenYellow",
+    "Head_RodianBlue",
+    "Head_RodianGreen",
+    "Head_RodianOlive",
+    "Head_RodianRed",
+    "Head_SullustanSkin"
     ]] call _fnc_saveToTemplate;
 ["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05GRE","Male10ENG","Male03POL","Male01CHI","Male02PER","Male01RUS","Male01ENGFRE","Male02FRE"]] call _fnc_saveToTemplate;
 
