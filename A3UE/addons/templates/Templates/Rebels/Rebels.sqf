@@ -37,9 +37,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["staticMGs", ["ls_vehicle_mrbc","3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;
 ["staticAA", ["AGD_Shellcracker_AA"]] call _fnc_saveToTemplate;
-["staticMortars", ["3AS_Republic_Mortar"]] call _fnc_saveToTemplate;
-["staticMortarMagHE", "3AS_8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", "3AS_8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
+["staticMortars", ["ls_vehicle_mortar_mercenary"]] call _fnc_saveToTemplate;
+["staticMortarMagHE", "ls_5Rnd_82mm_mortar_HE"] call _fnc_saveToTemplate;
+["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
 
 ["minesAT", ["HX_AT_Mine_Mag"]] call _fnc_saveToTemplate;
 ["minesAPERS", ["APERSMine_Range_Mag"]] call _fnc_saveToTemplate;
@@ -87,9 +87,9 @@ private _initialRebelEquipment = [
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","tf_anprc155_coyote"]};
+if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","Black_WM_Rebel_Radio"]};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","TFAR_anprc155_coyote"]};
+if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","Black_WM_Rebel_Radio"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 

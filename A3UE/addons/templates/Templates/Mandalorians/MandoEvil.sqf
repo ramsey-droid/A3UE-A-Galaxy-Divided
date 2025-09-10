@@ -37,9 +37,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["staticMGs", ["ls_vehicle_mrbc"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;
 ["staticAA", ["AGD_Shellcracker_AA"]] call _fnc_saveToTemplate;
-["staticMortars", ["WM_ImperialMortar"]] call _fnc_saveToTemplate;
-["staticMortarMagHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
+["staticMortars", ["ls_vehicle_mortar_mercenary"]] call _fnc_saveToTemplate;
+["staticMortarMagHE", "ls_5Rnd_82mm_mortar_HE"] call _fnc_saveToTemplate;
+["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
 
 ["minesAT", ["HX_AT_Mine_Mag"]] call _fnc_saveToTemplate;
 ["minesAPERS", ["APERSMine_Range_Mag"]] call _fnc_saveToTemplate;
@@ -80,6 +80,8 @@ private _initialRebelEquipment = [
 	"ls_imperialBackpack_shoulderPouch",
 	"ls_mandalorianVest_saxonGrunt",
 	"ls_mandalorianVest_saxonSergeant",
+    "IDA_Westar35",
+    "IDA_Blaster_Cell_Power2_20Rnd_yellow",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
