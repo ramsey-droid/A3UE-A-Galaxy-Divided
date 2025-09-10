@@ -2,7 +2,7 @@
     {
         requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
         basepath = QPATHTOFOLDER(Templates);
-        logo = QPATHTOF(Templates\modlogo_ca.paa);
+        logo = QPATHTOF(Templates\agdicon_ca.paa);
         priority = 100;
     };
 // -------------------- Occupiers ---------------------------------
