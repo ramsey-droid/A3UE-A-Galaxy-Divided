@@ -1,5 +1,3 @@
-class Templates 
-{
     class AGD_Base
     {
         requiredAddons[] = {"ls_loadorder","JLTS_core","3AS"};
@@ -176,7 +174,7 @@ class Templates
         climate[] = {"arid", "temperate"}; 
         description = "After the Death of Count Dooku, the Neo-Separatist Coalition emerged to continue the fight, now against the Galactic Empire"; 
     };
-};
+
 /*
     Climates: {"arid", "arctic", "temperate", "tropical"}
 */
