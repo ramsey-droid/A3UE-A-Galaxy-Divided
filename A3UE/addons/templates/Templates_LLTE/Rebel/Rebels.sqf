@@ -24,7 +24,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["JMSLLTE_Uwing_veh_F"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["JMSLLTE_Uwing_veh_F","3AS_Civilian_Transport_03"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["JMSLLTE_O_veh_AA5sup_reb_F"]] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["JMSLLTE_C_veh_g17_F"]] call _fnc_saveToTemplate;
