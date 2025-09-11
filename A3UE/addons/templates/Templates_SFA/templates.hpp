@@ -1,6 +1,6 @@
     class AGD_SFA_Base: AGD_Base
     {
-        requiredAddons[] = {"SFA_Core"};
+        requiredAddons[] = {"SFA_Core","SW_Items"};
         logo = QPATHTOF(Templates_SFA\SFAicon_ca.paa);
         priority = 50;
     };

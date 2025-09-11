@@ -370,7 +370,5 @@ class CfgVehicles {
 		class WM_AAC_Speeder;
 		class WM_AAC_Speeder_Artillery;
 
-	#include "SFA\vehicles.hpp"
-
 	#include "civ\vehicles.hpp"
 };

@@ -22,9 +22,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesAT", ["SFA_Firebrand_F_Revanite"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["AGD_AAC_AA"]] call _fnc_saveToTemplate;
 
-["vehiclesBoat", []] call _fnc_saveToTemplate;
+["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["3AS_Civilian_Transport_03"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["3AS_Gozanti_BlackSun"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", []] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["AGD_Fennek_Civ"]] call _fnc_saveToTemplate;
@@ -91,8 +91,7 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["SFA_Revanite_Armor"
-   ];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["SFA_Revanite_Armor","SFA_Rev_Mando_Armor"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
@@ -139,7 +138,7 @@ _loadoutData set ["binoculars", ["Binocular"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
-_loadoutData set ["facewear", ["ls_mandalorian_rangefinder_hud"]];
+_loadoutData set ["facewear", ["G_Balaclava_blk"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];

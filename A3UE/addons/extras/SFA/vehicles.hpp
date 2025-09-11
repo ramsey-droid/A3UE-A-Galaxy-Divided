@@ -1,3 +1,4 @@
+	class B_Truck_01_fuel_F;
 	class AGD_Truck_Sith_Fuel: B_Truck_01_fuel_F
 	{
 		author = "Ramsey";
@@ -13,6 +14,7 @@
 			QPATHTOF(data\Sith\truck_01_Fuel_CO.paa)
 		};
 	};
+	class B_Truck_01_Repair_F;
 	class AGD_Truck_Sith_Repair: B_Truck_01_Repair_F
 	{
 		author = "Ramsey";
@@ -29,6 +31,7 @@
 			QPATHTOF(data\Sith\Containers_02_set_co.paa)
 		};
 	};
+	class B_Truck_01_ammo_F;
 	class AGD_Truck_Sith_Ammo: B_Truck_01_ammo_F
 	{
 		author = "Ramsey";
@@ -44,6 +47,7 @@
 			QPATHTOF(data\Sith\truck_01_ammo_CO.paa)
 		};
 	};
+	class AGD_AAC_AA;
 	class AGD_Sith_AAC_AA :AGD_AAC_AA
 	{
 		faction = "Antistasi_Sith";
@@ -58,7 +62,7 @@
 			};
 		};
 	};
-
+	class WM_AAC_Speeder;
 	class AGD_OR_AAC: WM_AAC_Speeder
 	{
 		faction = "Antistasi_OR";
@@ -76,6 +80,7 @@
 			};
 		};
 	};
+	class WM_AAC_Speeder_Rocket;
 	class AGD_OR_AAC_Rocket: WM_AAC_Speeder_Rocket
 	{
 		faction = "Antistasi_OR";
@@ -93,6 +98,7 @@
 			};
 		};
 	};
+	class WM_AAC_Speeder_Artillery;
 	class AGD_OR_AAC_MRLS: WM_AAC_Speeder_Artillery
 	{
 			faction = "Antistasi_OR";

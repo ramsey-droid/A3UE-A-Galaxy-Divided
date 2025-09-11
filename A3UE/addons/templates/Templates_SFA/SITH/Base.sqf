@@ -88,6 +88,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["howitzerMagazineHE", ""] call _fnc_saveToTemplate;			//this line determines available HE-shells for the static howitzers - !needs to be compatible with the howitzer! -- same syntax as above - ENTER ONLY ONE OPTION
 
+["vehicleSam", "SFA_AA_Base"] call _fnc_saveToTemplate;
+
 //Minefield definition
 ["minefieldAT", ["ATMine"]] call _fnc_saveToTemplate;
 ["minefieldAPERS", ["APERSMine"]] call _fnc_saveToTemplate;
@@ -969,7 +971,7 @@ private _unitTypes = [
 	["Medic", _medicTemplate, [["medic", true]], [_prefix]],
 	["Engineer", _engineerTemplate, [["engineer", true]], [_prefix]],
 	["ExplosivesExpert", _explosivesExpertTemplate, [["explosiveSpecialist", true]], [_prefix]],
-	["Grenadier", _grenadierTemplate, [], [_prefix]],
+	["Grenadier", _grenadierTemplate, [["baseClass", "AGD_S_Eradicator", true]], [_prefix]],
 	["LAT", _latTemplate, [], [_prefix]],
 	["AT", _atTemplate, [], [_prefix]],
 	["AA", _aaTemplate, [], [_prefix]],
@@ -1054,7 +1056,7 @@ private _unitTypes = [
 	["Medic", _medicTemplate, [["medic", true]], [_prefix]],
 	["Engineer", _engineerTemplate, [["engineer", true]], [_prefix]],
 	["ExplosivesExpert", _explosivesExpertTemplate, [["explosiveSpecialist", true]], [_prefix]],
-	["Grenadier", _grenadierTemplate, [], [_prefix]],
+	["Grenadier", _grenadierTemplate, [["baseClass", "AGD_S_Acolyte", true]], [_prefix]],
 	["LAT", _latTemplate, [], [_prefix]],
 	["AT", _atTemplate, [], [_prefix]],
 	["AA", _aaTemplate, [], [_prefix]],
