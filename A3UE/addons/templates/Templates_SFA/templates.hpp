@@ -45,17 +45,17 @@
         name = "Sith Empire (Snow)"; 
     };
 
-    class AGD_Revan: AGD_SFA_Base
-    {
-        basepath = QPATHTOFOLDER(Templates_SFA\Revan); 
-        side = "Reb"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa); 
-        name = "Revanites"; 
-        file = "Revan"; 
-        maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
-        description = "Followers of the legendary Jedi Knight turned Sith Lord, Revan, who seek to restore balance to the Force and challenge both the Sith and the Jedi"; 
-    };
+    // class AGD_Revan: AGD_SFA_Base
+    // {
+    //     basepath = QPATHTOFOLDER(Templates_SFA\Revan); 
+    //     side = "Reb"; 
+    //     flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa); 
+    //     name = "Revanites"; 
+    //     file = "Revan"; 
+    //     maps[] = {}; 
+    //     climate[] = {"arid", "temperate"}; 
+    //     description = "Followers of the legendary Jedi Knight turned Sith Lord, Revan, who seek to restore balance to the Force and challenge both the Sith and the Jedi"; 
+    // };
 
     class AGD_Crusaders: AGD_SFA_Base
     {
