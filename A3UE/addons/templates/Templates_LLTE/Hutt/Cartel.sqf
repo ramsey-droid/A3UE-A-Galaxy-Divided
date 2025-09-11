@@ -44,6 +44,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["vehiclesDropPod", ["3AS_EscapePod"]] call _fnc_saveToTemplate; 
 
+["vehicleRadar", "ls_vehicle_radarDish_blufor"] call _fnc_saveToTemplate;
+["vehicleSam", "JMSLLTE_O_vehgr_yag4_reb_F"] call _fnc_saveToTemplate;
+
 ["vehiclesTransportBoats", ["I_Boat_Transport_01_F"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["I_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets
 ["vehiclesAmphibious", ["JMSLLTE_B_veh_x34mk2_reb_F"]] call _fnc_saveToTemplate; 		//this line determines amphibious vehicles  -- Example: ["vehiclesAmphibious", ["B_APC_Wheeled_01_cannon_F"]] -- Array, can contain multiple assets

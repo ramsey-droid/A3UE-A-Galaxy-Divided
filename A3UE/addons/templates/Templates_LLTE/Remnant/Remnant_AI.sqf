@@ -43,6 +43,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesIFVs", ["JMSLLTE_B_veh_LIUSeweb_imp_F"]] call _fnc_saveToTemplate;				//this line determines IFVs
 
 ["vehiclesDropPod", ["3AS_EscapePod"]] call _fnc_saveToTemplate; 
+["vehicleRadar", "ls_vehicle_radarDish_blufor"] call _fnc_saveToTemplate;
+["vehicleSam", "JMSLLTE_I_vehgr_XX9turbolaser_imp_F"] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["JMSLLTE_B_veh_ITT_imp_F"]] call _fnc_saveToTemplate; 	//this line determines transport boats -- Example: ["vehiclesTransportBoats", ["B_Boat_Transport_01_F"]] -- Array, can contain multiple assets
 ["vehiclesGunBoats", ["JMSLLTE_B_veh_ITT_imp_F"]] call _fnc_saveToTemplate; 			//this line determines gun boats -- Example: ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] -- Array, can contain multiple assets

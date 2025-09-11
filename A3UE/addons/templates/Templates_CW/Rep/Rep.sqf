@@ -269,7 +269,7 @@ _eliteLoadoutData set ["glVests", ["JLTS_CloneVestLieutenant_212"]];
 _eliteLoadoutData set ["backpacks", ["SWLB_clone_backpack", "SWLB_clone_backpack_heavy", "SWLB_clone_backpack_medic", "SWLB_clone_backpack_RTO"]];
 _eliteLoadoutData set ["atBackpacks", ["ls_cloneBackpack_ammo"]];
 _eliteLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_212"]];
-_eliteLoadoutData set ["slHat", ["ls_cloneHelmet_commando_gregor"]];
+_eliteLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_212"]];
 _eliteLoadoutData set ["NVGs", ["JLTS_CloneNVGMC_212_Cody"]];
 _eliteLoadoutData set ["binoculars", ["JLTS_CloneBinocular"]];
 _eliteLoadoutData set ["lightATLaunchers", [
@@ -385,7 +385,7 @@ _policeLoadoutData set ["sidearms", [
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
 _militiaLoadoutData set ["uniforms", ["JLTS_CloneArmor"]];		//this line determines uniforms for militia loadouts -- Example: ["U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_tshirt"] -- Array, can contain multiple assets
-_militiaLoadoutData set ["sluniforms", ["JLTS_CloneArmor_Sergeant"]];
+_militiaLoadoutData set ["slUniforms", ["JLTS_CloneArmor_Sergeant"]];
 _militiaLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestSuspender","JLTS_CloneVestReconNCO"]];			//this line determines vests for militia loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
 _militiaLoadoutData set ["backpacks", ["ls_cloneBackpack_standard","ls_cloneBackpack_medic","ls_cloneBackpack_radio"]];		//this line determines backpacks for militia loadouts -- Example: ["B_AssaultPack_mcamo", "B_Kitbag_mcamo"] -- Array, can contain multiple assets
 _militiaLoadoutData set ["helmets", ["JLTS_CloneHelmetP2"]];		//this line determines helmets for police loadouts -- Example: ["H_HelmetB_camo", "H_HelmetB_desert"] -- Array, can contain multiple assets
@@ -449,7 +449,7 @@ _pilotLoadoutData set ["carbines", [
 private _squadLeaderTemplate = {
     ["slHat"] call _fnc_setHelmet;
     [["Hvests", "vests"] call _fnc_fallback] call _fnc_setVest;
-    ["slUniforms"] call _fnc_setUniform;
+    ["uniforms"] call _fnc_setUniform;
 
     ["backpacks"] call _fnc_setBackpack;
 
