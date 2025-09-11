@@ -44,4 +44,10 @@ class CfgMarkers
 		icon = QPATHTOFOLDER(Pictures\Markers\marker_or_co.paa);
 		texture = QPATHTOFOLDER(Pictures\Markers\marker_or_co.paa);
 	};
+	class Revanites: flag_NATO 
+	{
+		name = "Revanites";
+		icon = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa);
+		texture = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa);
+	};
 };

@@ -94,7 +94,7 @@
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
-        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_mando_co.paa); 
         name = "Clan Saxon"; 
         file = "MandoEvil"; 
         maps[] = {}; 
@@ -105,7 +105,7 @@
     {
         basepath = QPATHTOFOLDER(Templates\Mandalorians); 
         side = "Reb"; 
-        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_mando_co.paa); 
         name = "Mandalorian Survivors"; 
         file = "Mando"; 
         maps[] = {}; 
@@ -167,7 +167,7 @@
     {
         basepath = QPATHTOFOLDER(Templates\Rivals); 
         side = "Riv"; 
-        flagTexture = "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"; 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_mando_co.paa); 
         name = "Mandalorian Survivors"; 
         file = "Mandalorian"; 
         maps[] = {}; 

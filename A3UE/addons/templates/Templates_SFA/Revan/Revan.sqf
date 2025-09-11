@@ -12,27 +12,27 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Revanites"] call _fnc_saveToTemplate;
 
 ["flag", "ls_flag_mandalorian_damaged"] call _fnc_saveToTemplate;
-["flagTexture", "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Mandalorian"] call _fnc_saveToTemplate;
+["flagTexture", QPATHTOF(Pictures\Markers\flag_revan_ca.paa)] call _fnc_saveToTemplate;
+["flagMarkerType", "Revanites"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["AGD_Rebel_Speeder_armed"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["AGD_ITT_Rebel_Unarmed"]] call _fnc_saveToTemplate;
-["vehiclesAT", ["WM_AAC_Speeder_Rocket", "WM_V25_Speeder", "WM_AAC_Speeder", "3AS_PX10_REB_F","AGD_Rebel_ITT"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["AGD_ITT_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["SFA_Firebrand_F_Revanite"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["AGD_AAC_AA"]] call _fnc_saveToTemplate;
 
-["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
+["vehiclesBoat", []] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["3AS_Gozanti_Civ_Green"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["3AS_Civilian_Transport_03"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", []] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["AGD_Fennek_Civ"]] call _fnc_saveToTemplate;
-["vehiclesCivTruck", ["C_Van_01_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", ["AGD_Truck_Civ"]] call _fnc_saveToTemplate;
 ["vehiclesCivHeli", ["3AS_Aegis_Carrier_Civ_Blue"]] call _fnc_saveToTemplate;
-["vehiclesCivBoat", ["C_Boat_Civil_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivBoat", []] call _fnc_saveToTemplate;
 ["vehiclesCivPlane", []] call _fnc_saveToTemplate;
-["vehiclesCivSupply", ["C_Truck_02_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivSupply", ["AGD_Truck_Civ"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["ls_vehicle_mrbc","3AS_HeavyRepeater_Unarmoured"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;
