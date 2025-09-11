@@ -178,13 +178,13 @@ _loadoutData set ["NVGs", ["ls_nvg_goggles"]];						//this line determines NVGs 
 _loadoutData set ["binoculars", ["SFA_electrobinocular"]];		//this line determines the binoculars
 _loadoutData set ["rangefinders", ["SFA_electrobinocular"]];
 
-_loadoutData set ["stormUniforms", ["SFA_Republic_Armor_TT15A"]];
+_loadoutData set ["stormUniforms", ["SFA_Republic_Armor_TRS"]];
 _loadoutData set ["stormVests", ["SFA_Gunner_Plating"]];
-_loadoutData set ["stormHats", ["SFA_Rep_Trooper_TT15A_Helmet"]];
+_loadoutData set ["stormHats", ["SFA_Rep_Trooper_Taris_Helmet"]];
 
-_loadoutData set ["stormSniperUniforms", ["SFA_Republic_Armor_light_standard"]];
-_loadoutData set ["stormSniperVests", ["ls_cloneVest_scout"]];
-_loadoutData set ["stormSniperHats", ["SFA_Scout_Trooper_STND_Helmet"]];
+_loadoutData set ["stormSniperUniforms", ["SFA_Republic_Armor_light_taris"]];
+_loadoutData set ["stormSniperVests", ["ls_cloneVest_scout_forest"]];
+_loadoutData set ["stormSniperHats", ["SFA_Scout_Trooper_Taris_Helmet"]];
 
 _loadoutData set ["traitorUniforms", ["WM_ParaMilitary_Shirt_Rolled"]];		//this line determines traitor uniforms for traitor mission
 _loadoutData set ["traitorVests", ["ls_imperialVest_army_damaged"]];			//this line determines traitor vesets for traitor mission

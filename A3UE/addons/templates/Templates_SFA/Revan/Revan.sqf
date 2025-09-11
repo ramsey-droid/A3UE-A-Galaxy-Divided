@@ -9,11 +9,11 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Rebel Alliance"] call _fnc_saveToTemplate;
+["name", "Revanites"] call _fnc_saveToTemplate;
 
-["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
-["flagTexture", "\ls\core\addons\data\flags\flag_rebelAlliance_damaged_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Rebel_Alliance"] call _fnc_saveToTemplate;
+["flag", "ls_flag_mandalorian_damaged"] call _fnc_saveToTemplate;
+["flagTexture", "\ls\core\addons\data\flags\flag_mandalorian_damaged_ca.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "Mandalorian"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
@@ -47,14 +47,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["breachingExplosivesAPC", ["ls_explosive_breachCharge_magazine"]] call _fnc_saveToTemplate;
 ["breachingExplosivesTank", ["ls_explosive_demoCharge_magazine"]] call _fnc_saveToTemplate;
 
-["vehicleLightSource", "land_3AS_fob_light_reb_tall"] call _fnc_saveToTemplate;
-
 //////////////////////////////////////
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
 ["lootCrate", "A3AP_Box_Syndicate_Ammo_F"] call _fnc_saveToTemplate;
-["rallyPoint", "3AS_Double_Reb_Stand"] call _fnc_saveToTemplate;
+["rallyPoint", "3AS_Small_Mando_Stand"] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
 ["animations", [
@@ -74,12 +72,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "WM_DH17",
-    "WM_DH17_Mag",
-    "3AS_RK3",
-    "3AS_18Rnd_EM20_RK3_Mag",
-    "ls_vest_holster_maroon",
-    "ls_imperialBackpack_satchel",
+	"SFA_R10",
+	"SFA_Base_mag",
+	"ls_vest_holster_maroon",
+    "SFA_HR7_p",
+    "SFA_HP_Pistol_mag",
+	"SFA_Revanite_backpack",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
@@ -87,20 +85,13 @@ private _initialRebelEquipment = [
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","Black_WM_Rebel_Radio"]};
+if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","SFA_Revanite_backpack_LR"]};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","ls_radios_hush98"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","Black_WM_Rebel_Radio"]};
+if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["ls_radios_hush98","SFA_Revanite_backpack_LR"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["ls_uniform_pathfinder",
-"ls_uniform_pathfinder_brown",
-"ls_uniform_pathfinder_brown_r",
-"ls_uniform_pathfinder_navy_alt",
-"ls_uniform_pathfinder_navy_alt_r",
-"ls_uniform_pathfinder_navy",
-"ls_uniform_pathfinder_navy_r",
-"ls_uniform_pathfinder_r"
+private _rebUniforms = ["SFA_Revanite_Armor"
    ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
@@ -113,7 +104,7 @@ if (_hasApex) then {_dlcUniforms append [];
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", ["ls_helmet_jockey", "ls_helmet_jockey_alt"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", ["SFA_Revanite_Militant_Mask","SFA_Revanite_Partisan_Mask","SFA_Revanite_Battler_Helmet"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
@@ -121,26 +112,22 @@ if (_hasApex) then {_dlcUniforms append [];
 
 //Faces and Voices given to Rebell AI
 ["faces", [
-    "WhiteHead_27",
-    "Barklem",
-    "ls_chiss_male2_blue",
-    "ls_chiss_male1_purple",
-    "ls_mirialan_male1_green",
-    "ls_mirialan_male2_sand",
-    "ls_mirialan_male3_yellow",
-    "ls_zabrak_male1t0_base",
-    "ls_zabrak_male1t1_pale",
-    "ls_zeltron_male1_red",
-    "ls_zeltron_male3_pink",
-    "ls_cloneC",
-    "GreekHead_A3_12",
-    "AfricanHead_01",
-    "WhiteHead_03",
-    "WhiteHead_05",
-    "GreekHead_A3_10_a"
-    ]] call _fnc_saveToTemplate;
-["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05GRE","Male10ENG","Male03POL","Male01CHI","Male02PER","Male01RUS","Male01ENGFRE","Male02FRE"]] call _fnc_saveToTemplate;
-
+    "WhiteHead_07",
+    "WhiteHead_15",
+    "GreekHead_A3_04",
+    "AfricanHead_02",
+    "WhiteHead_29",
+    "LivonianHead_4",
+    "RussianHead_5",
+    "LivonianHead_9",
+    "GreekHead_A3_11",
+    "RussianHead_1",
+    "WhiteHead_26",
+    "AsianHead_A3_06",
+    "TanoanHead_A3_04",
+    "WhiteHead_30"
+]] call _fnc_saveToTemplate;
+["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05ENGB"]] call _fnc_saveToTemplate;
 //////////////////////////
 //       Loadouts       //
 //////////////////////////
@@ -152,7 +139,7 @@ _loadoutData set ["binoculars", ["Binocular"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
-_loadoutData set ["facewear", ["ls_jabiimGlasses_goggles"]];
+_loadoutData set ["facewear", ["ls_mandalorian_rangefinder_hud"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];

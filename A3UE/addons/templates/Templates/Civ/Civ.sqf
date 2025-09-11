@@ -10,9 +10,8 @@ private _hasApex = "expansion" in A3A_enabledDLC;
 //////////////////////////
 
 ["vehiclesCivCar", [
-    "C_Offroad_01_F", 1.0
+    "AGD_Fennek_Civ", 1.0
     ,"ls_vehicle_105kLancer_civ", 1.0
-	,"a3a_MRAP_03_grey_F", 1.0
 	,"B_MRAP_01_F", 1.0]] call _fnc_saveToTemplate;
 
 ["vehiclesCivIndustrial", [
