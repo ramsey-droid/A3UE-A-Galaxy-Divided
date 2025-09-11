@@ -2,6 +2,7 @@ class I_story_crew_F;
 class AGD_Unit_Worker_Uniform1: I_story_crew_F
 {
 	uniform = QGUNIFORM(Worker_Uniform1);
+	scope = 1;
 	model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
