@@ -254,7 +254,7 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_eliteLoadoutData set ["uniforms", ["IDA_B1_uniform"]];
+_eliteLoadoutData set ["uniforms", ["IDA_B1_uniform","ls_droidUniform_b2"]];
 _eliteLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _eliteLoadoutData set ["mgVests", ["ls_gar_clone_vest"]];
 _eliteLoadoutData set ["medVests", ["ls_gar_clone_vest"]];
@@ -264,7 +264,7 @@ _eliteLoadoutData set ["atBackpacks", ["JLTS_B1_backpack"]];
 _eliteLoadoutData set ["helmets", []];
 _eliteLoadoutData set ["NVGs", ["JLTS_NVG_droid_chip_1"]];
 _eliteLoadoutData set ["binoculars", ["JLTS_DroidBinocular"]];
-_eliteLoadoutData set ["antiInfantryGrenades", ["3AS_ThermalDetonator", "442_impact_mag"]];
+_eliteLoadoutData set ["antiInfantryGrenades", ["3AS_ThermalDetonator"]];
 _eliteLoadoutData set ["lightATLaunchers", [
 ["ls_weapon_rps6", "", "", "", ["ls_mag_rpg_1rnd"], [], ""]
 ]];
@@ -308,7 +308,7 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_militaryLoadoutData set ["uniforms", ["IDA_B1_uniform"]];
+_militaryLoadoutData set ["uniforms", ["IDA_B1_uniform","ls_droidUniform_b2"]];
 _militaryLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _militaryLoadoutData set ["glVests", ["ls_gar_clone_vest"]];
 _militaryLoadoutData set ["Hvests", ["ls_gar_clone_vest"]];

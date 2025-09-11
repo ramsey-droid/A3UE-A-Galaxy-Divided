@@ -24,10 +24,10 @@
 ["vehiclesLightArmed",["3AS_BarcSideCar", "3AS_ISP", "3AS_ISP", "3AS_Barc"]] call _fnc_saveToTemplate; 		
 ["vehiclesTrucks", ["3AS_RTT_Wheeled"]] call _fnc_saveToTemplate; 		
 ["vehiclesCargoTrucks", ["3AS_RTT_Wheeled"]] call _fnc_saveToTemplate; 		
-["vehiclesAmmoTrucks", ["442_argon_ammo"]] call _fnc_saveToTemplate; 	
-["vehiclesRepairTrucks", ["442_argon_repair"]] call _fnc_saveToTemplate; 	
-["vehiclesFuelTrucks", ["442_argon_fuel"]] call _fnc_saveToTemplate;	
-["vehiclesMedical", ["442_argon_medical"]] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["3AS_PX10_REP_R3"]] call _fnc_saveToTemplate; 	
+["vehiclesRepairTrucks", ["3AS_PX10_REP_R3"]] call _fnc_saveToTemplate; 	
+["vehiclesFuelTrucks", ["3AS_PX10_REP_R3"]] call _fnc_saveToTemplate;	
+["vehiclesMedical", ["3AS_PX10_REP_R3"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["3AS_RTT", "3AS_RTT_Wheeled", "3AS_PX10_REP_F"]] call _fnc_saveToTemplate;
 ["vehiclesAPCs", ["3AS_PX10_REP_UP", "3AS_Saber_M1", "3AS_Saber_M1Recon"]] call _fnc_saveToTemplate;
 ["vehiclesAirborne", ["3AS_PX10_REP_F", "3AS_Saber_M1"]] call _fnc_saveToTemplate;
@@ -59,7 +59,7 @@
 ["3AS_AV7", ["3AS_32Rnd_300mm_Mo_shells"]]
 ]] call _fnc_saveToTemplate;
 
-["uavsAttack", ["B_UAV_02_dynamicLoadout_F", "B_T_UAV_03_dynamicLoadout_F"]] call _fnc_saveToTemplate;
+["uavsAttack", []] call _fnc_saveToTemplate;
 ["uavsPortable", ["3as_uas2"]] call _fnc_saveToTemplate;
 
 //Config special vehicles - militia vehicles are mostly used in the early game, police cars are being used by troops around cities -- Example:
@@ -112,27 +112,27 @@ _loadoutData set ["SMGs", []];
 _loadoutData set ["machineGuns", []];
 _loadoutData set ["marksmanRifles", []];
 _loadoutData set ["sniperRifles", []];
-_loadoutData set ["lightATLaunchers", []];
+_loadoutData set ["lightATLaunchers", ["3AS_RPS6_F"]];
 _loadoutData set ["ATLaunchers", [
-["ls_weapon_rps6", "", "", "", ["ls_mag_rpg_1rnd"], [], ""]
+["JLTS_RPS6", "", "", "", ["JLTS_RPS6_HE_mag"], [], ""]
 ]];
 _loadoutData set ["missileATLaunchers", [
-["SWLW_PLX1", "", "", "", ["SWLW_plx1_at_mag"], [], ""]
+["3AS_RPS6_HP", "", "", "", ["3AS_MK41_AT"], [], ""]
 ]];
 _loadoutData set ["AALaunchers", [
-["SWLW_PLX1_AA", "", "", "", ["SWLW_plx1_aa_mag"], [], ""]
+["3AS_PLX1_AA", "", "", "", ["3AS_JLTS_MK39_AA"], [], ""]
 ]];
 _loadoutData set ["sidearms", []];
 
-_loadoutData set ["ATMines", ["ATMine_Range_Mag"]];
-_loadoutData set ["APMines", ["APERSMine_Range_Mag", "APERSBoundingMine_Range_Mag"]];
-_loadoutData set ["lightExplosives", ["SWLW_clones_spec_breach_mag"]]; 			
-_loadoutData set ["heavyExplosives", ["SWLW_clones_spec_demo_mag"]]; 			
+_loadoutData set ["ATMines", ["ATMine_Range_Mag"]]; 					//this line determines the AT mines which can be carried by units -- Example: ["ATMine_Range_Mag"] -- Array, can contain multiple assets
+_loadoutData set ["APMines", ["APERSMine_Range_Mag"]]; 					//this line determines the APERS mines which can be carried by units -- Example: ["APERSMine_Range_Mag"] -- Array, can contain multiple assets
+_loadoutData set ["lightExplosives", ["ls_explosive_demoCharge_magazine"]]; 			//this line determines light explosives -- Example: ["DemoCharge_Remote_Mag"] -- Array, can contain multiple assets
+_loadoutData set ["heavyExplosives", ["IDA_explosive_Detpack_mag", "IDA_explosive_Detpack2_mag"]]; 			//this line determines heavy explosives -- Example: ["SatchelCharge_Remote_Mag"] -- Array, can contain multiple assets
 
-_loadoutData set ["antiInfantryGrenades", ["3AS_ThermalDetonator", "442_impact_mag"]]; 		//this line determines anti infantry grenades (frag and such) -- Example: ["HandGrenade", "MiniGrenade"] -- Array, can contain multiple assets
-_loadoutData set ["antiTankGrenades", ["3AS_ThrowableCharge"]]; 			//this line determines anti tank grenades. Leave empty when not available. -- Array, can contain multiple assets
-_loadoutData set ["smokeGrenades", ["SmokeShell"]];
-_loadoutData set ["signalsmokeGrenades", ["SmokeShellYellow", "SmokeShellRed", "SmokeShellPurple", "SmokeShellOrange", "SmokeShellGreen", "SmokeShellBlue"]];
+_loadoutData set ["antiInfantryGrenades", ["IDA_grenade_Detonator_mag", "3AS_SonicDet"]]; 		//this line determines anti infantry grenades (frag and such) -- Example: ["HandGrenade", "MiniGrenade"] -- Array, can contain multiple assets
+_loadoutData set ["antiTankGrenades", ["IDA_grenade_Imploder_mag", "IDA_grenade_Penetrator_mag"]]; 			//this line determines anti tank grenades. Leave empty when not available. -- Array, can contain multiple assets
+_loadoutData set ["smokeGrenades", ["IDA_grenade_Smoke_mag"]];
+_loadoutData set ["signalsmokeGrenades", ["IDA_grenade_Smoke_Purple_mag", "IDA_grenade_Smoke_Red_mag", "IDA_grenade_Smoke_Green_mag", "IDA_grenade_Smoke_Blue_mag"]];
 
 
 //Basic equipment. Shouldn't need touching most of the time.
@@ -140,7 +140,7 @@ _loadoutData set ["signalsmokeGrenades", ["SmokeShellYellow", "SmokeShellRed", "
 _loadoutData set ["maps", ["ItemMap"]];
 _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
-_loadoutData set ["radios", ["SWLB_comlink"]];			//this line determines radio
+_loadoutData set ["radios", ["JLTS_clone_comlink"]];			//this line determines radio
 _loadoutData set ["gpses", ["ItemGPS"]];			//this line determines GPS
 _loadoutData set ["NVGs", ["JLTS_CloneNVG","JLTS_CloneNVGRange","JLTS_CloneNVG_spec","ls_cloneNVG_phase2Headlamp"]];						//this line determines NVGs -- Array, can contain multiple assets
 _loadoutData set ["binoculars", ["JLTS_CloneBinocular_black"]];		//this line determines the binoculars
@@ -163,7 +163,7 @@ _loadoutData set ["officerVests", ["SWLB_clone_assault_armor"]];
 _loadoutData set ["officerHats", ["SWLB_clone_P2_helmet"]];
 
 _loadoutData set ["cloakUniforms", []];
-_loadoutData set ["cloakVests", []];
+_loadoutData set ["cloakVests", ["ls_vest_poncho"]];
 
 _loadoutData set ["uniforms", []];
 _loadoutData set ["slUniforms", []];
@@ -172,7 +172,7 @@ _loadoutData set ["Hvests", []];
 _loadoutData set ["glVests", []];
 _loadoutData set ["backpacks", []];
 _loadoutData set ["ViperBP", []];
-_loadoutData set ["longRangeRadios", []];
+_loadoutData set ["longRangeRadios", ["ls_cloneBackpack_radio"]];
 _loadoutData set ["helmets", []];
 _loadoutData set ["slHat", []];
 _loadoutData set ["sniHats", []];
@@ -334,7 +334,7 @@ _militaryLoadoutData set ["binoculars", ["SWLB_clone_binocular"]];
 _militaryLoadoutData set ["rifles", [
 ["3AS_DC15C_F", "", "", "3AS_optic_DC15C_F", ["3AS_40Rnd_EC40_Mag"], [], ""],
 ["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
-["SWLW_DC15A_wooden", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""]
+["3AS_WestarM5_F", "", "", "3AS_Optic_Scope_WestarM5", ["3AS_60Rnd_EC50_Mag"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
 ["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
@@ -424,17 +424,17 @@ _militiaLoadoutData set ["sidearms", [
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_crewLoadoutData set ["uniforms", ["SWLB_clone_uniform"]];			//this line determines uniforms for vehicle crew loadouts -- Example: ["U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_tshirt"] -- Array, can contain multiple assets
-_crewLoadoutData set ["vests", ["SWLB_clone_basic_armor"]];				//this line determines vests for vehicle crew loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
-_crewLoadoutData set ["helmets", ["SWLB_clone_P2_helmet", "SWLB_clone_P1_helmet"]];
+_crewLoadoutData set ["uniforms", ["JLTS_CloneArmor_501_Vill"]];			//this line determines uniforms for vehicle crew loadouts -- Example: ["U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_tshirt"] -- Array, can contain multiple assets
+_crewLoadoutData set ["vests", ["JLTS_CloneVestSuspender"]];				//this line determines vests for vehicle crew loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
+_crewLoadoutData set ["helmets", ["3as_Tanker_Helmet_501"]];
 _crewLoadoutData set ["carbines", [
 ["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["SWLB_clone_uniform"]];			//this line determines uniforms for pilot loadouts -- Example: ["U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_tshirt"] -- Array, can contain multiple assets
-_pilotLoadoutData set ["vests", ["SWLB_clone_basic_armor"]];			//this line determines vests for pilot loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
-_pilotLoadoutData set ["helmets", ["SWLB_P1_Pilot_Helmet", "SWLB_clone_pilot_P2_helmet"]];	
+_pilotLoadoutData set ["uniforms", ["JLTS_CloneArmor_212_airborne"]];			//this line determines uniforms for pilot loadouts -- Example: ["U_B_CombatUniform_mcam", "U_B_CombatUniform_mcam_tshirt"] -- Array, can contain multiple assets
+_pilotLoadoutData set ["vests", ["JLTS_CloneVestHolster"]];			//this line determines vests for pilot loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
+_pilotLoadoutData set ["helmets", ["3AS_P2_Pilot_helmet_212th"]];	
 _pilotLoadoutData set ["carbines", [
 ["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
