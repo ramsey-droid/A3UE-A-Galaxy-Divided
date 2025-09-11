@@ -11,21 +11,21 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["name", "Revanites"] call _fnc_saveToTemplate;
 
-["flag", "ls_flag_mandalorian_damaged"] call _fnc_saveToTemplate;
+["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
 ["flagTexture", QPATHTOF(Pictures\Markers\flag_revan_ca.paa)] call _fnc_saveToTemplate;
 ["flagMarkerType", "Revanites"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["AGD_Rebel_Speeder_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["AGD_Rebel_Speeder_armed"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["AGD_ITT_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["AGD_ITT_Rebel_Unarmed"]] call _fnc_saveToTemplate;
 ["vehiclesAT", ["SFA_Firebrand_F_Revanite"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["AGD_AAC_AA"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["3AS_Gozanti_BlackSun"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["AGD_ITT_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["3AS_SandSpeeder", "3AS_Civilian_Transport_03"]] call _fnc_saveToTemplate;
+["vehiclesMedical", []] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["AGD_Fennek_Civ"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["AGD_Truck_Civ"]] call _fnc_saveToTemplate;
@@ -47,12 +47,14 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["breachingExplosivesAPC", ["ls_explosive_breachCharge_magazine"]] call _fnc_saveToTemplate;
 ["breachingExplosivesTank", ["ls_explosive_demoCharge_magazine"]] call _fnc_saveToTemplate;
 
+["vehicleLightSource", "land_3AS_fob_light_reb_tall"] call _fnc_saveToTemplate;
+
 //////////////////////////////////////
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
 ["lootCrate", "A3AP_Box_Syndicate_Ammo_F"] call _fnc_saveToTemplate;
-["rallyPoint", "3AS_Small_Mando_Stand"] call _fnc_saveToTemplate;
+["rallyPoint", "3AS_Double_Reb_Stand"] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
 ["animations", [
@@ -72,12 +74,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-	"SFA_R10",
-	"SFA_Base_mag",
-	"ls_vest_holster_maroon",
-    "SFA_HR7_p",
-    "SFA_HP_Pistol_mag",
-	"SFA_Revanite_backpack",
+    "SFA_R10",
+    "SFA_Base_mag",
+    "SFA_KE7",
+    "SFA_KE7_Pistol_mag",
+    "ls_vest_holster_maroon",
+    "SFA_Revanite_backpack",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],
 	["ls_explosive_breachCharge_magazine", 10],
@@ -91,7 +93,9 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["SFA_Revanite_Armor","SFA_Rev_Mando_Armor"];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["SFA_Revanite_Armor",
+"SFA_Rev_Mando_Armor"
+   ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
@@ -103,7 +107,7 @@ if (_hasApex) then {_dlcUniforms append [];
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", ["SFA_Revanite_Militant_Mask","SFA_Revanite_Partisan_Mask","SFA_Revanite_Battler_Helmet"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", ["SFA_Revanite_Battler_Helmet", "SFA_Revanite_Partisan_Mask", "SFA_Rev_Mando_Helmet", "SFA_Revanite_Militant_Mask"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
@@ -111,22 +115,26 @@ if (_hasApex) then {_dlcUniforms append [];
 
 //Faces and Voices given to Rebell AI
 ["faces", [
-    "WhiteHead_07",
-    "WhiteHead_15",
-    "GreekHead_A3_04",
-    "AfricanHead_02",
-    "WhiteHead_29",
-    "LivonianHead_4",
-    "RussianHead_5",
-    "LivonianHead_9",
-    "GreekHead_A3_11",
-    "RussianHead_1",
-    "WhiteHead_26",
-    "AsianHead_A3_06",
-    "TanoanHead_A3_04",
-    "WhiteHead_30"
-]] call _fnc_saveToTemplate;
-["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05ENGB"]] call _fnc_saveToTemplate;
+    "WhiteHead_27",
+    "Barklem",
+    "ls_chiss_male2_blue",
+    "ls_chiss_male1_purple",
+    "ls_mirialan_male1_green",
+    "ls_mirialan_male2_sand",
+    "ls_mirialan_male3_yellow",
+    "ls_zabrak_male1t0_base",
+    "ls_zabrak_male1t1_pale",
+    "ls_zeltron_male1_red",
+    "ls_zeltron_male3_pink",
+    "ls_cloneC",
+    "GreekHead_A3_12",
+    "AfricanHead_01",
+    "WhiteHead_03",
+    "WhiteHead_05",
+    "GreekHead_A3_10_a"
+    ]] call _fnc_saveToTemplate;
+["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05GRE","Male10ENG","Male03POL","Male01CHI","Male02PER","Male01RUS","Male01ENGFRE","Male02FRE"]] call _fnc_saveToTemplate;
+
 //////////////////////////
 //       Loadouts       //
 //////////////////////////
@@ -138,7 +146,7 @@ _loadoutData set ["binoculars", ["Binocular"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
-_loadoutData set ["facewear", ["G_Balaclava_blk"]];
+_loadoutData set ["facewear", ["ls_jabiimGlasses_goggles"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];
