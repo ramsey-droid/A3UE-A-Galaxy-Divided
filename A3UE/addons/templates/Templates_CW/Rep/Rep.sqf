@@ -6,7 +6,7 @@
 ["spawnMarkerName", "Republic Venator"] call _fnc_saveToTemplate;
 
 ["flag", "ls_flag_republic"] call _fnc_saveToTemplate;
-["flagTexture", "\LS_statics_props\flags\data\flag_republic.paa"] call _fnc_saveToTemplate;
+["flagTexture", "3AS\3as_props\Flags\Data\camo_flag_vanilla\camo_flag_vanilla_gar\camo_flag_vanilla_gar_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "JLTS_flag_Rep"] call _fnc_saveToTemplate;
 
 //////////////////////////

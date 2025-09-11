@@ -14,7 +14,7 @@
 	{
 		basepath = QPATHTOFOLDER(Templates_CW\Rep); 
 		side = "Occ"; 
-		flagTexture = "\MRC\JLTS\Core_mod_droids\data\markers\flags\republic_ca.paa"; 
+		flagTexture = "\MRC\JLTS\Core_mod\data\markers\flags\rep_ca.paa"; 
 		name = "Galactic Republic"; 
 		file = "Rep"; 
 		maps[] = {}; 
