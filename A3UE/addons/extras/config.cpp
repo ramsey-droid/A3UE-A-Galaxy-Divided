@@ -50,6 +50,18 @@ class CfgFactionClasses
         priority = 1;
         side = 0;
     };
+    class Antistasi_Sith
+    {
+        displayName = "Sith Empire Assets";
+        priority = 2;
+        side = 1;
+    };
+    class Antistasi_OR
+    {
+        displayName = "Old Republic Assets";
+        priority = 2;
+        side = 1;
+    };
 };
 #include "CfgAmmo.hpp"
 #include "CfgVehicles.hpp"

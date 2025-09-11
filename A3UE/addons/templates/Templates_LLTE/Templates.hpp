@@ -21,7 +21,7 @@
     {
         basepath = QPATHTOFOLDER(Templates_LLTE\NewRepub); 
         side = "Occ"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_republic_co.paa); 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_new_republic_co.paa); 
         name = "New Republic [LLTE]"; 
         file = "NewRepublic"; 
         maps[] = {}; 
@@ -58,7 +58,7 @@
     {
         basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
         side = "Inv"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebel_co.paa); 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
         name = "Rebels [LLTE]"; 
         file = "Rebels_AI"; 
         maps[] = {}; 
@@ -83,7 +83,7 @@
     {
         basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
         side = "Reb"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebel_co.paa); 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
         name = "Rebels [LLTE]"; 
         file = "Rebels"; 
         maps[] = {}; 

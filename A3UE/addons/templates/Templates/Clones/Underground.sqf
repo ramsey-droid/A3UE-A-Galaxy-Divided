@@ -27,12 +27,12 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesPlane", ["3AS_Gozanti_Republic"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["3AS_ITT_Medical"]] call _fnc_saveToTemplate;
 
-["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
-["vehiclesCivTruck", ["C_Van_01_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["AGD_Fennek_Civ"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", ["AGD_Truck_Civ"]] call _fnc_saveToTemplate;
 ["vehiclesCivHeli", ["3AS_Aegis_Carrier_Civ_Blue"]] call _fnc_saveToTemplate;
-["vehiclesCivBoat", ["C_Boat_Civil_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivBoat", []] call _fnc_saveToTemplate;
 ["vehiclesCivPlane", []] call _fnc_saveToTemplate;
-["vehiclesCivSupply", ["C_Truck_02_transport_F"]] call _fnc_saveToTemplate;
+["vehiclesCivSupply", ["AGD_Truck_Civ"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["ls_vehicle_mrbc"]] call _fnc_saveToTemplate;
 ["staticAT", ["AGD_Shellcracker_AT"]] call _fnc_saveToTemplate;

@@ -12,14 +12,14 @@ class AddonVics
         loadedMessage = ""; // a short description of the effects of loading the mod
     };
     */
-    class RDS
+    class LLTE
     {
         path = QPATHTOFOLDER(Templates\AddonVics);
-        requiredAddons[] = {"rds_A2_Civilians"};
-        files[] = { {"Civ", "rds_Civ.sqf"} };
-        Nodes[] = {"rds_Logi_Nodes.sqf"};
-        displayName = "RDS Car pack";
+        requiredAddons[] = {"JMSLLTE_vehgr_AA5"};
+        files[] = { {"Civ", "llte_civ.sqf"} };
+        Nodes[] = {};
+        displayName = "Long Live the Empire Car pack";
         description = "A car pack that extends the civilian vehicle pool";
-        loadedMessage = "RDS loaded, civilian car pool expanded";
+        loadedMessage = "LLTE Civ Vehicles loaded, civilian car pool expanded";
     };
 };
