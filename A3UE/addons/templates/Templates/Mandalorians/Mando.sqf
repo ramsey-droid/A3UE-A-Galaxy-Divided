@@ -72,7 +72,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-	"IDA_Galaar15",
+	"AGD_Galaar15",
 	"IDA_Blaster_Cell_Power3_40Rnd_Yellow",
 	"ls_imperialBackpack_satchel",
 	"ls_mandalorianVest_eldarGrunt",
@@ -80,7 +80,7 @@ private _initialRebelEquipment = [
 	"ls_mandalorianVest_vizslaGrunt",
 	"ls_mandalorianVest_deathwatchGrunt",
 	"ls_mandalorianVest_standard",
-    "IDA_Westar35",
+    "AGD_Westar35",
     "IDA_Blaster_Cell_Power2_20Rnd_yellow",
 	["3AS_RPS6_F", 15],
 	["3AS_DetPack", 10],

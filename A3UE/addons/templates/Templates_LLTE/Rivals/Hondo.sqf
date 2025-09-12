@@ -70,7 +70,7 @@ private _carbines = [
 	["JMSLLTE_ee3", "", "", "", ["JMSLLTE_EE3_30rnd_Mag"], [], ""]
 ];
 private _gls = [
-	["IDA_FA11", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], ["IDA_HE_RifleGrenade"], ""]
+	["AGD_FA11", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], ["IDA_HE_RifleGrenade"], ""]
 ];
 private _mgs = [
 	["JMSLLTE_rt97cBlasterRifle", "", "", "", ["JMSLLTE_RT97C_150Rnd_Mag"], [], ""]

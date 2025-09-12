@@ -769,4 +769,287 @@ class CfgWeapons{
 			};
 		};
 	};
+	class IDA_A260P;
+	class AGD_A260P: IDA_A260P {
+		baseWeapon = "AGD_A260P";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 50;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_EC17;
+	class AGD_EC17: IDA_EC17 {
+		baseWeapon = "AGD_EC17";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 50;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_E11P;
+	class AGD_E11P: IDA_E11P {
+		baseWeapon = "AGD_E11P";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 50;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_DC15X_Evil;
+	class AGD_DC15X_Evil: IDA_DC15X_Evil {
+		baseWeapon = "AGD_DC15X_Evil";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, LONGSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};	
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_DLT19;
+	class AGD_DLT19: IDA_DLT19 {
+		baseWeapon = "AGD_DLT19";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class 3AS_DC17S_F;
+	class AGD_DC17S_F: 3AS_DC17S_F {
+		baseWeapon = "AGD_DC17S_F";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 45;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+		};
+	};
+	class IDA_SBB3;
+	class AGD_SBB3: IDA_SBB3 {
+		baseWeapon = "AGD_SBB3";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_M41;
+	class AGD_M41: IDA_M41 {
+		baseWeapon = "AGD_M41";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, LONGSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_DC23;
+	class AGD_DC23: IDA_DC23 {
+		baseWeapon = "AGD_DC23";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {};
+			};
+		};
+	};
+	class 3AS_RK3;
+	class AGD_RK3: 3AS_RK3 {
+		baseWeapon = "AGD_RK3";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES, LONGSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {};
+			};
+		};
+	};
+	class 3AS_SE14R;
+	class AGD_SE14R: 3AS_SE14R {
+		baseWeapon = "AGD_SE14R";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {};
+			};
+		};
+	};
+	class IDA_DLT19D;
+	class AGD_DLT19D: IDA_DLT19D {
+		baseWeapon = "AGD_DLT19D";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 75;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {LONGSCOPES, SPECIALSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {BIPODS};
+			};
+		};
+	};
+	class IDA_Westar35;
+	class AGD_Westar35: IDA_Westar35 {
+		baseWeapon = "AGD_Westar35";
+		class WeaponSlotsInfo{
+
+			allowedSlots[] = {901};
+			mass = 55;
+	
+			class CowsSlot: CowsSlot{
+				compatibleItems[] = {SHORTSCOPES};
+			};
+			class MuzzleSlot: MuzzleSlot {
+				compatibleItems[] = {MUZZLES};
+			};
+			class PointerSlot: PointerSlot {
+				compatibleItems[] = {POINTERS};
+			};
+			class UnderbarrelSlot: UnderbarrelSlot {
+				compatibleItems[] = {};
+			};
+		};
+	};
 };
