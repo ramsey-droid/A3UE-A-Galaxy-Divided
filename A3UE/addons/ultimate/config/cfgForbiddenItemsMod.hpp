@@ -217,3 +217,82 @@ class AGD_limited_base : forbidden_limited_base
     class ls_launcher_mrbc_carry : AGD_limited_base {};
     class ls_launcher_mortar_carry_gar : AGD_limited_base {};
     class ls_launcher_mortar_carry_mercenary : AGD_limited_base {};
+
+    class IDA_E11: AGD_limited_base {};
+    class IDA_E11_UGL: AGD_limited_base {};
+    class IDA_E11D: AGD_limited_base {};
+    class ls_weapon_e11: AGD_limited_base {};
+    class 3AS_E11: AGD_limited_base {};
+    class 3AS_E11Stock: AGD_limited_base {};
+    class 3AS_E11_GL: AGD_limited_base {};
+    class WM_E11: AGD_limited_base {};
+    class WM_E11D: AGD_limited_base {};
+
+    class IDA_E10: AGD_limited_base {};
+    class IDA_E10_UGL: AGD_limited_base {};
+    class IDA_773Firepuncher: AGD_limited_base {};
+    class IDA_774CX: AGD_limited_base {};
+    class IDA_A260: AGD_limited_base {};
+    class IDA_DC15A: AGD_limited_base {};
+    class IDA_DC15LE: AGD_limited_base {};
+    class IDA_DC15S: AGD_limited_base {};
+    class IDA_DC15S_Evil: AGD_limited_base {};
+    class IDA_DC15S_UGL: AGD_limited_base {};
+    class IDA_DC15S_UGL_Evil: AGD_limited_base {};
+    class IDA_DC15X: AGD_limited_base {};
+    class IDA_DC15X_Evil: AGD_limited_base {};
+    class IDA_DC23: AGD_limited_base {};
+    class IDA_DLT19: AGD_limited_base {};
+    class IDA_DLT19D: AGD_limited_base {};
+    class IDA_WristBlaster: AGD_limited_base {};
+
+    class IDA_E22: AGD_limited_base {};
+    class IDA_E5: AGD_limited_base {};
+    class IDA_E5C: AGD_limited_base {};
+    class IDA_FA11: AGD_limited_base {};
+    class IDA_Galaar15: AGD_limited_base {};
+    class IDA_Galaar90: AGD_limited_base {};
+    class IDA_IQA11: AGD_limited_base {};
+    class IDA_M41: AGD_limited_base {};
+    class IDA_SBB3: AGD_limited_base {};
+    class IDA_SE28: AGD_limited_base {};
+    class IDA_SPK12: AGD_limited_base {};
+    class IDA_T15: AGD_limited_base {};
+    class IDA_T21: AGD_limited_base {};
+    class ls_weapon_dc15a: AGD_limited_base {};
+    class ls_weapon_dc15a_wooden: AGD_limited_base {};
+    class ls_weapon_dc15br_wooden: AGD_limited_base {};
+    class ls_weapon_dc15br: AGD_limited_base {};
+    class ls_weapon_dc15s: AGD_limited_base {};
+    class ls_weapon_dc17m: AGD_limited_base {};
+    class ls_weapon_e5: AGD_limited_base {};
+    class ls_weapon_e5c: AGD_limited_base {};
+    class ls_weapon_westarM5: AGD_limited_base {};
+    class ls_weapon_westarM5_ugl: AGD_limited_base {};
+    class ls_weapon_z6: AGD_limited_base {};
+
+    class 3AS_Arkanian_F: AGD_limited_base {};
+    class 3AS_Arkanian_Stock_F: AGD_limited_base {};
+    class 3AS_Cinnagaran_Carbine_F: AGD_limited_base {};
+
+    class 3AS_DC15A_F: AGD_limited_base {};
+    class 3AS_DC15A_GL: AGD_limited_base {};
+    class 3AS_DC15C_F: AGD_limited_base {};
+    class 3AS_DC15C_GL: AGD_limited_base {};
+    class 3AS_DC15L_F: AGD_limited_base {};
+    class 3AS_DC15S_F: AGD_limited_base {};
+    class 3AS_DC15S_GL: AGD_limited_base {};
+    class 3AS_DC15X_F: AGD_limited_base {};
+    class 3AS_DLT19: AGD_limited_base {};
+    class 3AS_DLT19X: AGD_limited_base {};
+    class 3AS_DWBlaster_F: AGD_limited_base {};
+
+    class 3AS_E5_F: AGD_limited_base {};
+    class E5C_F: AGD_limited_base {};
+    class 3AS_E5S_F: AGD_limited_base {};
+    class 3AS_Valken38X_F: AGD_limited_base {};
+    class 3AS_WestarM5_F: AGD_limited_base {};
+    class 3AS_WestarM5_GL: AGD_limited_base {};
+
+    class WM_T21: AGD_limited_base {};
+    
