@@ -322,13 +322,13 @@ _eliteLoadoutData set ["rifles", [
 ["AGD_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
 ["AGD_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
 ["AGD_FA11", "", "acc_flashlight", "optic_MRCO", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280c", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280C_20rnd_Mag"], [], ""],
-["JMSLLTE_a280cr", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280CR_20rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""]
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280c", "", "JMSLLTE_acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280cr", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
 ["AGD_DC15C_F", "", "acc_flashlight", "3AS_optic_DC15C_F", ["3AS_40Rnd_EM40_Mag"], [], ""],
@@ -353,14 +353,14 @@ _eliteLoadoutData set ["machineGuns", [
 
 private _marksmanRifles = [
     ["WM_DLT19X", "", "", "", [], [], "WM_DLT_Bipod"],
-    ["IDA_DC15X_Evil", "", "", "", [], [], "bipod_01_F_blk"]
+    ["AGD_DC15X_Evil", "", "", "", [], [], "bipod_01_F_blk"]
 ];
 _eliteLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _eliteLoadoutData set ["sniperRifles", [
 ["ls_weapon_firepuncher", "", "", "", [], [], ""],
 ["AGD_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"],
-["JMSLLTE_E17DRifle", "", "", "", [], [], ""]
+["AGD_E17DRifle", "", "", "", [], [], ""]
 ]];
 _eliteLoadoutData set ["sidearms", [
 ["AGD_E11P", "", "", "", [], [], ""],
@@ -389,20 +389,20 @@ _militaryLoadoutData set ["slRifles", [
 ]];
 _militaryLoadoutData set ["rifles", [
 ["AGD_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
-["JMSLLTE_a280c", "", "JMSLLTE_acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A280C_20rnd_Mag"], [], ""],
-["JMSLLTE_a280cr", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280CR_20rnd_Mag"], [], ""],
-["JMSLLTE_a280", "", "JMSLLTE_acc_flashlight", "", ["JMSLLTE_A280_30rnd_Mag"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280stock", "", "JMSLLTE_acc_flashlight", "JMSLLTE_m45_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280c", "", "JMSLLTE_acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a280cr", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
+["AGD_a280", "", "JMSLLTE_acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
 ["AGD_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
 ["AGD_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["JMSLLTE_a180stock", "", "", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_a300c", "", "", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_A300C_30rnd_Mag"], [], ""],
-["JMSLLTE_a475", "", "", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A475_25rnd_Mag"], [], ""],
+["AGD_a180stock", "", "", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a300", "", "", "JMSLLTE_dh17_holo_Scope", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""],
+["AGD_a475", "", "", "optic_Aco", ["IDA_Blaster_Cell_Power3_60Rnd_Green"], [], ""],
 ["AGD_E11", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
@@ -422,14 +422,14 @@ private _mgs = [
 	["AGD_M41", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power2_100Rnd_Green"], [], "bipod_03_F_blk"],
 	["IDA_T15", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], "3AS_bipod_DC15L_F"],
 	["ls_weapon_zh73", "", "acc_flashlight", "ls_cows_zh73_scope", [], [], ""],
-	["IDA_E5C", "", "acc_flashlight", "", [], [], ""]
+	["AGD_E5C", "", "acc_flashlight", "", [], [], ""]
 ];
 
 _militaryLoadoutData set ["machineGuns", _mgs];
 
 private _marksmanRifles = [
-    ["JMSLLTE_a310", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_a300_bl_Scope", [], [], ""],
-    ["JMSLLTE_dlt20a", "", "", "JMSLLTE_a280c_bl_Scope", [], [], ""]
+    ["AGD_a310", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_a300_bl_Scope", [], [], ""],
+    ["AGD_dlt20a", "", "", "AGD_a280c_bl_Scope", [], [], ""]
 ];
 
 _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
@@ -437,7 +437,7 @@ _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 _militaryLoadoutData set ["sniperRifles", [
 ["IDA_DC15X_Evil", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], "bipod_01_F_blk"],
 ["IDA_774CX", "", "", "", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""],
-["JMSLLTE_E17DRifle", "", "", "", [], [], ""]
+["AGD_E17DRifle", "", "", "", [], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
 ["JMSLLTE_dl44pistol", "", "", "", [], [], ""]
@@ -457,7 +457,7 @@ if (_hasLawsOfWar) then {
 _policeLoadoutData set ["helmets", _helmets];
 
 _policeLoadoutData set ["SMGs", [
-["JMSLLTE_dh17", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", [], [], ""],
+["AGD_dh17", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", [], [], ""],
 ["JMSLLTE_dt12pistol", "", "acc_flashlight", "", [], [], ""],
 ["JMSLLTE_ee4", "", "acc_flashlight", "", [], [], ""]
 ]];
@@ -475,28 +475,28 @@ _militiaLoadoutData set ["backpacks", ["JMSLLTE_back_rebpack_v1_black","JMSLLTE_
 _militiaLoadoutData set ["helmets", ["JMSLLTE_OfheadPh_helmet","JMSLLTE_PathL_black_cap","ls_helmet_jockey", "ls_helmet_jockey_alt", "ls_helmet_jockey_navy", "ls_helmet_jockey_navy_alt"]];
 
 _militiaLoadoutData set ["slRifles", [
-["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a280_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a280_holo_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["AGD_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a180", "", "acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a180", "", "acc_flashlight", "JMSLLTE_dh17_holo_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a180", "", "acc_flashlight", "optic_Aco", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
 ["AGD_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
 ["AGD_E10_UGL", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], ["IDA_HE_LauncherGrenade", "IDA_Smoke_LauncherGrenade", "IDA_SmokeRed_LauncherGrenade"], ""],
 ["AGD_E11_UGL", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], ["IDA_HE_LauncherGrenade", "IDA_Smoke_LauncherGrenade", "IDA_SmokeRed_LauncherGrenade"], ""]
 ]];
 _militiaLoadoutData set ["rifles", [
 ["AGD_SPK12", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["JMSLLTE_dh17rifle", "", "acc_flashlight", "", ["JMSLLTE_DH17_60Rnd_Mag"], [], ""],
-["JMSLLTE_dh17rifle", "", "acc_flashlight", "JMSLLTE_dh17r_holo_Scope", ["JMSLLTE_DH17_60Rnd_Mag"], [], ""],
-["JMSLLTE_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
+["AGD_dh17rifle", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_dh17rifle", "", "acc_flashlight", "JMSLLTE_dh17r_holo_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a180stock", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
 ["AGD_A260", "", "acc_flashlight", "optic_MRCO", [], [], ""],
 ["AGD_FA11", "", "acc_flashlight", "", [], [], ""],
 ["AGD_DC23", "", "acc_flashlight", "", [], [], ""],
-["JMSLLTE_a180rifle", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""]
+["AGD_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["JMSLLTE_a180", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_a180stock", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["JMSLLTE_A180_25rnd_Mag"], [], ""],
-["JMSLLTE_dh17", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_dh17_holo_Scope", ["JMSLLTE_DH17_30Rnd_Mag"], [], ""],
+["AGD_a180stock", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_a180stock", "", "acc_flashlight", "JMSLLTE_a180_bl_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
+["AGD_dh17", "", "JMSLLTE_acc_flashlight_reb", "JMSLLTE_dh17_holo_Scope", ["IDA_Blaster_Cell_Power2_20Rnd_green"], [], ""],
 ["AGD_E5", "", "acc_flashlight", "3AS_optic_DC15C_F", ["3AS_40Rnd_EM40_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
@@ -509,7 +509,7 @@ _militiaLoadoutData set ["machineGuns", [
 ["AGD_M41", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power2_100Rnd_Green"], [], ""]
 ]];
 
-private _marksmanRifles = [["JMSLLTE_a280", "", "acc_flashlight", "JMSLLTE_a280c_bl_Scope", [], [], ""]];
+private _marksmanRifles = [["AGD_a280", "", "acc_flashlight", "AGD_a280c_bl_Scope", [], [], ""]];
 private _sniperRifles = [["JMSLLTE_dlt20a", "", "", "JMSLLTE_rt97c_bl_Scope", [], [], ""]];
 
 _militiaLoadoutData set ["marksmanRifles", _marksmanRifles];

@@ -274,7 +274,8 @@ _sfLoadoutData set ["rifles", [
 ["AGD_E11D", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
 ["AGD_E22", "", "acc_flashlight", "IDA_E11_scope", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
 ["AGD_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"],
-["IDA_A260", "", "", "optic_MRCO", [], [], ""]
+["IDA_A260", "", "", "optic_MRCO", [], [], ""],
+["AGD_tl50", "", "", "IDA_E11_scope", [], [], ""]
 ]];
 _sfLoadoutData set ["carbines", [
 ["AGD_E11D", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""],
@@ -374,7 +375,8 @@ _eliteLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _eliteLoadoutData set ["sniperRifles", [
 ["ls_weapon_firepuncher", "", "", "", [], [], ""],
-["AGD_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"]
+["AGD_IQA11", "", "", "IDA_TargetingScope", [], [], "bipod_01_F_blk"],
+["AGD_t7BlasterRifle", "", "", "IDA_TargetingScope", ["IDA_Blaster_Cell_Power5_120Rnd_Green"], [], "bipod_01_F_blk"]
 ]];
 _eliteLoadoutData set ["sidearms", [
 ["AGD_E11P", "", "", "", [], [], ""],
@@ -421,7 +423,9 @@ _militaryLoadoutData set ["SMGs", [
 
 private _mgs = [
     ["AGD_DLT19", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], "bipod_03_F_blk"],
-    ["AGD_DC15L_F", "", "acc_flashlight", "3AS_optic_DC15L_F", ["3AS_200Rnd_EM40_Mag"], [], "3AS_bipod_DC15L_F"]
+    ["AGD_DC15L_F", "", "acc_flashlight", "3AS_optic_DC15L_F", ["3AS_200Rnd_EM40_Mag"], [], "3AS_bipod_DC15L_F"],
+    ["AGD_FWMBBlasterRifle", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power1_300Rnd_Red"], [], "bipod_03_F_blk"],
+    ["AGD_rt97cBlasterRifle", "", "acc_flashlight", "JMSLLTE_rt97c_bl_Scope", ["IDA_Blaster_Cell_Power2_100Rnd_Red"], [], "3AS_bipod_DC15A_F"]
 ];
 
 _militaryLoadoutData set ["machineGuns", _mgs];
@@ -435,7 +439,8 @@ _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 _militaryLoadoutData set ["sniperRifles", [
 ["AGD_DC15X_Evil", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], "bipod_01_F_blk"],
-["AGD_774CX", "", "", "", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""]
+["AGD_774CX", "", "", "", ["IDA_Blaster_Cell_Power4_10Rnd_Red"], [], ""],
+["AGD_T21BBlasterRifle", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
 ["AGD_E11P", "", "", "", [], [], ""]

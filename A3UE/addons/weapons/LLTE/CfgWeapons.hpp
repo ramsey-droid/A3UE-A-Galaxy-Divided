@@ -423,7 +423,7 @@ class CfgWeapons
 			mass = 55;
 	
 			class CowsSlot: CowsSlot{
-				compatibleItems[] = {SHORTSCOPES};
+				compatibleItems[] = {};
 			};
 			class MuzzleSlot: MuzzleSlot {
 				compatibleItems[] = {MUZZLES};
@@ -446,7 +446,7 @@ class CfgWeapons
 			mass = 55;
 	
 			class CowsSlot: CowsSlot{
-				compatibleItems[] = {SHORTSCOPES};
+				compatibleItems[] = {};
 			};
 			class MuzzleSlot: MuzzleSlot {
 				compatibleItems[] = {MUZZLES};
