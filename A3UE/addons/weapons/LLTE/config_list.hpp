@@ -1,0 +1,1 @@
+#define WEAPON_LIST
