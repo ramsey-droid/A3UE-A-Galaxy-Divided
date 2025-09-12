@@ -61,22 +61,22 @@ private _rifles = [
 	["3AS_ScatterGun_F", "", "", "", ["3AS_8Rnd_EY30_Pellets"], [], ""]
 ];
 private _tunedRifles = [
-	["JMSLLTE_ee3", "", "", "JMSLLTE_ee3_bl_Scope", ["JMSLLTE_EE3_30rnd_Mag"], [], ""]
+	["AGD_ee3", "", "", "JMSLLTE_ee3_bl_Scope", [], [], ""]
 ];
 private _enforcerRifles = [
-	["JMSLLTE_f78", "", "", "", ["JMSLLTE_F78_50Rnd_Mag"], [], ""]
+	["AGD_f78", "", "", "", [], [], ""]
 ];
 private _carbines = [
-	["JMSLLTE_ee3", "", "", "", ["JMSLLTE_EE3_30rnd_Mag"], [], ""]
+	["AGD_ee3", "", "", "", [], [], ""]
 ];
 private _gls = [
-	["IDA_FA11", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], ["IDA_HE_RifleGrenade"], ""]
+	["AGD_FA11", "", "", "", [], ["IDA_HE_RifleGrenade"], ""]
 ];
 private _mgs = [
-	["JMSLLTE_rt97cBlasterRifle", "", "", "", ["JMSLLTE_RT97C_150Rnd_Mag"], [], ""]
+	["AGD_rt97cBlasterRifle", "", "", "", [], [], ""]
 ];
 private _marksmanRifles = [
-	["JMSLLTE_E17DRifle", "", "", "", ["JMSLLTE_E17d_5Rnd_Mag"], [], ""]
+	["AGD_E17DRifle", "", "", "", [], [], ""]
 ];
 
 private _rpgs = [

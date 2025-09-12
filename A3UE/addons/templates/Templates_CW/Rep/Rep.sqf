@@ -280,38 +280,38 @@ _eliteLoadoutData set ["ATLaunchers", [
 ]];
 
 _eliteLoadoutData set ["slRifles", [
-["3AS_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""],
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
+["AGD_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""],
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
 ["3AS_DC17M_F", "", "", "", ["3AS_100Rnd_EC40_mag","3AS_100Rnd_EC40_mag","3AS_100Rnd_EC40_mag","3AS_AntiArmour_mag"], [], ""]
 ]];
 _eliteLoadoutData set ["rifles", [
-["3AS_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""],
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""]
+["AGD_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""],
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 _eliteLoadoutData set ["designatedGrenadeLaunchers", [
-["3AS_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
+["AGD_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
 ]];
 _eliteLoadoutData set ["grenadeLaunchers", [
-["3AS_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
+["AGD_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
 ]];
 _eliteLoadoutData set ["machineGuns", [
-["3AS_DC15L_F", "", "", "3AS_optic_DC15L_F", ["3AS_200Rnd_EC40_Mag"], [], ""],
-["3AS_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
+["AGD_DC15L_F", "", "", "3AS_optic_DC15L_F", ["3AS_200Rnd_EC40_Mag"], [], ""],
+["AGD_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
 ["IDA_Z6", "", "", "", ["IDA_Blaster_Cell_Power1_300Rnd_Blue"], [], ""]
 ]];
 _eliteLoadoutData set ["marksmanRifles", [
-["3AS_Valken38X_F", "", "", "", ["3AS_10Rnd_EC80_Mag"], [], ""],
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
-["3AS_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
+["AGD_Valken38X_F", "", "", "", ["3AS_10Rnd_EC80_Mag"], [], ""],
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
+["AGD_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
 ]];
 _eliteLoadoutData set ["sniperRifles", [
-["3AS_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
+["AGD_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
 ]];
 _eliteLoadoutData set ["sidearms", [
-["3AS_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
+["AGD_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
 ]];
 
 
@@ -332,35 +332,35 @@ _militaryLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_501_Fives","JLTS_CloneHe
 _militaryLoadoutData set ["binoculars", ["SWLB_clone_binocular"]];
 
 _militaryLoadoutData set ["rifles", [
-["3AS_DC15C_F", "", "", "3AS_optic_DC15C_F", ["3AS_40Rnd_EC40_Mag"], [], ""],
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
-["3AS_WestarM5_F", "", "", "3AS_Optic_Scope_WestarM5", ["3AS_60Rnd_EC50_Mag"], [], ""]
+["AGD_DC15C_F", "", "", "3AS_optic_DC15C_F", ["3AS_40Rnd_EC40_Mag"], [], ""],
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
+["AGD_WestarM5_F", "", "", "3AS_Optic_Scope_WestarM5", ["3AS_60Rnd_EC50_Mag"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
-["3AS_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
+["AGD_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
 ]];
 _militaryLoadoutData set ["SMGs", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""],
-["3AS_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""],
+["AGD_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""]
 ]];
 _militaryLoadoutData set ["machineGuns", [
-["3AS_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
-["3AS_DC15L_F_wooden", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
+["AGD_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
+["AGD_DC15L_F_wooden", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""],
 ["IDA_Z6", "", "", "", ["IDA_Blaster_Cell_Power1_300Rnd_Blue"], [], ""]
 ]];
 _militaryLoadoutData set ["marksmanRifles", [
-["3AS_DC15A_F", "", "", "3AS_optic_DC15LE_F", ["3AS_45Rnd_EC50_Mag"], [], ""],
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
-["3AS_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
+["AGD_DC15A_F", "", "", "3AS_optic_DC15LE_F", ["3AS_45Rnd_EC50_Mag"], [], ""],
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""],
+["AGD_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
 ]];
 _militaryLoadoutData set ["sniperRifles", [
-["3AS_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
+["AGD_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
 ]];
 _militaryLoadoutData set ["sidearms", [
-["3AS_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
+["AGD_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
 ]];
 
 ///////////////////////////////
@@ -372,11 +372,11 @@ _policeLoadoutData set ["uniforms", ["JLTS_CloneArmor_CG"]];
 _policeLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestLieutenant_CG"]];
 _policeLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_CG"]];
 _policeLoadoutData set ["smgs", [
-["3AS_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""],
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""],
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 _policeLoadoutData set ["sidearms", [
-["3AS_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
+["AGD_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
 ]];
 
 ////////////////////////////////
@@ -393,29 +393,29 @@ _militiaLoadoutData set ["sniHats", ["JLTS_CloneHelmetBARC"]];
 _militiaLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_Sergeant"]];
 
 _militiaLoadoutData set ["rifles", [
-["3AS_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""]
+["AGD_DC15C_F", "", "", "", ["3AS_40Rnd_EC40_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
-["3AS_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
+["AGD_DC15A_GL", "", "", "", ["3AS_45Rnd_EC50_Mag"], ["3Rnd_HE_Grenade_shell", "3Rnd_Smoke_Grenade_shell", "3AS_3UGL_MK56_Flare_White_shell"], ""]
 ]];
 _militiaLoadoutData set ["SMGs", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""],
-["3AS_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""],
+["AGD_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["machineGuns", [
-["3AS_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""]
+["AGD_DC15L_F", "", "", "", ["3AS_200Rnd_EC40_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["marksmanRifles", [
-["3AS_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""]
+["AGD_DC15A_F", "", "", "", ["3AS_45Rnd_EC50_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["sniperRifles", [
-["3AS_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
+["AGD_DC15X_F", "", "", "", ["3AS_10Rnd_EC100_Mag"], [], ""]
 ]];
 _militiaLoadoutData set ["sidearms", [
-["3AS_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
+["AGD_DC17S_F", "", "", "", ["3AS_16Rnd_EC20_Mag"], [], ""]
 ]];
 
 //////////////////////////
@@ -428,7 +428,7 @@ _crewLoadoutData set ["uniforms", ["JLTS_CloneArmor_501_Vill"]];			//this line d
 _crewLoadoutData set ["vests", ["JLTS_CloneVestSuspender"]];				//this line determines vests for vehicle crew loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
 _crewLoadoutData set ["helmets", ["3as_Tanker_Helmet_501"]];
 _crewLoadoutData set ["carbines", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
@@ -436,7 +436,7 @@ _pilotLoadoutData set ["uniforms", ["JLTS_CloneArmor_212_airborne"]];			//this l
 _pilotLoadoutData set ["vests", ["JLTS_CloneVestHolster"]];			//this line determines vests for pilot loadouts -- Example: ["V_PlateCarrierSpec_mtp", "V_PlateCarrierGL_mtp"] -- Array, can contain multiple assets
 _pilotLoadoutData set ["helmets", ["3AS_P2_Pilot_helmet_212th"]];	
 _pilotLoadoutData set ["carbines", [
-["3AS_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
+["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
 ]];
 
 

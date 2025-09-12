@@ -76,25 +76,25 @@ private _hasMarksman = "mark" in A3A_enabledDLC;
 */
 private _loadoutData = call _fnc_createLoadoutData;
 private _rifles = [
-	["IDA_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
+	["AGD_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
 ];
 private _tunedRifles = [
-	["IDA_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
+	["AGD_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
 ];
 private _enforcerRifles = [
-	["IDA_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
+	["AGD_Galaar15", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Yellow"], [], ""]
 ];
 private _carbines = [
-	["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+	["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ];
 private _gls = [
-	["IDA_FA11", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], ["IDA_HE_RifleGrenade"], ""]
+	["AGD_FA11", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Green"], ["IDA_HE_RifleGrenade"], ""]
 ];
 private _mgs = [
 	["IDA_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""]
 ];
 private _marksmanRifles = [
-	["IDA_Galaar90", "", "", "IDA_TargetingScope", ["IDA_Blaster_Cell_Power5_5Rnd_Yellow"], [], ""]
+	["AGD_Galaar90", "", "", "IDA_TargetingScope", ["IDA_Blaster_Cell_Power5_5Rnd_Yellow"], [], ""]
 ];
 
 private _rpgs = [

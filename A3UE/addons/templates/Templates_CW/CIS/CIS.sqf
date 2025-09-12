@@ -224,20 +224,20 @@ _sfLoadoutData set ["binoculars", ["JLTS_DroidBinocular"]];
 
 //SF Weapons
 _sfLoadoutData set ["rifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _sfLoadoutData set ["carbines", [
-["IDA_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""]
+["AGD_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""]
 ]];
 _sfLoadoutData set ["grenadeLaunchers", [
 ["ls_weapon_mpl57", "", "", "", ["ls_magazine_2Rnd_40mw_G77_HEAB"], [], ""]
 ]];
 _sfLoadoutData set ["SMGs", [
-["IDA_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""]
+["AGD_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""]
 ]];
 _sfLoadoutData set ["machineGuns", [
-["IDA_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["IDA_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
+["AGD_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
+["AGD_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
 ]];
 _sfLoadoutData set ["marksmanRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""]
@@ -273,14 +273,14 @@ _eliteLoadoutData set ["ATLaunchers", [
 ]];
 
 _eliteLoadoutData set ["slRifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["rifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["IDA_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["designatedGrenadeLaunchers", [
 ["ls_weapon_mpl57", "", "", "", ["ls_magazine_2Rnd_40mw_G77_HEAB"], [], ""]
@@ -289,12 +289,12 @@ _eliteLoadoutData set ["grenadeLaunchers", [
 ["ls_weapon_mpl57", "", "", "", ["ls_magazine_2Rnd_40mw_G77_HEAB"], [], ""]
 ]];
 _eliteLoadoutData set ["machineGuns", [
-["IDA_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["IDA_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
+["AGD_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
+["AGD_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
 ]];
 _eliteLoadoutData set ["marksmanRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""],
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["sniperRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""]
@@ -318,26 +318,26 @@ _militaryLoadoutData set ["slHat", []];
 _militaryLoadoutData set ["binoculars", ["JLTS_DroidBinocular"]];
 
 _militaryLoadoutData set ["rifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["IDA_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
 ["ls_weapon_mpl57", "", "", "", ["ls_magazine_2Rnd_40mw_G77_HEAB"], [], ""]
 ]];
 _militaryLoadoutData set ["SMGs", [
-["IDA_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""],
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""],
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["machineGuns", [
-["IDA_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
-["IDA_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
+["AGD_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""],
+["AGD_T15", "", "", "", ["IDA_Blaster_Cell_Power2_100Rnd_Blue"], [], ""]
 ]];
 _militaryLoadoutData set ["marksmanRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""],
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["sniperRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""]
@@ -355,8 +355,8 @@ _policeLoadoutData set ["uniforms", ["lsd_cis_oomSecurity_uniform"]];
 _policeLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _policeLoadoutData set ["helmets", []];
 _policeLoadoutData set ["smgs", [
-["IDA_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
-["IDA_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""]
+["AGD_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""],
+["AGD_DC23", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Blue"], [], ""]
 ]];
 _policeLoadoutData set ["sidearms", [
 ["JLTS_RG4D", "", "", "", ["JLTS_RG4D_mag"], [], ""]
@@ -374,22 +374,22 @@ _militiaLoadoutData set ["helmets", []];
 _militiaLoadoutData set ["slHat", []];
 
 _militiaLoadoutData set ["rifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
 ["ls_weapon_mpl57", "", "", "", ["ls_magazine_2Rnd_40mw_G77_HEAB"], [], ""]
 ]];
 _militiaLoadoutData set ["SMGs", [
-["IDA_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""]
+["AGD_SBB3", "", "", "", ["IDA_Blaster_Cell_Scatter_6Rnd_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["machineGuns", [
-["IDA_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""]
+["AGD_E5C", "", "", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["marksmanRifles", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["sniperRifles", [
 ["IDA_E5S", "", "", "", ["IDA_Blaster_Cell_Power5_5Rnd_Red"], [], ""]
@@ -408,7 +408,7 @@ _crewLoadoutData set ["uniforms", ["lsd_cis_oomCrew_uniform"]];
 _crewLoadoutData set ["vests", ["ls_gar_clone_vest"]];				
 _crewLoadoutData set ["helmets", []];
 _crewLoadoutData set ["carbines", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
@@ -416,7 +416,7 @@ _pilotLoadoutData set ["uniforms", ["lsd_cis_oomPilot_uniform"]];
 _pilotLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _pilotLoadoutData set ["helmets", []];
 _pilotLoadoutData set ["carbines", [
-["IDA_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
+["AGD_E5", "", "", "", ["IDA_Blaster_Cell_Power3_40Rnd_Red"], [], ""]
 ]];
 
 
