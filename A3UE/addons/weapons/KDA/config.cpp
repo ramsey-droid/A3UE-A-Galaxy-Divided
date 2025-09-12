@@ -8,11 +8,12 @@ class CfgPatches
         units[] = {};
         weapons[] = {WEAPON_LIST};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QDOUBLES(PREFIX,core)};
+        requiredAddons[] = {QDOUBLES(PREFIX,core),"knd_common"};
         author = AUTHOR;
         authors[] = { AUTHORS };
         authorUrl = "";
         VERSION_CONFIG;
+        skipWhenMissingDependencies = 1;
     };
 };
 
@@ -25,5 +26,4 @@ class Mode_FullAuto;
 class Mode_Burst;
 class WeaponSlotsInfo;
 
-#include "SlotMacros.hpp"
 #include "CfgWeapons.hpp"

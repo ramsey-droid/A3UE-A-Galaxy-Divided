@@ -1,1 +1,26 @@
-#define WEAPON_LIST
+#define WEAPON_LIST "AGD_a180",\
+"AGD_a180stock",\
+"AGD_a180rifle",\
+"AGD_a280",\
+"AGD_a280stock",\
+"AGD_a280c",\
+"AGD_a300c",\
+"AGD_a280cr",\
+"AGD_a300",\
+"AGD_a310",\
+"AGD_a475",\
+"AGD_dh17",\
+"AGD_dh17rifle",\
+"AGD_dlt20a",\
+"AGD_E17DRifle",\
+"AGD_ee3",\
+"AGD_ee4",\
+"AGD_f78",\
+"AGD_FWMBBlasterRifle",\
+"AGD_FWMBkBlasterRifle",\
+"AGD_M45BlasterRifle",\
+"AGD_rt97cBlasterRifle",\
+"AGD_T21BBlasterRifle",\
+"AGD_t7BlasterRifle",\
+"AGD_tl50",\
+"AGD_tl50m"
