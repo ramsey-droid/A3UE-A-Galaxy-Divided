@@ -218,9 +218,6 @@ class AGD_limited_base : forbidden_limited_base
     class ls_launcher_mortar_carry_gar : AGD_limited_base {};
     class ls_launcher_mortar_carry_mercenary : AGD_limited_base {};
 
-    class IDA_E11: AGD_limited_base {};
-    class IDA_E11_UGL: AGD_limited_base {};
-    class IDA_E11D: AGD_limited_base {};
     class ls_weapon_e11: AGD_limited_base {};
     class 3AS_E11: AGD_limited_base {};
     class 3AS_E11Stock: AGD_limited_base {};
@@ -228,11 +225,6 @@ class AGD_limited_base : forbidden_limited_base
     class WM_E11: AGD_limited_base {};
     class WM_E11D: AGD_limited_base {};
 
-    class IDA_E10: AGD_limited_base {};
-    class IDA_E10_UGL: AGD_limited_base {};
-    class IDA_773Firepuncher: AGD_limited_base {};
-    class IDA_774CX: AGD_limited_base {};
-    class IDA_A260: AGD_limited_base {};
     class IDA_DC15A: AGD_limited_base {};
     class IDA_DC15LE: AGD_limited_base {};
     class IDA_DC15S: AGD_limited_base {};
@@ -240,25 +232,7 @@ class AGD_limited_base : forbidden_limited_base
     class IDA_DC15S_UGL: AGD_limited_base {};
     class IDA_DC15S_UGL_Evil: AGD_limited_base {};
     class IDA_DC15X: AGD_limited_base {};
-    class IDA_DC15X_Evil: AGD_limited_base {};
-    class IDA_DC23: AGD_limited_base {};
-    class IDA_DLT19: AGD_limited_base {};
-    class IDA_DLT19D: AGD_limited_base {};
-    class IDA_WristBlaster: AGD_limited_base {};
 
-    class IDA_E22: AGD_limited_base {};
-    class IDA_E5: AGD_limited_base {};
-    class IDA_E5C: AGD_limited_base {};
-    class IDA_FA11: AGD_limited_base {};
-    class IDA_Galaar15: AGD_limited_base {};
-    class IDA_Galaar90: AGD_limited_base {};
-    class IDA_IQA11: AGD_limited_base {};
-    class IDA_M41: AGD_limited_base {};
-    class IDA_SBB3: AGD_limited_base {};
-    class IDA_SE28: AGD_limited_base {};
-    class IDA_SPK12: AGD_limited_base {};
-    class IDA_T15: AGD_limited_base {};
-    class IDA_T21: AGD_limited_base {};
     class ls_weapon_dc15a: AGD_limited_base {};
     class ls_weapon_dc15a_wooden: AGD_limited_base {};
     class ls_weapon_dc15br_wooden: AGD_limited_base {};
@@ -271,72 +245,8 @@ class AGD_limited_base : forbidden_limited_base
     class ls_weapon_westarM5_ugl: AGD_limited_base {};
     class ls_weapon_z6: AGD_limited_base {};
 
-    class 3AS_Arkanian_F: AGD_limited_base {};
-    class 3AS_Arkanian_Stock_F: AGD_limited_base {};
-    class 3AS_Cinnagaran_Carbine_F: AGD_limited_base {};
-
-    class 3AS_DC15A_F: AGD_limited_base {};
-    class 3AS_DC15A_GL: AGD_limited_base {};
-    class 3AS_DC15C_F: AGD_limited_base {};
-    class 3AS_DC15C_GL: AGD_limited_base {};
-    class 3AS_DC15L_F: AGD_limited_base {};
-    class 3AS_DC15S_F: AGD_limited_base {};
-    class 3AS_DC15S_GL: AGD_limited_base {};
-    class 3AS_DC15X_F: AGD_limited_base {};
-    class 3AS_DLT19: AGD_limited_base {};
-    class 3AS_DLT19X: AGD_limited_base {};
     class 3AS_DWBlaster_F: AGD_limited_base {};
 
     class 3AS_E5_F: AGD_limited_base {};
     class E5C_F: AGD_limited_base {};
     class 3AS_E5S_F: AGD_limited_base {};
-    class 3AS_Valken38X_F: AGD_limited_base {};
-    class 3AS_WestarM5_F: AGD_limited_base {};
-    class 3AS_WestarM5_GL: AGD_limited_base {};
-
-    class WM_T21: AGD_limited_base {};
-
-    class JMSLLTE_a180 : AGD_limited_base {};
-    class JMSLLTE_a180stock : AGD_limited_base {};
-    class JMSLLTE_a180rifle : AGD_limited_base {};
-    class JMSLLTE_a280 : AGD_limited_base {};
-    class JMSLLTE_a280stock : AGD_limited_base {};
-    class JMSLLTE_a280C : AGD_limited_base {};
-    class JMSLLTE_a300c : AGD_limited_base {};
-    class JMSLLTE_a280cr : AGD_limited_base {};
-    class JMSLLTE_a300 : AGD_limited_base {};
-    class JMSLLTE_a310 : AGD_limited_base {};
-    class JMSLLTE_a475 : AGD_limited_base {};
-    class JMSLLTE_dc15a: AGD_limited_base {};
-    class JMSLLTE_dc15le: AGD_limited_base {};
-    class JMSLLTE_dc15s: AGD_limited_base {};
-    class JMSLLTE_dh17: AGD_limited_base {};
-    class JMSLLTE_dh17rifle: AGD_limited_base {};
-    class JMSLLTE_DLT19BlasterRifle: AGD_limited_base {};
-    class JMSLLTE_DLT19dRifle: AGD_limited_base {};
-    class JMSLLTE_DLT19xRifle: AGD_limited_base {};
-    class JMSLLTE_dlt20a: AGD_limited_base {};
-    class JMSLLTE_e10: AGD_limited_base {};
-    class JMSLLTE_e105: AGD_limited_base {};
-    class JMSLLTE_e11carb: AGD_limited_base {};
-    class JMSLLTE_e11: AGD_limited_base {};
-    class JMSLLTE_e11_count: AGD_limited_base {};
-    class JMSLLTE_e11_count2: AGD_limited_base {};
-    class JMSLLTE_e11d: AGD_limited_base {};
-    class JMSLLTE_E17DRifle: AGD_limited_base {};
-    class JMSLLTE_E22: AGD_limited_base {};
-    class JMSLLTE_E5: AGD_limited_base {};
-    class JMSLLTE_E5C: AGD_limited_base {};
-    class JMSLLTE_ee3: AGD_limited_base {};
-    class JMSLLTE_ee4: AGD_limited_base {};
-    class JMSLLTE_f78: AGD_limited_base {};
-    class JMSLLTE_FWMBBlasterRifle: AGD_limited_base {};
-    class JMSLLTE_FWMBkBlasterRifle: AGD_limited_base {};
-    class JMSLLTE_M45BlasterRifle: AGD_limited_base {};
-    class JMSLLTE_rt97cBlasterRifle: AGD_limited_base {};
-    class JMSLLTE_T21BlasterRifle: AGD_limited_base {};
-    class JMSLLTE_T21BlasterRifle_old: AGD_limited_base {};
-    class JMSLLTE_T21BBlasterRifle: AGD_limited_base {};
-    class JMSLLTE_t7BlasterRifle: AGD_limited_base {};
-    class JMSLLTE_tl50: AGD_limited_base {};
-    class JMSLLTE_tl50m: AGD_limited_base {};

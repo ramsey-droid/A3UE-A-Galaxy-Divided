@@ -4,6 +4,7 @@ class AGD_CU_Unit1: JLTS_Clone_P2_DC15A{
 	author = "Ramsey";
 	displayName = "Clone Underground Trooper";
 
+    modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7};
 	uniformClass = "AGD_CU_Clonetrooper1";
 	hiddenSelections[] = {"camo1","camo2","insignia"};
 	hiddenSelectionsTextures[] = {QPATHTOF(data\CloneUnder\Clone_armor_co.paa),QPATHTOF(data\CloneUnder\Clone_armor2_co.paa)};

@@ -146,9 +146,9 @@ _loadoutData set ["NVGs", ["JLTS_CloneNVG","JLTS_CloneNVGRange","JLTS_CloneNVG_s
 _loadoutData set ["binoculars", ["JLTS_CloneBinocular_black"]];		//this line determines the binoculars
 _loadoutData set ["Rangefinder", ["JLTS_CloneBinocular"]];
 
-_loadoutData set ["traitorUniforms", ["SWLB_clone_uniform"]];
-_loadoutData set ["traitorVests", ["SWLB_clone_basic_armor"]];
-_loadoutData set ["traitorHats", ["SWLB_clone_P2_helmet"]];
+_loadoutData set ["traitorUniforms", ["JLTS_CloneArmorSupport_41"]];
+_loadoutData set ["traitorVests", ["JLTS_CloneVestHolster"]];
+_loadoutData set ["traitorHats", ["H_Bandanna_gry"]];
 
 _loadoutData set ["stormMarkUniforms", ["JLTS_CloneArmor"]];
 _loadoutData set ["stormMarkVests", ["JLTS_CloneVestRecon"]];
@@ -158,9 +158,9 @@ _loadoutData set ["stormSniperUniforms", ["ls_cloneUniform_scout"]];
 _loadoutData set ["stormSniperVests", ["ls_cloneVest_scout"]];
 _loadoutData set ["stormSniperHats", ["ls_cloneHelmet_scout"]];
 
-_loadoutData set ["officerUniforms", ["SWLB_clone_uniform"]];
-_loadoutData set ["officerVests", ["SWLB_clone_assault_armor"]];
-_loadoutData set ["officerHats", ["SWLB_clone_P2_helmet"]];
+_loadoutData set ["officerUniforms", ["JLTS_CloneArmorMC_501_Vaughn"]];
+_loadoutData set ["officerVests", ["JLTS_CloneVestHolster"]];
+_loadoutData set ["officerHats", ["JLTS_CloneHelmetP2_501"]];
 
 _loadoutData set ["cloakUniforms", []];
 _loadoutData set ["cloakVests", ["ls_vest_poncho"]];
@@ -266,7 +266,7 @@ _eliteLoadoutData set ["uniforms", ["JLTS_CloneArmor_212","JLTS_CloneArmor_212_m
 _eliteLoadoutData set ["slUniforms", ["ls_cloneUniform_commando_gregor"]];
 _eliteLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestAirborne_212","JLTS_CloneVestKama"]];
 _eliteLoadoutData set ["glVests", ["JLTS_CloneVestLieutenant_212"]];
-_eliteLoadoutData set ["backpacks", ["SWLB_clone_backpack", "SWLB_clone_backpack_heavy", "SWLB_clone_backpack_medic", "SWLB_clone_backpack_RTO"]];
+_eliteLoadoutData set ["backpacks", ["ls_cloneBackpack_standard"]];
 _eliteLoadoutData set ["atBackpacks", ["ls_cloneBackpack_ammo"]];
 _eliteLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_212"]];
 _eliteLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_212"]];
@@ -329,7 +329,7 @@ _militaryLoadoutData set ["backpacks", ["ls_cloneBackpack_heavy","ls_cloneBackpa
 _militaryLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_501","JLTS_CloneHelmetAB_501"]];
 _militaryLoadoutData set ["sniHats", ["IDA_501st_BARC_Helmet"]];
 _militaryLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_501_Fives","JLTS_CloneHelmetP2_501_Jesse"]];
-_militaryLoadoutData set ["binoculars", ["SWLB_clone_binocular"]];
+_militaryLoadoutData set ["binoculars", ["JLTS_CloneBinocular"]];
 
 _militaryLoadoutData set ["rifles", [
 ["AGD_DC15C_F", "", "", "3AS_optic_DC15C_F", ["3AS_40Rnd_EC40_Mag"], [], ""],

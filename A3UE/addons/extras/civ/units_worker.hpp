@@ -5,6 +5,7 @@ class AGD_Unit_Worker_Uniform1: I_story_crew_F
 	scope = 1;
 	model = "\A3\Characters_F_Tank\Uniforms\U_Tank_crew_F.p3d";
 	hiddenSelections[] = {"Camo"};
+    modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7};
 	hiddenSelectionsTextures[] = {
 		QPATHTOF(civ\data\worker\WorkerUniform1.paa)
 	};
