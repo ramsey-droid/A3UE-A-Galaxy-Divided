@@ -404,7 +404,7 @@ _militiaLoadoutData set ["sidearms", [
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_crewLoadoutData set ["uniforms", ["lsd_cis_oomCrew_uniform"]];			
+_crewLoadoutData set ["uniforms", ["JLTS_DroidB1_Security"]];			
 _crewLoadoutData set ["vests", ["ls_gar_clone_vest"]];				
 _crewLoadoutData set ["helmets", []];
 _crewLoadoutData set ["carbines", [
@@ -412,7 +412,7 @@ _crewLoadoutData set ["carbines", [
 ]];
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["lsd_cis_oomPilot_uniform"]];
+_pilotLoadoutData set ["uniforms", ["JLTS_DroidB1_Pilot"]];
 _pilotLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _pilotLoadoutData set ["helmets", []];
 _pilotLoadoutData set ["carbines", [
