@@ -371,4 +371,8 @@ class CfgVehicles {
 		class WM_AAC_Speeder_Artillery;
 
 	#include "civ\vehicles.hpp"
+
+	// Uniform Overwrites
+	#include "uniform_overwrites\base.hpp"
+	
 };

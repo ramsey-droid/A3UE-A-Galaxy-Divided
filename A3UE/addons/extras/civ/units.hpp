@@ -4,6 +4,7 @@ class AGD_Unit_Spacer_Uniform1: ls_character_spacer_base
 	uniform = QGUNIFORM(Spacer_Uniform1);
 	scope = 1;
 	model = "\ls\core\addons\characters\uniforms\spacer\ls_uniform_spacer.p3d";
+	modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7};
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {
 		QPATHTOF(civ\data\civ\trouser\grey_pants_co.paa),

@@ -8,6 +8,8 @@ class AGD_Blackwing_Storm: WM_Stormtrooper_E11{
 	hiddenSelections[] = {"camo","camo1"};
 	hiddenSelectionsTextures[] = {QPATHTOF(data\Blackwing\upper_co.paa),QPATHTOF(data\Blackwing\lower_co.paa)};
 
+    modelSides[] = {0, 1, 2, 3, 4, 5, 6, 7};
+
 	linkedItems[] = {"AGD_Blackwing_StormHelmet"};
 	respawnLinkedItems[] = {"AGD_Blackwing_StormHelmet"};
 
