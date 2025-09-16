@@ -78,6 +78,7 @@ private _initialRebelEquipment = [
     "knd_EE3_mag",
     "knd_westar34_f",
     "knd_westar34_pistol_mag",
+	"knd_vest_rogue",
 	"knd_gaffi",
 	"knd_beskad",
     "knd_backpack_Clone_Standard",

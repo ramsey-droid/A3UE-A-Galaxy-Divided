@@ -3,28 +3,127 @@
 			displayName = "Mandalorian Helmets";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
 
-			ITEM(knd_helmet_akior, 950, RIFLE_STOCK);
-			ITEM(knd_helmet_neocrusader, 1200, RIFLE_STOCK);
-			ITEM(knd_helmet_Shadow, 800, RIFLE_STOCK);
-			ITEM(knd_helmet_Djarin, 1500, RIFLE_STOCK);
-			ITEM(knd_helmet_Foreman, 700, RIFLE_STOCK);
-			ITEM(knd_helmet_Goth, 2000, RIFLE_STOCK);
-			ITEM(knd_helmet_Guardian, 1800, RIFLE_STOCK);
-			ITEM(knd_helmet_Kaste, 1100, RIFLE_STOCK);
-			ITEM(knd_helmet_Kovshukur, 1300, RIFLE_STOCK);
-			ITEM(knd_helmet_deathwatch, 900, RIFLE_STOCK);
-			ITEM(knd_helmet_Liege, 2500, RIFLE_STOCK);
-			ITEM(knd_helmet_Matriarch, 3000, RIFLE_STOCK);
-			ITEM(knd_helmet_Paz, 1600, RIFLE_STOCK);
-			ITEM(knd_helmet_Pre, 1400, RIFLE_STOCK);
+			ITEM(knd_helmet_akior, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_neocrusader, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Shadow, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Djarin, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Foreman, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Goth, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Guardian, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Kaste, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Kovshukur, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_deathwatch, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Liege, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Matriarch, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Paz, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Pre, 1000, RIFLE_STOCK);
 			ITEM(knd_helmet_punk, 1000, RIFLE_STOCK);
-			ITEM(knd_helmet_ramikad, 850, RIFLE_STOCK);
-			ITEM(knd_helmet_rook, 2200, RIFLE_STOCK);
-			ITEM(knd_helmet_Saxon, 2200, RIFLE_STOCK);
-			ITEM(knd_helmet_Wren, 600, RIFLE_STOCK);
+			ITEM(knd_helmet_ramikad, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_rook, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Saxon, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Wren, 1000, RIFLE_STOCK);
+
+			ITEM(knd_Akior_Helmet_BesAgol, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_DeathWatch, 1000, RIFLE_STOCK);
+			ITEM(knd_Akior_Helmet_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_Akior_Helmet_Ral, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Aranov_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Armorer, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Auroch_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Banshee_Ral, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Dalverd_Jaro, 1000, RIFLE_STOCK);
+
+			ITEM(knd_helmet_Dalverd_Ral, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Shadow_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Farshee_Nurse, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_Alpine, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_Desert, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_Ral, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_Woodland, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Kovshukur_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Matriarch_Surgeon, 1000, RIFLE_STOCK);
+
+			ITEM(knd_helmet_Nite_Woodland, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Rook_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Wren_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_DeathWatchMedic, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_DeathWatchNCO, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Grunt_DeathWatchHVT, 1000, RIFLE_STOCK);
+			ITEM(knd_Beroya_Helmet_Song, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Armorer_Song, 1000, RIFLE_STOCK);
+			ITEM(knd_helmet_Matriarch_Surgeon, 1000, RIFLE_STOCK);
 		};
-		
-		
+		class MandalorianUniformsKND
+		{
+			displayName = "Mandalorian Armour";
+			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\headgear_ca.paa";
+
+			ITEM(knd_Beroya_Alpine, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Desert, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Jaro, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Nurse, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Ral, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Woodland, 1500, RIFLE_STOCK);
+			ITEM(knd_Dalverd_Jaro, 1500, RIFLE_STOCK);
+			ITEM(knd_Dalverd_Ral, 1500, RIFLE_STOCK);
+			ITEM(knd_Dalverd_Surgeon, 1500, RIFLE_STOCK);
+			ITEM(knd_Dalverd_Woodland, 1500, RIFLE_STOCK);
+			ITEM(knd_kovshukur, 1500, RIFLE_STOCK);
+			ITEM(knd_Kovshukur_Jaro, 1500, RIFLE_STOCK);
+			ITEM(knd_ramikad_item, 1500, RIFLE_STOCK);
+			ITEM(knd_aranov, 1500, RIFLE_STOCK);
+			ITEM(knd_neocrusader, 1500, RIFLE_STOCK);
+			ITEM(knd_Aranov_Jaro, 1500, RIFLE_STOCK);
+			ITEM(knd_Akior, 1500, RIFLE_STOCK);
+			ITEM(knd_Akior_Jaro, 1500, RIFLE_STOCK);
+			ITEM(knd_Akior_Ral, 1500, RIFLE_STOCK);
+
+			ITEM(knd_Dalverd_Song, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_Song, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_DeathWatch, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_DeathWatchHVT, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_DeathWatchNCO, 1500, RIFLE_STOCK);
+			ITEM(knd_Beroya_DeathWatchMedic, 1500, RIFLE_STOCK);
+		};
+		class MandalorianVestKND{
+			DisplayName = "Mandalorian Vests";
+			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\vest_ca.paa";
+
+			ITEM(knd_vest_ramikad, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_kovshukur, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_Kovshukur_Jaro, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_holsters_light_strapless, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_holsters_dual_light_strapless, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_Aranov_Shadow, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_dalverd, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_dalverd_dual, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_dalverd_dual_light, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_dalverd_dual_light_1H, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_beroya, 1000, RIFLE_STOCK);
+			ITEM(knd_belt_beroya, 1000, RIFLE_STOCK);
+
+			ITEM(knd_vest_Aranov_Medium, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_aranov, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_akior_2, 1000, RIFLE_STOCK);
+			ITEM(knd_vest_akior_1, 1000, RIFLE_STOCK);
+		};
+		class MandalorianBackpacksKND{
+			DisplayName = "Mandalorian Backpacks";
+			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
+
+			ITEM(knd_jetpack_JT13, 500, RIFLE_STOCK);
+			ITEM(knd_jetpack_JT12_Maxim_Light, 700, RIFLE_STOCK);
+			ITEM(knd_jetpack_z12, 600, RIFLE_STOCK);
+			ITEM(knd_jetpack_fem_piss_light, 600, RIFLE_STOCK);
+			ITEM(KND_RotaryBackpack, 1800, RIFLE_STOCK);
+			ITEM(knd_jetpack_mk2_lr, 800, RIFLE_STOCK);
+			ITEM(knd_jetpack_maxim6_light, 600, RIFLE_STOCK);
+			ITEM(knd_jetpack_maxim6_Medium_Red, 700, RIFLE_STOCK);
+
+			ITEM(knd_CTP10_Light, 800, RIFLE_STOCK);
+			ITEM(knd_droppack_mk5, 800, RIFLE_STOCK);
+			ITEM(knd_flamer_backpack, 1600, RIFLE_STOCK);
+		};
 		class handgunsKND 
 		{
 			displayName = "Kandosii Handguns";
@@ -56,24 +155,23 @@
 
 		class riflesKND 
 		{
-			displayName = "3AS Rifles";
+			displayName = "Kandosii Rifles";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\primaryWeapon_ca.paa";
 
-			ITEM(3AS_DC15A_F, 800, RIFLE_STOCK);
-			ITEM(3AS_DC15A_GL, 950, RIFLE_STOCK);
-			ITEM(3AS_DC15C_F, 700, RIFLE_STOCK);
+			ITEM(knd_westar55_battle_F, 800, RIFLE_STOCK);
+			ITEM(knd_MK, 950, RIFLE_STOCK);
+			ITEM(knd_thompson_UGL_F, 700, RIFLE_STOCK);
 
-			ITEM(3AS_DC15C_GL, 850, RIFLE_STOCK);
-			ITEM(3AS_DP23_F, 750, RIFLE_STOCK);
+			ITEM(knd_el16, 850, RIFLE_STOCK);
+			ITEM(knd_ec9, 750, RIFLE_STOCK);
 
-			ITEM(3AS_DP23_GL, 900, RIFLE_STOCK);
-			ITEM(3AS_DymekBlasterRifle_F, 650, RIFLE_STOCK);
-			ITEM(3AS_WestarM5_F, 700, RIFLE_STOCK);
+			ITEM(knd_A300_Rifle_F, 900, RIFLE_STOCK);
+			ITEM(knd_spacek, 650, RIFLE_STOCK);
 		};
 
-		class sniperRifles3AS 
+		class sniperRiflesKND 
 		{
-			displayName = "3AS Sniper Rifles";
+			displayName = "Kandosii Sniper Rifles";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\primaryWeapon_ca.paa";
 
 			ITEM(knd_wessel_F, 1500, RIFLE_STOCK);
@@ -84,18 +182,18 @@
 			ITEM(knd_SB2P_F, 1200, RIFLE_STOCK);
 		};
 
-		class mg3AS 
+		class mgKND 
 		{
-			displayName = "3AS Machine Guns";
+			displayName = "Kandosii Machine Guns";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\primaryWeapon_ca.paa";
 
 			ITEM(knd_roba_F, 1500, RIFLE_STOCK);
 			ITEM(knd_rotary, 1700, RIFLE_STOCK);
 		};
 
-		class smg3AS 
+		class smgKND 
 		{
-			displayName = "3AS SMGs";
+			displayName = "Kandosii SMGs";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\primaryWeapon_ca.paa";
 
 			ITEM(knd_galaar_old_f, 500, RIFLE_STOCK);
@@ -103,236 +201,116 @@
 			ITEM(knd_ee4, 450, RIFLE_STOCK);
 		};
 
-		class special3AS
+		class specialKND
 		{
-			displayName = "3AS Exotic Weapons";
+			displayName = "Kandosii Exotic Weapons";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\secondaryWeapon_ca.paa";
 
 			ITEM(knd_flamer_F, 800, LAUNCHER_STOCK);
 
-			ITEM(3AS_ScatterGun_F, 400, LAUNCHER_STOCK);
+			ITEM(knd_relby_sap, 400, LAUNCHER_STOCK);
 
-			ITEM(3AS_DC17M_F, 1200, 3);
-			ITEM(3AS_MPL_F, 1800, 3);
-			ITEM(3AS_Chaingun, 2500, 3);
-
-			ITEM(3AS_FE20_GrenadeLauncherPistol, 600, 3);
 		};
 
-		class launchers3AS 
+		class launchersKND 
 		{
-			displayName = "3AS Launchers";
+			displayName = "KND Launchers";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\secondaryWeapon_ca.paa";
 
-			ITEM(3AS_RPS6_F, 600, LAUNCHER_STOCK);
+			ITEM(knd_rps6, 600, LAUNCHER_STOCK);
 
-			ITEM(3AS_RPS6_G, 650, LAUNCHER_STOCK);
-
-			ITEM(3AS_RPS6_HP, 850, LAUNCHER_STOCK);
-
-			ITEM(3AS_PLX1_F, 1400, 3);
-			ITEM(3AS_PLX1_AA, 1600, 3);
-			ITEM(3AS_HH12_F, 1200, 3);
-
-			ITEM(3AS_E60R_F, 1800, 3);
 		};
 
-		class specialMagazines3AS
+		class specialMagazinesKND
 		{
-			displayName = "3AS Special Ammo";
+			displayName = "KND Special Ammo";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\secondaryWeapon_ca.paa";
 
-			class 3AS_FlamerFuel {
+			class knd_flamer_mag {
 				price = 150;
 				stock = 50;
 			};
-			class 3AS_1Rnd_ESlug_Doomsday_Mag {
-				price = 300;
-				stock = 50;
-			};
-			class 3AS_8Rnd_ESlugY_Mag {
+			class knd_ion_slugs {
 				price = 100;
 				stock = 50;
 			};
-			class 3AS_8Rnd_EY30_Pellets {
+			class knd_mag_shotgun_thompson{
 				price = 80;
 				stock = 50;
 			};
-			class 3AS_3Rnd_HEAT_Grenade_shell {
-				price = 250;
-				stock = 50;
-			};
-			class 3AS_3Rnd_HE_Grenade_shell {
-				price = 200;
-				stock = 50;
-			};
-
-			class 3AS_AntiArmour_mag {
-				price = 400;
-				stock = 50;
-			};
-			class 3AS_100Rnd_EC40_mag {
-				price = 300;
-				stock = 50;
-			};
-			class 3AS_5Rnd_EC80_mag {
-				price = 150;
-				stock = 50;
-			};
-
-			class 3AS_Chaingun_Drum_Mag{
-				price = 500;
-				stock = 50;
-			};
-			class 3AS_1UGL_MK54_HE_shell {
-				price = 75;
-				stock = 50;
-			};
-			class 3AS_1UGL_MK55_Smoke_White_shell{
+			class knd_mag_amban_stun{
 				price = 40;
 				stock = 50;
 			};
 		};
-		class launcherMagazines3AS 
+		class launcherMagazinesKND 
 		{
-			displayName = "3AS Launcher Ammo";
+			displayName = "KND Launcher Ammo";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoMag_ca.paa";
 
-			class 3AS_E60R_AT {
+			class knd_mag_rps6_saclos {
 				price = 350;
 				stock = 50;
 			};
 
-			class 3AS_MK41_AT {
+			class knd_mag_rps6_aa {
 				price = 300;
 				stock = 50;
-			};
-			class 3AS_MK42_HE {
-				price = 250;
-				stock = 50;
-			};
-
-			class 3AS_JLTS_MK39_AA {
-				price = 400;
-				stock = 10;
-			};
-
-			class 3AS_JLTS_MK43_AT {
-				price = 350;
-				stock = 10;
-			};
-			class 3AS_JLTS_MK44_HE {
-				price = 300;
-				stock = 10;
 			};
 		};
 
-		class navigation3AS
+		class navigationKND
 		{
-			displayName = "3AS Navigation & Equipment";
+			displayName = "KND Navigation & Equipment";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\compass_ca.paa";
 
-			ITEM(3AS_JLTS_CloneScoutElectroBinocular, 600, NN_STOCK);
+			ITEM(knd_testbinocs, 600, NN_STOCK);
 
-			ITEM(3AS_N_CloneChip_TI_F, 1000, NN_STOCK);
-			ITEM(3AS_N_CloneChip_F, 800, NN_STOCK);
+			ITEM(knd_nvg_nya, 1000, NN_STOCK);
+			ITEM(knd_nvg_Grunt, 800, NN_STOCK);
 		};
 
-		class pointers3AS 
+		class opticsKND 
 		{
-			displayName = "3AS Pointers & Flashlights";
-			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemAcc_ca.paa";
-
-			ITEM(3AS_Flashlight_Arkanian_1_F, 75, PN_STOCK);
-			ITEM(3AS_Imp_Light_DLT19, 75, PN_STOCK);
-			ITEM(3AS_Flashlight_Cinnagaran_1_F, 75, PN_STOCK);
-			ITEM(3AS_Flashlight_Arkanian_Pistol_1_F, 75, PN_STOCK);
-		};
-
-		class muzzles3AS 
-		{
-			displayName = "3AS Muzzle Devices";
-			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemMuzzle_ca.paa";
-
-			ITEM(3AS_Muzzle_Arkanian_Pistol_1_F, 150, MZ_STOCK);
-
-			ITEM(3AS_Imp_Muzzle_DLT19x, 200, MZ_STOCK);
-
-			ITEM(3AS_muzzle_DC17S_F, 150, MZ_STOCK);
-
-			ITEM(3AS_muzzle_DC15LE_F, 200, MZ_STOCK);
-		};
-
-		class optics3AS 
-		{
-			displayName = "3AS Optics";
+			displayName = "KND Optics";
 			picture = "\A3\Ui_f\data\GUI\Rsc\RscDisplayArsenal\ItemOptic_ca.paa";
 
-			class 3AS_optic_DC15C_F {
+			class knd_a180_scope_attachment {
 				price = 300;
 				stock = 5;
 			};
 
-			class 3AS_optic_DC15L_F {
+			class knd_spacek_scope_attachment {
 				price = 350;
 				stock = 5;
 			};
 
-			class 3AS_optic_DC15LE_F {
+			class knd_Holo_optic {
 				price = 300;
 				stock = 5;
 			};
 
-			class 3AS_optic_DC15X_F {
+			class knd_amr_scope_attachment {
 				price = 500; 
 				stock = 100;
 			};
-			class 3AS_Imp_Optic_2 {
+			class knd_A300_scope_attachment {
 				price = 200; 
 				stock = 100;
 			};
-			class 3AS_Imp_Optic_DLT19x {
+			class knd_w55a_scopeLong_attachment {
 				price = 800; 
 				stock = 100;
 			};
-			class 3AS_Imp_Optic_3 {
+			class knd_w55a_scopeShort_attachment {
 				price = 250; 
-				stock = 100;
-			};
-
-			class 3AS_Imp_Optic_4 {
-				price = 300;
-				stock = 100;
-			};
-
-			class 3AS_Imp_Optic_1 {
-				price = 200;
-				stock = 100;
-			};
-
-			class 3AS_Optic_Scope_WestarM5 {
-				price = 400;
-				stock = 100;
-			};
-
-			class 3AS_optic_VK38X_F {
-				price = 1000;
-				stock = 100;
-			};
-			class 3AS_Optic_Cinnagaran_1_F {
-				price = 250;
-				stock = 100;
-			};
-
-			class 3AS_Optic_Arkanian_2_F {
-				price = 300;
 				stock = 100;
 			};
 		};
 
-		class magazines3AS 
+		class magazinesKND 
 		{
-			displayName = "3AS Magazines";
+			displayName = "KND Magazines";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\cargoMag_ca.paa";
 
 			class Laserbatteries {
@@ -341,207 +319,100 @@
 			};
 
 			///////////////////////////////////////////////////////
-			// Underbarrel
-			///////////////////////////////////////////////////////
-			class 3AS_3UGL_MK54_HE_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class UGL_FlareWhite_F {
-				price = 25;
-				stock = MAGAZINE_STOCK;
-			};
-			class UGL_FlareGreen_F {
-				price = 25;
-				stock = MAGAZINE_STOCK;
-			};
-			class UGL_FlareRed_F {
-				price = 25;
-				stock = MAGAZINE_STOCK;
-			};
-			class UGL_FlareYellow_F {
-				price = 25;
-				stock = MAGAZINE_STOCK;
-			};
-			class UGL_FlareCIR_F {
-				price = 25;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_Smoke_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokeRed_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokeGreen_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokeYellow_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokePurple_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokeBlue_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 1Rnd_SmokeOrange_Grenade_shell {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-
-			class 3Rnd_HE_Grenade_shell {
-				price = 250;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_UGL_FlareWhite_F {
-				price = 100;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_UGL_FlareGreen_F {
-				price = 100;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_UGL_FlareRed_F {
-				price = 100;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_UGL_FlareYellow_F {
-				price = 100;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_UGL_FlareCIR_F {
-				price = 100;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_Smoke_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokeRed_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokeGreen_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokeYellow_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokePurple_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokeBlue_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3Rnd_SmokeOrange_Grenade_shell {
-				price = 200;
-				stock = MAGAZINE_STOCK;
-			};
-
-
-			///////////////////////////////////////////////////////
 			// Pistols, SMGs
 			///////////////////////////////////////////////////////
 
-			class 3AS_18Rnd_EM20_Mag {
+			class knd_A180_pistol_mag {
 				price = 35;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_8Rnd_EY40_Mag {
+			class knd_mag_A300_Standard {
 				price = 20;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_15Rnd_EM30_mag {
+			class knd_de10_mag {
 				price = 30;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_16Rnd_EC20_Mag {
-				price = 30;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3AS_32Rnd_EC20_Dual_Mag {
+			class knd_dl40_mag {
 				price = 50;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_20Rnd_EG20_mag {
+			class knd_dl44_mag {
 				price = 40;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_15Rnd_EC20_SE14R_Mag {
+			class knd_e851_pistol_mag {
 				price = 30;
 				stock = MAGAZINE_STOCK;
 			};
 
+			class knd_mag_silverhand {
+				price = 50;
+				stock = MAGAZINE_STOCK;
+			};
+			class knd_mag_12gapistol_slug {
+				price = 40;
+				stock = MAGAZINE_STOCK;
+			};
+			class knd_mag_12gapistol_buck {
+				price = 30;
+				stock = MAGAZINE_STOCK;
+			};
+			class knd_nn14_mag {
+				price = 30;
+				stock = MAGAZINE_STOCK;
+			};
 			///////////////////////////////////////////////////////
 			// RIFLES
 			///////////////////////////////////////////////////////
 
-			class 3AS_45Rnd_EM50_Mag {
+			class knd_spacek_mag {
 				price = 90;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_45Rnd_EC50_Mag {
+			class knd_el16_mag {
 				price = 90;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_40Rnd_EC40_Mag {
+			class knd_mag_JD41 {
 				price = 80;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_40Rnd_EM40_Mag {
+			class knd_ec9_mag {
 				price = 80;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_10Rnd_EC30_Pellets {
+			class knd_MK_mag {
 				price = 35;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_10Rnd_ESlug_Mag {
+			class knd_VORNSK_mag {
 				price = 35;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_45Rnd_EY50_Mag {
+			class knd_mag_A300_Standard {
 				price = 90;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_60Rnd_EM50_RedPlasma {
-				price = 120;
-				stock = MAGAZINE_STOCK;
-			};
-			class 3AS_60Rnd_EC50_Mag {
-				price = 120;
-				stock = MAGAZINE_STOCK;
-			};
-
 
 			///////////////////////////////////////////////////////
 			// DMRs, Sniper Rifles
 			///////////////////////////////////////////////////////
-			class 3AS_10Rnd_EC80_Mag {
+			class knd_mag_amban {
 				price = 125;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_10Rnd_EY80_Mag {
+			class knd_wessel_mag {
 				price = 125;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_10Rnd_EM100_DLT19X_Mag {
+			class knd_cycler_mag {
 				price = 150;
 				stock = MAGAZINE_STOCK;
 			};
@@ -550,11 +421,11 @@
 			// MGs
 			///////////////////////////////////////////////////////
 
-			class 3AS_200Rnd_EM40_Mag {
+			class knd_mag_Roba {
 				price = 250;
 				stock = MAGAZINE_STOCK;
 			};
-			class 3AS_200Rnd_EC40_DLT19_Mag {
+			class knd_rotary_mag_600 {
 				price = 250;
 				stock = MAGAZINE_STOCK;
 			};
@@ -562,40 +433,25 @@
 			///////////////////////////////////////////////////////
 			// SMGs
 			///////////////////////////////////////////////////////
-			class 3AS_60Rnd_EC30_mag {
+			class KND_60Rnd_EC30_mag {
 				price = 100;
 				stock = MAGAZINE_STOCK;
 			};
 
-			class 3AS_60Rnd_EM30_mag {
+			class KND_60Rnd_EM30_mag {
 				price = 100;
 				stock = MAGAZINE_STOCK;
 			};
 		};
 
-		class misc3AS 
+		class miscKND 
 		{
-			displayName = "3AS Miscellaneous";
+			displayName = "KND Miscellaneous";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\backpack_ca.paa";
 
-			ITEM(3AS_ThrowableCharge, 250, MISC_STOCK);
-
-			ITEM(3AS_ThermalDetonator, 300, MISC_STOCK);
 
 			ITEM(SquadShieldMagazine, 200, MISC_STOCK);
 
-			ITEM(3AS_SonicDet, 150, MISC_STOCK);
-
-			ITEM(ShieldGrenade_Mag, 400, MISC_STOCK);
-			ITEM(3AS_BaridumCore, 350, MISC_STOCK);
-
-			ITEM(3AS_SmokeWhite, 30, MISC_STOCK);
-			ITEM(3AS_SmokeRed, 30, MISC_STOCK);
-
-			ITEM(3AS_SmokePurple, 30, MISC_STOCK);
-			ITEM(Luma_Yellow, 30, MISC_STOCK);
-
-			ITEM(3AS_B_H3NR1_Drone_Bag_F, 800, MISC_STOCK);
-			ITEM(3AS_B_H3NR1_Drone_Bag_Red, 800, MISC_STOCK);
-			ITEM(B_UavTerminal, 600, MISC_STOCK);
+			ITEM(knd_drone_healer, 400, MISC_STOCK);
+			ITEM(knd_defib, 350, MISC_STOCK);
 		};

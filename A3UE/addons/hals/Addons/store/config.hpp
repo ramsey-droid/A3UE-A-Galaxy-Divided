@@ -92,11 +92,17 @@ class cfgHALsStore
 		{
 			displayName = "KND Weaponry";
 			categories[] = {
-				"handgunsKND",
+				"MandoHelmetsKND",
+				"MandalorianUniformsKND",
+				"MandalorianVestKND",
+				"MandalorianBackpacksKND",
 				"riflesKND",
+				"sniperRiflesKND",
+				"mgKND",
+				"smgKND",
+				"specialKND",
 				"launchersKND",
-				"magazinesKND",
-				"opticsKND"
+				"specialMagazinesKND",
 			};
 		};
 	};
