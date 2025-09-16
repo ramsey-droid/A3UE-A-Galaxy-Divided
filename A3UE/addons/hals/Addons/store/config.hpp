@@ -88,5 +88,16 @@ class cfgHALsStore
 				"VestsLS"
 			};
 		};
+		class AGD_KND_stock
+		{
+			displayName = "KND Weaponry";
+			categories[] = {
+				"handgunsKND",
+				"riflesKND",
+				"launchersKND",
+				"magazinesKND",
+				"opticsKND"
+			};
+		};
 	};
 };

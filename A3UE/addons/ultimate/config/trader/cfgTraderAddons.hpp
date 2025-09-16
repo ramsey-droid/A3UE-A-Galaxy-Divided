@@ -30,3 +30,9 @@
         weapons = "AGD_Misc_Stock";
         vehicles = "vehicles_ls";
     };
+    class addons_agd_weapons_knd : addons_base
+    {
+        addons[] = {"knd_newArmor"};
+        weapons = "AGD_KND_stock";
+        vehicles = "vehicles_knd";
+    };
