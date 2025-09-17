@@ -351,7 +351,7 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_policeLoadoutData set ["uniforms", ["lsd_cis_oomSecurity_uniform"]];
+_policeLoadoutData set ["uniforms", ["JLTS_DroidB1_Security"]];
 _policeLoadoutData set ["vests", ["ls_gar_clone_vest"]];
 _policeLoadoutData set ["helmets", []];
 _policeLoadoutData set ["smgs", [
