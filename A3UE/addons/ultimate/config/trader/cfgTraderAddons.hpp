@@ -36,3 +36,11 @@
         weapons = "AGD_KND_stock";
         vehicles = "vehicles_knd";
     };
+    class addons_wmempire : addons_base
+    {
+        addons[] = {"WM_Rebels"};
+    };
+    class addons_empire : addons_base
+    {
+        addons[] = {"JMSLLTE_empire_mod"};
+    };

@@ -29,6 +29,7 @@ class cfgHALsStore
 		#include "config\WM_Weapons.hpp"
 		#include "config\3AS_Weapons.hpp"
 		#include "config\Extra_Weapons.hpp"
+		#include "config\KDN_Gear.hpp"
 	};
 
 	class stores 
@@ -96,6 +97,8 @@ class cfgHALsStore
 				"MandalorianUniformsKND",
 				"MandalorianVestKND",
 				"MandalorianBackpacksKND",
+				"handgunsKND",
+				"meleeKND",
 				"riflesKND",
 				"sniperRiflesKND",
 				"mgKND",
@@ -103,6 +106,11 @@ class cfgHALsStore
 				"specialKND",
 				"launchersKND",
 				"specialMagazinesKND",
+				"launcherMagazinesKND",
+				"navigationKND",
+				"opticsKND",
+				"magazinesKND",
+				"miscKND"
 			};
 		};
 	};

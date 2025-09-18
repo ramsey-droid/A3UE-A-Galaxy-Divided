@@ -16,8 +16,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["spawnMarkerName", format [localize "STR_supportcorridor", "Mando'a"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
 ["flag", "Flag_AAF_F"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
-["flagTexture", "3AS\3as_props\Flags\Data\camo_flag_vanilla\camo_flag_vanilla_Jedi\camo_flag_vanilla_jedi_co.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "Old_Republic"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flagTexture", "3AS\3as_props\Flags\Data\camo_flag_vanilla\camo_flag_vanilla_man\camo_flag_vanilla_man_co.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "Mandalorian"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //
@@ -176,11 +176,11 @@ _loadoutData set ["signalsmokeGrenades", ["IDA_grenade_Smoke_Purple_mag", "IDA_g
 _loadoutData set ["maps", ["ItemMap"]];				//this line determines map
 _loadoutData set ["watches", ["ItemWatch"]];		//this line determines watch
 _loadoutData set ["compasses", ["ItemCompass"]];	//this line determines compass
-_loadoutData set ["radios", ["SFA_Holo_Comm"]];			//this line determines radio
+_loadoutData set ["radios", ["ls_radios_hush98"]];			//this line determines radio
 _loadoutData set ["gpses", ["ItemGPS"]];			//this line determines GPS
 _loadoutData set ["NVGs", ["ls_nvg_goggles"]];						//this line determines NVGs -- Array, can contain multiple assets
-_loadoutData set ["binoculars", ["SFA_electrobinocular"]];		//this line determines the binoculars
-_loadoutData set ["rangefinders", ["SFA_electrobinocular"]];
+_loadoutData set ["binoculars", ["knd_testbinocs"]];		//this line determines the binoculars
+_loadoutData set ["rangefinders", ["knd_testbinocs"]];
 
 _loadoutData set ["stormUniforms", ["knd_Beroya_Cade"]];
 _loadoutData set ["stormVests", ["knd_vest_beroya"]];
@@ -305,7 +305,7 @@ _sfLoadoutData set ["sidearms", [
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _eliteLoadoutData set ["uniforms", ["knd_aranov"]];
 _eliteLoadoutData set ["slUniforms", ["knd_ramikad_item"]];
-_eliteLoadoutData set ["vests", ["SFA_HavocINF_Vest", "SFA_HavocSPC_Vest"]];
+_eliteLoadoutData set ["vests", ["knd_vest_Aranov_Shadow", "knd_vest_Aranov_Jaro"]];
 _eliteLoadoutData set ["Hvests", ["knd_vest_aranov","knd_vest_Aranov_Medium", "knd_vest_Aranov_Shadow","knd_vest_kovshukur"]];
 _eliteLoadoutData set ["backpacks", ["knd_backpack_regular", "knd_backpack_regular_eod", "knd_backpack_Clone_ARC"]];
 _eliteLoadoutData set ["helmets", ["knd_helmet_aranov", "knd_helmet_Kovshukur", "knd_helmet_Paz", "knd_helmet_akior"]];
@@ -464,15 +464,15 @@ _militiaLoadoutData set ["sidearms", ["knd_westar34_f"]];
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["SFA_Combat_Eng_Uniform"]];
-_crewLoadoutData set ["vests", ["ls_vest_holster_maroon"]];
-_crewLoadoutData set ["helmets", ["SFA_Combat_Eng_Helmet"]];
+_crewLoadoutData set ["uniforms", ["knd_Akior_Cabur"]];
+_crewLoadoutData set ["vests", ["knd_Akior_Vest_Cabur"]];
+_crewLoadoutData set ["helmets", ["knd_helmet_Guardian_Cabur"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["SFA_Combat_Eng_Uniform"]];
-_pilotLoadoutData set ["vests", ["ls_vest_holster_maroon"]];
-_pilotLoadoutData set ["helmets", ["SFA_Combat_Eng_Helmet"]];
+_pilotLoadoutData set ["uniforms", ["knd_Kovshukur_Nyx"]];
+_pilotLoadoutData set ["vests", ["knd_vest_kovshukur_light"]];
+_pilotLoadoutData set ["helmets", ["knd_helmet_Nite_Nyx"]];
 
 
 

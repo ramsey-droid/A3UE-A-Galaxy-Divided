@@ -34,7 +34,7 @@
     {
         basepath = QPATHTOFOLDER(Templates_LLTE\Hutt); 
         side = "Inv"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebel_co.paa); 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_hutt_co.paa); 
         name = "Hutt Cartel [LLTE]"; 
         file = "Cartel"; 
         maps[] = {}; 

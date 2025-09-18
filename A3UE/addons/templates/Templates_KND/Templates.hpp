@@ -31,7 +31,7 @@
 
     class AGD_KND_Mando_Rebels: AGD_KND_Base
     {
-        basepath = QPATHTOFOLDER(Templates_KND\Rebels); 
+        basepath = QPATHTOFOLDER(Templates_KND\Rebel); 
         side = "Reb"; 
         flagTexture = QPATHTOF(Pictures\Markers\marker_mando_co.paa); 
         name = "[KND] House Kandosii"; 

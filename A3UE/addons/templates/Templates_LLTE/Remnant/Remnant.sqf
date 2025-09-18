@@ -12,7 +12,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Imperial Remnant"] call _fnc_saveToTemplate;
 
 ["flag", "ls_flag_rebelAlliance_damaged"] call _fnc_saveToTemplate;
-["flagTexture", "\ls\core\addons\data\flags\flag_imperial_damaged_ca.paa"] call _fnc_saveToTemplate;
+["flagTexture", "JMSLLTE_props\flags\flag_hanging_empRem_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "Remnants"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["JMSLLTE_B_veh_74z_imp_F"]] call _fnc_saveToTemplate;

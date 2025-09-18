@@ -16,8 +16,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["spawnMarkerName", format [localize "STR_supportcorridor", "Hutt"]] call _fnc_saveToTemplate; 			//this line determines the name tag for the "carrier" on the map -- Example: ["spawnMarkerName", "NATO support corridor"] - ENTER ONLY ONE OPTION. Format and localize function can be used for translation
 
 ["flag", "Flag_AAF_F"] call _fnc_saveToTemplate; 						//this line determines the flag -- Example: ["flag", "Flag_NATO_F"] - ENTER ONLY ONE OPTION
-["flagTexture", "\ls\core\addons\data\flags\flag_rebelAlliance_damaged_ca.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
-["flagMarkerType", "Rebel_Alliance"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
+["flagTexture", "JMSLLTE_props\flags\flag_hanging_hutt_co.paa"] call _fnc_saveToTemplate; 				//this line determines the flag texture -- Example: ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] - ENTER ONLY ONE OPTION
+["flagMarkerType", "Hutt"] call _fnc_saveToTemplate; 			//this line determines the flag marker type -- Example: ["flagMarkerType", "flag_NATO"] - ENTER ONLY ONE OPTION
 
 //////////////////////////
 //       Vehicles       //
@@ -538,15 +538,15 @@ _militiaLoadoutData set ["sidearms", ["JMSLLTE_dl44pistol", "JMSLLTE_dt12pistol"
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["ls_uniform_spacer"]];
-_crewLoadoutData set ["vests", ["ls_vest_spacer"]];
-_crewLoadoutData set ["helmets", ["ls_helmet_serviceComlink_brown"]];
+_crewLoadoutData set ["uniforms", ["JMSLLTE_HuttSkiff_blue_F_CombatUniform"]];
+_crewLoadoutData set ["vests", ["JMSLLTE_PirHeavy_bright_armor"]];
+_crewLoadoutData set ["helmets", ["JMSLLTE_PirSkiffM_helmet"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["JMSLLTE_ScumPilotJack_beige_F_CombatUniform"]];
-_pilotLoadoutData set ["vests", ["JMSLLTE_PilotBreather_xwing"]];
-_pilotLoadoutData set ["helmets", ["JMSLLTE_Xwing_whiteReb_helmet"]];
+_pilotLoadoutData set ["uniforms", ["JMSLLTE_BoPilot_blue_F_CombatUniform"]];
+_pilotLoadoutData set ["vests", ["JMSLLTE_TIEpilot_merc_armor"]];
+_pilotLoadoutData set ["helmets", ["JMSLLTE_EmpTiePilotTech_bounty_helmet"]];
 
 
 
