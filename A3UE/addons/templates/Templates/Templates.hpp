@@ -28,7 +28,28 @@
         climate[] = {"tropical"}; 
         description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
-
+    class Empire_Storm : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Stormtrooper Corps"; 
+        file = "Empire_Storm"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
+        description = "The Stormtrooper Corps is the elite shock troops of the Galactic Empire, known for their distinctive white armor and unwavering loyalty to the Emperor"; 
+    };
+    class Empire_Arctic : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Galactic Empire (Arctic)"; 
+        file = "Empire_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
+    };
     class New_Republic : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\NewRepub); 
