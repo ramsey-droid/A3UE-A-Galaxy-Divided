@@ -100,6 +100,17 @@
         climate[] = {"arid", "temperate"}; 
         description = "I have friends everywhere"; 
     };
+    class Rebels_DST_Reb : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rebels); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebel Drop Shock Troopers"; 
+        file = "Rebels_DST"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
+        description = "Elite paratroopers of the Rebel Alliance, trained for rapid deployment and high-impact missions behind enemy lines"; 
+    };
     class Imp_Reb : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\Remnant); 

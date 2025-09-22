@@ -51,7 +51,6 @@
 			ITEM(knd_helmet_Grunt_DeathWatchHVT, 1000, RIFLE_STOCK);
 			ITEM(knd_Beroya_Helmet_Song, 1000, RIFLE_STOCK);
 			ITEM(knd_helmet_Armorer_Song, 1000, RIFLE_STOCK);
-			ITEM(knd_helmet_Matriarch_Surgeon, 1000, RIFLE_STOCK);
 		};
 		class MandalorianUniformsKND
 		{
@@ -324,11 +323,6 @@
 
 			class knd_A180_pistol_mag {
 				price = 35;
-				stock = MAGAZINE_STOCK;
-			};
-
-			class knd_mag_A300_Standard {
-				price = 20;
 				stock = MAGAZINE_STOCK;
 			};
 
