@@ -95,11 +95,17 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["knd_rogue",
-"knd_rogue_light",
-"knd_dalverd",
-"knd_helmet_classic",
-"knd_helmet_banshee"
+private _rebUniforms = ["knd_Akior_Ral",
+"knd_Beroya_Ral",
+"knd_Dalverd_Ral",
+"knd_Beroya_Jaro",
+"knd_Dalverd_Jaro",
+"knd_Beroya_Song",
+"knd_Dalverd_Song",
+"knd_Beroya_Desert",
+"knd_Beroya_Woodland",
+"knd_Dalverd_Woodland",
+"knd_Beroya_Alpine"
    ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
@@ -112,7 +118,7 @@ if (_hasApex) then {_dlcUniforms append [];
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", ["knd_helmet_Grunt", "knd_helmet_nite"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", ["knd_helmet_Grunt_Ral","knd_helmet_Grunt_Desert","knd_helmet_Grunt_Alpine","knd_helmet_Grunt_Woodland","knd_helmet_Nite_Woodland","knd_helmet_Dalverd_Ral","knd_helmet_Banshee_Ral","knd_helmet_Auroch_Jaro","knd_helmet_Dalverd_Jaro","knd_Beroya_Helmet_Song","knd_helmet_Nite_Song"]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
@@ -120,23 +126,20 @@ if (_hasApex) then {_dlcUniforms append [];
 
 //Faces and Voices given to Rebell AI
 ["faces", [
-    "WhiteHead_27",
-    "Barklem",
-    "ls_chiss_male2_blue",
-    "ls_chiss_male1_purple",
-    "ls_mirialan_male1_green",
-    "ls_mirialan_male2_sand",
-    "ls_mirialan_male3_yellow",
-    "ls_zabrak_male1t0_base",
-    "ls_zabrak_male1t1_pale",
-    "ls_zeltron_male1_red",
-    "ls_zeltron_male3_pink",
-    "ls_cloneC",
-    "GreekHead_A3_12",
-    "AfricanHead_01",
-    "WhiteHead_03",
-    "WhiteHead_05",
-    "GreekHead_A3_10_a"
+    "WhiteHead_07",
+    "WhiteHead_15",
+    "GreekHead_A3_04",
+    "AfricanHead_02",
+    "WhiteHead_29",
+    "LivonianHead_4",
+    "RussianHead_5",
+    "LivonianHead_9",
+    "GreekHead_A3_11",
+    "RussianHead_1",
+    "WhiteHead_26",
+    "AsianHead_A3_06",
+    "TanoanHead_A3_04",
+    "WhiteHead_30"
     ]] call _fnc_saveToTemplate;
 ["voices", ["Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05GRE","Male10ENG","Male03POL","Male01CHI","Male02PER","Male01RUS","Male01ENGFRE","Male02FRE"]] call _fnc_saveToTemplate;
 
@@ -147,11 +150,11 @@ private _loadoutData = call _fnc_createLoadoutData;
 _loadoutData set ["maps", ["ItemMap"]];
 _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
-_loadoutData set ["binoculars", ["Binocular"]];
+_loadoutData set ["binoculars", ["knd_blackbinocs"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
-_loadoutData set ["facewear", ["knd_knife_holster"]];
+_loadoutData set ["facewear", ["knd_knife_holster","knd_kama"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];

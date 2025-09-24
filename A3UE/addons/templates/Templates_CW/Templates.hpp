@@ -21,3 +21,15 @@
 		climate[] = {"arid", "temperate"}; 
 		description = "The Galactic Republic, or simply the Republic, was the democratic union that governed the galaxy for over a thousand years before the rise of the Galactic Empire"; 
 	};
+
+	class Republic_Arctic : Republic
+	{
+		basepath = QPATHTOFOLDER(Templates_CW\Rep); 
+		side = "Occ"; 
+		flagTexture = "\MRC\JLTS\Core_mod\data\markers\flags\rep_ca.paa"; 
+		name = "Galactic Republic (Arctic)"; 
+		file = "Rep_Arctic"; 
+		maps[] = {}; 
+		climate[] = {"arctic"}; 
+		description = "The Galactic Republic, or simply the Republic, was the democratic union that governed the galaxy for over a thousand years before the rise of the Galactic Empire"; 
+	};

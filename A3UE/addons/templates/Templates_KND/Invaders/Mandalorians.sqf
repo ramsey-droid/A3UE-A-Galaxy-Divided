@@ -59,9 +59,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["vehiclesAirPatrol", ["knd_KomrkFighter_VTOL_Dynamic_F"]] call _fnc_saveToTemplate;
 
-["vehiclesArtillery", ["AGD_OR_AAC_MRLS"]] call _fnc_saveToTemplate;		//this line determines SPAs
+["vehiclesArtillery", ["WM_AAC_Speeder_Artillery"]] call _fnc_saveToTemplate;		//this line determines SPAs
 ["magazines", createHashMapFromArray [
-["AGD_OR_AAC_MRLS", ["12Rnd_230mm_rockets"]]
+["WM_AAC_Speeder_Artillery", ["12Rnd_230mm_rockets"]]
 ]] call _fnc_saveToTemplate;			//this line determines ammo to be used with specified SPA, hashMap makes sure that SPA gets proper ammo
 
 ["uavsAttack", []] call _fnc_saveToTemplate; 				//this line determines attack UAVs -- Example: ["uavsAttack", ["B_UAV_02_CAS_F"]] -- Array, can contain multiple assets
@@ -70,7 +70,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //Config special vehicles - militia vehicles are mostly used in the early game, police cars are being used by troops around cities -- Example:
 ["vehiclesMilitiaLightArmed", ["KND_RAT"]] call _fnc_saveToTemplate; //this line determines lightly armed militia vehicles -- Example: ["vehiclesMilitiaLightArmed", ["B_G_Offroad_01_armed_F"]] -- Array, can contain multiple assets
 ["vehiclesMilitiaTrucks", ["KND_RAT"]] call _fnc_saveToTemplate; 	//this line determines militia trucks (unarmed) -- Example: ["vehiclesMilitiaTrucks", ["B_G_Van_01_transport_F"]] -- Array, can contain multiple assets
-["vehiclesMilitiaCars", ["WKND_RAT"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
+["vehiclesMilitiaCars", ["KND_RAT"]] call _fnc_saveToTemplate; 		//this line determines militia cars (unarmed) -- Example: ["vehiclesMilitiaCars", ["B_G_Offroad_01_F"]] -- Array, can contain multiple assets
 
 ["vehiclesMilitiaAPCs", ["KND_RAT"]] call _fnc_saveToTemplate;     					//this line determines militia APCs
 
@@ -186,17 +186,17 @@ _loadoutData set ["stormUniforms", ["knd_Beroya_Cade"]];
 _loadoutData set ["stormVests", ["knd_vest_beroya"]];
 _loadoutData set ["stormHats", ["knd_Beroya_Helmet_Cade"]];
 
-_loadoutData set ["stormSniperUniforms", ["knd_Kovshukur_Jaro"]];
-_loadoutData set ["stormSniperVests", ["knd_vest_Kovshukur_Jaro"]];
-_loadoutData set ["stormSniperHats", ["knd_helmet_Kovshukur_Jaro"]];
+_loadoutData set ["stormSniperUniforms", ["knd_Beroya_Coyote"]];
+_loadoutData set ["stormSniperVests", ["knd_vest_beroya_dual_light"]];
+_loadoutData set ["stormSniperHats", ["knd_helmet_Rook_Coyote"]];
 
-_loadoutData set ["traitorUniforms", ["WM_ParaMilitary_Shirt_Rolled"]];		//this line determines traitor uniforms for traitor mission
-_loadoutData set ["traitorVests", ["ls_imperialVest_army_damaged"]];			//this line determines traitor vesets for traitor mission
-_loadoutData set ["traitorHats", ["ls_helmet_jockey_alt"]];			//this line determines traitor headgear for traitor missions
+_loadoutData set ["traitorUniforms", ["knd_rogue_light"]];		//this line determines traitor uniforms for traitor mission
+_loadoutData set ["traitorVests", ["knd_vest_rogue"]];			//this line determines traitor vesets for traitor mission
+_loadoutData set ["traitorHats", ["H_HeadBandage_bloody_F"]];			//this line determines traitor headgear for traitor missions
 
-_loadoutData set ["officerUniforms", ["knd_Dalverd_Jaro","knd_Akior_Jaro","knd_Aranov_Jaro","knd_Beroya_Jaro"]];		//this line determines officer uniforms for assassination mission
-_loadoutData set ["officerVests", ["knd_vest_akior_2"]];			//this line determines officer vesets for assassination mission
-_loadoutData set ["officerHats", ["knd_helmet_Shadow_Jaro","knd_helmet_Wren_Jaro","knd_Akior_Helmet_Jaro"]];	//this line determines officer headgear for assassination missions
+_loadoutData set ["officerUniforms", ["knd_Dalverd_Dark"]];		//this line determines officer uniforms for assassination mission
+_loadoutData set ["officerVests", ["knd_vest_dalverd_dual_light"]];			//this line determines officer vesets for assassination mission
+_loadoutData set ["officerHats", ["knd_helmet_Matriarch","knd_helmet_Armorer"]];	//this line determines officer headgear for assassination missions
 
 _loadoutData set ["uniforms", []];					//don't fill this line - this is only to set the variable
 _loadoutData set ["slUniforms", []];
@@ -253,49 +253,48 @@ _loadoutData set ["items_unarmed_extras", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["knd_neocrusader"]];
-_sfLoadoutData set ["vests", ["knd_vest_beroya"]];
-_sfLoadoutData set ["Hvests", ["knd_vest_dalverd"]];
-_sfLoadoutData set ["backpacks", ["knd_backpack_invis"]];
-_sfLoadoutData set ["helmets", ["knd_helmet_neocrusader"]];
+_sfLoadoutData set ["uniforms", ["knd_Dalverd_Sin","knd_Dalverd_Villainess"]];
+_sfLoadoutData set ["vests", ["knd_vest_beroya_dual_light_1h"]];
+_sfLoadoutData set ["Hvests", ["knd_vest_beroya_dual"]];
+_sfLoadoutData set ["backpacks", ["knd_jetpack_JT13_Light_Villainess","knd_jetpack_JT12_Maxim_Medium_Sin_LR"]];
+_sfLoadoutData set ["helmets", ["knd_Wren_Helmet_Sin","knd_helmet_Wren_Villainess"]];
 _sfLoadoutData set ["binoculars", ["IDA_Electrobinoculars_Rep"]];
 
 _sfLoadoutData set ["slRifles", [
-["3AS_Arkanian_Stock_F", "", "", "3AS_Optic_Arkanian_2_F", ["3AS_40Rnd_EM50_Mag"], [], ""]
+["knd_amban_F", "", "", "", ["knd_mag_amban"], [], ""]
 ]];
 _sfLoadoutData set ["rifles", [
-["3AS_Arkanian_Stock_F", "", "", "3AS_Optic_Arkanian_2_F", ["3AS_40Rnd_EM50_Mag"], [], ""]
+["knd_VORNSK_F", "", "", "", ["knd_VORNSK_mag"], [], ""]
 ]];
 _sfLoadoutData set ["carbines", [
-["3AS_Arkanian_Stock_F", "", "", "3AS_Optic_Arkanian_2_F", ["3AS_40Rnd_EM50_Mag"], [], ""]
+["knd_g90", "", "", "", ["knd_g90_mag"], [], ""]
 ]];
 _sfLoadoutData set ["grenadeLaunchers", [
-["3AS_MPL_F", "", "", "", ["3AS_3Rnd_HE_Grenade_shell", "3AS_3Rnd_HEAT_Grenade_shell"], [], ""]
+["knd_amban_F", "", "", "", ["knd_mag_amban"], [], ""]
 ]];
 
 _sfLoadoutData set ["SMGs", [
-["IDA_A260", "", "", "optic_MRCO", [], [], ""]
+["knd_roba_F", "", "", "knd_A300_scope_attachment", [], [], ""]
 ]];
 
 private _mgs = [
     ["IDA_DLT19", "", "acc_flashlight", "", ["IDA_Blaster_Cell_Power3_60Rnd_Red"], [], "bipod_03_F_blk"],
-    ["3AS_DC15L_F", "", "acc_flashlight", "3AS_optic_DC15L_F", ["3AS_200Rnd_EM40_Mag"], [], "3AS_bipod_DC15L_F"]
+    ["KND_TL50_Base", "", "acc_flashlight", "knd_Holo_optic", ["knd_mag_TL50"], [], ""]
 ];
 
 _sfLoadoutData set ["machineGuns", _mgs];
 
 _sfLoadoutData set ["marksmanRifles", [
-    ["IDA_773Firepuncher", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"],
-    ["IDA_774CX", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"],
-    ["IDA_DLT19D", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"]
+    ["knd_SB2P_F", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"],
+    ["KND_RCC_Base", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"],
+    ["knd_wessel_F", "", "acc_flashlight", "", [], [], "bipod_01_F_blk"]
 ]];
 _sfLoadoutData set ["sniperRifles", [
-["IDA_IQA11", "", "", "", [], [], ""],
-["IDA_Galaar90", "", "", "", [], [], ""]
+["knd_amban_F", "", "", "", [], [], ""]
 ]];
 _sfLoadoutData set ["sidearms", [
-["IDA_E11P", "", "", "", [], [], ""],
-["3AS_FE20_GrenadeLauncherPistol", "", "", "", ["3AS_1UGL_MK54_HE_shell"], [], ""]
+["KND_KGoodBye", "", "", "", [], [], ""],
+["3knd_nn14", "", "", "", [], [], ""]
 ]];
 
 /////////////////////////////////
@@ -303,12 +302,12 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_eliteLoadoutData set ["uniforms", ["knd_aranov"]];
+_eliteLoadoutData set ["uniforms", ["knd_aranov","knd_Aranov_Solid"]];
 _eliteLoadoutData set ["slUniforms", ["knd_ramikad_item"]];
-_eliteLoadoutData set ["vests", ["knd_vest_Aranov_Shadow", "knd_vest_Aranov_Jaro"]];
+_eliteLoadoutData set ["vests", ["knd_Akior_Vest_Haldor","knd_vest_akior_1"]];
 _eliteLoadoutData set ["Hvests", ["knd_vest_aranov","knd_vest_Aranov_Medium", "knd_vest_Aranov_Shadow","knd_vest_kovshukur"]];
-_eliteLoadoutData set ["backpacks", ["knd_backpack_regular", "knd_backpack_regular_eod", "knd_backpack_Clone_ARC"]];
-_eliteLoadoutData set ["helmets", ["knd_helmet_aranov", "knd_helmet_Kovshukur", "knd_helmet_Paz", "knd_helmet_akior"]];
+_eliteLoadoutData set ["backpacks", ["KND_RotaryBackpack", "knd_jetpack_mk2", "knd_jetpack_maxim6_light_LR"]];
+_eliteLoadoutData set ["helmets", ["knd_helmet_ramikad", "knd_helmet_aranov", "knd_helmet_Kovshukur", "knd_helmet_Wren"]];
 _eliteLoadoutData set ["binoculars", ["knd_blackbinocs"]];
 
 _eliteLoadoutData set ["slRifles", [
@@ -352,12 +351,12 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["knd_Akior","knd_beroya","knd_dalverd"]];
-_militaryLoadoutData set ["slUniforms", ["knd_kovshukur","knd_Dalverd_Dark"]];
-_militaryLoadoutData set ["vests", ["knd_vest_kovshukur_light"]];
-_militaryLoadoutData set ["Hvests", ["knd_vest_kovshukur","knd_vest_Aranov_Medium","knd_vest_aranov"]];
+_militaryLoadoutData set ["uniforms", ["knd_beroya","knd_Akior","knd_dalverd"]];
+_militaryLoadoutData set ["slUniforms", ["knd_Beroya_Gree","knd_Kovshukur_Nyx","knd_Dalverd_Dark"]];
+_militaryLoadoutData set ["vests", ["knd_belt_beroya","knd_vest_beroya","knd_vest_beroya_dual","knd_vest_beroya_dual_light","knd_vest_dalverd_dual","knd_vest_dalverd_dual_light","knd_vest_dalverd_dual_light_1H","knd_vest_holsters_dual_light_strapless","knd_vest_holsters_light_strapless","knd_vest_beroya_dual_light_1h","knd_vest_dalverd"]];
+_militaryLoadoutData set ["Hvests", ["knd_vest_ramikad"]];
 _militaryLoadoutData set ["backpacks", ["knd_jetpack_JT12_Maxim_Light","knd_jetpack_mk2","knd_backpack_Clone_SpecOps_Sonar","knd_jetpack_maxim6_light","knd_jetpack_z12"]];
-_militaryLoadoutData set ["helmets", ["knd_helmet_auroch","knd_helmet_Kovshukur","knd_helmet_banshee","knd_helmet_classic", "knd_helmet_dalverd2", "knd_helmet_Grunt", "knd_helmet_Guardian"]];
+_militaryLoadoutData set ["helmets", ["knd_helmet_Nite_Nyx","knd_helmet_auroch","knd_helmet_auroch","knd_helmet_banshee","knd_helmet_classic","knd_helmet_dalverd2","knd_helmet_Djarin","knd_helmet_Goth","knd_helmet_Grunt","knd_helmet_Grunt","knd_helmet_Grunt","knd_helmet_nite","knd_helmet_nite","knd_helmet_punk","knd_helmet_Wren","knd_helmet_Wren","knd_helmet_banshee"]];
 _militaryLoadoutData set ["binoculars", ["knd_blackbinocs"]];
 
 _militaryLoadoutData set ["slRifles", [
@@ -426,9 +425,9 @@ _policeLoadoutData set ["sidearms", ["knd_westar_bo"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["knd_beroya"]];
-_militiaLoadoutData set ["vests", ["knd_vest_beroya_dual","knd_vest_beroya"]];
-_militiaLoadoutData set ["Hvests", ["knd_vest_beroya_dual_light_1h"]];
+_militiaLoadoutData set ["uniforms", ["knd_rogue","knd_rogue_light"]];
+_militiaLoadoutData set ["vests", ["knd_vest_rogue"]];
+_militiaLoadoutData set ["Hvests", ["knd_vest_dalverd"]];
 _militiaLoadoutData set ["backpacks", ["knd_backpack_Clone_Standard","knd_backpack_Clone_RTO","knd_backpack_Clone_Heavy","knd_backpack_Clone_RTO_Heavy"]];
 _militiaLoadoutData set ["helmets", ["knd_helmet_Grunt","knd_helmet_deathwatch","knd_helmet_classic","knd_helmet_auroch"]];
 

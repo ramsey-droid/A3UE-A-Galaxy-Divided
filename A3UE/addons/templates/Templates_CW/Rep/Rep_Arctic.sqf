@@ -262,15 +262,15 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_eliteLoadoutData set ["uniforms", ["JLTS_CloneArmor_212","JLTS_CloneArmor_212_medic","JLTS_CloneArmorGrenadier_212","JLTS_CloneArmorSupport_212"]];
-_eliteLoadoutData set ["slUniforms", ["ls_cloneUniform_commando_gregor"]];
-_eliteLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestAirborne_212","JLTS_CloneVestKama"]];
-_eliteLoadoutData set ["glVests", ["JLTS_CloneVestLieutenant_212"]];
-_eliteLoadoutData set ["backpacks", ["ls_cloneBackpack_standard"]];
+_eliteLoadoutData set ["uniforms", ["3AS_U_Rep_ColdAssault_Armor_212"]];
+_eliteLoadoutData set ["slUniforms", ["3AS_U_Rep_ColdAssault_Armor_212"]];
+_eliteLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestSuspender_white"]];
+_eliteLoadoutData set ["glVests", ["ls_orsfVest_trooper"]];
+_eliteLoadoutData set ["backpacks", ["3AS_B_ColdAssault_Backpack_212"]];
 _eliteLoadoutData set ["atBackpacks", ["ls_cloneBackpack_ammo"]];
-_eliteLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_212"]];
-_eliteLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_212"]];
-_eliteLoadoutData set ["NVGs", ["JLTS_CloneNVGMC_212_Cody"]];
+_eliteLoadoutData set ["helmets", ["3AS_H_ColdAssault_Helmet_212"]];
+_eliteLoadoutData set ["slHat", ["3AS_H_ColdAssault_Helmet_212"]];
+_eliteLoadoutData set ["NVGs", ["ls_cloneNVG_phase2Headlamp_double"]];
 _eliteLoadoutData set ["binoculars", ["JLTS_CloneBinocular"]];
 _eliteLoadoutData set ["lightATLaunchers", [
 ["IDA_RPS6HP", "", "", "", [], [], ""]
@@ -322,13 +322,13 @@ _eliteLoadoutData set ["sidearms", [
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
 _militaryLoadoutData set ["uniforms", ["3AS_U_Rep_ColdAssault_Armor_501"]];
 _militaryLoadoutData set ["slUniforms", ["3AS_U_Rep_ColdAssault_Armor_501"]];
-_militaryLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestAirborne_501","JLTS_CloneVestKama"]];
-_militaryLoadoutData set ["Hvests", ["JLTS_CloneVestOfficer_501","JLTS_CloneVestARC_501_Fives"]];
-_militaryLoadoutData set ["glVests", ["JLTS_CloneVestAirborneNCO_501","JLTS_CloneVestAirborne_501"]];
-_militaryLoadoutData set ["backpacks", ["ls_cloneBackpack_heavy","ls_cloneBackpack_standard","ls_cloneBackpack_ammo"]];
-_militaryLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_501","JLTS_CloneHelmetAB_501"]];
-_militaryLoadoutData set ["sniHats", ["IDA_501st_BARC_Helmet"]];
-_militaryLoadoutData set ["slHat", ["JLTS_CloneHelmetP2_501_Fives","JLTS_CloneHelmetP2_501_Jesse"]];
+_militaryLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster"]];
+_militaryLoadoutData set ["Hvests", ["ls_cloneVest_scout"]];
+_militaryLoadoutData set ["glVests", ["ls_orsfVest_trooper"]];
+_militaryLoadoutData set ["backpacks", ["3AS_B_ColdAssault_Backpack_501"]];
+_militaryLoadoutData set ["helmets", ["3AS_H_ColdAssault_Helmet_501"]];
+_militaryLoadoutData set ["sniHats", ["3AS_H_ColdAssault_Helmet_501"]];
+_militaryLoadoutData set ["slHat", ["3AS_H_ColdAssault_Helmet_Rex"]];
 _militaryLoadoutData set ["binoculars", ["JLTS_CloneBinocular"]];
 
 _militaryLoadoutData set ["rifles", [
@@ -368,9 +368,9 @@ _militaryLoadoutData set ["sidearms", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_policeLoadoutData set ["uniforms", ["JLTS_CloneArmor_CG"]];
-_policeLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestLieutenant_CG"]];
-_policeLoadoutData set ["helmets", ["JLTS_CloneHelmetP2_CG"]];
+_policeLoadoutData set ["uniforms", ["3AS_U_Rep_ColdAssault_Armor"]];
+_policeLoadoutData set ["vests", ["JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster","JLTS_CloneVestHolster"]];
+_policeLoadoutData set ["helmets", ["3AS_H_ColdAssault_Helmet"]];
 _policeLoadoutData set ["smgs", [
 ["AGD_DP23_F", "", "", "", ["3AS_10Rnd_ESlug_Mag"], [], ""],
 ["AGD_DC15S_F", "", "", "", ["3AS_60Rnd_EC30_mag"], [], ""]
