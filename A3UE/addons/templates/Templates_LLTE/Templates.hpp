@@ -82,7 +82,7 @@
         name = "Jinata Security"; 
         file = "Jinata"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
         description = "A private security firm contracted by the Galactic Empire to provide additional security and enforcement services, often operating in areas where Imperial forces are stretched thin. Weaker than standard Imperial forces"; 
     };
 
@@ -94,7 +94,7 @@
         name = "New Republic [LLTE]"; 
         file = "NewRepublic"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical"}; 
         description = "Expands on the New Republic faction, adding more vehicles, uniforms and weapons to their arsenal"; 
     };
 
@@ -133,6 +133,18 @@
         maps[] = {}; 
         climate[] = {"arid", "temperate"}; 
         description = "The addition of JM's LLTE includes a complete overhaul of the rebel faction, adding more uniforms, vehicles and weapons to their arsenal"; 
+    };
+
+    class Rebel_Arctic_Inv_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
+        side = "Inv"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebels - Arctic [LLTE]"; 
+        file = "Rebels_AI_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "A specialized unit of the Rebel Alliance trained to operate in extreme cold environments, equipped with winter camouflage and gear to withstand harsh conditions - Now with LLTE uniforms, vehicles and weapons"; 
     };
 // ---------------------------- Rebels ---------------------------------
 

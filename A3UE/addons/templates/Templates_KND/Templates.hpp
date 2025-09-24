@@ -13,7 +13,7 @@
         name = "[KND] Deathwatch"; 
         file = "Deathwatch"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "Led by Pre Visla, the Deathwatch are a splinter group of Mandalorians who seek to restore Mandalore to its former glory through any means necessary"; 
     };
 
@@ -25,7 +25,7 @@
         name = "[KND] Mandalorians"; 
         file = "Mandalorians"; 
         maps[] = {};
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "The Mandalorians of Clan Saxon seek to restore Mandalore to its former glory, even if it means working with the Empire"; 
     };
 
@@ -37,6 +37,6 @@
         name = "[KND] House Kandosii"; 
         file = "KND"; 
         maps[] = {};
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "A splinter group of Mandalorians who oppose the Deathwatch and seek to protect the innocent from their tyranny"; 
     };
