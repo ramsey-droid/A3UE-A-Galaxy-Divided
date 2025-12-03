@@ -1,5 +1,5 @@
-class ls_character_spacer_base;
-class AGD_Unit_Spacer_Uniform1: ls_character_spacer_base
+class ls_spacer_base;
+class AGD_Unit_Spacer_Uniform1: ls_spacer_base
 {
 	uniform = QGUNIFORM(Spacer_Uniform1);
 	scope = 1;
