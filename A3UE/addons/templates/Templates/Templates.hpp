@@ -28,7 +28,28 @@
         climate[] = {"tropical"}; 
         description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
     };
-
+    class Empire_Storm : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Stormtrooper Corps"; 
+        file = "Empire_Storm"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
+        description = "The Stormtrooper Corps is the elite shock troops of the Galactic Empire, known for their distinctive white armor and unwavering loyalty to the Emperor"; 
+    };
+    class Empire_Arctic : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Galactic Empire (Arctic)"; 
+        file = "Empire_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "The Galactic Empire, or simply the Empire, was the government that replaced the Galactic Republic, established by Supreme Chancellor Palpatine to rule the galaxy with an iron fist"; 
+    };
     class New_Republic : AGD_Base
     {
         basepath = QPATHTOFOLDER(Templates\NewRepub); 
@@ -37,7 +58,7 @@
         name = "New Republic"; 
         file = "NewRepublic"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","arctic","tropical"}; 
         description = "With the death of Emperor Palpatine at the Battle of Endor, the Alliance to Restore the Republic founded the New Republic, fulfilling its mandate to restore the Galactic Republic and a return of freedom"; 
     };
 
@@ -51,7 +72,7 @@
         name = "Alliance to Restore the Republic"; 
         file = "Rebels_AI"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical"}; 
         description = "The Alliance to Restore the Republic, commonly referred to as the Rebel Alliance, was a coalition of various groups and individuals who opposed the Galactic Empire and sought to restore the Galactic Republic."; 
     };
 
@@ -63,7 +84,7 @@
         name = "Imperial Remnants"; 
         file = "Remnant_AI"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical","arctic"}; 
         description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate"; 
     };
 // ---------------------------- Rebels ---------------------------------
@@ -76,8 +97,19 @@
         name = "Alliance to Restore the Republic"; 
         file = "Rebels"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical","arctic"}; 
         description = "I have friends everywhere"; 
+    };
+    class Rebels_DST_Reb : AGD_Base
+    {
+        basepath = QPATHTOFOLDER(Templates\Rebels); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebel Drop Shock Troopers"; 
+        file = "Rebels_DST"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
+        description = "Elite paratroopers of the Rebel Alliance, trained for rapid deployment and high-impact missions behind enemy lines"; 
     };
     class Imp_Reb : AGD_Base
     {
@@ -87,7 +119,7 @@
         name = "Imperial Remnants"; 
         file = "Remnant"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical","arctic"}; 
         description = "Without a ruler to hold them together after the death of the Galactic Emperor Sheev Palpatine, who left behind no instructions of succession, the Empire began to disintegrate. Stand as one of the last holdouts in the name of the Emperor"; 
     };
     class Imp_Mando_Reb : AGD_Base
@@ -98,7 +130,7 @@
         name = "Clan Saxon"; 
         file = "MandoEvil"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "The Mandalorians of Clan Saxon seek to restore Mandalore to its former glory, even if it means working with the Empire"; 
     };
     class Mando_Reb : AGD_Base
@@ -109,7 +141,7 @@
         name = "Mandalorian Survivors"; 
         file = "Mando"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "The Mandalorians are a proud warrior culture, seeking to maintain their way of life in an ever changing galaxy"; 
     };
     class Clone_Reb : AGD_Base
@@ -120,7 +152,7 @@
         name = "Clone Underground"; 
         file = "Underground"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "Led by Clone Commander Rex, the Clone Underground fights for the freedom of the galaxy against the oppressive regime of the Empire"; 
     };
     class Jedi_Reb : AGD_Base
@@ -132,7 +164,7 @@
         file = "Survivors"; 
         maps[] = {}; 
         requiredAddons[] = {"WBK_Lightsabers"};
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "Though nearly exterminated during Order 66, a small number of Jedi survived and seek to avoid the Empire's Grasp, supported by Clone Defectors. Win condition of getting credits to 'escape the planet' is recommended for this faction - Requires Lightsabers and Force"; 
     };
 // -------------------- WBK Zombies Dependancy -------------------------------
@@ -145,7 +177,7 @@
         file = "Blackwing"; 
         maps[] = {}; 
         requiredAddons[] = {"WBK_ZombieCreatures_Units"};
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
         description = "There's very little intel as of yet, but we believe that a group of Imperial scientists have been doing covert bio-weapons research..."; 
     };
 
@@ -158,7 +190,7 @@
         name = "Civilians"; 
         file = "Civ"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical","arctic"}; 
         description = "Following the fall of the Empire, many civilians have been left to fend for themselves in the chaos."; 
     };
 
@@ -171,7 +203,7 @@
         name = "Mandalorian Survivors"; 
         file = "Mandalorian"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate", "tropical","arctic"}; 
         description = "Following the Great Purge of Mandalore, the survivors banded together to protect their way of life"; 
     };
     class CIS_Rivals: AGD_Base
@@ -182,7 +214,7 @@
         name = "Neo-Separatist Coalition"; 
         file = "Droids"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical","arctic"}; 
         description = "After the Death of Count Dooku, the Neo-Separatist Coalition emerged to continue the fight, now against the Galactic Empire"; 
     };
 

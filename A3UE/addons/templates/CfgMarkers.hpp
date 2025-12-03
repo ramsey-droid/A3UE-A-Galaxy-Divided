@@ -50,4 +50,10 @@ class CfgMarkers
 		icon = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa);
 		texture = QPATHTOFOLDER(Pictures\Markers\marker_revan_co.paa);
 	};
+	class Hutt: flag_NATO 
+	{
+		name = "Hutt Cartel";
+		icon = QPATHTOFOLDER(Pictures\Markers\marker_hutt_co.paa);
+		texture = QPATHTOFOLDER(Pictures\Markers\marker_hutt_co.paa);
+	};
 };

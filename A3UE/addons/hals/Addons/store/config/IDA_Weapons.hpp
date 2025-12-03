@@ -2,7 +2,6 @@
 		{
 			displayName = "IDA Handguns";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\handgun_ca.paa";
-
 			ITEM(AGD_A260P, 200, PISTOL_STOCK);
 			ITEM(AGD_DC15P, 180, PISTOL_STOCK);
 			ITEM(IDA_DCFG, 220, PISTOL_STOCK);
@@ -17,11 +16,9 @@
 			ITEM(AGD_A260, 850, RIFLE_STOCK);
 			ITEM(AGD_E5, 750, RIFLE_STOCK);
 			ITEM(AGD_E5C, 800, RIFLE_STOCK);
-
 			ITEM(AGD_FA11, 820, RIFLE_STOCK);
 			ITEM(AGD_Galaar15, 780, RIFLE_STOCK);
 			ITEM(AGD_SBB3, 650, RIFLE_STOCK);
-
 			ITEM(AGD_SE28, 700, RIFLE_STOCK);
 			ITEM(AGD_SPK12, 900, RIFLE_STOCK);
 		};
@@ -33,11 +30,8 @@
 
 			ITEM(AGD_773Firepuncher, 1500, RIFLE_STOCK);
 			ITEM(AGD_774CX, 1400, RIFLE_STOCK);
-
 			ITEM(AGD_DC15X, 1500, RIFLE_STOCK);
-
 			ITEM(IDA_E5S, 1400, RIFLE_STOCK);
-
 			ITEM(AGD_Galaar90, 1800, 5);
 			ITEM(AGD_IQA11, 1600, 5);
 		};
@@ -46,14 +40,10 @@
 		{
 			displayName = "IDA Machine Guns";
 			picture = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\primaryWeapon_ca.paa";
-
 			ITEM(IDA_Z6, 1600, RIFLE_STOCK);
 			ITEM(AGD_T21, 1500, RIFLE_STOCK);
-
 			ITEM(AGD_T15, 1500, RIFLE_STOCK);
-			
 			ITEM(AGD_M41, 1550, RIFLE_STOCK);
-
 			ITEM(AGD_DLT19, 1500, RIFLE_STOCK);
 		};
 

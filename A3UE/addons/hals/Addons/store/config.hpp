@@ -29,6 +29,7 @@ class cfgHALsStore
 		#include "config\WM_Weapons.hpp"
 		#include "config\3AS_Weapons.hpp"
 		#include "config\Extra_Weapons.hpp"
+		#include "config\KDN_Gear.hpp"
 	};
 
 	class stores 
@@ -86,6 +87,30 @@ class cfgHALsStore
 				"BackpacksLS",
 				"HelmetsLS",
 				"VestsLS"
+			};
+		};
+		class AGD_KND_stock
+		{
+			displayName = "KND Weaponry";
+			categories[] = {
+				"MandoHelmetsKND",
+				"MandalorianUniformsKND",
+				"MandalorianVestKND",
+				"MandalorianBackpacksKND",
+				"handgunsKND",
+				"meleeKND",
+				"riflesKND",
+				"sniperRiflesKND",
+				"mgKND",
+				"smgKND",
+				"specialKND",
+				"launchersKND",
+				"specialMagazinesKND",
+				"launcherMagazinesKND",
+				"navigationKND",
+				"opticsKND",
+				"magazinesKND",
+				"miscKND"
 			};
 		};
 	};

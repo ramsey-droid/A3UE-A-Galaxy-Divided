@@ -4,6 +4,7 @@ class Templates
 	#include "Templates_LLTE\Templates.hpp"
 	#include "Templates_SFA\Templates.hpp"
 	#include "Templates_CW\Templates.hpp"
+	#include "Templates_KND\Templates.hpp"
 };
 
 #include "AddonVics\AddonVics.hpp"

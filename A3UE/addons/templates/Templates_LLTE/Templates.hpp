@@ -13,8 +13,77 @@
         name = "Galactic Empire [LLTE]"; 
         file = "Empire_Base"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"temperate"}; 
         description = "Expands on the Galactic Empire faction, adding more vehicles, uniforms and weapons to their arsenal"; 
+    };
+    class Empire_Arid_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Galactic Empire (Arid) [LLTE]"; 
+        file = "Empire_Arid"; 
+        maps[] = {}; 
+        climate[] = {"arid"}; 
+        description = "Expands on the Galactic Empire faction, adding more vehicles, uniforms and weapons to their arsenal - Now with Arid themed gear"; 
+    };
+    class Empire_Arctic_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Galactic Empire (Arctic) [LLTE]"; 
+        file = "Empire_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "Expands on the Galactic Empire faction, adding more vehicles, uniforms and weapons to their arsenal - Now with Arctic themed gear"; 
+    };
+    class Empire_Storm_LLTE: AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Stormtrooper Corps [LLTE]"; 
+        file = "Empire_Storm"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate"}; 
+        description = "Expands on the Stormtrooper Corps faction, adding more vehicles, uniforms and weapons to their arsenal"; 
+    };
+
+    class Empire_Storm_Arctic_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Stormtrooper Corps (Arctic) [LLTE]"; 
+        file = "Empire_Storm_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "Expands on the Stormtrooper Corps (Arctic) faction, adding more vehicles, uniforms and weapons to their arsenal - Now with Arctic themed gear"; 
+    };
+
+    class Empire_Tropical_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Galactic Empire (Tropical) [LLTE]"; 
+        file = "Empire_Tropical"; 
+        maps[] = {}; 
+        climate[] = {"tropical"}; 
+        description = "Expands on the Galactic Empire faction, adding more vehicles, uniforms and weapons to their arsenal - Now with Tropical themed gear"; 
+    };
+
+    class Jinata: AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Empire); 
+        side = "Occ"; 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_galactic_empire_co.paa); 
+        name = "Jinata Security"; 
+        file = "Jinata"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
+        description = "A private security firm contracted by the Galactic Empire to provide additional security and enforcement services, often operating in areas where Imperial forces are stretched thin. Weaker than standard Imperial forces"; 
     };
 
     class NewRepublic_LLTE : AGD_LLTE_Base
@@ -25,7 +94,7 @@
         name = "New Republic [LLTE]"; 
         file = "NewRepublic"; 
         maps[] = {}; 
-        climate[] = {"arid", "temperate"}; 
+        climate[] = {"arid", "temperate","tropical"}; 
         description = "Expands on the New Republic faction, adding more vehicles, uniforms and weapons to their arsenal"; 
     };
 
@@ -34,7 +103,7 @@
     {
         basepath = QPATHTOFOLDER(Templates_LLTE\Hutt); 
         side = "Inv"; 
-        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebel_co.paa); 
+        flagTexture = QPATHTOF(Pictures\Markers\marker_hutt_co.paa); 
         name = "Hutt Cartel [LLTE]"; 
         file = "Cartel"; 
         maps[] = {}; 
@@ -65,6 +134,18 @@
         climate[] = {"arid", "temperate"}; 
         description = "The addition of JM's LLTE includes a complete overhaul of the rebel faction, adding more uniforms, vehicles and weapons to their arsenal"; 
     };
+
+    class Rebel_Arctic_Inv_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
+        side = "Inv"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebels - Arctic [LLTE]"; 
+        file = "Rebels_AI_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "A specialized unit of the Rebel Alliance trained to operate in extreme cold environments, equipped with winter camouflage and gear to withstand harsh conditions - Now with LLTE uniforms, vehicles and weapons"; 
+    };
 // ---------------------------- Rebels ---------------------------------
 
     class Imp_Reb_LLTE : AGD_LLTE_Base
@@ -91,6 +172,30 @@
         description = "The addition of JM's LLTE includes a complete overhaul of the rebel faction, adding more uniforms, vehicles and weapons to their arsenal"; 
     };
 
+    class Rebel_DST_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebel Drop Shock Troopers [LLTE]"; 
+        file = "Rebels_DST"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical"}; 
+        description = "Elite paratroopers of the Rebel Alliance, trained for rapid deployment and high-impact missions behind enemy lines - Now with LLTE uniforms, vehicles and weapons"; 
+    };
+
+    class Rebel_Arctic_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Rebel); 
+        side = "Reb"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rebels_co.paa); 
+        name = "Rebels - Arctic [LLTE]"; 
+        file = "Rebels_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "A specialized unit of the Rebel Alliance trained to operate in extreme cold environments, equipped with winter camouflage and gear to withstand harsh conditions - Now with LLTE uniforms, vehicles and weapons"; 
+    };
+
 //-------------------- Civilians ---------------------------------
     class Civ_LLTE : AGD_LLTE_Base
     {
@@ -102,6 +207,18 @@
         maps[] = {}; 
         climate[] = {"arid", "temperate"}; 
         description = "The addition of LLTE features a complete revamp of the civilian faction, with more sci-fi themed vehicles"; 
+    };
+
+    class Civ_Arctic_LLTE : AGD_LLTE_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_LLTE\Civ); 
+        side = "Civ"; 
+        flagTexture = "\A3\ui_f_orange\data\cfgmarkers\civildefense.paa"; 
+        name = "Civilians - Arctic [LLTE]"; 
+        file = "Civ_Arctic"; 
+        maps[] = {}; 
+        climate[] = {"arctic"}; 
+        description = "A faction of civilians adapted to survive and thrive in harsh, cold environments, equipped with winter gear and vehicles designed for snowy terrain"; 
     };
 // ----------------- Rivals ---------------------------------
 

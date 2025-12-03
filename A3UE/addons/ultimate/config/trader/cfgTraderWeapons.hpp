@@ -15,3 +15,7 @@
         {
             prefix = "AGD_Misc_Stock";
         };
+        class AGD_KND_stock : weapons_base
+        {
+            prefix = "AGD_KND_stock";
+        };
