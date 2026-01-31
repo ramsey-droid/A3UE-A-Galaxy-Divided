@@ -156,3 +156,19 @@ class 3as_3as_laat_LAATi_model_tcw_laat_p3d : TRIPLES(ADDON,Nodes,Base)
         };
     };
 };
+
+class 3as_3AS_Rebel_Armor_PX10_Cav_model_3AS_PX10_p3d : TRIPLES(ADDON,Nodes,Base)
+{
+        class Nodes
+    {
+        class Node1
+        {
+            offset[] = {0,-0.9,2.3};
+        };
+        class Node2
+        {
+            offset[] = {0,-1.7,2.3};
+        };
+    };
+};
+

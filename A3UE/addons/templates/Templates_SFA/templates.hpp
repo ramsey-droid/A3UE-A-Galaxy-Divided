@@ -68,3 +68,15 @@
         climate[] = {"arid", "temperate", "tropical"}; 
         description = "A faction of Mandalorian warriors who have adopted a crusader-like ideology, seeking to reclaim Mandalorian honor and territory through militant means";
     };
+
+    class AGD_Rakghouls: AGD_SFA_Base
+    {
+        basepath = QPATHTOFOLDER(Templates_SFA\misc); 
+        side = "Civ"; 
+        flagTexture = QPATHTOFOLDER(Pictures\Markers\marker_rakghoul_co.paa); 
+        name = "Rakghouls"; 
+        file = "Rakghouls"; 
+        maps[] = {}; 
+        climate[] = {"arid", "temperate", "tropical", "arctic"}; 
+        description = "Rakghouls are a ferocious and aggressive species native to the planet Taris, known for their ravenous hunger and ability to infect others with a deadly virus that transforms them into more Rakghouls."; 
+    };
