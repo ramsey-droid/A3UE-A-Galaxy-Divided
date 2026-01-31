@@ -34,6 +34,13 @@
 		description = "The Galactic Republic, or simply the Republic, was the democratic union that governed the galaxy for over a thousand years before the rise of the Galactic Empire"; 
 	};
 
+	class CIS_Reb: CIS 
+	{
+		basepath = QPATHTOFOLDER(Templates_CW\Rebel); 
+		side = "Reb"; 
+		file = "CIS_Remnants"; 
+	};
+
     class AGD_WBK_Base: AGD_Base
     {
         requiredAddons[] = {"WBK_DroidsSw"};
@@ -51,4 +58,11 @@
 		maps[] = {}; 
 		climate[] = {"arid", "temperate","tropical","arctic"}; 
 		description = "The Confederacy of Independent Systems was a galactic political faction that fought against the Galactic Republic during the Clone Wars"; 
+	};
+
+	class CIS_Reb_WBK: CIS_WBK
+	{
+		basepath = QPATHTOFOLDER(Templates_CW\Rebel); 
+		side = "Reb"; 
+		file = "CIS_Remnants_wbk"; 
 	};
