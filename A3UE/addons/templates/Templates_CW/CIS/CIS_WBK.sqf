@@ -979,7 +979,7 @@ private _prefix = "military";
 private _unitTypes = [
 	["SquadLeader", _squadLeaderTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
 	["Rifleman", _riflemanTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
-	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
+	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1_UAV", true]], [_prefix]],
 	["Medic", _medicTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
 	["Engineer", _engineerTemplate, [["baseClass", "WBK_3AS_B1_Rocket", true]], [_prefix]],
 	["ExplosivesExpert", _explosivesExpertTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
@@ -1014,7 +1014,7 @@ private _prefix = "militia";
 private _unitTypes = [
 	["SquadLeader", _squadLeaderTemplate, [["baseClass", "WBK_3AS_B1_MG", false]], [_prefix]],
 	["Rifleman", _riflemanTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
-	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1_UAV", false]], [_prefix]],
+	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1_UAV", true]], [_prefix]],
 	["Medic", _medicTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
 	["Engineer", _engineerTemplate, [["baseClass", "WBK_3AS_B1_Rocket", true]], [_prefix]],
 	["ExplosivesExpert", _explosivesExpertTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
@@ -1038,7 +1038,7 @@ private _prefix = "elite";
 private _unitTypes = [
 	["SquadLeader", _squadLeaderTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
 	["Rifleman", _riflemanTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
-	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
+	["Radioman", _radiomanTemplate, [["baseClass", "WBK_3AS_B1_UAV", true]], [_prefix]],
 	["Medic", _medicTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
 	["Engineer", _engineerTemplate, [["baseClass", "WBK_3AS_B1_Rocket", true]], [_prefix]],
 	["ExplosivesExpert", _explosivesExpertTemplate, [["baseClass", "WBK_3AS_B1", false]], [_prefix]],
